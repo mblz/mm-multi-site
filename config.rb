@@ -1,5 +1,5 @@
-require "lib/custom_helper"
-helpers CustomHelper
+require "lib/site_helper"
+helpers SiteHelper
 
 activate :directory_indexes
 
@@ -13,80 +13,14 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 
 
-# activate :deploy do |deploy|
-#   deploy.method = :rsync
-#   deploy.host   = '104.236.159.21'
-#   deploy.port   = 5555
-#   deploy.path   = '~/static/sites/fusion'
-#   deploy.user   = 'mblz' # no default
-#   #deploy.flags  = '--exclude assets'
-
-#   # Optional Settings
-#   # deploy.user  = 'tvaughan' # no default
-#   # deploy.port  = 5309 # ssh port, default: 22
-#   # deploy.clean = true # remove orphaned files on remote host, default: false
-#   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
-# end
-
-
 activate :deploy do |deploy|
   deploy.method = :git
-  # Optional Settings
-  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
-  # deploy.branch   = 'custom-branch' # default: gh-pages
-  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
-  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
-
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
-# Page options, layouts, aliases and proxies
-###
-
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
-
-###
-# Helpers
-###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
 end
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
 
 
 # Build-specific configuration
