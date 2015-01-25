@@ -1,0 +1,32 @@
+:title: MMM
+:name: site
+:email: template@e.com
+:phone: 777 777 7777
+
+:address: 
+  :street: Site street
+  :city: Site city
+  :state: Site state
+  :zip: Site Zip
+
+:owner:
+  :name: Owner Name
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+ - 
+  :title: Documentation
+  :link: "/content/site/docs"
+ - 
+  :title: Github
+  :link: "http://github.com"
+ - Contact
+
+
+# View related
+:logo: false

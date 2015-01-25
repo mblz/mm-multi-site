@@ -1,0 +1,118 @@
+:title: Fusion Salon
+:name: fusion
+:email: myfusionsalon@gmail.com
+:phone: 210-529-7170
+
+:geo_address: https://www.google.com/maps/place/Fusion+Salon/@29.540349,-98.650631,17z/data=!3m1!4b1!4m2!3m1!1s0x865c42abffffffff:0x436cc51662413e8a
+
+
+:address: 
+  :street: "10350 Bandera Road, Suite 206"
+  :city: San Antonio
+  :state: Texas
+  :zip: 78250
+
+:owner:
+  :name: Owner Name
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+
+nav:
+ - 
+  :title: Services
+  :cnt: true
+ - 
+  :title: About
+  :cnt: true
+ - Contact
+
+:prices:
+  :facials:
+  - - 30 minute Facial
+    - 33
+  - - glo Facial
+    - 33
+  - - Brightening Facial
+    - 59
+  - - Clear Skin Facial
+    - 79
+  - - Dry/Sensitive Facial
+    - 69
+  - - Vitamin C Facial
+    - 69
+  - - glo enzyme
+    - 59
+  - - glo lactic 15%
+    - 69
+  - - glo jessner 14%
+    - 117
+  - - glocolic
+    - 59
+  - - sallcylic 30%
+    - 79
+
+  :makeup:
+  - - Application 1/2 Hour
+    - 35
+  - - Lesson
+    - 45
+  :wax:
+  - - Brow
+    - 13
+  - - Lip
+    - 13
+  - - Chin
+    - 13
+  - - Full face
+    - 39
+  - - Under Arms
+    - 19
+  - - Brazilian
+    - 73
+  - - Half Leg knee down
+    - 39
+  - - Full Leg: no bikini
+    - 73
+  - - Lash Tint
+    - 25
+  - - Brow Tint
+    - 25
+  :mani:
+  - - Classic manicure
+    - 17
+  - - Moisture manicure
+    - 25
+  - - fusion manicure
+    - 33
+  :pedi:
+  - - Classic pedicure
+    - 25
+  - - Paraffin pedicure
+    - 35
+  - - fusion pedicure
+    - 45
+  :para:
+  - - Hands
+    - 12
+  - - Feet
+    - 15
+  :bridal:
+  - - Bridal make-up
+    - 75
+  - - Bridal Hair
+    - 90
+  - - Bridal Make-up and Hair
+    - 160
+  - - Bridal Portraits Hair and Make-up
+    - 160
+  - - Bridal Party/Guest Hair
+    - 80
+  - - Bridal Party/Guest Make-up
+    - 65
+  - - Bridal Party/Guest Hair and make-up
+    - 140

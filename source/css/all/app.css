@@ -1,0 +1,13 @@
+body{
+	padding-top: 80px;
+}
+#logo{
+	margin-top:-16px;
+}
+
+span.click_to_call{
+	font-weight:bold;
+  font-size: 16px;
+  color: firebrick;
+}
+

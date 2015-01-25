@@ -1,22 +1,19 @@
 !!!
 %html
   %head
-    %title= current_page.data.title || "My Fusion Salon"
+    %title= current_page.data.title || site[:title]
+    //|| site[:title]
     %meta{:charset => "utf-8"}
     / Always force latest IE rendering engine or request Chrome Frame
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
     / Use title if it's in the page YAML frontmatter
     %link{:href => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css", :rel => "stylesheet"}
-    %link(rel="shortcut icon" href="#{url_for('/img/icon.png')}")
+    %link(rel="shortcut icon" href="#{site_img_path('icon.png')}")
     %script(src="//code.jquery.com/jquery-2.1.1.min.js")
     %script{:src => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"}
     = stylesheet_link_tag "all"
   %body{:class => page_classes}
-    = partial "partials/nav"
+    = site_partial "nav"
     = yield
-    = partial "partials/footer"
+    = site_partial "footer"
     = javascript_include_tag  "all"
-    :javascript
-      $('span.fusion').on('click', function(){
-        document.location="tel:#{phone}"
-      })    

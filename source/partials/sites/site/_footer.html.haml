@@ -1,22 +1,21 @@
 / http://lipis.github.io/bootstrap-social/
 %section.footer
-  .container
-    %hr
+.container
+  %hr
+  .row
     .col-md-8
       %a(name="contact")
       %h4 Address
-      %a(href="https://www.google.com/maps/place/Fusion+Salon/@29.540349,-98.650631,17z/data=!3m1!4b1!4m2!3m1!1s0x865c42abffffffff:0x436cc51662413e8a" target="_map")
-        %p
-          10350 Bandera Road, Suite 206
-          %br
-          San Antonio, TX 78250
+      %a(href="#{site.geo_address || '#'}" target="_map")
+        = site_partial 'address'
 
       %p 
         Phone: 
-        %a(href="tel:#{phone}")= phone
+        %a(href="tel:#{site.phone}")= site.phone
+        /= data.sites.fusion.phone
       %p 
         Email: 
-        %a(href="mailto:myfusionsalon@gmail.com?subject=contact from website") myfusionsalon@gmail.com   
+        %a(href="mailto:#{site.email}?subject=contact from website") myfusionsalon@gmail.com   
     .col-md-4 
       %a(name='social')
       %h4 Social Media Links
@@ -24,4 +23,3 @@
         %i(class="fa fa-twitter")
       %a(href="https://google.com/plus" class="btn btn-social-icon btn-google-plus")
         %i(class="fa fa-google-plus")      
-  
