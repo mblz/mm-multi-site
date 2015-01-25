@@ -15,6 +15,8 @@ set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'img'
 
+page "/sitemap.xml", :layout => false
+
 
 # Reload the browser automatically whenever files change
 configure :development do

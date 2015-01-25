@@ -1,6 +1,8 @@
-:title: MMM
+:hostname: localhost:3000
+
+:title: Default Site
 :name: site
-:email: template@e.com
+:email: default@e.com
 :phone: 777 777 7777
 
 :address: 
@@ -19,14 +21,18 @@
     :zip: Owner Zip
 
 nav:
- - 
-  :title: Documentation
-  :link: "/content/site/docs"
- - 
-  :title: Github
-  :link: "http://github.com"
- - Contact
+  - title: Services
+    cnt: true
+  - title: About
+    cnt: true    
+  - Gallery
+  - Contact
 
+
+social:
+  facebook:
+  twitter:
+  google:
 
 # View related
 :logo: false

@@ -1,5 +1,14 @@
 .container
+  .row
+    .col-lg-6
+      %h1 Address
+      = site_partial 'address'
+      %h2 Email
+      = mail_to site.email
+      %h2 
+        Phone
+      = link_to site.phone, "tel:#{site.phone}"
 
-  %h1 Address
-
-  = site_partial 'address'
+    .col-lg-6
+      - if site.geo_embed_address
+        %iframe(width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?#{site.geo_embed_address}")

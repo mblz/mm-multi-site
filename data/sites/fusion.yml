@@ -1,10 +1,12 @@
+:hostname: myfusionsa.com
+
 :title: Fusion Salon
 :name: fusion
 :email: myfusionsalon@gmail.com
 :phone: 210-529-7170
 
 :geo_address: https://www.google.com/maps/place/Fusion+Salon/@29.540349,-98.650631,17z/data=!3m1!4b1!4m2!3m1!1s0x865c42abffffffff:0x436cc51662413e8a
-
+:geo_embed_address: pb=!1m14!1m8!1m3!1d3471.1766668887253!2d-98.650631!3d29.540349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42abffffffff%3A0x436cc51662413e8a!2sFusion+Salon!5e0!3m2!1sen!2sus!4v1422212017082
 
 :address: 
   :street: "10350 Bandera Road, Suite 206"
@@ -21,15 +23,19 @@
     :state: Owner state
     :zip: Owner Zip
 
+:social:
+  facebook: FusionSalonSA
+  
 
 nav:
- - 
-  :title: Services
-  :cnt: true
- - 
-  :title: About
-  :cnt: true
+ - :title: Services
+   :cnt: true
  - Contact
+
+# - 
+#  :title: About
+#  :cnt: true
+
 
 :prices:
   :facials:

@@ -12,7 +12,6 @@ module SiteHelper
 
 	def site
   	site_data = eval("data.sites.#{$SITE}")
-
     rescue
       throw("Could not find default site data in data/sites/#{$SITE}")
 	end	
@@ -26,6 +25,8 @@ module SiteHelper
 	def site_img img, *args
 		image_tag(site_img_path(img), *args)
 	end
+
+	# Keep images remotely
 	def site_img_path img, *args
 	  "//assets.integrated-internet.com/sites/#{$SITE}/img/#{img}" 
 	end	

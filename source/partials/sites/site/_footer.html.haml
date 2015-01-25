@@ -15,11 +15,15 @@
         /= data.sites.fusion.phone
       %p 
         Email: 
-        %a(href="mailto:#{site.email}?subject=contact from website") myfusionsalon@gmail.com   
+        %a(href="mailto:#{site.email}?subject=contact from website")= site.email  
     .col-md-4 
       %a(name='social')
       %h4 Social Media Links
-      %a(href="https://www.facebook.com/FusionSalonSA" class="btn btn-social-icon btn-facebook")
-        %i(class="fa fa-twitter")
-      %a(href="https://google.com/plus" class="btn btn-social-icon btn-google-plus")
-        %i(class="fa fa-google-plus")      
+      - if fb = site.social.facebook
+        %a(href="https://www.facebook.com/#{fb}" class="btn btn-social-icon btn-facebook")
+          %i(class="fa fa-facebook")
+      - if gplus = site.social.google_plus
+        %a(href="https://plus.google.com/+#{gplus}" class="btn btn-social-icon btn-facebook")
+          %i(class="fa fa-facebook")          
+      / %a(href="https://google.com/plus" class="btn btn-social-icon btn-google-plus")
+      /   %i(class="fa fa-google-plus")      
