@@ -10,8 +10,12 @@ p "$SITE=#{$SITE}"
 
 module SiteHelper
 
+	def page_title
+		meta = site.meta[current_page.path.sub(/\.html/,'')] || {}
+		current_page.data.title || meta[:title] || site.title
+	end
 	def site
-  	site_data = eval("data.sites.#{$SITE}")
+  	site_data = eval("data.sites.#{$SITE}")#.with_indifferent_access
     rescue
       throw("Could not find default site data in data/sites/#{$SITE}")
 	end	
@@ -37,6 +41,28 @@ module SiteHelper
 
 	def titleize title
     ActiveSupport::Inflector.titleize(title)
+  end
+
+  def nav_active?(nav)
+
+    if nav.is_a?(String)
+      path = "#{nav.downcase}.html"  
+    elsif nav.cnt
+    	path = "content/#{$SITE}/#{nav.title.downcase}.html"
+    else 
+    	path = nav.link
+    end
+    current_page.path == path
+ 	
+  end
+
+  def email_form
+    questions        = CGI.escape(site.contact_form.fields.map{|q| "#{q}:"}.join("\n\n"))
+    email_string     = "?subject=#{site.contact_form.subject}&body=#{questions}"
+    
+    mail_to(site.email + email_string, site.email, target: :_blank, class: 'btn btn-success')
+
+  	
   end
 end
 

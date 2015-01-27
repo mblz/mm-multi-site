@@ -10,6 +10,7 @@ owner=$(who am i | awk '{print $1}')
 sitesEnable='/etc/nginx/sites-enabled/'
 sitesAvailable='/etc/nginx/sites-available/'
 userDir='/home/mblz/static/sites/'
+user='mblz:mblz'
 
 if [ "$(whoami)" != 'root' ]; then
 	echo $"You have no permission to run $0 as non-root user. Use sudo"
@@ -46,6 +47,7 @@ if [ "$action" == 'create' ]
 			mkdir $userDir$rootdir
 			### give permission to root dir
 			chmod 755 $userDir$rootdir
+			chown -R $user $userDir$rootdir
 			### write test file in the new domain dir
 			if ! echo "<?php echo phpinfo(); ?>" > $userDir$rootdir/index.html
 				then

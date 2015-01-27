@@ -1,8 +1,0 @@
-%h5= title
-.images
-  - imgs.each do |img|  
-    = link_to(titleize(img), href: "../img/gallery/#{dir}/#{img}.png", title: titleize(img), "data-toggle" => 'tooltip') do 
-      = image_tag "/img/gallery/#{dir}/thumb/#{img}.png"
-
-    / %a{:href => "/img/gallery/#{dir}/#{img}.png", :title => titleize(img)}
-    /   %img{:alt => img, title: img, :src => "/img/gallery/#{dir}/thumb/#{img}.png"}/

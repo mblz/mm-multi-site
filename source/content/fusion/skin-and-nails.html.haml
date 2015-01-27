@@ -1,21 +1,28 @@
-.container
-  %h1 
-    Skin and Nails
-    %small.text-muted REFRESH REPAIR RENEW
-  %p 
-    Our team of professionals can perform various types of facials, chemical exfoliation treatments, and full body waxing. We specialize in glo mineral make-up and glo therapeutics skin care. We strive to deliver the best results regarding any of your skin concerns. Call or come by 
-    = click_to_call
-    today for your complimentary consultation.
+---
+title: Skin and Nails
+---
 
-  %h3 Facials and Skin Repair Treatments
-  = site_partial("prices", locals: {items: site.prices[:facials]})
-  %h3 Professional Make-up
-  = site_partial("prices", locals: {items: site.prices[:makeup]})
-  %h3 Waxing
-  = site_partial("prices", locals: {items: site.prices[:wax]})
-  %h3 Manicure
-  = site_partial("prices", locals: {items: site.prices[:mani]})
-  %h3 Pedicure
-  = site_partial("prices", locals: {items: site.prices[:pedi]})
-  %h3 Paraffin Treatments
-  = site_partial("prices", locals: {items: site.prices[:para]})  
+.container
+  .row
+    .col-lg-8
+      %h1.page-header
+        Skin and Nails
+        %small.text-muted REFRESH REPAIR RENEW
+      %p 
+        Our team of professionals can perform various types of facials, chemical exfoliation treatments, and full body waxing. We specialize in glo mineral make-up and glo therapeutics skin care. We strive to deliver the best results regarding any of your skin concerns. Call or come by 
+        = click_to_call
+        today for your complimentary consultation.
+
+      %h3 Facials and Skin Repair Treatments
+      = site_partial("prices", locals: {items: site.prices[:facials]})
+      %h3 Professional Make-up
+      = site_partial("prices", locals: {items: site.prices[:makeup]})
+      %h3 Waxing
+      = site_partial("prices", locals: {items: site.prices[:wax]})
+      %h3 Manicure
+      = site_partial("prices", locals: {items: site.prices[:mani]})
+      %h3 Pedicure
+      = site_partial("prices", locals: {items: site.prices[:pedi]})
+      %h3 Paraffin Treatments
+      = site_partial("prices", locals: {items: site.prices[:para]})  
+    = partial("content/fusion/services")

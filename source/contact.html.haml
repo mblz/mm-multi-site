@@ -4,7 +4,7 @@
       %h1 Address
       = site_partial 'address'
       %h2 Email
-      = mail_to site.email
+      = email_form
       %h2 
         Phone
       = link_to site.phone, "tel:#{site.phone}"

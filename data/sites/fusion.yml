@@ -1,6 +1,10 @@
 :hostname: myfusionsa.com
 
+# Become global meta values if not defined more specifically
 :title: Fusion Salon
+:description: Fusion salon description
+:keywords: Fusion salon keywords
+
 :name: fusion
 :email: myfusionsalon@gmail.com
 :phone: 210-529-7170
@@ -25,12 +29,29 @@
 
 :social:
   facebook: FusionSalonSA
-  
+
 
 nav:
  - :title: Services
    :cnt: true
  - Contact
+ - Gallery
+
+
+meta:
+  contact: 
+    title: contact title
+    description: contact description
+    keywords: contact keywords
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Date of service requested
+    - Email 
+    - Phone
+
 
 # - 
 #  :title: About

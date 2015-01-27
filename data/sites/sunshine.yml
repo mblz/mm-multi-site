@@ -1,10 +1,10 @@
 
-:title: Default Site
+:title: Sunshine Landscaping
 :description: Default Site Description
 :keywords: Site, key, words
 
 
-:name: site_name_change_me
+:name: sunshine
 :email: default@e.com
 :phone: 777 777 7777
 
@@ -27,7 +27,7 @@ nav:
   - title: Services
     cnt: true
   - title: About
-    cnt: true    
+    cnt: true 
   - Gallery
   - Contact
 
@@ -38,12 +38,13 @@ contact_form:
     - Service requested
     - Email 
     - Phone
+    - Date
 
 meta:
   index: 
-    title: This is the default site
-    keywords: Keyword, new_keyword
+    title: Sunshine landscaping
     description: Default description
+    keywords: Keyword, new_keyword
 
 social:
   facebook:
@@ -53,19 +54,16 @@ social:
 # View related
 :logo: false
 
-:hostname: localhost:3000
+:hostname: http://www.sunshine-landscape.com/
 
 :carousel:
-  - http://assets.integrated-internet.com/sites/site/img/carousel/abstract_light.jpg
-  - http://assets.integrated-internet.com/sites/site/img/carousel/aquarium.jpg
+  - http://ray.mblz.com/system/uploads/129/original/redseasonalplants.jpg
+  - http://ray.mblz.com/system/uploads/129/original/granitenaturalstone2.jpg
 
-
-# Choose one here
-# http://bootstrapcdn.com/#bootswatch_tab
-#:theme: flatly
-#:theme: lumen
-#:theme: cyborg
-#:theme: sandstone
-#:theme: readable
-:theme: simplex
+:theme: sandstone
+# :theme: lumen
+# :theme: cyborg
+# :theme: sandstone
+# :theme: readable
+# :theme: simplex
 
