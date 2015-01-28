@@ -1,6 +1,10 @@
 %link{:href => "//23.253.214.114/gallery/css/blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
 %script{:src => "//23.253.214.114/gallery/js/blueimp-gallery.min.js", :type => "text/javascript"}
 
+.container
+  %h1.page-header 
+    Gallery
+    %small Portfolio
 #blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
   .slides
   %h3.title
@@ -11,18 +15,17 @@
   %ol.indicator
 
 #links
-  .container.gallery
-    %h2 Gallery
-    /= partial("partials/gallery", locals: {title: "Hair and Make-up", dir: "hair", imgs: %w[color make-up-and-color highlights make-up-and-hair]})
-    /= partial("partials/gallery", locals: {title: "Before and After", dir: "baa", imgs: %w[hair-cut make-over skin-care highlights hair-cut2 hair-style short-cut]})   
-    /= partial("partials/gallery", locals: {title: "Pedicure", dir: "pedi", imgs: %w[foot]})        
-            
-:javascript
-  document.getElementById('links').onclick = function (event) {
-  event = event || window.event;
-  var target = event.target || event.srcElement,
-  link = target.src ? target.parentNode : target,
-  options = {index: link, event: event},
-  links = this.getElementsByTagName('a');
-  blueimp.Gallery(links, options);
-  };
+  .container
+    .row
+      - site(:gallery).each do |gallery|
+        - name  = gallery.keys.first
+        - title = gallery.title
+        - imgs = gallery.images
+        .col-lg-6.gallery
+          .panel.panel-default
+            .panel-heading= title
+            .panel-body
+              - imgs.each do |img|
+                %a{href: site_img_path("gallery/#{name}/#{img.src}"), title: img.title}= site_img "gallery/#{name}/thumb/#{img.src}", class: 'img-responsive',  "data-toggle" => :tooltip, title: img.title
+
+= javascript_include_tag 'gallery'

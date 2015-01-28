@@ -1,9 +1,6 @@
 # Todo
 
-* Fix new_site generator
-* Fix parital location
-* Add yml files capability
-* Gallery
+
 
 # Todone
 
@@ -13,3 +10,7 @@
 * Contact form (if not mailto)
 * App css
 * Carousel
+* Fix new_site generator
+* Fix parital location
+* Add yml files capability
+* Gallery

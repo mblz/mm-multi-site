@@ -1,0 +1,25 @@
+- cuts: 
+  title: Hair cuts
+  images:
+  - src: hair-cut.png
+    title: consworker is the title
+  - src: hair-cut2.png
+    title: bricklaying is the title    
+  - src: hair-style.png
+    title: building is the title   
+  - src: highlights.png
+    title: buildingsite is the title    
+  - src: short-cut.png
+    title: brownwall is the title   
+
+- hair: 
+  title: Hair coloring
+  images:
+  - src: color.png
+    title: consworker is the title
+  - src: highlights.png
+    title: bricklaying is the title    
+  - src: make-up-and-color.png
+    title: building is the title   
+  - src: make-up-and-hair.png
+    title: buildingsite is the title    

@@ -1,0 +1,8 @@
+.gallery a img{
+	margin:6px;
+	float:left;
+}
+
+.panel .panel-heading{
+	font-weight: bold;
+}

@@ -1,0 +1,23 @@
+- construction: 
+  title: Construction images
+  images:
+  - src: consworker.jpg
+    title: consworker is the title
+  - src: bricklaying.jpg
+    title: bricklaying is the title    
+  - src: building.jpg
+    title: building is the title   
+  - src: buildingsite.jpg
+    title: buildingsite is the title    
+  - src: brownwall.jpg
+    title: brownwall is the title   
+
+- spa: 
+  title: Spa images
+  images:
+  - src: spalotus.jpg
+    title: consworker is the title
+  - src: couplemassage.jpg
+    title: bricklaying is the title    
+  - src: stonemassage.jpg
+    title: building is the title   

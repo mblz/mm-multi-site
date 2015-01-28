@@ -1,4 +1,8 @@
+gallery: 
+  title: This is the default site
+  keywords: Keyword, new_keyword
+  description: Default description
 contact: 
-  title: contact title
-  description: contact description
-  keywords: contact keywords
+  title: This is the default site
+  keywords: Keyword, new_keyword
+  description: Default description  

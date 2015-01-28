@@ -56,10 +56,11 @@ social:
 :carousel:
   - http://assets.integrated-internet.com/sites/site/img/carousel/abstract_light.jpg
   - http://assets.integrated-internet.com/sites/site/img/carousel/aquarium.jpg
+  - http://assets.integrated-internet.com/sites/site/img/carousel/spalotus.jpg
 
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: simplex
+#:theme: simplex
 

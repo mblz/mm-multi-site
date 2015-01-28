@@ -8,7 +8,7 @@ task :new_site, [:name] do |t, args|
   mkdir "data/sites/#{name}"
 
   # YAML  
-  %w[site meta prices].each do |y|
+  %w[site meta prices gallery].each do |y|
     cp "data/sites/site/#{y}.yml", "data/sites/#{name}/#{y}.yml"
   end
 
