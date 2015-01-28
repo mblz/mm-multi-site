@@ -11,19 +11,24 @@ p "$SITE=#{$SITE}"
 module SiteHelper
 
 	def page_title
-		meta = site.meta[current_page.path.sub(/\.html/,'')] || {}
+		meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {}
 		current_page.data.title || meta[:title] || site.title
 	end
-	def site
-  	site_data = eval("data.sites.#{$SITE}")#.with_indifferent_access
+	def site part = nil
+  	if not part
+      eval("data.sites.#{$SITE}.site")#.with_indifferent_access
+    else
+      eval("data.sites.#{$SITE}.#{part}")
+    end
+
     rescue
       throw("Could not find default site data in data/sites/#{$SITE}")
 	end	
 
 	def site_partial part, *args
-		partial("partials/sites/#{$SITE}/#{part}", *args)
+		partial("partials/#{$SITE}/#{part}", *args)
 	rescue
-		partial("partials/sites/site/#{part}", *args)
+		partial("partials/site/#{part}", *args)
 	end
 
 	def site_img img, *args

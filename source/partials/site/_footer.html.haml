@@ -25,5 +25,6 @@
       - if gplus = site.social.google_plus
         %a(href="https://plus.google.com/+#{gplus}" class="btn btn-social-icon btn-facebook")
           %i(class="fa fa-facebook")          
-      / %a(href="https://google.com/plus" class="btn btn-social-icon btn-google-plus")
-      /   %i(class="fa fa-google-plus")      
+      - if tw = site.social.twitter
+        %a(href="https://twitter.com" class="btn btn-social-icon btn-twitter")
+          %i(class="fa fa-twitter")      

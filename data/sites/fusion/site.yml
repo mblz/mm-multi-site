@@ -1,0 +1,57 @@
+:hostname: myfusionsa.com
+
+# Become global meta values if not defined more specifically
+:title: Fusion Salon
+:description: Fusion salon description
+:keywords: Fusion salon keywords
+
+:name: fusion
+:email: myfusionsalon@gmail.com
+:phone: 210-529-7170
+
+:geo_address: https://www.google.com/maps/place/Fusion+Salon/@29.540349,-98.650631,17z/data=!3m1!4b1!4m2!3m1!1s0x865c42abffffffff:0x436cc51662413e8a
+:geo_embed_address: pb=!1m14!1m8!1m3!1d3471.1766668887253!2d-98.650631!3d29.540349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42abffffffff%3A0x436cc51662413e8a!2sFusion+Salon!5e0!3m2!1sen!2sus!4v1422212017082
+
+:address: 
+  :street: "10350 Bandera Road, Suite 206"
+  :city: San Antonio
+  :state: Texas
+  :zip: 78250
+
+:owner:
+  :name: Owner Name
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+:social:
+  facebook: FusionSalonSA
+  #twitter: Fusion
+
+
+nav:
+ - :title: Services
+   :cnt: true
+ - Contact
+ - Gallery
+
+
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Date of service requested
+    - Email 
+    - Phone
+
+
+# - 
+#  :title: About
+#  :cnt: true
+
+

@@ -1,5 +1,8 @@
 # Todo
 
+* Fix new_site generator
+* Fix parital location
+* Add yml files capability
 * Gallery
 
 # Todone
