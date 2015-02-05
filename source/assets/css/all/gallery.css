@@ -1,4 +1,4 @@
-.gallery a img{
+#gallery .gallery a{
 	margin:6px;
 	float:left;
 }

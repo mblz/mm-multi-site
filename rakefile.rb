@@ -19,6 +19,11 @@ task :new_site, [:name] do |t, args|
   %w[index services about].each do |f|
     cp "source/content/site/#{f}.html.haml", "source/content/#{name}/#{f}.html.haml"
   end
+
+  # PARTIAL
+  %w[_footer-plus].each do |f|
+    cp "source/partials/site/#{f}.html.haml", "source/partials/#{name}/#{f}.html.haml"
+  end  
 end
 
 desc "remove a local sites files with %> rake rm_site[SITE_NAME]"

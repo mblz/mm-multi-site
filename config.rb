@@ -11,9 +11,10 @@ activate :relative_assets
 
 set :relative_links, true
 
-set :css_dir, 'css'
-set :js_dir, 'js'
-set :images_dir, 'img'
+
+set :css_dir, 'assets/css'
+set :js_dir, 'assets/js'
+set :images_dir, 'assets/img'
 
 page "/sitemap.xml", :layout => false
 

@@ -14,18 +14,28 @@
   %a.play-pause
   %ol.indicator
 
-#links
+#gallery
   .container
     .row
       - site(:gallery).each do |gallery|
         - name  = gallery.keys.first
         - title = gallery.title
-        - imgs = gallery.images
+        - imgs  = gallery.images
+        - upto  = gallery.upto 
+        
+
         .col-lg-6.gallery
           .panel.panel-default
             .panel-heading= title
             .panel-body
-              - imgs.each do |img|
-                %a{href: site_img_path("gallery/#{name}/#{img.src}"), title: img.title}= site_img "gallery/#{name}/thumb/#{img.src}", class: 'img-responsive',  "data-toggle" => :tooltip, title: img.title
+              - if upto
+                - ext   = gallery.ext || 'jpg'
+                - 1.upto(upto) do |img|
+                  %a{href: site_img_path("gallery/#{name}/#{img}.#{ext}"),   title: name}
+                    = site_img "gallery/#{name}/thumb/#{img}.#{ext}", class: 'img-responsive', 'data-toggle' => :tooltip, title: name
+              - else                
+                - imgs.each do |img|
+                  %a{href: site_img_path("gallery/#{name}/#{img.src}"),   title: title || name}
+                    = site_img "gallery/#{name}/thumb/#{img.src}", class: 'img-responsive', 'data-toggle' => :tooltip, title: title || name
 
 = javascript_include_tag 'gallery'

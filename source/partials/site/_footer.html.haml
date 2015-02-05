@@ -1,5 +1,4 @@
-/ http://lipis.github.io/bootstrap-social/
-%section.footer
+
 .container
   %hr
   .row
@@ -9,13 +8,16 @@
       %a(href="#{site.geo_address || '#'}" target="_map")
         = site_partial 'address'
 
-      %p 
+      %h4
         Phone: 
         %a(href="tel:#{site.phone}")= site.phone
         /= data.sites.fusion.phone
-      %p 
+      %h4
         Email: 
         %a(href="mailto:#{site.email}?subject=contact from website")= site.email  
+
+      = site_partial 'footer-plus'  
+    
     .col-md-4 
       %a(name='social')
       %h4 Social Media Links
@@ -27,4 +29,5 @@
           %i(class="fa fa-facebook")          
       - if tw = site.social.twitter
         %a(href="https://twitter.com" class="btn btn-social-icon btn-twitter")
-          %i(class="fa fa-twitter")      
+          %i(class="fa fa-twitter")    
+

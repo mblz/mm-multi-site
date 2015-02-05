@@ -14,15 +14,13 @@ title: Skin and Nails
         today for your complimentary consultation.
 
       %h3 Facials and Skin Repair Treatments
-      = site_partial("prices", locals: {items: site.prices[:facials]})
+      = site_partial("prices", locals: {items: site(:prices)[:facials]})
       %h3 Professional Make-up
-      = site_partial("prices", locals: {items: site.prices[:makeup]})
+      = site_partial("prices", locals: {items: site(:prices)[:makeup]})
       %h3 Waxing
-      = site_partial("prices", locals: {items: site.prices[:wax]})
+      = site_partial("prices", locals: {items: site(:prices)[:wax]})
       %h3 Manicure
-      = site_partial("prices", locals: {items: site.prices[:mani]})
-      %h3 Pedicure
-      = site_partial("prices", locals: {items: site.prices[:pedi]})
+      = site_partial("prices", locals: {items: site(:prices)[:mani]})
       %h3 Paraffin Treatments
-      = site_partial("prices", locals: {items: site.prices[:para]})  
+      = site_partial("prices", locals: {items: site(:prices)[:para]})  
     = partial("content/fusion/services")
