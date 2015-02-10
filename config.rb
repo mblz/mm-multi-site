@@ -1,9 +1,14 @@
 require "lib/site_helper"
 helpers SiteHelper
+require "lib/gallery_helper"
+helpers GalleryHelper
+
+#activate :middleman_simple_thumbnailer
 
 # Mucked with assets generally
 #set :http_prefix, "//assets.integrated-internet.com/sites/#{$SITE ? $SITE : 'default'}/"
 
+link_imgs
 activate :directory_indexes
 
 # Use relative URLs
@@ -27,6 +32,7 @@ end
 
 # Build-specific configuration
 configure :build do
+  set :build_dir, build_dir 
   # Only include this sites' content
   ignore /^content\/(?!#{$SITE})/
   ignore /^\.git/

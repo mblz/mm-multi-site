@@ -11,3 +11,5 @@ gem 'middleman-deploy', '~> 1.0'
 
 gem 'rake'
 gem 'builder'
+
+#gem 'middleman-simple-thumbnailer'

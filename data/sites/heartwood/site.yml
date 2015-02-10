@@ -1,0 +1,66 @@
+
+:title: Heartwood Tree Service
+:description: Heartwood Tree Service
+:keywords: tree, service
+
+
+:name: heartwood
+:email: george@heartwoodtreesa.com
+:phone: 210-585-2560
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: 4201 Stahl Rd
+  :city: San Antonio
+  :state: Texas
+  :zip: 78217
+
+:owner:
+  :name: George Potter
+  :email: george@heartwoodtreesa.com
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: Services
+    cnt: true
+  - Gallery
+  - Contact
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook:
+  twitter:
+  google_plus: Heartwoodtreesa
+
+
+# View related
+:logo: false
+
+:hostname: http://www.heartwoodtreesa.com/
+
+:carousel:
+  - http://assets.integrated-internet.com/sites/heartwood/img/carousel/header.jpg
+  - http://assets.integrated-internet.com/sites/heartwood/img/carousel/trimming.jpg
+  - http://assets.integrated-internet.com/sites/heartwood/img/carousel/preservation.jpg
+  
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+:theme: cosmo
+

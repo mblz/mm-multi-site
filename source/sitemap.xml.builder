@@ -1,7 +1,9 @@
 xml.instruct!
 xml.urlset 'xmlns' => "http://www.sitemaps.org/schemas/sitemap/0.9" do
   sitemap.resources.select { |page| page.path =~ /\.html/ }.each do |page|
-  	next if /^content\/site/ =~ page.path
+  	if /^content/ =~ page.path
+      next if /^content\/#{$SITE}/ !~ page.path
+    end
   	next if /^404/ =~ page.path
     xml.url do
       xml.loc "#{site.host}/#{page.path}"

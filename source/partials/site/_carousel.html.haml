@@ -6,7 +6,8 @@
   .carousel-inner{:role => "listbox"}
     - site.carousel.each_with_index do |img, idx|
       .item{class: idx == 0 ? 'active' : nil}
-        %img{:alt => "First slide", :src => img, class: 'img-responsive', style: "width:100%"}
+        = image_tag "carousel/#{img}", class: 'img-responsive', style: "width:100%"
+      /%img{:alt => "First slide", :src => img, class: 'img-responsive', style: "width:100%"}
       /     .container
       /       .carousel-caption
       /         %h1 Example headline.

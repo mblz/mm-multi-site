@@ -7,7 +7,7 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          = link_to "/", class: "navbar-brand" do
+          = link_to "/index.html", class: "navbar-brand" do
             - if site.logo != false
               = site_img "logo.png", class: "img-responsive", id: "logo"
             - else
@@ -20,7 +20,7 @@
                   = link_to nav, "/#{nav.downcase}.html"  
                 - else
                   - if nav.cnt
-                    = link_to nav.title, "/content/#{$SITE}/#{nav.title.downcase}"   
+                    = link_to nav.title, "/content/#{$SITE}/#{nav.title.downcase}.html"   
                   - else  
                     = link_to nav.title, nav.link      
 

@@ -1,10 +1,10 @@
 
-:title: Default Site
+:title: The Cases Group, LLC
 :description: Default Site Description
 :keywords: Site, key, words
 
 
-:name: site_name_change_me
+:name: cases
 :email: default@e.com
 :phone: 777 777 7777
 
@@ -19,7 +19,7 @@
   :zip: 78000
 
 :owner:
-  :name: Owner Name
+  :name: Moises Cases
   :email: Owner email
   :address: 
     :street: Owner street
@@ -54,13 +54,11 @@ social:
 :hostname: localhost:3000
 
 :carousel:
-  - abstract_light.jpg
-  - aquarium.jpg
-  - spalotus.jpg
-
+  - http://assets.integrated-internet.com/sites/cases/img/carousel/header.jpg
+  - http://assets.integrated-internet.com/sites/cases/img/carousel/elec.jpg
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-#:theme: simplex
+:theme: cerulean
 

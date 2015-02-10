@@ -1,5 +1,6 @@
-%link{:href => "//23.253.214.114/gallery/css/blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
-%script{:src => "//23.253.214.114/gallery/js/blueimp-gallery.min.js", :type => "text/javascript"}
+= stylesheet_link_tag "blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "blueimp-gallery.min.js"
+
 
 .container
   %h1.page-header 
@@ -10,32 +11,21 @@
   %h3.title
   %a.prev ‹
   %a.next ›
-  / %a.close ×
+  %a.close ×
   %a.play-pause
   %ol.indicator
 
 #gallery
   .container
     .row
-      - site(:gallery).each do |gallery|
-        - name  = gallery.keys.first
-        - title = gallery.title
-        - imgs  = gallery.images
-        - upto  = gallery.upto 
-        
-
-        .col-lg-6.gallery
-          .panel.panel-default
-            .panel-heading= title
-            .panel-body
-              - if upto
-                - ext   = gallery.ext || 'jpg'
-                - 1.upto(upto) do |img|
-                  %a{href: site_img_path("gallery/#{name}/#{img}.#{ext}"),   title: name}
-                    = site_img "gallery/#{name}/thumb/#{img}.#{ext}", class: 'img-responsive', 'data-toggle' => :tooltip, title: name
-              - else                
-                - imgs.each do |img|
-                  %a{href: site_img_path("gallery/#{name}/#{img.src}"),   title: title || name}
-                    = site_img "gallery/#{name}/thumb/#{img.src}", class: 'img-responsive', 'data-toggle' => :tooltip, title: title || name
+      - galleries.each do |gallery|
+        .panel.panel-default.gallery
+          .panel-heading= gallery.title
+          .panel-body
+            - gallery.images.each do |image|
+              - url       = "/assets/img/gallery/#{gallery.name}/#{image.name}"
+              - thumb_url = "gallery/#{gallery.name}/thumb/#{image.name}"
+              = link_to url, title: image.title do
+                = image_tag thumb_url, title: image.title, 'data-toggle' => :tooltip, title: image.title, class: 'img-rounded' #, class: 'thumbnail'
 
 = javascript_include_tag 'gallery'

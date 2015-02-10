@@ -1,25 +1,25 @@
 
-:title: Default Site
+:title: Cynthia Moseley, LMT
 :description: Default Site Description
 :keywords: Site, key, words
 
 
-:name: site_name_change_me
-:email: default@e.com
-:phone: 777 777 7777
+:name: cyn
+:email: cynthiamoseleylmt@gmail.com
+:phone: 210-287-6232
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: Site street
+  :street: 7201 Broadway Suite 302
   :city: San Antonio
   :state: Texas
-  :zip: 78000
+  :zip: 78209
 
 :owner:
-  :name: Owner Name
+  :name: Cynthia Moseley
   :email: Owner email
   :address: 
     :street: Owner street
@@ -54,13 +54,14 @@ social:
 :hostname: localhost:3000
 
 :carousel:
-  - abstract_light.jpg
-  - aquarium.jpg
-  - spalotus.jpg
+  - http://assets.integrated-internet.com/sites/cyn/img/carousel/blue-bonnet.jpg
+  - http://assets.integrated-internet.com/sites/cyn/img/carousel/rock.jpg
+  - http://assets.integrated-internet.com/sites/cyn/img/carousel/header.jpg
+  - http://assets.integrated-internet.com/sites/site/img/carousel/spalotus.jpg
 
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-#:theme: simplex
+:theme: united
 
