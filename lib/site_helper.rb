@@ -62,6 +62,10 @@ module SiteHelper
     ActiveSupport::Inflector.titleize(title)
   end
 
+  def parameterize title
+    ActiveSupport::Inflector.parameterize(title)
+  end
+  
   # Replaced this with symlink
   # def site_img img, *args
   #   image_tag(site_img_path(img), *args)

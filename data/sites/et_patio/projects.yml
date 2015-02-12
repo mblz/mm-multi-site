@@ -1,0 +1,63 @@
+- name: Windows
+  info: Replace windows with good dual paned windows
+  todos:
+  - Kitchen
+  - Bedroom
+
+- name: Door
+  info: Replace dining room window with door
+  todos:
+  - Side windows
+  - Discuss doggy door 
+  - Discuss curved top
+
+- name: Stucco
+  info: Stucco the patio wall
+  todos:
+  - Electrical outlets? For patio lighting plus extra. High?
+  - Cover the brick?
+  - Cover where patio door was
+
+- name: Electical
+  info: Plus lighting for patio and backyard
+  todos:
+  - Conduit to back of yard
+  - Lighting patio and backyard
+
+- name: Kitchen cabinet
+  info: Where the patio door was
+  todos:
+  - Diagonal cabinet
+  - Shelving
+
+
+- name: Patio cover
+  info: Extend the patio cover to the dining area
+  todos:
+  - Extend
+  - Stabilize
+  - Get ready for stucco
+  - Remove stucco tree - put table there
+
+
+- name: Privacy wall
+  info: Dining Area
+  todos:
+  - "'Arm' around dining room side"
+  - Goes out to the front of the patio
+  - Follows curvature of the patio
+
+- name: Shed
+  info: Good, stable, cost effective shed
+
+
+- name: Privacy wall
+  info: Hide air conditioner / pool
+  todos:
+  - Storage shelves
+
+- name: Stucco second story
+  info: Stucco upstairs in back of house
+
+- name: Custom dining table
+  info: Halfmoon built in dining table

@@ -1,6 +1,6 @@
 module GalleryHelper
 	def gallery_dirs
-    dir = "/Users/vudu/Pictures/assets/sites/#{$SITE}/assets/img/gallery/*"
+    dir = (data.config.build_dir + data.config.gallery_dir + "*").sub('/site/', "/#{$SITE}/")
     Dir.glob(dir).select {|f| File.directory? f}		
 	end
 
@@ -13,13 +13,13 @@ module GalleryHelper
  	end
 
 	def gallery_image_paths dir
-		Dir.glob(dir + "/*[jpg|png]")
+		Dir.glob(dir + "/*[jpg|png|gif]")
 	end
 
 	def gallery_image path
     parts = path.split('/')
     name  = parts.delete(parts.last)
-    title = titleize(name.sub(/\.(jpg|png)$/,''))
+    title = titleize(name.sub(/\.(jpg|png|gif)$/,''))
 
     {title: title, name: name }
 	end

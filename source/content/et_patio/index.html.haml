@@ -1,0 +1,22 @@
+/= site_partial('carousel')
+
+.container
+  %h1.page-header 
+    Patio / Backyard projects
+    %small The stuff we want done in the backyard broken up into projects
+  %ol
+    - site(:projects).each do |project|
+      %li
+        %h3
+          =project.name
+          %small= project.info
+        %ul
+          - todos = project.todos || []
+          - for todo in todos
+            %li= todo
+
+
+/"/content/et_patio/projects/#{parameterize(project.name)}.html", class: 'list-group-item'
+/ .list-group
+/   - site(:projects).each do |project|
+/     = link_to project.name, "/content/et_patio/projects/#{parameterize(project.name)}.html", class: 'list-group-item'

@@ -1,0 +1,31 @@
+- name: Kathryn Flyr
+  phone: 210-857-4122
+  biz: Red Lotus Massage
+  link:
+    title: Red Lotus Massage
+    url: http://www.redlotusmassagetherapy.com/
+
+
+- name: Blanca R. Elizondo, LMT
+  phone: 210-857-7739
+  biz: Soul Energy
+  link:
+    title: Soul Energy
+    url: http://www.soulenergymassage.com/
+
+
+- name: Betty Esquivel for Thai Yoga 
+  phone: 210-410-3515
+  biz:  Thai Yoga
+  # link:
+  #   title: Soul Energy
+  #   url: http://www.soulenergymassage.com/
+
+- name: Norma Perry
+  phone: 210-887-9339
+  biz: Natural Skin Rejuvenation and LamProbe Consultation
+  link:
+    title: Natural Beauty Skin Care
+    url: http://naturalskincaresa.com/
+
+

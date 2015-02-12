@@ -1,25 +1,25 @@
 
-:title: Cynthia Moseley, LMT
+:title: Patio Project
 :description: Default Site Description
 :keywords: Site, key, words
 
 
-:name: cyn
-:email: cynthiamoseleylmt@gmail.com
-:phone: 210-287-6232
+:name: site_name_change_me
+:email: default@e.com
+:phone: 777 777 7777
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: 7201 Broadway Suite 302
+  :street: Site street
   :city: San Antonio
   :state: Texas
-  :zip: 78209
+  :zip: 78000
 
 :owner:
-  :name: Cynthia Moseley
+  :name: Elva Tristan
   :email: Owner email
   :address: 
     :street: Owner street
@@ -28,15 +28,8 @@
     :zip: Owner Zip
 
 nav:
-  - title: Services
-    url: /content/cyn/services/index.html
-  - title: Products
-    cnt: true
-  - title: About
-    cnt: true    
-  - title: Calendar
-    cnt: true 
-  - Contact
+  - Gallery
+
 
 
 contact_form:
@@ -45,7 +38,6 @@ contact_form:
     - Service requested
     - Email 
     - Phone
-    - What is your adddress?
 
 social:
   facebook:
@@ -58,13 +50,13 @@ social:
 :hostname: localhost:3000
 
 :carousel:
-  - blue-bonnet.jpg
-  - rock.jpg
-  - header.jpg
+  - abstract_light.jpg
+  - aquarium.jpg
+  - spalotus.jpg
 
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: united
+#:theme: simplex
 

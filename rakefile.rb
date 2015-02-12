@@ -8,7 +8,7 @@ task :new_site, [:name] do |t, args|
   mkdir "data/sites/#{name}"
 
   # YAML  
-  %w[site meta prices gallery].each do |y|
+  %w[site meta prices].each do |y|
     cp "data/sites/site/#{y}.yml", "data/sites/#{name}/#{y}.yml"
   end
 
@@ -20,10 +20,6 @@ task :new_site, [:name] do |t, args|
     cp "source/content/site/#{f}.html.haml", "source/content/#{name}/#{f}.html.haml"
   end
 
-  # PARTIAL
-  # %w[_footer-plus].each do |f|
-  #   cp "source/partials/site/#{f}.html.haml", "source/partials/#{name}/#{f}.html.haml"
-  # end  
 end
 
 desc "remove a local sites files with %> rake rm_site[SITE_NAME]"

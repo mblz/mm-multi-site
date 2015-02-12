@@ -1,0 +1,31 @@
+.container
+  %h1.page-header
+    Referrals
+    %small.text-muted
+      for
+      = site.title
+  %table.table.table-striped
+    %tr
+      %th Name
+      %th Business
+      %th Phone
+      %th Link
+    - site(:referrals).each do |ref|
+      %tr
+        %td= ref.name
+        %td= ref.biz
+        %td= ref.phone
+        %td
+          - if ref.link
+            = link_to ref.link.title, ref.link.url
+	 
+	
+
+/ Blanca R. Elizondo, LMT 210-857-7739
+/ Soul Energy
+
+/ Betty Esquivel for Thai Yoga 210-410-3515
+
+/ Natural Skin Rejuvenation and LamProbe Consultation by Norma Perry 210-887-9339, visit:
+
+/ Natural Beauty Skin Care
