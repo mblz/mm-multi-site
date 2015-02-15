@@ -6,6 +6,13 @@
     = site_partial('head')
   %body{:class => page_classes}
     = site_partial "nav"
-    = yield
+    = yield_content :carousel
+    .container
+      - if side_menu = has_side_menu and current_page.data.skip_side_menu != true 
+        .row
+          .col-lg-8= yield
+          .col-lg-4= side_menu
+      - else
+        = yield
     = site_partial "footer"
     = javascript_include_tag  "all"

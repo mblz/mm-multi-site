@@ -35,6 +35,10 @@ module SiteHelper
 		partial("partials/site/#{part}", *args)
 	end
 
+  def has_side_menu
+    partial("partials/#{$SITE}/side_menu") rescue nil
+  end
+
 	def click_to_call
 		site_partial('click_to_call')
 	end

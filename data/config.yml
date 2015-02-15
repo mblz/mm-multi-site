@@ -2,5 +2,6 @@
 
 bootstrap:
   version: 3.3.2
-build_dir: ~/Pictures/assets/sites/site/
+build_dir: /Users/vudu/Pictures/assets/sites/site/
 gallery_dir: assets/img/gallery/
+carousel_dir: assets/img/carousel/

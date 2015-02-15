@@ -1,4 +1,5 @@
-= site_partial('carousel')
+- if carousel.present?
+  - content_for :carousel, site_partial('carousel') 
 
 .container
   %h1.page-header 

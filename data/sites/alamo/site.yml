@@ -52,10 +52,10 @@ social:
 :hostname: localhost:3000
 
 :carousel:
-  - http://assets.integrated-internet.com/sites/alamo/img/carousel/sun-color.jpg
-  - http://assets.integrated-internet.com/sites/alamo/img/carousel/saw.jpg
-  - http://assets.integrated-internet.com/sites/alamo/img/carousel/treetop.jpg
-  - http://assets.integrated-internet.com/sites/alamo/img/carousel/overhangs.jpg
+  - sun-color.jpg
+  - saw.jpg
+  - treetop.jpg
+  - overhangs.jpg
 
 
 # Choose one here

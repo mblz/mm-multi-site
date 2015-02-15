@@ -1,0 +1,63 @@
+:title: Maximum Altitude Motorsports
+:description: The Innovators and not Imitators!
+:keywords: Site, key, words
+
+
+:name: max_alt
+:email: joey@maximumaltitude.com
+:phone: 210-655-0184
+
+:geo_address: 
+:geo_embed_address: pb=!1m14!1m8!1m3!1d13885.513690372774!2d-98.38691!3d29.534472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25d12f769a9359e7!2sMaximum+Altitude+Motorsports!5e0!3m2!1sen!2sus!4v1424041695517
+
+
+:address: 
+  :street: 10604 IH-35 North
+  :city: San Antonio
+  :state: Texas
+  :zip: 78233
+
+:owner:
+  :name: Joey Gonzales
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: Services
+    cnt: true
+  - Gallery
+  - Contact
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook:
+  twitter:
+  google:
+
+# View related
+:logo: true
+
+:hostname: localhost:3000
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+:theme: yeti
+

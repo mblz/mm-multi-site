@@ -53,10 +53,10 @@ social:
 
 :hostname: localhost:3000
 
-:carousel:
-  - abstract_light.jpg
-  - aquarium.jpg
-  - spalotus.jpg
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
 
 
 # Choose one here

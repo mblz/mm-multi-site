@@ -1,13 +1,16 @@
+---
+skip_side_menu: true
+---
 .container
   .row
     .col-lg-6
       %h1 Address
-      = site_partial 'address'
+      %p= site_partial 'address'
       %h2 Email
-      = email_form
+      %p= email_form
       %h2 
         Phone
-      = link_to site.phone, "tel:#{site.phone}"
+      %p= link_to site.phone, "tel:#{site.phone}"
 
     .col-lg-6
       - if site.geo_embed_address

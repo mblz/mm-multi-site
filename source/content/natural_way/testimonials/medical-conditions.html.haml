@@ -1,0 +1,12 @@
+%h1.page-header 
+  Medical Conditions
+  %small Testimonials
+
+- data.sites.natural_way.testimonials.medical_conditions.each do |tst|
+  %blockquote
+    %b= tst.what
+    - if img = tst.img
+      = image_tag "testimonials/medical-conditions/#{img}", class: 'img-responsive img-rounded pull-right', style: 'margin-left:12px'
+    = tst.says
+
+    %footer= tst.who

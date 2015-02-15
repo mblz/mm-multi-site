@@ -1,4 +1,4 @@
-desc "create a new sites files with %> rake new_site[SITE_NAME]"
+desc "create  new sites files with %> rake new_site[SITE_NAME]"
 task :new_site, [:name] do |t, args|
 	name = args[:name]
   
@@ -29,4 +29,12 @@ task :rm_site, [:name] do |t, args|
   rm "source/assets/css/sites/#{name}.css"
   rm_rf "source/content/#{name}"
   rm_rf "source/partials/#{name}"
+end
+
+desc "build all sites"
+task :build_all do
+  Dir.glob('data/sites/*').each do |site_path|
+    name = site_path.split('/').last
+    system "site=#{name} middleman build"
+  end
 end

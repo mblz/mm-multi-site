@@ -1,38 +1,12 @@
 #myCarousel.carousel.slide{"data-ride" => "carousel"}
   / Indicators
   %ol.carousel-indicators
-    - site.carousel.each_with_index do |img, idx|
+    - carousel.each_with_index do |img, idx|
       %li{class: idx == 0  ? 'active' : nil,"data-slide-to" => idx , "data-target" => "#myCarousel"}
   .carousel-inner{:role => "listbox"}
-    - site.carousel.each_with_index do |img, idx|
+    - carousel.each_with_index do |img, idx|
       .item{class: idx == 0 ? 'active' : nil}
         = image_tag "carousel/#{img}", class: 'img-responsive', style: "width:100%"
-      /%img{:alt => "First slide", :src => img, class: 'img-responsive', style: "width:100%"}
-      /     .container
-      /       .carousel-caption
-      /         %h1 Example headline.
-      /         %p
-      /           Note: If you're viewing this page via a
-      /           %code file://
-      /           URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.
-      /         %p
-      /           %a.btn.btn-lg.btn-primary{:href => "#", :role => "button"} Sign up today
-      / .item
-      /   %img{:alt => "Second slide", :src => "data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="}
-      /     .container
-      /       .carousel-caption
-      /         %h1 Another example headline.
-      /         %p Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-      /         %p
-      /           %a.btn.btn-lg.btn-primary{:href => "#", :role => "button"} Learn more
-      / .item
-      /   %img{:alt => "Third slide", :src => "data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="}
-      /     .container
-      /       .carousel-caption
-      /         %h1 One more for good measure.
-      /         %p Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-      /         %p
-      /           %a.btn.btn-lg.btn-primary{:href => "#", :role => "button"} Browse gallery
   %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel", :role => "button"}
     %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
     %span.sr-only Previous

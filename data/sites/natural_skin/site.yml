@@ -1,0 +1,66 @@
+
+:title: Natural Beauty Reflections
+:description: Default Site Description
+:keywords: Site, key, words
+
+
+:name: norma
+:email: normaperrynbr@gmail.com
+:phone: 210-887-9339
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: 218 Pat Booker Rd
+  :city: San Antonio
+  :state: Texas
+  :zip: 78148
+
+:owner:
+  :name: Norma Perry
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  # - title: Services
+  #   cnt: true
+  # - title: About
+  #   cnt: true    
+  # - Gallery
+  - Contact
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook:
+  twitter:
+  google:
+
+# View related
+:logo: false
+
+:hostname: localhost:3000
+
+:carousel:
+  - stone.jpg
+  - aroma.jpg
+  - facial.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+#:theme: slate
+

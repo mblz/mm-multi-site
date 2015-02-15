@@ -1,0 +1,9 @@
+%h1.page-header 
+  Weight Loss
+  %small Testimonials
+
+- data.sites.natural_way.testimonials.weight_loss.each do |tst|
+  %blockquote
+    = tst.says
+    %footer= tst.who
+

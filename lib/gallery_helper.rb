@@ -1,6 +1,14 @@
 module GalleryHelper
+	def img_dir_for path
+		(data.config.build_dir + path + "*").sub('/site/', "/#{$SITE}/")
+	end
+	def carousel
+    dir = img_dir_for(data.config.carousel_dir)
+    Dir.glob(dir).map {|f| f.split('/').last}		
+	end
+
 	def gallery_dirs
-    dir = (data.config.build_dir + data.config.gallery_dir + "*").sub('/site/', "/#{$SITE}/")
+		dir = img_dir_for(data.config.gallery_dir)
     Dir.glob(dir).select {|f| File.directory? f}		
 	end
 
@@ -19,7 +27,7 @@ module GalleryHelper
 	def gallery_image path
     parts = path.split('/')
     name  = parts.delete(parts.last)
-    title = titleize(name.sub(/\.(jpg|png|gif)$/,''))
+    title = titleize(name.sub(/\.(jpg|png|gif)$/,'').sub(/^\d+/,''))
 
     {title: title, name: name }
 	end

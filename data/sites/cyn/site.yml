@@ -32,8 +32,6 @@ nav:
     url: /content/cyn/services/index.html
   - title: Products
     cnt: true
-  - title: About
-    cnt: true    
   - title: Calendar
     cnt: true 
   - Contact

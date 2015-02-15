@@ -1,0 +1,9 @@
+%h1.page-header
+  Referrals
+  %small.text-muted= site.title
+- site(:referrals).each do |ref|
+  %h3= ref.name
+  %p= ref.says
+  = link_to ref.link.title, ref.link.url
+
+

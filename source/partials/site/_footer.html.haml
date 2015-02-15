@@ -30,12 +30,11 @@
         %a(href="https://twitter.com" class="btn btn-social-icon btn-twitter")
           %i(class="fa fa-twitter")    
 
-.container
+.container#footer
   %p 
     = Date.today.year
-    © 
-    = site.title
-    ,
+    &copy;
+    = "#{site.title}, "
     = site.owner.name
 
 

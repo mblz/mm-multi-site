@@ -1,0 +1,9 @@
+%h1.page-header 
+  FAQs
+  %small Frequently asked questions
+
+%ul
+  - data.sites.natural_way.faqs.each do |faq|
+    %li
+      %b= faq.q
+      %p= faq.a
