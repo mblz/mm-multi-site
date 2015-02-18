@@ -1,0 +1,10 @@
+- name: Pretty Young Girl name
+  location: San Antonio
+  info: >
+        Before and after of makeup, eyebrow tinting and contouring, and hairstyle. 
+  img: fusionsalon-eyebrow-tinting-services.jpg
+  items:
+  - Manicures and Pedicures
+  - Blow Drying and Updos
+  - Eyebrow and Body Waxing
+  - Facials/Chemical Exfoliation

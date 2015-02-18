@@ -1,32 +1,33 @@
-= site_partial('carousel')
-.container
-  .row
-    .col-lg-8.col-md-8#main
-      %h1.page-header Welcome
-      %p 
-        = click_to_call
-        is a design and consulting services firm serving the global market with top quality and experienced designers and consultants who have a keen interest in customer satisfaction through innovation and diversity in the marketplace supported by over 126 years of combined experience. We focus on traditional and very complex designs, implementations and evaluations in the realm of electrical, physical and logical designs of high speed systems.
-      %h3 Reliable Services
-      = image_tag 'index/circuitboard.jpg', class: 'img-responsive pull-left thumbnail'
-      The Cases Group, LLC offers state-of-the-art design, modeling, analysis, and evaluation services. We have strong expertise in all aspects of system design and integration with a deep understanding of existing and emerging technologies and industry standards for electrical/logical interfaces and protocols.
-      .clearfix
-      %h3 Cost/Performance Optimization
-      = image_tag 'index/gears.jpg', class: 'img-responsive pull-left thumbnail'
-      The Cases Group, LLC offers a dynamic and very lean organization that provides competitive and economical options through cost and performance optimization for all system designs.
-      .clearfix
-      %h3 Trustworthy Support
-      = image_tag 'index/world-ekg-green.jpg', class: 'img-responsive pull-left thumbnail'
-      The Cases Group, LLC is an US-based company providing global services to entities and individuals within the framework of rules and regulations established by local and international agencies. Our excellent communication skills and extensive knowledge in the fields of interest provide the ultimate support and excellent customer services for all designs related to high technology products.
-      .clearfix
-      %h3 Professional/Experienced Team
-      = image_tag 'index/businessmeeting.jpg', class: 'img-responsive pull-left thumbnail'
+- if carousel.present?
+  - content_for :carousel, site_partial('carousel') 
 
-      The Cases Group, LLC is composed of seasoned personnel with a robust industry experience. Our business model is tailored to every customer needs. We practice state-of-the-art techniques to achieve the goals of our customers at an affordable cost.   
-      .clearfix     
-    .col-lg-4.col-md-4= site_partial('submenu')
+.row
+  .col-lg-8.col-md-8#main
+    %h1.page-header Welcome
+    %p 
+      = click_to_call
+      is a design and consulting services firm serving the global market with top quality and experienced designers and consultants who have a keen interest in customer satisfaction through innovation and diversity in the marketplace supported by over 126 years of combined experience. We focus on traditional and very complex designs, implementations and evaluations in the realm of electrical, physical and logical designs of high speed systems.
+    %h3 Reliable Services
+    = image_tag 'index/circuitboard.jpg', class: 'img-responsive pull-left thumbnail'
+    The Cases Group, LLC offers state-of-the-art design, modeling, analysis, and evaluation services. We have strong expertise in all aspects of system design and integration with a deep understanding of existing and emerging technologies and industry standards for electrical/logical interfaces and protocols.
+    .clearfix
+    %h3 Cost/Performance Optimization
+    = image_tag 'index/gears.jpg', class: 'img-responsive pull-left thumbnail'
+    The Cases Group, LLC offers a dynamic and very lean organization that provides competitive and economical options through cost and performance optimization for all system designs.
+    .clearfix
+    %h3 Trustworthy Support
+    = image_tag 'index/world-ekg-green.jpg', class: 'img-responsive pull-left thumbnail'
+    The Cases Group, LLC is an US-based company providing global services to entities and individuals within the framework of rules and regulations established by local and international agencies. Our excellent communication skills and extensive knowledge in the fields of interest provide the ultimate support and excellent customer services for all designs related to high technology products.
+    .clearfix
+    %h3 Professional/Experienced Team
+    = image_tag 'index/businessmeeting.jpg', class: 'img-responsive pull-left thumbnail'
 
-:css
-  #main img{
-    margin-right: 12px;
-    width:150px;
-  }
+    The Cases Group, LLC is composed of seasoned personnel with a robust industry experience. Our business model is tailored to every customer needs. We practice state-of-the-art techniques to achieve the goals of our customers at an affordable cost.   
+    .clearfix     
+  .col-lg-4.col-md-4= site_partial('submenu')
+
+/ :css
+/ #main img{
+/   margin-right: 12px;
+/   width:150px;
+/ }

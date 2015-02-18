@@ -49,7 +49,7 @@ social:
 # View related
 :logo: false
 
-:hostname: localhost:3000
+:hostname: alamotreesystems.com
 
 :carousel:
   - sun-color.jpg
@@ -61,5 +61,5 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-#:theme: simplex
+:theme: flatly
 

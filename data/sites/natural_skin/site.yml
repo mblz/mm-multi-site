@@ -51,7 +51,7 @@ social:
 # View related
 :logo: false
 
-:hostname: localhost:3000
+:hostname: naturalskincaresa.com
 
 :carousel:
   - stone.jpg
@@ -62,5 +62,7 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-#:theme: slate
+# :theme: cosmo
+
+# :navbar-theme:
 

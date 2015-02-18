@@ -1,35 +1,33 @@
 
-:title: Magnolia Realty
-:description: Default Site Description
-:keywords: Site, key, words
+:title: Magnolia Homes
+:description: Custom Home Builder | Frio County, Pearsall Tx | 210.460.2126
+:keywords: Custom Home Builder
 
 
-:name: site_name_change_me
-:email: default@e.com
-:phone: 777 777 7777
+:name: Magnolia
+:email: magrealestate@gmail.com
+:phone: 210 460 2126
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: Site street
-  :city: San Antonio
+  :street: 
+  :city: Pearsall
   :state: Texas
-  :zip: 78000
+  :zip: 78061
 
 :owner:
-  :name: Owner Name
-  :email: Owner email
+  :name: Ony Hall
+  :email: magrealestate@gmail.com
   :address: 
     :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :city: Pearsall
+    :state: Texas
+    :zip:  78061
 
 nav:
-  - title: Services
-    cnt: true
   - title: About
     cnt: true    
   - Gallery
@@ -51,7 +49,7 @@ social:
 # View related
 :logo: false
 
-:hostname: localhost:3000
+:hostname: magrealestate.com
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab

@@ -1,7 +1,7 @@
 
 :title: Heartwood Tree Service
 :description: Heartwood Tree Service
-:keywords: tree, service
+:keywords: tree service, tree trimming, tree removal, ball moss removal, tree fertilization, tree planting
 
 
 :name: heartwood
@@ -50,17 +50,12 @@ social:
 # View related
 :logo: false
 
-:hostname: http://www.heartwoodtreesa.com/
+:hostname: heartwoodtreesa.com
 
-:carousel:
-  - http://assets.integrated-internet.com/sites/heartwood/img/carousel/header.jpg
-  - http://assets.integrated-internet.com/sites/heartwood/img/carousel/trimming.jpg
-  - http://assets.integrated-internet.com/sites/heartwood/img/carousel/preservation.jpg
-  
 
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: cosmo
+# :theme: cosmo
 

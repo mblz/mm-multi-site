@@ -51,7 +51,7 @@ social:
 # View related
 :logo: false
 
-:hostname: localhost:3000
+:hostname: thecasesgrp.com
 
 :carousel:
   - http://assets.integrated-internet.com/sites/cases/img/carousel/header.jpg

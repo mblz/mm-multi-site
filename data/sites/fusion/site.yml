@@ -1,4 +1,13 @@
-:hostname: myfusionsa.com
+nav:
+ - :title: Services
+   :cnt: true
+ - Clients
+ - FAQs
+ - Contact
+ - Gallery
+
+
+:hostname: myfusionsalon.com
 
 # Become global meta values if not defined more specifically
 :title: Fusion Salon
@@ -19,7 +28,7 @@
   :zip: 78250
 
 :owner:
-  :name: Owner Name
+  :name: Marissa Spencer
   :email: Owner email
   :address: 
     :street: Owner street
@@ -32,11 +41,6 @@
   #twitter: Fusion
 
 
-nav:
- - :title: Services
-   :cnt: true
- - Contact
- - Gallery
 
 
 
@@ -49,7 +53,7 @@ contact_form:
     - Email 
     - Phone
 
-theme: cosmo
+# theme: cosmo
 
 # - 
 #  :title: About

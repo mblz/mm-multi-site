@@ -1,0 +1,44 @@
+= stylesheet_link_tag "blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "blueimp-gallery.min.js"
+
+
+.container
+  %h1.page-header 
+    Portfolio
+    %small pictures of what we do
+#blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
+  .slides
+  %h3.title
+  %a.prev &laquo;
+  %a.next &raquo;
+  %a.close x
+  %a.play-pause
+  %ol.indicator
+
+#gallery
+  .container
+    .row
+      %p.pull-right 
+        %small.text-muted (click the thumbnail on the left to launch the gallery view)
+      .clearfix
+      - if site(:portfolio)
+        - site(:portfolio).each do |pio|
+          .panel.panel-default.gallery
+            .panel-heading= pio.title
+            .panel-body
+              = link_to "/assets/img/portfolio/#{pio.img}" do
+                = image_tag "portfolio/thumb/#{pio.img}", class: 'pull-left', style: "margin-right:28px"
+              %h4= pio.info unless pio.info.blank?
+              - items = pio.items || []
+              - if items.present?
+                %ul
+                  - items.each do |item|
+                    %li= item
+        = javascript_include_tag 'gallery'
+
+        :css
+          #gallery img{
+          width: 150px;
+          }
+      - else
+        ERROR

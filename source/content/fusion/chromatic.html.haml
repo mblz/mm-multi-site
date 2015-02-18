@@ -1,0 +1,31 @@
+---
+title: Chromatics Color
+---
+
+.row
+  .col-lg-8
+    %h1.page-header
+      Chromatics Color
+      %small.text-muted New innovative oil based delivery color line from Redken 
+    %h3 Chromatics Color is :
+    %ul
+      %li Soy free
+      %li Gluten free
+      %li Ammonia Free
+
+    %h3 Product Benefits
+    %h4 2X FORTIFIED HAIR
+    %ul
+      %li Revolutionary ODS2 + Protein Extract Technology leaves hair 2X fortified vs. uncolored hair
+      %li ZERO AMMONIA, ZERO ODOR
+      %li Advanced no ammonia, no odor formula offers the ultimate in comfort for stylists and clients
+      %li UP TO 100% COVERAGE
+    %p
+      The impeccable gray coverage you need, with rich, even results from root to tip
+      Are Vibrant and multidimensional colors not achieved with traditional color
+      Great for any person that has allergies to gluten or soy, are pregnant, or just want to have options. 
+
+    %p= link_to "Please go to learn about this amazing Redken color.", "http://www.redken.com/salon-services/haircolor/chromatics-101/"
+    %h3 Chromatic Color Prices
+    = site_partial("prices", locals: {items: site(:prices)[:chromatic]})   
+  = partial("content/fusion/services")  

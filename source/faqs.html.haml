@@ -1,0 +1,15 @@
+---
+title: title
+keywords: keywords
+---
+
+%h1.page-header 
+  FAQs
+  %small Frequently asked questions
+
+- if site(:faqs)
+  %ul
+    - site(:faqs).each do |faq|
+      %li
+        %b= faq.q
+        %p= faq.a

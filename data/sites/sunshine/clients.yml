@@ -1,0 +1,36 @@
+- name: D.Y
+  location: Houston
+  info: >
+       Hardscape Design and Construction - Build a Gazebo surrounded with Italian Cypresses with a rock walkway in the backyard. The backyard is also beautifully designed and created a flow of St. Augustine, Cypress Trees, Antique Roses, Myrtles and other shrubs.
+  img: gazebo-walkway.jpg
+  items:
+  - Hardscape Landscaping
+  - Gazebo and Fountains
+
+- name: E
+  location: San Antonio
+  info: >
+       Colorado Rock Landscaping with small fountains to add to this awesome looking house with Palm Trees, 
+       Colorado Rocks to enhance landscaping with fountains.
+  img: colorado-rock-landscaping.jpg
+  items:
+  - Colorado Rocks with Landscaping
+  - Fountains
+
+- name: S
+  location: Houston
+  title: Red Mulch
+  info: >
+       Client wanted different Palms and different red tip plants for color to accomplish an English Garden with the roundness of the shrubs.
+  img: red-seasonal-plants.jpg
+  items:
+  - Red Seasonal Plants
+
+- name: D.E
+  location: Houston
+  title: Red Mulch
+  info: >
+       This gorgeous landscaping is the result of annual flowering plants with French flowers surrounded with Date Palms and other palms for a finish install design.
+  img: red-seasonal-plants.jpg
+  items:
+  - Annual Flowing Plants landscaping

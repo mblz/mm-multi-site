@@ -1,3 +1,11 @@
+nav:
+  - title: Services
+    cnt: true
+  - Clients
+  - title: About
+    cnt: true 
+  - Gallery
+  - Contact
 
 :title: Sunshine Landscaping
 :description: Default Site Description
@@ -5,17 +13,17 @@
 
 
 :name: sunshine
-:email: default@e.com
-:phone: 777 777 7777
+:email: raymond@sunshine-landscape.com
+:phone: 210-585-2701
 
 :address: 
-  :street: Site street
-  :city: Site city
-  :state: Site state
-  :zip: Site Zip
+  :street: 29360FM 360-A-2
+  :city: Spring Branch
+  :state: Texas
+  :zip: 78070
 
 :owner:
-  :name: Owner Name
+  :name: Raymond Dadi
   :email: Owner email
   :address: 
     :street: Owner street
@@ -23,13 +31,6 @@
     :state: Owner state
     :zip: Owner Zip
 
-nav:
-  - title: Services
-    cnt: true
-  - title: About
-    cnt: true 
-  - Gallery
-  - Contact
 
 
 contact_form:
@@ -49,11 +50,11 @@ social:
 # View related
 :logo: false
 
-:hostname: http://www.sunshine-landscape.com/
+:hostname: sunshine-landscape.com
 
-:carousel:
-  - http://ray.mblz.com/system/uploads/129/original/redseasonalplants.jpg
-  - http://ray.mblz.com/system/uploads/129/original/granitenaturalstone2.jpg
+# :carousel:
+#   - http://ray.mblz.com/system/uploads/129/original/redseasonalplants.jpg
+#   - http://ray.mblz.com/system/uploads/129/original/granitenaturalstone2.jpg
 
-:theme: sandstone
+# # :theme: sandstone
 

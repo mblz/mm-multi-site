@@ -1,20 +1,19 @@
-.container
-  .row
-    .col-lg-8
-      %h1.page-header Bridal
-      %p 
-        As a bride plans her wedding she comes to a point where she must decide who will service her hair and makeup. This is a very big decision and many brides worry about the results. Worry no further, let 
-        = click_to_call
-        service all your hairstyling, skin care, make-up and hair removal needs.  At 
-        = click_to_call
-        , we work with the bride as well as the entire wedding party to come up with the perfect looks while providing comfort and confidence for the Bride and wedding party.  We also offer lash extensions and hair extensions/additions to achieve any look desired.
-      %p 
-        Our bridal consultant starts with a thorough complimentary consultation with the bride. At this time, we will discuss what your vision is for yourself and bridal party. Find ease and comfort that you will be working with individuals experiences in bridal hair and make-up. We also can service the groom and grooms men. We offer a la carte pricing and customized packages depending on what the bride is looking for.  
-      %h3 Pricing
-      = site_partial("prices", locals: {items: site(:prices).bridal})
+.row
+  .col-lg-8
+    %h1.page-header Bridal
+    %p 
+      As a bride plans her wedding she comes to a point where she must decide who will service her hair and makeup. This is a very big decision and many brides worry about the results. Worry no further, let 
+      = click_to_call
+      service all your hairstyling, skin care, make-up and hair removal needs.  At 
+      = click_to_call
+      , we work with the bride as well as the entire wedding party to come up with the perfect looks while providing comfort and confidence for the Bride and wedding party.  We also offer lash extensions and hair extensions/additions to achieve any look desired.
+    %p 
+      Our bridal consultant starts with a thorough complimentary consultation with the bride. At this time, we will discuss what your vision is for yourself and bridal party. Find ease and comfort that you will be working with individuals experiences in bridal hair and make-up. We also can service the groom and grooms men. We offer a la carte pricing and customized packages depending on what the bride is looking for.  
+    %h3 Pricing
+    = site_partial("prices", locals: {items: site(:prices).bridal})
 
-      %h4 Your locations or ours?
-      %p 
-        Our team of professionals will travel to your special event location. A deposit is required at the time of reservations and travel funds will apply. 
-    = partial("content/fusion/services")  
+    %h4 Your locations or ours?
+    %p 
+      Our team of professionals will travel to your special event location. A deposit is required at the time of reservations and travel funds will apply. 
+  = partial("content/fusion/services")  
 

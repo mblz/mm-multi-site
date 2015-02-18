@@ -1,0 +1,49 @@
+---
+title: 
+---
+= stylesheet_link_tag "blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "blueimp-gallery.min.js"
+
+%p.pull-right 
+  %small.text-muted (click the thumbnail on the left to launch the gallery view)
+%h1.page-header 
+  Clients
+  %small what we've done for them
+
+#blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
+  .slides
+  %h3.title
+  %a.prev &laquo;
+  %a.next &raquo;
+  %a.close x
+  %a.play-pause
+  %ol.indicator
+
+#gallery
+  .container
+    .row
+      .clearfix
+      - if site(:clients)
+        - site(:clients).each do |client|
+          .panel.panel-default.gallery
+            .panel-heading
+              .pull-right= client.location
+              Client:
+              = client.name
+            .panel-body
+              = link_to "/assets/img/clients/#{client.img}" do
+                = image_tag "clients/thumb/#{client.img}", class: 'pull-left', style: "margin-right:28px"
+              %h4= client.info unless client.info.blank?
+              - items = client.items || []
+              - if items.present?
+                %ul
+                  - items.each do |item|
+                    %li= item
+        = javascript_include_tag 'gallery'
+
+        :css
+          #gallery img{
+          width: 150px;
+          }
+      - else
+        ERROR - you need to add a clients.yml

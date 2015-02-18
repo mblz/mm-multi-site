@@ -12,7 +12,7 @@ p "$SITE=#{$SITE}"
 module SiteHelper
 
 	def page_title
-		meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {}
+		meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {} rescue {}
 		current_page.data.title || meta[:title] || site.title
 	end
 

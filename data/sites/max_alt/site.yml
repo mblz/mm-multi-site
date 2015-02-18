@@ -29,6 +29,7 @@
 nav:
   - title: Services
     cnt: true
+  - Portfolio
   - Gallery
   - Contact
 
@@ -48,7 +49,7 @@ social:
 # View related
 :logo: true
 
-:hostname: localhost:3000
+:hostname: maximumaltitude.com
 
 # :carousel:
 #   - abstract_light.jpg
@@ -59,5 +60,5 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: yeti
+:theme: slate
 
