@@ -29,7 +29,8 @@ keywords: images, portfolio, gallery
             - gallery.images.each do |image|
               - url       = "/assets/img/gallery/#{gallery.name}/#{image.name}"
               - thumb_url = "/assets/img/gallery/#{gallery.name}/thumb/#{image.name}"
-              = link_to url, title: image.title do
-                = image_tag thumb_url, title: image.title, 'data-toggle' => :tooltip, title: image.title, class: 'img-rounded' #, class: 'thumbnail'
+              - title     = gallery.title + " " + image.title
+              = link_to url, title: title do
+                = image_tag thumb_url, 'data-toggle' => :tooltip, title: image.title, class: 'img-rounded' #, class: 'thumbnail'
 
 = javascript_include_tag 'gallery'

@@ -1,0 +1,17 @@
+---
+title: Hair Design Services
+---
+
+.row
+  .col-lg-8
+    %h1.page-header
+      Hair
+      %small.text-muted  Design Services
+    
+    %h3 
+      Prices
+      %small Prices vary depending on length and density of hair
+    = site_partial("prices", locals: {items: site(:prices)[:hair]})
+
+  = partial("content/fusion/services")
+    

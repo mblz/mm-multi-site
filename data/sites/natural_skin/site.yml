@@ -1,26 +1,26 @@
 
-:title: Natural Beauty Reflections
-:description: Default Site Description
-:keywords: Site, key, words
+:title: Natural Skin Care
+:description: A variety of skin treatments, facials and LamProbe treatments for both men and women. 
+:keywords: Facials, LamProbe, Reflexology, Waxing, Hand Treatments, 
 
 
 :name: norma
-:email: normaperrynbr@gmail.com
-:phone: 210-887-9339
+:email: normacperry@gmail.com
+:phone: 210-978-0622
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: 218 Pat Booker Rd
+  :street: 401 Isom Rd Suite 410
   :city: San Antonio
   :state: Texas
-  :zip: 78148
+  :zip: 78216
 
 :owner:
   :name: Norma Perry
-  :email: Owner email
+  :email: normacperry@gmail.com
   :address: 
     :street: Owner street
     :city: Owner city
@@ -54,7 +54,7 @@ social:
 :hostname: naturalskincaresa.com
 
 :carousel:
-  - stone.jpg
+
   - aroma.jpg
   - facial.jpg
 

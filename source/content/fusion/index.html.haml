@@ -1,30 +1,34 @@
----
-title: Fusion me
-
----
-
 - if carousel.present?
-  - content_for :carousel, site_partial('carousel') 
+  - content_for :carousel do
+    = image_tag 'carousel/header2.jpg', class: 'img-responsive', style: 'width:100%'
 
 
 
-%h1 Welcome
-%p Where fusing talents creates the perfect style for you.  Come stressed, leave refreshed!
-
-%p 
-  = click_to_call 
-  is San Antonio's premier beauty salon specializing in cutting edge hairstyles, skin care, haircutting, hair coloring and manicures/pedicures. Our team of service professionals are ready to
-  serve and educate you with the latest’s styles and trends. We are the premier salon experience that
-  you deserve!
+%h1.page-header
+  Welcome to Fusion Salon
+  %small
+    Where fusing talent, experience, and education, creates your perfect style.
 
 %p 
-  At 
-  = click_to_call
-  we pride ourselves on perfecting our craft. We keep up with current hair trends, training, and education to better serve you.   We will bring our creativity and expertise to co-create the perfect look for you based on lifestyle, face shape and skin tone.
+  Hello my name is <b>Marissa Spencer</b>, owner of Fusion Salon. 
+  Fusion Salon consists of an eclectic group of independent highly trained stylists.
+  We pride ourselves on having a fresh and welcoming salon environment.
 
 %p 
-  = click_to_call
-  is a Redken Salon, we can fulfill any hair and make-up need for fashions shows, photo-shoots for print or artistic, and or any special event.  We also specialize in Men’s haircutting and treatments/therapies for thinning hair, facials and chemical exfoliation services along with full body waxing services.
+  I have been in the beauty industry for 12 years. I believe myself to be professional, creative and a little nerdy. I am passionate about
+  working with my clients to co-create the perfect look that suits their needs and wants. I stay on top of my training and education to perfect
+  my craft. This allows me to deliver new and creative trends, techniques, and products to my clients year after year. I have an advanced menu of
+  hair and skin services that I offer.
 
-%p Please enjoy our warm inviting atmosphere with complimentary beverages and snacks for you, our guests. Please ask about our referral program, we love to reward our clients for sending us new clients. 
+  I offer advanced skills on a wide range of services including Redken Hair Color, Hair Design, Great Lengths Hair extension and
+  glo therapeutics and glo minerals skin care and makeup lines. Through Redken I also offer hair color that is gluten. soy, and 
+  ammonia free.
+
+%h4
+  %em Prices and hours vary depending on the stylist.
+
+:css
+  body{
+  padding-top:50px;
+  }
 

@@ -11,8 +11,8 @@ nav:
 
 # Become global meta values if not defined more specifically
 :title: Fusion Salon
-:description: Fusion salon description
-:keywords: Fusion salon keywords
+:description: Fusion Salon a collection of highly trained stylist. 
+:keywords: hair designs, hair color, make-up, bridal events
 
 :name: fusion
 :email: myfusionsalon@gmail.com
@@ -39,6 +39,7 @@ nav:
 :social:
   facebook: FusionSalonSA
   #twitter: Fusion
+  insta: marissaspencer_fusionsalon
 
 
 
