@@ -1,11 +1,27 @@
 ---
 title: Redken Hair Color
-description: Redken Hair Color Products
 ---
 
 .row
   .col-lg-8
     %h1.page-header
-      Redken Hair Color
-      %small.text-muted Redken Color line 
-    %h3 Redken is :
+      Hair Coloring and Texture Services
+      %small.text-muted from Redken 
+          
+    %h3 Hair Coloring Prices
+    = site_partial("prices", locals: {items: site(:prices)[:coloring]}) 
+    %h3 Highlights and Advanced Techniques Prices
+    = site_partial("prices", locals: {items: site(:prices)[:highlights]})
+    %h3 Texture Prices
+    = site_partial("prices", locals: {items: site(:prices)[:texture]})
+
+    %h3 Chromatics Color:
+    %ul
+      %li Soy free
+      %li Gluten free
+      %li Ammonia Free
+      
+    %h3 Chromatic Color Prices
+    = site_partial("prices", locals: {items: site(:prices)[:chromatic]})   
+  = partial("content/fusion/services")  
+

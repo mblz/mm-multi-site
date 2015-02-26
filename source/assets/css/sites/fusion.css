@@ -1428,7 +1428,12 @@ table th[class*="col-"] {
   background-color: #faf2cc;
   border-color: #f8e5be;
 }
+
 @media (max-width: 768px) {
+
+  #logo{
+    height: 54px;
+  }   
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;

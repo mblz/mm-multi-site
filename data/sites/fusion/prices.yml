@@ -1,3 +1,41 @@
+:coloring:
+- - Retouch Color
+  - 55
+- - Full Color
+  - 85
+- - Full Glaze
+  - 75
+- - Refresh Glaze 
+  - 30
+- - Mens Color
+  - 55
+
+:highlights:
+- - Traditional Highlights Full
+  - 85
+- - Traditional Highlights Partial
+  - 85
+- - Face frame Foils
+  - 45
+- - Ombre 
+  - 105
+- - Balayge
+  - 135
+- - Mixed Technique
+  - 145
+- - Color Correction per hour
+  - 85
+- - Color Toning Service
+  - 25
+
+:texture:
+- - Perm
+  - 95
+- - Bio Ionic Keratin Treatment
+  - 275
+- - Hair Straightening Services
+  - 175
+
 :hair:
 - - Womens Haircut
   - 45
@@ -9,14 +47,10 @@
   - 50
 - - Special Event Style
   - 65
-- - Up-Do
-  - 75
 - - Bridal Style
   - 95
-- - Womens Haircut
-  - 45
-- - Womens Haircut
-  - 45
+- - Chemistry Shot
+  - 15
 
 :chromatic:
 - - Retouch
