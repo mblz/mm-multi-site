@@ -10,18 +10,19 @@ title: Redken Hair Color
           
     %h3 Hair Coloring Prices
     = site_partial("prices", locals: {items: site(:prices)[:coloring]}) 
-    %h3 Highlights and Advanced Techniques Prices
-    = site_partial("prices", locals: {items: site(:prices)[:highlights]})
-    %h3 Texture Prices
-    = site_partial("prices", locals: {items: site(:prices)[:texture]})
-
-    %h3 Chromatics Color:
+    
+    %h3 Chromatic Color:
     %ul
       %li Soy free
       %li Gluten free
       %li Ammonia Free
       
-    %h3 Chromatic Color Prices
     = site_partial("prices", locals: {items: site(:prices)[:chromatic]})   
+    %h3 Highlights and Advanced Techniques Prices
+    = site_partial("prices", locals: {items: site(:prices)[:highlights]})
+    %h3 Texture Prices
+    = site_partial("prices", locals: {items: site(:prices)[:texture]})
+
+       
   = partial("content/fusion/services")  
 

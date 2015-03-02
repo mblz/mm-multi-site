@@ -1,0 +1,7 @@
+.container
+  %h1.page-header
+    Recreational Vehicles
+    %small.text-muted for sale
+  .listings
+    - data.sites.rv.rvs.each do |rv|
+      .listing= partial('content/rv/listing', locals: {rv: rv})

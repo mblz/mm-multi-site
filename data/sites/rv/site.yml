@@ -1,0 +1,67 @@
+
+:title: "Kirk &amp; Sabin"
+:description: Default Site Description
+:keywords: Site, key, words
+
+
+:name: site_name_change_me
+:email: default@e.com
+:phone: 777 777 7777
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: Site street name
+  :city: San Antonio
+  :state: Texas
+  :zip: 78000
+
+:owner:
+  :name: Owner Name
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: RVs
+    url: /content/rv/rvs/index.html
+  - title: Boats
+    url: /content/rv/boats/index.html     
+  - title: About
+    cnt: true    
+  - Contact
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook:
+  twitter:
+  google:
+
+# View related
+:logo: false
+
+:hostname: localhost:3000
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+#:theme: simplex
+
