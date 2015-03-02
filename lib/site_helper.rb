@@ -80,8 +80,8 @@ module SiteHelper
   #   "//assets.integrated-internet.com/sites/#{$SITE}/img/#{img}" 
   # end 
   def link_imgs
-    system "unlink ~/Sites/static/site/source/assets/img"
-    system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/static/site/source/assets/img"
+    system "unlink ~/Sites/mm-multi-site/source/assets/img"
+    system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/mm-multi-site/source/assets/img"
   end
 
   def build_dir
