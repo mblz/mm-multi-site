@@ -1,6 +1,6 @@
 module GalleryHelper
 	def img_dir_for path
-		(data.config.build_dir + path + "*").sub('/site/', "/#{$SITE}/")
+		File.expand_path(data.config.build_dir + path + "*").sub('/site/', "/#{$SITE}/")
 	end
 	def carousel
     dir = img_dir_for(data.config.carousel_dir)
@@ -9,6 +9,7 @@ module GalleryHelper
 
 	def gallery_dirs
 		dir = img_dir_for(data.config.gallery_dir)
+		p dir
     Dir.glob(dir).select {|f| File.directory? f}		
 	end
 
