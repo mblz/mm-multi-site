@@ -21,6 +21,6 @@
                   = link_to nav, "/#{nav.downcase}.html"  
                 - else
                   - if nav.cnt
-                    = link_to nav.title, "/content/#{$SITE}/#{nav.title.downcase}.html"   
+                    = link_to nav.title, "/content/#{$SITE}/#{parameterize nav.title}.html"   
                   - else  
                     = link_to nav.title, nav.url      
