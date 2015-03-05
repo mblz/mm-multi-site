@@ -3,12 +3,10 @@
 :keywords: mobile, virtual assistance, crm
 
 nav:
-  - title: No Office?
+  - title: Managed CRM
     cnt: true
-  - title: Service Oriented?
-    cnt: true   
-
-  - Gallery
+  - title: Features
+    cnt: true
   - Contact
 
 
@@ -27,8 +25,8 @@ nav:
   :zip: 78000
 
 :owner:
-  :name: Owner Name
-  :email: Owner email
+  :name: Elva Tristan
+  :email: et@mblz.com
   :address: 
     :street: Owner street
     :city: Owner city

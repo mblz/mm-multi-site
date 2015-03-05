@@ -1,0 +1,73 @@
+= stylesheet_link_tag "blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "blueimp-gallery.min.js"
+
+
+#blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
+  .slides
+  %h3.title
+  %a.prev &laquo;
+  %a.next &raquo;
+  %a.close x
+  %a.play-pause
+  %ol.indicator
+
+%h1.page-header 
+  Features 
+  %small of our mobile sofware
+
+%blockquote
+  Simplicity is the soul of efficiency.
+  %footer 
+    Austin Freeman, "The Eye of Osiris"
+#gallery
+  .panel.panel-default
+    .panel-heading
+      .pull-right.text-muted are action oriented
+      .fa.fa-bullhorn.fa-lg
+      The 'Now' page
+    .panel-body
+      .pull-right= image_tag 'screens/now.png'
+
+      %h3 The 'Now' page is your landing page. 
+      %p
+        It works (mostly) the same whether you are on a mobile device or your desktop.
+      %p
+        It is the heart of the app and provides quick, actionable links to the most recent items and events.
+        For example, the most recently updated contacts and estimates are immidiately accessible.
+        Here, you will also find the call activity.
+      .gallery
+        = link_to("/assets/img/features/now/calls.png", title: 'Most recent calls') do
+          = image_tag("features/now/thumb/calls.png")
+        = link_to("/assets/img/features/now/invoice.png", title: 'Most recent invoices') do
+          = image_tag("features/now/thumb/invoice.png")          
+
+
+  .panel.panel-default
+    .panel-heading
+      .pull-right.text-muted become invoices
+      .fa.fa-pencil.fa-lg
+      Estimates
+    .panel-body
+      .pull-right.text-muted= image_tag 'screens/invoice.png'
+
+
+
+  .panel.panel-default
+    .panel-heading
+      .pull-right.text-muted can ring whomever you like
+      .fa.fa-phone.fa-lg
+      Incoming calls
+    .panel-body
+      .pull-right= image_tag 'screens/calls.png'
+
+        
+:css
+  .gallery{
+    padding:12px;
+  }
+  .gallery img{
+  height: 100px;
+  }    
+
+
+= javascript_include_tag 'gallery'
