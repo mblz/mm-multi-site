@@ -10,55 +10,100 @@
   %a.close x
   %a.play-pause
   %ol.indicator
+.row
+  .col-sm-6
+    %h1.page-header 
+      Features 
+      %small of our sofware is simple
+  .col-sm-6
+    %p
+      %br
+    %blockquote
+      Simplicity is the soul of efficiency.
+      %footer 
+        Austin Freeman, "The Eye of Osiris"
 
-%h1.page-header 
-  Features 
-  %small of our mobile sofware
 
-%blockquote
-  Simplicity is the soul of efficiency.
-  %footer 
-    Austin Freeman, "The Eye of Osiris"
 #gallery
   .panel.panel-default
     .panel-heading
-      .pull-right.text-muted are action oriented
+      .pull-right.text-muted is action oriented
       .fa.fa-bullhorn.fa-lg
       The 'Now' page
     .panel-body
-      .pull-right= image_tag 'screens/now.png'
+      .pull-right= image_tag 'screens/now.png', class: 'img-responsive'
 
-      %h3 The 'Now' page is your landing page. 
-      %p
-        It works (mostly) the same whether you are on a mobile device or your desktop.
-      %p
-        It is the heart of the app and provides quick, actionable links to the most recent items and events.
-        For example, the most recently updated contacts and estimates are immidiately accessible.
-        Here, you will also find the call activity.
+      %h3.page-header
+        The 'Now' page
+        %small "what is happening now?"
+      %ul
+        %li
+          It is the heart of the app and provides quick, actionable links to the most recent items and events.
+        %li
+          Cliick the images below to see tha parts of the now page which include the most recent:
+          %ul
+            %li Contacts
+            %li Invoices
+            %li Calls
+            %li Comments
+            %li Forms
+            %li Activities
+        %li 
+          = click_to_call 
+          works the same whether you are on a mobile device or your desktop (mostly).
+
       .gallery
-        = link_to("/assets/img/features/now/calls.png", title: 'Most recent calls') do
-          = image_tag("features/now/thumb/calls.png")
-        = link_to("/assets/img/features/now/invoice.png", title: 'Most recent invoices') do
-          = image_tag("features/now/thumb/invoice.png")          
-
+        - site(:features)[:now].each do |feature|
+          = site_partial('thumb', locals: {path: 'features/now', feature: feature})
 
   .panel.panel-default
     .panel-heading
-      .pull-right.text-muted become invoices
+      .pull-right.text-muted get paid fast
       .fa.fa-pencil.fa-lg
-      Estimates
+      Estimates &amp; Invoices
     .panel-body
-      .pull-right.text-muted= image_tag 'screens/invoice.png'
-
+      .pull-right.text-muted= image_tag 'screens/invoice.png', class: 'img-responsive'
+      %h3.page-header
+        Estimates &amp; Invoices
+        %small make up the 'Work Pipeline' via Status changes
+      %ul
+        %li Estimates are sent to customers in real-time
+        %li When customers receive the estimate, via a custom, secure link, and they can confirm the order
+        %li Upon confirm (or deny) a text message is sent to the owner
+        %li Once ready to work the Invoice Status is moved to 'Work'
+        %li When the work is complete it is moved into the 'Invoice' status
+        %li Once in 'Invoice' status, a link is sent to the customer, where they can pay with Paypal
+      %p
+        Taken together, this process amounts to a 'Todo list' in your work pipeline 
+        \- informing you at every stage 
+        what work needs to get done and 
+        %b how far you are from getting paid.
+        .gallery
+          - site(:features)[:invoice].each do |feature|
+            = site_partial('thumb', locals: {path: 'features/invoice', feature: feature})
 
 
   .panel.panel-default
     .panel-heading
-      .pull-right.text-muted can ring whomever you like
+      .pull-right.text-muted with your programmable number
       .fa.fa-phone.fa-lg
       Incoming calls
     .panel-body
-      .pull-right= image_tag 'screens/calls.png'
+      .pull-right= image_tag 'features/calls/now.png'
+      %h3.page-header
+        Incoming calls
+        %small can ring any number(s) you would like
+      %ul
+        %li We provide every customer with a programmable number
+        %li Everyone in the system can see who called
+        %li Contacts can be dialed with a click of a button
+        %li Never lose a contact
+        %li Never miss a call
+        %li Let us answer it!      
+      .gallery
+        - site(:features)[:calls].each do |feature|
+          = site_partial('thumb', locals: {path: 'features/calls', feature: feature})
+
 
         
 :css

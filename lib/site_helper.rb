@@ -47,7 +47,7 @@ module SiteHelper
     if nav.is_a?(String)
       path = "#{nav.downcase}.html"  
     elsif nav.cnt
-    	path = "content/#{$SITE}/#{nav.title.downcase}.html"
+    	path = "content/#{$SITE}/#{parameterize nav.title}.html"
     else 
     	path = nav.link
     end
