@@ -7,19 +7,20 @@ nav:
     cnt: true
   - title: Features
     cnt: true
+  - Testimonials
   - Contact
 
 
 :name: mblz
 :email: admin@mblz.com
-:phone: (210) 289-8278
+:phone: (210) 585-4014
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: Site street name
+  :street: 
   :city: San Antonio
   :state: Texas
   :zip: 78000

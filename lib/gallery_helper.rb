@@ -9,7 +9,6 @@ module GalleryHelper
 
 	def gallery_dirs
 		dir = img_dir_for(data.config.gallery_dir)
-		p dir
     Dir.glob(dir).select {|f| File.directory? f}		
 	end
 

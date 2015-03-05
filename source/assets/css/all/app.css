@@ -12,3 +12,6 @@ span.click_to_call{
   color: firebrick;
 }
 
+ul li.no-style{
+	list-style: none;
+}
