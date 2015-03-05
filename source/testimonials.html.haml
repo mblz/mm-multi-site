@@ -1,0 +1,24 @@
+---
+title: Testimonials
+description: What our customers say
+keywords: Testimonials, customers, referrals
+---
+
+%h1.page-header 
+  Testimonials
+  %small what our customers say about us
+
+
+- if tests = site(:testimonials)
+  -  tests.each do |test|
+    
+    %h2.page-header
+      = test.name
+      .pull-right= link_to test.url, test.url
+    %blockquote
+      = test.says
+      %footer
+        = test.owner
+- else
+  ERROR add a tesiminial yml to data. 
+

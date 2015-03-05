@@ -69,23 +69,14 @@ module SiteHelper
   def parameterize title
     ActiveSupport::Inflector.parameterize(title)
   end
-  
-  # Replaced this with symlink
-  # def site_img img, *args
-  #   image_tag(site_img_path(img), *args)
-  # end
 
-  # # Keep images remotely
-  # def site_img_path img, *args
-  #   "//assets.integrated-internet.com/sites/#{$SITE}/img/#{img}" 
-  # end 
   def link_imgs
     system "unlink ~/Sites/mm-multi-site/source/assets/img"
     system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/mm-multi-site/source/assets/img"
   end
 
   def build_dir
-    data.config.build_dir.sub("/site/","/#{$SITE}/")
+    File.expand_path(data.config.build_dir).sub("/site/","/#{$SITE}/")
   end
 end
 
