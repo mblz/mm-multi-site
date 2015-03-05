@@ -71,12 +71,11 @@ module SiteHelper
   end
 
   def link_imgs
-#    system "unlink ~/Sites/mm-multi-site/source/assets/img"
+    system "unlink ~/Sites/mm-multi-site/source/assets/img"
     system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/mm-multi-site/source/assets/img"
   end
 
   def build_dir
-    system "unlink ~/Sites/mm-multi-site/source/assets/img"
     data.config.build_dir.sub("/site/","/#{$SITE}/")
   end
 end

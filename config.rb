@@ -33,6 +33,7 @@ configure :build do
   ignore /^content\/(?!#{$SITE})/
   ignore /^\.git/
 
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
