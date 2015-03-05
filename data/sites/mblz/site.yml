@@ -1,6 +1,6 @@
 :title: Mobilize
 :description: Mobile software for small businesses. Customer relationship management. Virtual office assistance.
-:keywords: mobile, virtual assistance, crm
+:keywords: mobile application, virtual assistance, crm
 
 nav:
   - title: Managed CRM
@@ -19,27 +19,26 @@ nav:
 
 
 :address: 
-  :street: Site street name
+  :street: 8181 Tezel Rd #102-05
   :city: San Antonio
   :state: Texas
-  :zip: 78000
+  :zip: 78250
 
 :owner:
   :name: Elva Tristan
   :email: et@mblz.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
-
-
+    :street: 8181 Rezel Rd #102-05
+    :city: San Antonio
+    :state: Tx
+    :zip: 78250
 
 
 contact_form:
   subject: Contact from Site
   fields:
     - Service requested
+    - Business Name
     - Email 
     - Phone
 

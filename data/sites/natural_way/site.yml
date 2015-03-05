@@ -1,31 +1,32 @@
 
-:title: The Natural Way
-:description: Default Site Description
-:keywords: Site, key, words
+:title: Natual Way Auriculotherapy
+:description: A natural alternative for general wellness and healthy weight loss.
+:keywords: auriculotherapy, diabetes, weight loss, holistic therapy, pregancy illness,
+ chronic fatigue
 
 
 :name: natural_way
-:email: default@e.com
-:phone: 777 777 7777
+:email: drgoldberg@naturalwaysa.com
+:phone: 210-846-0209
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: Site street
+  :street: 218 Pat Booker Rd
   :city: San Antonio
   :state: Texas
-  :zip: 78000
+  :zip: 78148
 
 :owner:
-  :name: Dr. Aaron Goldberg
-  :email: Owner email
+  :name: Dr. Aaron Goldberg, D.D.S.
+  :email: drgoldberg@naturalwaysa.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :street: 108 Michigan Ave
+    :city: San Antonio
+    :state: Tx
+    :zip: 78201
 
 nav:
   - title: About
