@@ -1,7 +1,7 @@
 
 :title: Heartwood Tree Service
 :description: Heartwood Tree Service
-:keywords: tree service, tree trimming, tree removal, ball moss removal, tree fertilization, tree planting
+:keywords: tree services, tree trimming, tree removal, ball moss removal, tree fertilization, tree planting, tree diagnosis, tree preversation
 
 
 :name: heartwood
@@ -22,10 +22,10 @@
   :name: George Potter
   :email: george@heartwoodtreesa.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :street: 4201 Stahl Rd
+    :city: San Antonio
+    :state: Tx
+    :zip: 78217
 
 nav:
   - title: Services
@@ -38,14 +38,18 @@ contact_form:
   subject: Contact from Site
   fields:
     - Service requested
+    - Name
+    - Address
     - Email 
     - Phone
 
 social:
-  facebook:
+  facebook: https://www.facebook.com/pages/Heartwood-Tree-Service/271548752876149
   twitter:
   google_plus: Heartwoodtreesa
-
+  pinterest: https//www.pinterest.com/heartwoodtreesa
+  yelp: http://yelp.com/biz/heartwoodtree-service-san-antonio
+  angieslist: http://my.angieslist/Reviews/8358248
 
 # View related
 :logo: false

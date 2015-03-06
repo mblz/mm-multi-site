@@ -1,5 +1,5 @@
 nav:
-  - title: Services
+  - title: Sunshine Landscaping Management & Design
     cnt: true
   - Clients
   - title: About
@@ -7,13 +7,13 @@ nav:
   - Gallery
   - Contact
 
-:title: Sunshine Landscaping
-:description: Default Site Description
-:keywords: Site, key, words
+:title: Sunshine Landscaping Management
+:description: Landscaping company specializing in hardscape, irrigation and retainer walls. 
+:keywords: landscaping, hardscape, irrigation, water features, plant installation, lighting, retainer walls
 
 
 :name: sunshine
-:email: raymond@sunshine-landscape.com
+:email: slandscapemgmt@gmail.com
 :phone: 210-585-2701
 
 :address: 
@@ -24,12 +24,12 @@ nav:
 
 :owner:
   :name: Raymond Dadi
-  :email: Owner email
+  :email: slandscapemgmt@gmail.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :street: 29360FM 360-A-Z
+    :city: Spring Branch
+    :state: Texas
+    :zip: 78070
 
 
 
@@ -37,6 +37,8 @@ contact_form:
   subject: Contact from Site
   fields:
     - Service requested
+    - Name
+    - Address
     - Email 
     - Phone
     - Date
