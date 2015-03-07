@@ -76,7 +76,7 @@ module SiteHelper
   end
 
   def build_dir
-    File.expand_path(data.config.build_dir).sub("/site/","/#{$SITE}/")
+    (File.expand_path(data.config.build_dir) + "/").sub("/site/","/#{$SITE}/")
   end
 end
 
