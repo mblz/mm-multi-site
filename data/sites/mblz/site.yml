@@ -20,7 +20,7 @@ nav:
 
 
 :address: 
-  :street: 8181 Tezel Rd #102-05
+  :street: "8181 Tezel Rd #102-05"
   :city: San Antonio
   :state: Texas
   :zip: 78250
@@ -29,7 +29,7 @@ nav:
   :name: Elva Tristan
   :email: et@mblz.com
   :address: 
-    :street: 8181 Rezel Rd #102-05
+    :street: "8181 Rezel Rd #102-05"
     :city: San Antonio
     :state: Tx
     :zip: 78250

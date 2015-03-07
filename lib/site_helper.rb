@@ -36,6 +36,7 @@ module SiteHelper
 	def site_partial part, *args
 		partial("partials/#{$SITE}/#{part}", *args)
 	rescue
+    #p "Exception: no site partial : #{$!}"
 		partial("partials/site/#{part}", *args)
 	end
 

@@ -44,9 +44,13 @@ contact_form:
     - Phone
 
 social:
-  facebook:
+  facebook: 
   twitter:
-  google:
+  google_plus: 
+  pinterest: 
+  yelp: 
+  angieslist: 
+  linked_in: 
 
 # View related
 :logo: false

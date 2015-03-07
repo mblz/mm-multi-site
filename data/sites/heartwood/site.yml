@@ -44,12 +44,13 @@ contact_form:
     - Phone
 
 social:
-  facebook: https://www.facebook.com/pages/Heartwood-Tree-Service/271548752876149
+  facebook: HeartwoodTreeService
   twitter:
   google_plus: Heartwoodtreesa
-  pinterest: https://www.pinterest.com/heartwoodtreesa
-  yelp: http://yelp.com/biz/heartwoodtree-service-san-antonio
-  angieslist: http://my.angieslist/Reviews/8358248
+  pinterest: heartwoodtreesa
+  yelp: heartwoodtree-service-san-antonio
+  angies_list: 8358248
+  linked_in: 
 
 # View related
 :logo: false
