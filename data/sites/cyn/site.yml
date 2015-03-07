@@ -1,7 +1,7 @@
 
 :title: Cynthia Moseley, LMT
-:description: Default Site Description
-:keywords: Site, key, words
+:description: Specializing in deep tissue, lymphatic drainage, and intuitive energy work.
+:keywords: Massage Therapist, Raindrop Technique, Young Living Oils, deep tissue
 
 
 :name: cyn
@@ -41,9 +41,10 @@ contact_form:
   subject: Contact from Site
   fields:
     - Service requested
+    - Name
     - Email 
     - Phone
-    - What is your adddress?
+    
 
 social:
   facebook:

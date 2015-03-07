@@ -1,0 +1,24 @@
+---
+layout: false
+---
+<% sites.each do |s| %>
+  <% site_data = eval("data.sites.#{s}.site") %>
+  <% host_name = site_data["hostname"]%>
+  <% next if  host_name == 'localhost:3000' %>
+
+# Sitename: <%=s%>
+
+server {
+  listen 80;
+  server_name www.<%=host_name%>;
+  root /home/mblz/static/assets/sites/<%=s%>;
+}
+server {
+  listen 80;
+  server_name <%=host_name%>;
+  return 301 http://www.<%=host_name%>$request_uri;
+}
+
+
+
+<% end %> 

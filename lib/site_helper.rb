@@ -10,6 +10,10 @@ p "$SITE=#{$SITE}"
 
 
 module SiteHelper
+  
+  def sites
+    Dir.glob('data/sites/*').map{|ss| ss.split('/').last}
+  end
 
 	def page_title
 		meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {} rescue {}
@@ -76,7 +80,10 @@ module SiteHelper
   end
 
   def build_dir
-    File.expand_path(data.config.build_dir).sub("/site/","/#{$SITE}/")
+    path = File.expand_path(data.config.build_dir) + "/"
+    dir = path.sub("/site/","/#{$SITE}/")
+    #puts path,dir
+    dir
   end
 end
 

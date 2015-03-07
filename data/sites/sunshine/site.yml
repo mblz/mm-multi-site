@@ -1,5 +1,5 @@
 nav:
-  - title: Sunshine Landscaping Management & Design
+  - title: Services
     cnt: true
   - Clients
   - title: About
@@ -13,7 +13,7 @@ nav:
 
 
 :name: sunshine
-:email: slandscapemgmt@gmail.com
+:email: raymond@sunshine-landscape.com
 :phone: 210-585-2701
 
 :address: 
@@ -24,7 +24,7 @@ nav:
 
 :owner:
   :name: Raymond Dadi
-  :email: slandscapemgmt@gmail.com
+  :email: raymond@sunshine-landscape.com
   :address: 
     :street: 29360FM 360-A-Z
     :city: Spring Branch
@@ -47,7 +47,7 @@ contact_form:
 social:
   facebook:
   twitter:
-  google:
+  google_plus: sunshine-landscape
 
 # View related
 :logo: false
