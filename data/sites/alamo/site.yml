@@ -1,7 +1,7 @@
 
 :title: Alamo Tree Systems
 :description: Alamo Tree Systems Description
-:keywords: tree, trimming, removal
+:keywords: tree, trimming, removal, land clearing, stump removal 
 
 
 :name: alamo
@@ -22,10 +22,10 @@
   :name: Kirk McCloud
   :email: alamotreesys@gmail.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :street: 4201 Stahl Rd
+    :city: San Antonio 
+    :state: Tx
+    :zip: 78217
 
 nav:
   - title: Services

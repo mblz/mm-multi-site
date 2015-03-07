@@ -78,12 +78,8 @@ module SiteHelper
     system "unlink ~/Sites/mm-multi-site/source/assets/img"
     system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/mm-multi-site/source/assets/img"
   end
-
   def build_dir
-    path = File.expand_path(data.config.build_dir) + "/"
-    dir = path.sub("/site/","/#{$SITE}/")
-    #puts path,dir
-    dir
+    (File.expand_path(data.config.build_dir) + "/").sub("/site/","/#{$SITE}/")
   end
 end
 
