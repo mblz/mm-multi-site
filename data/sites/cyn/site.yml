@@ -20,12 +20,12 @@
 
 :owner:
   :name: Cynthia Moseley
-  :email: Owner email
+  :email: cynthiamoseleylmt@gmail.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :street: 309 E College
+    :city: Silver City
+    :state: NM
+    :zip: 88061
 
 nav:
   - title: Services
@@ -49,7 +49,7 @@ contact_form:
 social:
   facebook:
   twitter:
-  google:
+  google_plus: 
 
 # View related
 :logo: false

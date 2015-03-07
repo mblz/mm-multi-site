@@ -1,31 +1,30 @@
 
-:title: The Cases Group, LLC
-:description: Default Site Description
-:keywords: Site, key, words
+:title: The Cases Grp, LLC
+:description: Austin based company providing Logical and Physical High Speed System design, modeling and analysis.
+:keywords: It Consulting, Electrical design, Logical Designs, Physical Designs, High Speed Digital Systems, Hardware Designs, Software Design
 
 
 :name: cases
-:email: default@e.com
-:phone: 777 777 7777
+:email: moises@thecasesgrp.com
+:phone: 512-762-6582
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: Site street
-  :city: San Antonio
+  :city: Austin
   :state: Texas
-  :zip: 78000
+  :zip: 78746
 
 :owner:
   :name: Moises Cases
-  :email: Owner email
+  :email: moises@thecasesgrp.com
   :address: 
-    :street: Owner street
-    :city: Owner city
-    :state: Owner state
-    :zip: Owner Zip
+    :street: 1605 Chesterwood Cove
+    :city: Austin
+    :state: Tx
+    :zip: 78746
 
 nav:
   - title: Services
@@ -46,7 +45,7 @@ contact_form:
 social:
   facebook:
   twitter:
-  google:
+  google_plus: TheCasesGrpLLCAustin
 
 # View related
 :logo: false

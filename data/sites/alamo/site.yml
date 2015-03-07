@@ -1,7 +1,7 @@
 
 :title: Alamo Tree Systems
-:description: Alamo Tree Systems Description
-:keywords: tree, trimming, removal, land clearing, stump removal 
+:description: Alamo Tree Systems is a licensed San Antonio tree contractor providing comprehensive tree trimming, land clearing, tree removal services in San Antonio area at competitive prices.
+:keywords: tree trimming, tree removal, land clearing, lot clearing, site preparation, stump removal 
 
 
 :name: alamo
@@ -38,13 +38,15 @@ contact_form:
   subject: Contact from Site
   fields:
     - Service requested
+    - Name 
+    - Address
     - Email 
     - Phone
 
 social:
   facebook:
   twitter:
-  google:
+  google_plus: Alamotreesystems
 
 # View related
 :logo: false
