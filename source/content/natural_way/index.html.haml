@@ -1,5 +1,6 @@
-- if carousel.present?
-  - content_for :carousel, site_partial('carousel') 
+/- if carousel.present?
+- content_for :carousel do
+  = image_tag "header.gif", class: 'img-responsive', style: 'width:100%'
 
 %h1.page-header 
   Auriculotherapy
