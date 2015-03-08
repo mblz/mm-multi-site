@@ -33,6 +33,10 @@ nav:
   # - title: About
   #   cnt: true    
   # - Gallery
+  - 
+    title: Specials
+    cnt: true
+
   - Contact
 
 

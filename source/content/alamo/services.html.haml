@@ -1,29 +1,31 @@
-.container
-  .row
-    .col-md-8
-      %h1.page-header
-        Tree Services
-        %small Tree Trimming, Tree Pruning:
+---
+title: Alamo Tree Systems Services
+---
 
+.row
+  .col-md-8
+    %h1.page-header
+      Tree Services
+      %small Tree Trimming, Tree Pruning:
+
+    %ul
+      %li Tree trimming consists of removing hanging tree limbs, branches and new growth
+      %li Thinning dead limbs/branches for sunlight distribution throughout the trees
+      %li Roof Clearance, removing broken branches/limbs touching structures
+      %li Reshaping trees and reshaping canopies
+      %li Weight Reduction from excessive dead limbs/branches
+      %li Tree Separation
+      %li Ball Moss Removal
+      %li
+        = click_to_call
+        will chip and haul all debris off-site
+      %li Maintaining your tree is important for it's future health and growth. It will also makes it easier for future tree maintenance; thus saving you money.
+
+  .col-md-4
+    .well
       %ul
-        %li Tree trimming consists of removing hanging tree limbs, branches and new growth
-        %li Thinning dead limbs/branches for sunlight distribution throughout the trees
-        %li Roof Clearance, removing broken branches/limbs touching structures
-        %li Reshaping trees and reshaping canopies
-        %li Weight Reduction from excessive dead limbs/branches
-        %li Tree Separation
-        %li Ball Moss Removal
-        %li
-          = click_to_call
-          will chip and haul all debris off-site
-        %li Maintaining your tree is important for it's future health and growth. It will also makes it easier for future tree maintenance; thus saving you money.
-
-    .col-md-4
-      .well
-        %ul
-          %li= link_to "Tree Removal", '/content/alamo/tree-removal'
-          %li= link_to "Land Clearing", '/content/alamo/land-clearing'
-      = image_tag 'services/chipper-small.jpg', class: 'img-circle img-responsive'
+        %li= link_to "Tree Removal", '/content/alamo/tree-removal.html'
+        %li= link_to "Land Clearing", '/content/alamo/land-clearing.html'
+    = image_tag 'services/chipper-small.jpg', class: 'img-circle img-responsive'
 
 
- 
