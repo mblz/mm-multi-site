@@ -2,21 +2,27 @@
   - content_for :carousel, site_partial('carousel') 
 
 %h1.page-header 
-  Welcome
-  %small small service-oriented business owner
-
-
+  Small, service-oriented, business owner?
+  %small WELCOME
 
 
 .row
   .col-lg-4.col-md-6
     %h3.page-header
+      %i.fa.fa-gears.gray
       Service oriented
-      %small out in the field
-    Our customers are service contractors who provide a highly skilled service but don't necessarily have office skills, or an office, and may not always be able to answer the phone.
+      %small are you?
+    Our customers provide a highly skilled service out in the field. 
+    They don't necessarily have office skills (or an office) and may not always be able to answer the phone.
+    %p
+      %br
+      %br
+      %br
+      = link_to "We can help", "/content/mblz/managed-crm.html", class: 'btn btn-warning'
 
   .col-lg-4.col-md-6
     %h3.page-header 
+      %i.fa.fa-group.gray
       Service contractors
       %small examples
     
@@ -32,13 +38,15 @@
 
   .col-lg-4.col-md-6
     %h3.page-header 
+      %i.fa.fa-location-arrow.gray
       Managing 
       %small field workers
     Field workers get contact details and routing information with a map for directions, a short descriptive note, and a link to the estimate or invoice. Completing jobs assigned are critical to balancing schedules. 
     Field workers are provided all the necessary tools to increases productivity.
 
     %p
-      %b Complete jobs fast
+      %br
+      = link_to "Complete Jobs Fast", "/content/mblz/features.html", class: 'btn btn-success'
   
 
 %h1.page-header 
@@ -51,6 +59,7 @@
 .row
   .col-lg-4.col-md-6
     %h3.page-header 
+      %i.fa.fa-heart(style='color:firebrick')
       Who
       %small we are
     We are a small company in San Antonio with extensive experience in 
@@ -64,6 +73,7 @@
 
   .col-lg-4.col-md-6
     %h3.page-header 
+      %i.fa.fa-magic(style='color:#336699')
       What
       %small we do
     We help you build customer relationships.
@@ -73,17 +83,21 @@
     answer the phone for you.
     %p
       %br
-      %b Never miss a call
+      = site_link_to "Never miss a call", "managed-crm", class: 'btn btn-primary'
+
   .col-lg-4.col-md-6
     %h3.page-header 
+      %i.fa.fa-rocket(style='color:teal')
       Why
       %small we can help you
     %ul
       %li Improve customer relationships
       %li Automate and simplify business processes
       %li Increase efficiency
-      %li Get paid faster
-    %b Make more money
+      %li 
+        Make more
+        %i.fa.fa-money.fa-2x(style="color:teal")
+    %p= link_to "Get Paid Fast", "/content/mblz/managed-crm.html", class: 'btn btn-primary'
 
 
 

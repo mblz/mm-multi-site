@@ -1,6 +1,6 @@
 .navbar-wrapper
   .container
-    .navbar-default.navbar-inverse.navbar-fixed-top
+    .navbar-fixed-top{class: site["nav_theme"] ? 'navbar-default' : 'navbar-inverse'}
       .container
         .navbar-header
           %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}

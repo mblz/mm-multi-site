@@ -5,6 +5,7 @@ keywords: Testimonials, customers, referrals
 ---
 
 %h1.page-header 
+  %span.fa.fa-heart(style="color:firebrick")
   Testimonials
   %small what our customers say about us
 
@@ -15,11 +16,11 @@ keywords: Testimonials, customers, referrals
       
       %h2.page-header
         = test.name
-        .pull-right= link_to test.url, test.url
+        .pull-right= link_to test.url, "http://#{test.url}", class: 'btn btn-success btn-block', target: '_blank'
       %blockquote
         = test.says
         %footer
           = test.owner
 - else
-  ERROR add a tesiminial yml to data. 
+  ERROR add a testimonial yml to data. 
 

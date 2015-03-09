@@ -40,6 +40,10 @@ module SiteHelper
 		partial("partials/site/#{part}", *args)
 	end
 
+  def site_link_to title, page, *options
+    link_to title, "/content/#{$SITE}/#{page}.html", *options
+  end
+
   def has_side_menu
     partial("partials/#{$SITE}/side_menu") rescue nil
   end

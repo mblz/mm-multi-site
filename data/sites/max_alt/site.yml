@@ -31,6 +31,8 @@ nav:
     cnt: true
   - Portfolio
   - Gallery
+  - title: Help Wanted
+    cnt: true
   - Contact
 
 
@@ -42,7 +44,7 @@ contact_form:
     - Phone
 
 social:
-  facebook:
+  facebook: pages/Maximum-Altitude-Motorsports/137416362966056
   twitter:
   google:
 

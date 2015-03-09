@@ -14,7 +14,7 @@
   .col-sm-6
     %h1.page-header 
       Features 
-      %small of our sofware is simple
+      %small our sofware is simple
   .col-sm-6
     %p
       %br
@@ -38,9 +38,9 @@
         %small "what is happening now?"
       %ul
         %li
-          It is the heart of the app and provides quick, actionable links to the most recent items and events.
+          The 'Now' page is the heart of our and provides quick, actionable links to the most recent items and events.
         %li
-          Cliick the images below to see tha parts of the now page which include the most recent:
+          %small (Click the images below to see tha parts of the now page which include the most recent:)
           %ul
             %li Contacts
             %li Invoices
@@ -48,14 +48,17 @@
             %li Comments
             %li Forms
             %li Activities
-        %li 
-          = click_to_call 
-          works the same whether you are on a mobile device or your desktop (mostly).
+
+         
 
       .gallery
         - site(:features)[:now].each do |feature|
           = site_partial('thumb', locals: {path: 'features/now', feature: feature})
 
+      .clearfix
+      .alert.alert-success
+        = click_to_call 
+        works the same whether you are on a mobile device or your desktop (mostly).
   .panel.panel-default
     .panel-heading
       .pull-right.text-muted get paid fast

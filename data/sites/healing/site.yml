@@ -1,25 +1,25 @@
 
-:title: Integrated Internet
-:description: Web application solutions
+:title: Healing awareness
+:description: Discover Bio-Energetic-Synchronization Technique - B.E.S.T
 :keywords: Site, key, words
 
 
-:name: ii
-:email: info@integrated-internet.com
-:phone: 210-585-4014
+:name: healing
+:email: healingawareness@sbcglobal.net
+:phone: 210-495-1797 
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: "8181 Tezel Rd #102-05"
+  :street: 
   :city: San Antonio
   :state: Texas
-  :zip: 78250
+  :zip: 78000
 
 :owner:
-  :name: Elva Tristan
+  :name: Sharon Tolin
   :email: Owner email
   :address: 
     :street: Owner street
@@ -28,11 +28,6 @@
     :zip: Owner Zip
 
 nav:
-  - title: Services
-    cnt: true
-  - title: About
-    cnt: true    
-  - Portfolio
   - Contact
 
 
@@ -44,14 +39,18 @@ contact_form:
     - Phone
 
 social:
-  facebook:
+  facebook: 
   twitter:
-  google:
+  google_plus: 
+  pinterest: 
+  yelp: 
+  angieslist: 
+  linked_in: 
 
 # View related
 :logo: false
 
-:hostname: integrated-internet.com
+:hostname: healingawareness.com
 
 # :carousel:
 #   - abstract_light.jpg
@@ -62,5 +61,6 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: cyborg
+:theme: paper
+:nav_theme: normal
 
