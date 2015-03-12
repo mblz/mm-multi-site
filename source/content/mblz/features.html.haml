@@ -39,8 +39,8 @@
       %ul
         %li
           The 'Now' page is the heart of our and provides quick, actionable links to the most recent items and events.
-        %li
-          %small (Click the images below to see tha parts of the now page which include the most recent:)
+        %li.no-style
+          
           %ul
             %li Contacts
             %li Invoices
@@ -48,17 +48,26 @@
             %li Comments
             %li Forms
             %li Activities
+            %li.no-style
+              %small (Click the images below to see the parts in action)
 
-         
-
+     
       .gallery
         - site(:features)[:now].each do |feature|
           = site_partial('thumb', locals: {path: 'features/now', feature: feature})
 
       .clearfix
+      %blockquote
+        It seems like magic!
+        %footer
+          = link_to "A satisfied customer", "/testimonials.html"
+         
       .alert.alert-success
         = click_to_call 
         works the same whether you are on a mobile device or your desktop (mostly).
+
+
+
   .panel.panel-default
     .panel-heading
       .pull-right.text-muted get paid fast
@@ -68,7 +77,7 @@
       .pull-right.text-muted= image_tag 'screens/invoice.png', class: 'img-responsive'
       %h3.page-header
         Estimates &amp; Invoices
-        %small make up the 'Work Pipeline' via Status changes
+        %small status changes inform your 'in-work pipeline'
       %ul
         %li Estimates are sent to customers in real-time
         %li When customers receive the estimate, via a custom, secure link, and they can confirm the order
@@ -77,7 +86,7 @@
         %li When the work is complete it is moved into the 'Invoice' status
         %li Once in 'Invoice' status, a link is sent to the customer, where they can pay with Paypal
       %p
-        Taken together, this process amounts to a 'Todo list' in your work pipeline 
+        Taken together, this process amounts to a 'in-work pipeline' in your work pipeline 
         \- informing you at every stage 
         what work needs to get done and 
         %b how far you are from getting paid.

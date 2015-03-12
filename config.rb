@@ -33,6 +33,13 @@ configure :build do
   ignore /^content\/(?!#{$SITE})/
   ignore /^assets\/css\/sites\/(?!#{$SITE})/
   ignore /^\.git/
+
+  # make sure these pages have content 
+  %w[testimonials referrals portfolio faqs clients].each do |test|
+    if site(test).blank?
+      ignore /^#{test}\.html/
+    end
+  end
   #ignore /assets\/fonts\//
 
   # For example, change the Compass output style for deployment

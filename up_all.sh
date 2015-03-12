@@ -1,12 +1,6 @@
-if [ -z "$1" ]   # Exit if no argument given.
-then
-  echo Usage: up.sh [SITE_NAME].
-  echo None provide
-  exit $E_NOARGS
-fi  
+#  --delete              \
 
 rsync -avzp             \
-  --delete              \
   --exclude _*          \
   --exclude _bash       \
   --exclude cms         \
@@ -14,6 +8,6 @@ rsync -avzp             \
   --exclude *.rb        \
   --exclude pvr         \
   --exclude shutterstock \
-  ~/Pictures/assets/sites/$1/ mblz@assets.integrated-internet.com:~/static/assets/sites/$1/
+  ~/Pictures/assets/ mblz@assets.integrated-internet.com:~/static/assets/
 
 ssh bu "chmod -R 755 ~/static/assets/sites"

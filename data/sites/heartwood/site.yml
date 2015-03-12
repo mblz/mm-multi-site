@@ -28,6 +28,8 @@
     :zip: 78217
 
 nav:
+  - title: Arborist
+    cnt: true  
   - title: Services
     cnt: true
   - Testimonials
@@ -38,14 +40,14 @@ nav:
 contact_form:
   subject: Contact from Site
   fields:
-    - Service requested
-    - Name
+    - Your name
     - Address
     - Email 
     - Phone
+    - Service requested
 
 social:
-  facebook: HeartwoodTreeService
+  facebook: pages/Heartwood-Tree-Service/271548752876149
   twitter:
   google_plus: Heartwoodtreesa
   pinterest: heartwoodtreesa

@@ -1,4 +1,5 @@
 $SITE = ENV["site"] || 'site'
+$DEMO = ENV["demo"] || false
 p "$SITE=#{$SITE}"
 
 
@@ -68,7 +69,7 @@ module SiteHelper
   def email_form
     questions        = CGI.escape(site.contact_form.fields.map{|q| "#{q}:"}.join("\n\n"))
     email_string     = "?subject=#{site.contact_form.subject}&body=#{questions}"    
-    mail_to(site.email + email_string, site.email, target: :_blank, class: 'btn btn-success')
+    mail_to(site.email + email_string, site.email, target: :_blank, class: 'btn btn-success btn-block')
   end
 
   def titleize title

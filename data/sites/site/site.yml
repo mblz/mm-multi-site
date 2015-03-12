@@ -1,5 +1,5 @@
 
-:title: Default Site
+:title: MBLZ Site
 :description: Default Site Description
 :keywords: Site, key, words
 
@@ -57,6 +57,8 @@ social:
 
 :hostname: localhost:3000
 
+
+
 # :carousel:
 #   - abstract_light.jpg
 #   - aquarium.jpg
@@ -66,5 +68,6 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-#:theme: simplex
+:theme: journal
 
+nav_theme: normal

@@ -39,7 +39,7 @@ task :build_all do
   end
 end
 
-desc "create thumbs for this dir"
+desc "create thumbs for this imge dir 'rake thumbs[SITE,DIR/NAM]'"
 task :thumbs, [:site, :dir] do |t, args|
   site = args[:site]
   dir  = args[:dir]

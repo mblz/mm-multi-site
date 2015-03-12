@@ -29,7 +29,7 @@
 
 nav:
   - title: Services
-    url: /content/cyn/services/index.html
+    cnt: true
   - title: Products
     cnt: true
   - title: Calendar

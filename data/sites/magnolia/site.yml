@@ -29,6 +29,7 @@
 nav:
   - title: About
     cnt: true    
+  - FAQs
   - Gallery
   - Contact
 

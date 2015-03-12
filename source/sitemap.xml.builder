@@ -5,6 +5,14 @@ xml.urlset 'xmlns' => "http://www.sitemaps.org/schemas/sitemap/0.9" do
       next if /^content\/#{$SITE}*/ !~ page.path
     end
   	next if /^404/ =~ page.path
+  
+  # make sure these pages have content 
+  # %w[testimonials referrals portfolio faqs clients gallery].each do |test|
+  #   if site[test].blank?
+  #     if page.path == 
+  #   end
+  # end
+
     xml.url do
       xml.loc('http://' + site.hostname + url_for("#{site.host}/#{page.path}", {relative: false}))
       xml.lastmod Date.today.to_time.iso8601

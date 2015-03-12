@@ -14,5 +14,10 @@
           .col-lg-4= side_menu
       - else
         = yield
+    / - if $DEMO      
+    /   .container
+    /     /= current_page.path
+    /     = partial("_demo/#{current_page.path}") rescue nil
     = site_partial "footer"
     = javascript_include_tag  "all"
+
