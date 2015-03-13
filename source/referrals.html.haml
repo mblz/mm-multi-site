@@ -4,11 +4,16 @@ title: Referrals
 %h1.page-header
   Referrals
   %small.text-muted= site.title
-- unless site(:referrals).blank?
+- if site(:referrals)
   - site(:referrals).each do |ref|
-    %h3= ref.name
-    %p= ref.says
-    = link_to ref.link.title, "http://" + ref.link.url, class: 'btn btn-primary btn-block'
+    %h3
+      = ref.name
+      .pull-right
+        = link_to ref.phone, "tele:#{ref.phone}" 
+    %p= ref.says 
+    - if ref.link
+      = link_to ref.link.title, "http://" + ref.link.url#, class: 'btn btn-primary btn-block'
+    %hr
 - else
   ERROR: Should not be in site.
   No referrals.yml
