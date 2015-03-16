@@ -3,23 +3,30 @@ title: Contact us
 keywords: contact, form
 skip_side_menu: true
 ---
-.container
-  .row
-    .col-lg-6
-      = site_partial('custom_contact')
-      %h1 Main Address
-      %p= site_partial 'address'
-      %h2 Email
-      %p= email_form
-      .alert.alert-success
-        %h4 When you contact us please include:
-        %ul
-          - site.contact_form.fields.each do |field|
-            %li= field
-      %h2 
-        Phone
-      %p= link_to site.phone, "tel:#{site.phone}", class: 'btn btn-success btn-block'
-      
-    .col-lg-6
-      - if site.geo_embed_address
-        %iframe(width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?#{site.geo_embed_address}")
+
+
+
+.row
+  .col-sm-12
+    %div{:role => "tabpanel"}
+      / Nav tabs
+      %ul.nav.nav-pills{:role => "tablist"}
+        %li.active{:role => "presentation"}
+          %a{"aria-controls" => "form-tab", "data-toggle" => "tab", :href => "#form-tab", :role => "tab"} Contact Form
+        %li{:role => "presentation"}
+          %a{"aria-controls" => "email-tab", "data-toggle" => "tab", :href => "#email-tab", :role => "tab"} Phone/Email
+        %li{:role => "presentation"}
+          %a{"aria-controls" => "location-tab", "data-toggle" => "tab", :href => "#location-tab", :role => "tab"} Location
+
+      / Tab panes
+      .tab-content
+        #form-tab.tab-pane.active{:role => "tabpanel"}= partial('partials/site/contact/form')
+        #email-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/details')
+        #location-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/location')
+
+
+= partial('partials/site/contact/javascript')
+
+
+
+

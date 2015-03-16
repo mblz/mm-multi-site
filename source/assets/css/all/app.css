@@ -15,3 +15,10 @@ span.click_to_call{
 ul li.no-style{
 	list-style: none;
 }
+
+
+@media (max-width: 768px) {
+  #site-subtitle{
+  	display: none;
+  }
+}

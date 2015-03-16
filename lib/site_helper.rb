@@ -69,7 +69,7 @@ module SiteHelper
   def email_form
     questions        = CGI.escape(site.contact_form.fields.map{|q| "#{q}:"}.join("\n\n"))
     email_string     = "?subject=#{site.contact_form.subject}&body=#{questions}"    
-    mail_to(site.email + email_string, site.email, target: :_blank, class: 'btn btn-success btn-block')
+    mail_to(site.email + email_string, site.email, target: :_blank)
   end
 
   def titleize title

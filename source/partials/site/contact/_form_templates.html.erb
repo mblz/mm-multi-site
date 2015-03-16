@@ -1,0 +1,19 @@
+<script id="tplText" type="text/x-jsrender">
+	<div class="form-group row">
+			<label class="col-sm-3 control-label" for="{{:name}}">{{:title}}</label>
+			<div class="col-sm-9">
+				<input class="form-control" name="{{:name}}"
+
+					{{if required}}required="true"{{/if}}
+					{{if name=='email'}}type='email'{{else}}type='text'{{/if}}
+
+
+				/>
+				<div class="help-block with-errors"/>
+			</div>
+			
+	</div>
+</script>
+<!-- 
+					{{ if type=='Text'}} type='text' {{ /if }}
+					{{ if type!='Text'}} type='{{:type}}' {{ /if }} -->
