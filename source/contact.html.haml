@@ -14,14 +14,20 @@ skip_side_menu: true
         %li.active{:role => "presentation"}
           %a{"aria-controls" => "form-tab", "data-toggle" => "tab", :href => "#form-tab", :role => "tab"} Contact Form
         %li{:role => "presentation"}
-          %a{"aria-controls" => "email-tab", "data-toggle" => "tab", :href => "#email-tab", :role => "tab"} Phone/Email
+          %a{"aria-controls" => "email-tab", "data-toggle" => "tab", :href => "#email-tab", :role => "tab"} Email
+        %li{:role => "presentation"}
+          %a{"aria-controls" => "phone-tab", "data-toggle" => "tab", :href => "#phone-tab", :role => "tab"} Phone      
+        %li{:role => "presentation"}
+          %a{"aria-controls" => "hours-tab", "data-toggle" => "tab", :href => "#hours-tab", :role => "tab"} Hours             
         %li{:role => "presentation"}
           %a{"aria-controls" => "location-tab", "data-toggle" => "tab", :href => "#location-tab", :role => "tab"} Location
 
       / Tab panes
       .tab-content
         #form-tab.tab-pane.active{:role => "tabpanel"}= partial('partials/site/contact/form')
-        #email-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/details')
+        #email-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/email')
+        #phone-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/phone')
+        #hours-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/hours')
         #location-tab.tab-pane.fade{:role => "tabpanel"}= partial('partials/site/contact/location')
 
 

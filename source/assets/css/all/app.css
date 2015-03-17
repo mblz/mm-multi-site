@@ -22,3 +22,7 @@ ul li.no-style{
   	display: none;
   }
 }
+
+span.required_field{
+	color:firebrick;
+}

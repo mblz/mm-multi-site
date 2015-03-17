@@ -55,6 +55,8 @@ social:
 
 :hostname: sunshine-landscape.com
 
+theme: sandstone
+#nav_theme: yes
 # :carousel:
 #   - http://ray.mblz.com/system/uploads/129/original/redseasonalplants.jpg
 #   - http://ray.mblz.com/system/uploads/129/original/granitenaturalstone2.jpg

@@ -1,0 +1,38 @@
+<script id="tplText" type="text/template">
+	<div class="form-group row">
+			<label class="col-sm-3 control-label" for="<%name%>"><%title%><% if(required) {%> <span class='required_field'>*</span> <%}%></label>
+			<div class="col-sm-9">
+				<input class="form-control" name="<%name%>" placeholder="<%title%>"
+				<% if(name=='email'){%>type='email'<%} else { %> type='text'<%}%>
+				<% if(required) {%> required <%}%>
+				/>
+				<div class="help-block with-errors"/>
+			</div>
+			
+	</div>
+</script>
+
+<script id="tplSelect" type="text/template">
+	<div class="form-group row">
+			<label class="col-sm-3 control-label" for="<%name%>"><%title%><% if(required) {%> <span class='required_field'>*</span> <%}%></label>
+			<div class="col-sm-9">
+				<select class="form-control" name="<%name%>" <% if(required) {%> required <%}%>>
+				  <option></option>
+				  <% options = options.split(',') %>
+					<%for(var i=0; i < options.length ; i++){%><option value="<%options[i]%>"><%options[i]%></option><%}%>
+				</select>
+				<div class="help-block with-errors"/>
+			</div>			
+	</div>
+</script>
+
+
+<script id="tplTextarea" type="text/template">
+	<div class="form-group row">
+			<label class="col-sm-3 control-label" for="<%name%>"><%title%><% if(required) {%> <span class='required_field'>*</span> <%}%></label>
+			<div class="col-sm-9">
+				<textarea class="form-control" name="<%name%>" placeholder="<%title%>" <% if(required) {%> required <%}%>></textarea>
+				<div class="help-block with-errors"/>
+			</div>			
+	</div>
+</script>

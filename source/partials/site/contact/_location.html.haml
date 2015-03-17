@@ -1,7 +1,8 @@
 = site_partial('custom_contact')
 
-%h1 Main Address
-%p= site_partial 'address'
+%h1.page-header
+  Address
+%h3= site_partial 'address'
 
 
 - if site.geo_embed_address

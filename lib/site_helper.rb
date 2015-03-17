@@ -17,8 +17,8 @@ module SiteHelper
   end
 
 	def page_title
-		meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {} rescue {}
-		current_page.data.title || meta[:title] || site.title
+		#meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {} rescue {}
+		(current_page.data.title || site.title).gsub(/<\/?[^>]*>/,"")
 	end
 
   # Shortcut to data for the site currently loaded
@@ -65,6 +65,18 @@ module SiteHelper
  	
   end
 
+  def icon_for(nav)
+    icon = case nav
+      when 'Testimonials'
+        'heart'
+      when 'Gallery'
+        'picture'        
+    end
+    
+    if icon
+      "<i class='fa fa-#{icon}'></i>"
+    end
+  end
   # Create a custom email link for the site - uses data.yml
   def email_form
     questions        = CGI.escape(site.contact_form.fields.map{|q| "#{q}:"}.join("\n\n"))
