@@ -1,6 +1,6 @@
 RenderTemplate = function(html_id, options) {
     var html = $(html_id).html()
-    console.log(html)
+    //console.log(html)
     var re = /<%(.+?)%>/g, 
         reExp = /(^( )?(var|if|for|else|switch|case|break|{|}|;))(.*)?/g, 
         code = 'with(obj) { var r=[];\n', 

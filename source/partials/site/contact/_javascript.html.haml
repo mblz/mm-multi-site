@@ -1,9 +1,7 @@
-= javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "http://localhost:3000/static/proxy.html"
+= javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "http://#{mblz_host}/static/proxy.html"
 = javascript_include_tag "/assets/js/render_template"
 = javascript_include_tag "/assets/js/validator"
 
 = partial('partials/site/contact/form_templates.html')
 
-%script
-  $SITE='#{$SITE}'
 = javascript_include_tag "/assets/js/form"

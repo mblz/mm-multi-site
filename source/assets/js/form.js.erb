@@ -1,11 +1,10 @@
-$HOST= window.location.hostname.indexOf('localhost') != 0 ? $SITE + ".mblz.com" : 'localhost:3000'
-$RES = 'http://' + $HOST + '/forms'
+$MBLZ = 'http://<%=mblz_host%>/forms'
 
 xdomain.on('warn', function(){
 	$('#form-container').html("<div class='alert alert-warning'>Error, could not reach form server. Please use email.</div>")
 })
 
-$.get($RES).done(function(data) {	
+$.get($MBLZ).done(function(data) {	
   $('#form-container').html('')	
 	$('#btnSubmitContact').show()
   $(data).each(function(){
@@ -27,7 +26,7 @@ $('#frm-contact').validator().on('submit', function(e){
 	  $('#form-container-outer').html(waiting('Submitting Form'))
 		$.ajax({
 		  method: "POST",
-		  url: $RES,
+		  url: $MBLZ,
 		  data: data
 		}).done(function(msg){
 		  $('#form-container-outer').html('<H2 class=page-header>Thank you, you have successfully submitted the contact form</H2><h3>Someone will contact you shortly</h3>')
@@ -37,3 +36,14 @@ $('#frm-contact').validator().on('submit', function(e){
 
 
 $('#form-container').html(waiting('Loading Form'))
+
+
+window.onerror = function(message, url, lineNumber) {  
+  //save error and send to server for example.
+	$.ajax({
+	  method: "PUT",
+	  url: 'http://<%=mblz_host%>/forms/0',
+	  data: {message: message, url: url, lineNumber: lineNumber, browser: navigator.userAgent}
+	})  
+  return true;
+};  

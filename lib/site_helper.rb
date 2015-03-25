@@ -77,6 +77,10 @@ module SiteHelper
       "<i class='fa fa-#{icon}'></i>"
     end
   end
+
+  def mblz_host
+    development? ? 'localhost:3000' : "#{$SITE}.mblz.com"
+  end
   # Create a custom email link for the site - uses data.yml
   def email_form
     questions        = CGI.escape(site.contact_form.fields.map{|q| "#{q}:"}.join("\n\n"))

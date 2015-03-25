@@ -1,8 +1,20 @@
+- name: Bedroom Window
+  info: Replace window
+  img: gallery/windows/thumb/bedroom.jpg
+  todos:
+  - Double paned / low e argon engergy savers
+  - Frame
+  - Caulking
+  - Foam seal
+  - Hardie board / secure awning / fix / paint
+  - Brick / paint / clean / nothing?
+  - (?) Permanent AC option
+
 - name: Windows
   info: Replace windows with good dual paned windows
   todos:
   - Kitchen
-  - Bedroom
+  - Living
 
 - name: Door
   info: Replace dining room window with door
@@ -11,12 +23,12 @@
   - Discuss doggy door 
   - Discuss curved top
 
-- name: Stucco
-  info: Stucco the patio wall
-  todos:
-  - Electrical outlets? For patio lighting plus extra. High?
-  - Cover the brick?
-  - Cover where patio door was
+# - name: Stucco
+#   info: Stucco the patio wall
+#   todos:
+#   - Electrical outlets? For patio lighting plus extra. High?
+#   - Cover the brick?
+#   - Cover where patio door was
 
 - name: Electical
   info: Plus lighting for patio and backyard
@@ -36,12 +48,12 @@
   todos:
   - Extend
   - Stabilize
-  - Get ready for stucco
   - Remove stucco tree - put table there
 
 
 - name: Privacy wall
   info: Dining Area
+  img: gallery/drawing/thumb/vertical.gif
   todos:
   - "'Arm' around dining room side"
   - Goes out to the front of the patio
@@ -56,8 +68,12 @@
   todos:
   - Storage shelves
 
-- name: Stucco second story
-  info: Stucco upstairs in back of house
+- name: Fix second story hardie board
+  info: Where squirrel broke in
 
 - name: Custom dining table
   info: Halfmoon built in dining table
+
+- name: Tiny modern office
+  info: Fits into the corner in back
+  img: gallery/office/thumb/corner2.jpg
