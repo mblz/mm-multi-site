@@ -11,7 +11,9 @@ end
 desc "just show sites"
 task :mm, [:site] do |t, args|
   site = args[:site] || ask_for_site()[:name]
-  system "site=#{site} bundle exec middleman"
+  system "subl ./data/sites/#{site}/site.yml ./source/content/#{site}"
+  system "open http://localhost:4567/ && site=#{site} bundle exec middleman"
+
 end
 
 
@@ -106,18 +108,21 @@ task :sitemap, [:site] do |t, args|
   yml     = site_yml(site)
   host    = yml[:hostname]
   sitemap = "http://#{host}/sitemap.xml"
+
   
   [ "http://www.google.com/webmasters/sitemaps/ping?sitemap=",
-    "http://www.bing.com/webmaster/ping.aspx?siteMap=" ,
-    "http://search.yahooapis.com/SiteExplorerService/V1/updateNotification?appid=YahooDemo&url=" ].each do |url|
+    "http://www.bing.com/webmaster/ping.aspx?siteMap="
+    ].each do |url|
     system "curl #{url}#{sitemap}"
   end
 end
 
 
-desc "sync with htttp://assets.integrated-internet.com/sites/SITE"
+desc "build and sync with htttp://assets.integrated-internet.com/sites/SITE"
 task :sync, [:site] do |t, args|  
   site    = args[:site] || ask_for_site()[:name]
+  puts "building #{site}"
+  system "site=#{site} bundle exec middleman build"
   puts "syncing to htttp://assets.integrated-internet.com/sites/#{site}"
   system "./up.sh #{site}"
 end

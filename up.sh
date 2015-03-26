@@ -12,8 +12,11 @@ rsync -avzp             \
   --exclude cms         \
   --exclude .DS_Store   \
   --exclude *.rb        \
+  --exclude rakefile.rb \
   --exclude pvr         \
   --exclude shutterstock \
   ~/Pictures/assets/sites/$1/ mblz@assets.integrated-internet.com:~/static/assets/sites/$1/
 
-ssh bu "chmod -R 755 ~/static/assets/sites"
+
+ssh bu "chmod -R 755 ~/static/assets/sites/$1"
+#ssh bu "rm ~/static/assets/sites/$1/rakefile.rb"

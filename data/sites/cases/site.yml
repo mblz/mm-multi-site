@@ -6,13 +6,14 @@
 
 :name: cases
 :email: moises@thecasesgrp.com
-:phone: 512-762-6582
+:phone: 512-710-0054
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
+  :street: 1605 Chesterwood Cove
   :city: Austin
   :state: Texas
   :zip: 78746
@@ -51,10 +52,6 @@ social:
 :logo: false
 
 :hostname: thecasesgrp.com
-
-:carousel:
-  - http://assets.integrated-internet.com/sites/cases/img/carousel/header.jpg
-  - http://assets.integrated-internet.com/sites/cases/img/carousel/elec.jpg
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
