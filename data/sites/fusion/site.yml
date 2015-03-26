@@ -3,8 +3,9 @@ nav:
    :cnt: true
  - Clients
  - FAQs
- - Contact
  - Gallery
+ - Contact
+
 
 
 :hostname: myfusionsalon.com
@@ -19,7 +20,8 @@ nav:
 :phone: 210-529-7170
 
 :geo_address: https://www.google.com/maps/place/Fusion+Salon/@29.540349,-98.650631,17z/data=!3m1!4b1!4m2!3m1!1s0x865c42abffffffff:0x436cc51662413e8a
-:geo_embed_address: pb=!1m14!1m8!1m3!1d3471.1766668887253!2d-98.650631!3d29.540349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42abffffffff%3A0x436cc51662413e8a!2sFusion+Salon!5e0!3m2!1sen!2sus!4v1422212017082
+# :geo_embed_address: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3471.1766668887253!2d-98.650631!3d29.540349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42abffffffff%3A0x436cc51662413e8a!2sFusion+Salon!5e0!3m2!1sen!2sus!4v1427404541436" width="600" height="450" frameborder="0" style="border:0"></iframe>
+# #pb=!1m14!1m8!1m3!1d3471.1766668887253!2d-98.650631!3d29.540349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42abffffffff%3A0x436cc51662413e8a!2sFusion+Salon!5e0!3m2!1sen!2sus!4v1427404541436
 
 :address: 
   :street: "10350 Bandera Road, Suite 206"

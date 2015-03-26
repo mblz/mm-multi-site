@@ -20,19 +20,19 @@ nav:
 
 
 :address: 
-  :street: "8181 Tezel Rd #102-05"
+  :street: "8111 Mainland Dr #104-427"
   :city: San Antonio
   :state: Texas
-  :zip: 78250
+  :zip: 78240
 
 :owner:
   :name: Elva Tristan
   :email: et@mblz.com
   :address: 
-    :street: "8181 Rezel Rd #102-05"
+    :street: "8111 Mainland Dr #104-427"
     :city: San Antonio
     :state: Tx
-    :zip: 78250
+    :zip: 78240
 
 
 contact_form:
