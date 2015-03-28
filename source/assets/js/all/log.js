@@ -1,0 +1,1 @@
+L = console.log.bind(console);

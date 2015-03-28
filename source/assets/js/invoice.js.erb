@@ -1,0 +1,23 @@
+$(function(){
+	Invoice = {
+		token: '',
+		url: 'http://<%=mblz_host%>/invoice/',
+		ui: function(s){
+			//L(s)
+			$('#invoice-container').html(s)
+		},
+		init: function(token){
+			this.token = token
+			$.ajax(this.url + this.token)
+			  .done(function(r){	Invoice.ui(r) })
+			  .fail(function(r){ Invoice.fail() ;console.log(r.responseText)})
+		},
+		fail: function(){
+			this.ui("We are sorry, something went wrong. <i class='fa fa-frown-o fa-5x'></i>")
+		}
+			  
+	}
+	Invoice.init($.urlParam('t'))
+})
+
+
