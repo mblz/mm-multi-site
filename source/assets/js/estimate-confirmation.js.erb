@@ -1,0 +1,52 @@
+estimate_confirmation = function(bool){
+  if(bool){
+    $('#divYes').show()
+    $('#divNo').hide()
+  } else {
+    $('#divNo').show()
+    $('#divYes').hide()
+  }
+  $('#pConfirmationButtons').hide()
+}
+
+estimate_confirmation_cancel = function(){
+  $('#divYes').hide()
+  $('#divNo').hide()
+  $('#pConfirmationButtons').show()
+}
+
+function submitConfirmation(F){
+
+  var invoiceId                = $('#estimate_confirmation_invoice_id').val()
+  var yes_or_no                = $('#divYes').is(':visible') ? 1 : 0
+  var care_to_share            = $('#estimate_confirmation_care_to_share').val()
+  var desired_appointment_date = $('#estimate_confirmation_desired_appointment_date').val()
+  var details                  = $('#estimate_confirmation_details').val()
+
+  $('#estimate_confirmation_yes_or_no').val(yes_or_no)
+
+  $('.invoice_confirmation').html('<img src="/images/lightbox-ico-loading.gif" alt="please wait" title="please wait"/>')
+
+  // Fixed last bug /sigh
+  var data = {estimate_confirmation:{invoice_id:invoiceId, yes_or_no: yes_or_no, care_to_share: care_to_share, desired_appointment_date: desired_appointment_date, details: details}}
+  
+  var url = "http://<%=mblz_host%>/magic/invoices/" + invoiceId + "/estimate_confirmations"
+
+  $.ajax({
+    type: "POST",
+    url: url,
+    data: data, //$(F).serialize(),
+    success: function(msg){
+       if(parseInt(msg)!=0)
+       {
+           //console.log(msg)
+           $('.invoice_confirmation').html(msg);
+       }
+    },
+    error: function(){
+      $('.invoice_confirmation').html('Failed - we are sorry but something went wrong.')
+    }
+   });
+
+   return false
+}
