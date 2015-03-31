@@ -15,22 +15,32 @@ estimate_confirmation_cancel = function(){
   $('#pConfirmationButtons').show()
 }
 
-function submitConfirmation(F){
 
-  var invoiceId                = $('#estimate_confirmation_invoice_id').val()
+$('#frm-confirmation').validator().on('submit', function(e){
+  if (e.isDefaultPrevented()) {
+    alert("Please fill out all required fields - highlighted in red")
+  } else {
+    
+  e.preventDefault()
+
+
+  var token                    = $('#estimate_confirmation_token').val()
   var yes_or_no                = $('#divYes').is(':visible') ? 1 : 0
   var care_to_share            = $('#estimate_confirmation_care_to_share').val()
   var desired_appointment_date = $('#estimate_confirmation_desired_appointment_date').val()
   var details                  = $('#estimate_confirmation_details').val()
 
-  $('#estimate_confirmation_yes_or_no').val(yes_or_no)
+  var dContainer               = $('#confirmation-container')
 
-  $('.invoice_confirmation').html('<img src="/images/lightbox-ico-loading.gif" alt="please wait" title="please wait"/>')
+
+
 
   // Fixed last bug /sigh
-  var data = {estimate_confirmation:{invoice_id:invoiceId, yes_or_no: yes_or_no, care_to_share: care_to_share, desired_appointment_date: desired_appointment_date, details: details}}
+  var data = {estimate_confirmation:{yes_or_no: yes_or_no, care_to_share: care_to_share, desired_appointment_date: desired_appointment_date, details: details}}
   
-  var url = "http://<%=mblz_host%>/magic/invoices/" + invoiceId + "/estimate_confirmations"
+  var url = "http://<%=mblz_host%>/magic/invoices/" + token + "/estimate_confirmations"
+
+  dContainer.fadeOut()
 
   $.ajax({
     type: "POST",
@@ -40,13 +50,12 @@ function submitConfirmation(F){
        if(parseInt(msg)!=0)
        {
            //console.log(msg)
-           $('.invoice_confirmation').html(msg);
+           dContainer.html(msg).fadeIn()
        }
     },
     error: function(){
-      $('.invoice_confirmation').html('Failed - we are sorry but something went wrong.')
+      dContainer.html('Failed - we are sorry but something went wrong.').fadeIn()
     }
    });
-
-   return false
-}
+  } 
+})

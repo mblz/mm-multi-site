@@ -1,6 +1,27 @@
 body.invoice{
 	h3.total{
-		font-size: 18px;
-		color: teal;
+		font-size: 28px;
+		// color:firebrick;
 	}
+	h3.total.paid{
+		color: teal;
+	}	
+	img#imgPaid{
+		position: absolute;
+		top: 0px;
+		right: 0;
+		z-index: 100;
+		width: 150px;
+		height: 91px;
+
+	}
+	.badge.total{
+	 	padding: 12px;
+	 	font-size: 28px;
+	  //background-color: firebrick;
+	 }
+	.badge.total.paid{
+  	background-color: teal;
+	}
+
 }

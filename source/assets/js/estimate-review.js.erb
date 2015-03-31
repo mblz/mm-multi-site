@@ -1,0 +1,53 @@
+estimate_confirmation = function(bool){
+  if(bool){
+    $('#divYes').show()
+    $('#divNo').hide()
+  } else {
+    $('#divNo').show()
+    $('#divYes').hide()
+  }
+  $('#pConfirmationButtons').hide()
+}
+
+estimate_confirmation_cancel = function(){
+  $('#divYes').hide()
+  $('#divNo').hide()
+  $('#pConfirmationButtons').show()
+}
+
+
+$('#frm-review').validator().on('submit', function(e){
+  if (e.isDefaultPrevented()) {
+    alert("Please fill out all required fields - highlighted in red")
+  } else {
+    e.preventDefault()
+
+    var token                    = $('#estimate_review_token').val()
+    var satisfied                = $('#divYes').is(':visible') ? 1 : 0
+    var rating                   = $('#estimate_review_rating').val()
+    var comment                  = satisfied == 1 ? $('#estimate_review_comment').val() : $('#estimate_review_care_to_share').val()
+
+    var dContainer               = $('#review-container')
+
+
+    // Fixed last bug /sigh
+    var data = {estimate_review:{satisfied: satisfied, rating: rating, comment: comment}}
+    
+    var url = "http://<%=mblz_host%>/magic/invoices/" + token + "/invoice_reviews"
+
+    dContainer.fadeOut()
+
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: data, //$(F).serialize(),
+      success: function(msg){
+        dContainer.html(msg).fadeIn()
+      },
+      error: function(){
+        dContainer.html('Failed - we are sorry but something went wrong.').fadeIn()
+      }
+    });
+  } 
+})
+
