@@ -40,6 +40,9 @@ configure :build do
       ignore /^#{test}\.html/
     end
   end
+  if reviews.count == 0
+    ignore /^reviews/
+  end
   #ignore /assets\/fonts\//
 
   # For example, change the Compass output style for deployment

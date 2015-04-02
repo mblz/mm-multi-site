@@ -8,7 +8,7 @@ p "$SITE=#{$SITE}"
 # else
 #   p "$SITE NOT FOUND - using default"
 # end
-
+#require 'open-uri'
 
 module SiteHelper
   
@@ -80,6 +80,7 @@ module SiteHelper
 
   def mblz_host
     development? ? 'localhost:3000' : "#{$SITE}.mblz.com"
+    'localhost:3000'
   end
   # Create a custom email link for the site - uses data.yml
   def email_form
@@ -102,6 +103,11 @@ module SiteHelper
   end
   def build_dir
     (File.expand_path(data.config.build_dir) + "/").sub("/site/","/#{$SITE}/")
+  end
+
+  def reviews
+    @reviews ||= JSON.parse(open("http://#{mblz_host}/reviews").read)
+   # Net::HTTP.get_response(mblz_host, "/reviews")
   end
 end
 

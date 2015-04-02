@@ -1,3 +1,6 @@
+// Rails FAIL
+$('#estimate_review_rating').attr('required', 1).attr('class', 'form-control')
+
 estimate_confirmation = function(bool){
   if(bool){
     $('#divYes').show()
@@ -15,6 +18,9 @@ estimate_confirmation_cancel = function(){
   $('#pConfirmationButtons').show()
 }
 
+$('#btnNo').on('click', function(e){
+  $('#estimate_review_rating').val(1)
+})
 
 $('#frm-review').validator().on('submit', function(e){
   if (e.isDefaultPrevented()) {

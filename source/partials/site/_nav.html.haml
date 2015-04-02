@@ -29,4 +29,7 @@
                     = link_to "/content/#{$SITE}/#{parameterize nav.title}.html" do
                       = nav.title
                   - else  
-                    = link_to nav.title, nav.url      
+                    = link_to nav.title, nav.url   
+            - if added_link = current_page.data.add_link
+              %li
+                = link_to added_link.first, added_link.last   

@@ -1,32 +1,47 @@
-estimate_confirmation = function(bool){
-  if(bool){
-    $('#divYes').show()
-    $('#divNo').hide()
-  } else {
-    $('#divNo').show()
-    $('#divYes').hide()
+//$('#estimate_confirmation_desired_appointment_date').datepicker()
+
+EstimateConfirmation = {
+  init: function(){
+    $('.btn-yes-no').on('click', function(e){
+      e.preventDefault()
+      if($(e.target).text().indexOf('Yes') != -1){
+        $('#divYes').slideDown()
+        $('#divNo').slideUp()
+      } else {
+        $('#divNo').slideDown()
+        $('#divYes').slideUp()
+      }
+      $('#btnsYesOrNo').slideUp()
+    })
+
+    $('.btn-cancel').on('click', function(e){
+      e.preventDefault()
+      $('#divYes').slideUp()
+      $('#divNo').slideUp()
+      $('#btnsYesOrNo').slideDown()
+    })    
   }
-  $('#pConfirmationButtons').hide()
 }
 
-estimate_confirmation_cancel = function(){
-  $('#divYes').hide()
-  $('#divNo').hide()
-  $('#pConfirmationButtons').show()
-}
+EstimateConfirmation.init()
+
+
 
 
 $('#frm-confirmation').validator().on('submit', function(e){
   if (e.isDefaultPrevented()) {
     alert("Please fill out all required fields - highlighted in red")
   } else {
-    
+  
+
+  L($(this).serialize())
+  return false
+
   e.preventDefault()
 
 
   var token                    = $('#estimate_confirmation_token').val()
-  var yes_or_no                = $('#divYes').is(':visible') ? 1 : 0
-  var care_to_share            = $('#estimate_confirmation_care_to_share').val()
+  var yes_or_no                = 1
   var desired_appointment_date = $('#estimate_confirmation_desired_appointment_date').val()
   var details                  = $('#estimate_confirmation_details').val()
 
@@ -36,7 +51,50 @@ $('#frm-confirmation').validator().on('submit', function(e){
 
 
   // Fixed last bug /sigh
-  var data = {estimate_confirmation:{yes_or_no: yes_or_no, care_to_share: care_to_share, desired_appointment_date: desired_appointment_date, details: details}}
+  var data = {estimate_confirmation:{yes_or_no: yes_or_no, desired_appointment_date: desired_appointment_date, details: details}}
+  
+  var url = "http://<%=mblz_host%>/magic/invoices/" + token + "/estimate_confirmations"
+
+  waiting('#confirmation-container', 'Submitting. Please wait...')
+
+  $.ajax({
+    type: "POST",
+    url: url,
+    data: data, //$(F).serialize(),
+    success: function(msg){
+       if(parseInt(msg)!=0)
+       {
+
+         dContainer.fadeOut('slow').slideDown().delay(500).html(msg)
+       }
+    },
+    error: function(){
+      dContainer.html('Failed - we are sorry but something went wrong.').fadeIn()
+    }
+   });
+  } 
+})
+
+
+$('#frm-confirmation-cancel').validator().on('submit', function(e){
+  if (e.isDefaultPrevented()) {
+    alert("Please fill out all required fields - highlighted in red")
+  } else {
+    
+  e.preventDefault()
+
+
+  var token                    = $('#estimate_confirmation_token').val()
+  var yes_or_no                = 0
+  var care_to_share            = $('#estimate_confirmation_care_to_share').val()
+
+  var dContainer               = $('#confirmation-container')
+
+
+
+
+  // Fixed last bug /sigh
+  var data = {estimate_confirmation:{yes_or_no: yes_or_no, care_to_share: care_to_share}}
   
   var url = "http://<%=mblz_host%>/magic/invoices/" + token + "/estimate_confirmations"
 

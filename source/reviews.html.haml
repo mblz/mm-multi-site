@@ -1,0 +1,16 @@
+---
+title: Customer Reviews
+---
+%h1.page-header
+  Customer Reviews
+  %small.text-muted= site.title
+
+- reviews.each do |r|
+  %blockquote
+    .pull-right
+      .badge.rating(title="#{r.rating} stars" data-toggle='tooltip')
+        - 1.upto r.rating do
+          .fa.fa-star
+    = r.comment
+    %footer
+      = r.initials
