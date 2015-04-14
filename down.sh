@@ -1,7 +1,7 @@
-rsync \
+rsync   \
   -avz  \
-  --exclude=cms/ \
-  mblz@assets.integrated-internet.com:~/static/assets/ ~/Pictures/assets
+    ass:~/static/assets/sites/ ~/Pictures/assets/sites
+
 
 # echo "syncing dbs and assets to mblzx"
 
