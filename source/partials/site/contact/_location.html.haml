@@ -1,9 +1,21 @@
 = site_partial('custom_contact')
 
-%h1.page-header
+%h3.page-header
   Address
-%h3= site_partial 'address'
+
+- if site.geo_address
+  %a(href="#{site.geo_address}" target="_map")
+    = site_partial 'address'
+- else
+  = site_partial 'address'
+
+/ - if site.geo_embed_address
+/   %iframe(src="https://www.google.com/maps/embed?#{site.geo_embed_address}" width="600" height="450" frameborder="0" style="border:0")
 
 
-- if site.geo_embed_address
-  = site.geo_embed_address
+/ <iframe width="600" height="450" frameborder="0" style="border:0"
+/ src="https://www.google.com/maps/embed/v1/place?q=4201%20Stahl%20Rd%2C%20San%20Antonio%2C%20TX%2C%20United%20States&key=..."></iframe>
+
+
+
+/ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3471.1766668887253!2d-98.650631!3d29.540349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42abffffffff%3A0x436cc51662413e8a!2sFusion+Salon!5e0!3m2!1sen!2sus!4v1429638151037" width="600" height="450" frameborder="0" style="border:0"></iframe>  

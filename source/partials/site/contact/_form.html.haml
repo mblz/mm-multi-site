@@ -1,7 +1,20 @@
-.container#form-container-outer
+
+#form-container-outer
   %h3.page-header 
     Contact Form
     %small fill out this form to contact us
   %form#frm-contact.form-horizontal
     #form-container
-    %button(type='submit' class='btn btn-primary col-sm-offset-3' style="display:none" id='btnSubmitContact') Contact Us!
+      - site(:form).each do |field|
+        .form-group.row
+          %label.col-sm-2.control-label{for: field.name}
+            = field.title
+            - if field.required
+              %span.required_field *
+          .col-sm-10
+            /= field['field_type']
+            = site_partial "form/fields/#{field['field_type']}", locals: {field: field}
+            
+            .help-block.with-errors
+          /= field
+    %button(type='submit' class='btn btn-primary col-sm-offset-2' id='btnSubmitContact') Contact Us!

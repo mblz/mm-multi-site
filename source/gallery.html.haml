@@ -2,8 +2,8 @@
 title: Site Image gallery
 keywords: images, portfolio, gallery
 ---
-= stylesheet_link_tag "blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
-= javascript_include_tag "blueimp-gallery.min.js"
+= stylesheet_link_tag "gallery/blueimp.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "gallery/blueimp.min.js"
 
 
 .container
@@ -33,4 +33,4 @@ keywords: images, portfolio, gallery
               = link_to url, title: title do
                 = image_tag thumb_url, 'data-toggle' => :tooltip, title: image.title, class: 'img-rounded' #, class: 'thumbnail'
 
-= javascript_include_tag 'gallery'
+= javascript_include_tag 'gallery/init'

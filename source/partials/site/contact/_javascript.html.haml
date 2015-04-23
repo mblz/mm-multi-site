@@ -1,7 +1,18 @@
+%script
+  $MBLZ_HOST="http://#{mblz_host}"
 = javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "http://#{mblz_host}/static/proxy.html"
-= javascript_include_tag "/assets/js/render_template"
-= javascript_include_tag "/assets/js/validator"
+= javascript_include_tag "/assets/js/bootstrap/validator"
+= javascript_include_tag "/assets/js/contact/form"
 
-= partial('partials/site/contact/form_templates.html')
+%script#tplThankYou(type="text/template")
+  %p
+  .panel.panel-default
+    .panel-heading
+      .panel-title Thank you
+    .panel-body
+      %p Your form has been successfully submitted.
+      %p Someone will contact you shortly.
 
-= javascript_include_tag "/assets/js/form"
+/= javascript_include_tag "/assets/js/render_template"
+/= partial('partials/site/contact/form_templates.html')
+

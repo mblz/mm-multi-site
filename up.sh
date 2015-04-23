@@ -18,5 +18,5 @@ rsync -avzp             \
   ~/Pictures/assets/sites/$1/ mblz@assets.integrated-internet.com:~/static/assets/sites/$1/
 
 
-ssh bu "chmod -R 755 ~/static/assets/sites/$1"
+ssh mblz@assets.integrated-internet.com "chmod -R 755 ~/static/assets/sites/$1"
 #ssh bu "rm ~/static/assets/sites/$1/rakefile.rb"

@@ -16,6 +16,8 @@ invoice:
     title: Invoice Actions
   - img: paid
     title: Public Invoice view
+  - img: map
+    title: One click to find client on map    
 
 calls:
   - img: call

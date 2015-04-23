@@ -16,17 +16,18 @@
               - if site.subtitle
                 %span#site-subtitle= site.subtitle
         .navbar-collapse.collapse
-          %ul.nav.navbar-nav
-            - site[:nav].each do |nav|
-              %li{class: nav_active?(nav) ? 'active' : nil}
-                - # A regular shared page type
-                - if nav.is_a?(String)
-                  = link_to "/#{nav.downcase}.html" do
-                    /= icon_for(nav)
-                    = nav
-                - else
-                  - if nav.cnt
-                    = link_to "/content/#{$SITE}/#{parameterize nav.title}.html" do
-                      = nav.title
-                  - else  
-                    = link_to nav.title, nav.url      
+          - if site[:nav]
+            %ul.nav.navbar-nav
+              - site[:nav].each do |nav|
+                %li{class: nav_active?(nav) ? 'active' : nil}
+                  - # A regular shared page type
+                  - if nav.is_a?(String)
+                    = link_to "/#{nav.downcase}.html" do
+                      /= icon_for(nav)
+                      = nav
+                  - else
+                    - if nav.cnt
+                      = link_to "/content/#{$SITE}/#{parameterize nav.title}.html" do
+                        = nav.title
+                    - else  
+                      = link_to nav.title, nav.url      

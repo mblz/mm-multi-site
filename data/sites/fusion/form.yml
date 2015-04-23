@@ -1,0 +1,21 @@
+---
+- :name: firstname
+  :title: FirstName
+  :options: 
+  :required: true
+- :name: lastname
+  :title: LastName
+  :options: 
+  :required: true
+- :name: email
+  :title: Email
+  :options: 
+  :required: true
+- :name: phone
+  :title: Phone
+  :options: 
+  :required: true
+- :name: type-of-service
+  :title: Type of service
+  :options: ''
+  :required: false

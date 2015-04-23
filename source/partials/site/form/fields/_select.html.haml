@@ -1,0 +1,4 @@
+%select.form-control{name: field.name, required: field.required}
+  %option
+  - field.options.split(',').each do |option|
+    %option{value: option}= option

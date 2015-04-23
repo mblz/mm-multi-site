@@ -1,0 +1,36 @@
+---
+- :name: first-name
+  :title: First Name
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: last-name
+  :title: Last Name
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: email
+  :title: Email
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: phone
+  :title: Phone
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: subject
+  :title: Subject
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: contact-type
+  :title: Contact type
+  :options: Commercial, Government, Other
+  :required: true
+  :field_type: select
+- :name: message
+  :title: Message
+  :options: ''
+  :required: true
+  :field_type: textarea
