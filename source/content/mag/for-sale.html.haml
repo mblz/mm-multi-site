@@ -1,0 +1,24 @@
+%h3
+  .pull-right
+    %p= link_to 'See on Google Maps', 'https://www.google.com/maps/@29.34048,-99.141533,3a,75y,165.23h,88.4t/data=!3m4!1e1!3m2!1srh5KzwujD9LRSQtehNPwfQ!2e0!6m1!1e1', class: 'btn btn-success', target: '_blank'
+  House For Sale 
+  %small 1153 27th St., Hondo, Texas
+.clearfix
+.well
+  %p 
+    %b If you have a growing family this is the home for you 
+  %p This home is walking distance to schools. Make this home your own.   
+  %h4 Featuring:    
+  %ul
+    %li over 2200 sq.ft. of living area 
+    %li 3 bed/ 3 bath, covered patio
+    %li huge beautiful trees on approx. .40 acres
+    %li all brick
+    %li slab foundation built in 1964 
+  %b A must see $186,000.00
+
+.row
+  - %w[driveway back-yard shed tree].each do |img|
+    .col-sm-4
+      %h5= img.titleize
+      = image_tag "/assets/img/for-sale/#{img}.jpg", class: 'img-responsive', title: img.titleize, 'data-toggle': 'tooltip'

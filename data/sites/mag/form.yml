@@ -1,0 +1,41 @@
+---
+- :name: first-name
+  :title: First Name
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: last-name
+  :title: Last Name
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: street
+  :title: Street
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: city
+  :title: City
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: state
+  :title: State
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: phone
+  :title: Phone
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: email
+  :title: Email
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: message
+  :title: Message
+  :options: ''
+  :required: true
+  :field_type: textarea
