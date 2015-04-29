@@ -1,0 +1,46 @@
+---
+- :name: name
+  :title: Name
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: phone
+  :title: Phone
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: email
+  :title: Email
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: street
+  :title: Street
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: city
+  :title: City
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: state
+  :title: State
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: zip
+  :title: Zip
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: type-of-service
+  :title: Type of Service
+  :options: Landscaping,Xeriscape,Plants,Water Features,Hardscape,Lighting, All
+  :required: true
+  :field_type: select
+- :name: message
+  :title: Message
+  :options: ''
+  :required: false
+  :field_type: textarea

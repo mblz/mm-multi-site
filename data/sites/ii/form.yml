@@ -1,26 +1,31 @@
 ---
 - :name: firstname
   :title: FirstName
-  :options: 
+  :options: ''
   :required: true
   :field_type: text
 - :name: lastname
   :title: LastName
-  :options: 
-  :required: true
-  :field_type: text
-- :name: email
-  :title: Email
-  :options: 
+  :options: ''
   :required: true
   :field_type: text
 - :name: phone
   :title: Phone
-  :options: 
-  :required: true
-  :field_type: text
-- :name: type-of-service
-  :title: Type of service
   :options: ''
   :required: false
+  :field_type: text
+- :name: email
+  :title: Email
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: subject
+  :title: Subject
+  :options: Contact, Feedback, Quote
+  :required: true
+  :field_type: select
+- :name: message
+  :title: Message
+  :options: ''
+  :required: true
   :field_type: textarea

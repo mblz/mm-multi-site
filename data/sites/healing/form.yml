@@ -1,0 +1,16 @@
+---
+- :name: name
+  :title: Name
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: email
+  :title: Email
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: message
+  :title: Message
+  :options: ''
+  :required: true
+  :field_type: textarea

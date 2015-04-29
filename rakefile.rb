@@ -22,6 +22,18 @@ task :show do
   puts ask_for_site()[:name]
 end
 
+desc "go to a site's domain"
+task :go, [:site] do |t, args|
+  site = args[:site] || ask_for_site()[:name]
+  site_yml = site_yml(site)
+  host     = site_yml[:hostname]
+  if host && host !~ /localhost/
+    system "open http://www.#{host}"
+  else
+    system "open http://assets.integrated-internet.com/sites/#{site}"
+  end
+end
+
 
 desc "just show sites"
 task :mm, [:site] do |t, args|
@@ -88,7 +100,11 @@ end
 desc "build all sites"
 task :build_all do
   sites.each do |site|
-    p "site=#{site[:name]} middleman build"
+    Rake::Task[:get_form].reenable
+    Rake::Task[:sync].reenable
+    Rake::Task[:get_form].invoke(site[:name]) rescue "FORM NOT FOUND ON #{site}"
+    Rake::Task[:sync].invoke(site[:name])
+    #p "site=#{site[:name]} middleman build"
   end
 end
 

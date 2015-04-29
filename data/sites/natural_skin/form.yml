@@ -1,0 +1,32 @@
+---
+- :name: first-name
+  :title: 'First Name:'
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: last-name
+  :title: 'Last Name:'
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: esthetician-services
+  :title: 'Esthetician Services:'
+  :options: 'Facials, Reflexology, Light Therapy, Micro Current, Hand Treatment, Waxing,
+    All, Other '
+  :required: true
+  :field_type: select
+- :name: describe-your-challenges-and-goals
+  :title: 'Describe your Challenges and Goals:'
+  :options: ''
+  :required: true
+  :field_type: textarea
+- :name: phone
+  :title: 'Phone:'
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: email
+  :title: 'Email:'
+  :options: ''
+  :required: true
+  :field_type: text

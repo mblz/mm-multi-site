@@ -1,0 +1,31 @@
+---
+- :name: name
+  :title: 'Name:'
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: email
+  :title: 'Email:'
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: phone
+  :title: 'Phone:'
+  :options: ''
+  :required: true
+  :field_type: text
+- :name: date
+  :title: 'Date:'
+  :options: ''
+  :required: false
+  :field_type: text
+- :name: subject
+  :title: Subject
+  :options: ''
+  :required: false
+  :field_type: textarea
+- :name: message
+  :title: Message
+  :options: 'Thank-you for visiting. I will call you as soon as I can.  '
+  :required: false
+  :field_type: textarea

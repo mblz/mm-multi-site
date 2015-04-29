@@ -9,6 +9,9 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'middleman-deploy', '~> 1.0'
 
+gem 'middleman-minify-html'
+gem 'middleman-imageoptim'
+
 gem 'rake'
 gem 'builder'
 

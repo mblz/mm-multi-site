@@ -40,6 +40,12 @@ configure :build do
       ignore /^#{test}\.html/
     end
   end
+
+  activate :minify_css
+  activate :minify_javascript 
+  activate :imageoptim
+  #activate :gzip
+  #activate :minify_html 
   #ignore /assets\/fonts\//
 
   # For example, change the Compass output style for deployment
