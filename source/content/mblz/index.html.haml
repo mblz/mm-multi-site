@@ -1,5 +1,8 @@
 - if carousel.present?
   - content_for :carousel, site_partial('carousel') 
+  - content_for 'add_to_end' do
+    %style
+      body{padding-top: 50px; }
 
 %h1.page-header 
   Small service-oriented business?

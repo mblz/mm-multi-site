@@ -19,7 +19,7 @@
     /     /= current_page.path
     /     = partial("_demo/#{current_page.path}") rescue nil
     = site_partial "footer"
-    %link{href: "//maxcdn.bootstrapcdn.com/bootstrap/#{data.config.bootstrap.version}/css/bootstrap.min.css", rel: "stylesheet"}
+    
 
     - if site.theme
       %link{href: "//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/#{site.theme}/bootstrap.min.css", rel: "stylesheet"}
@@ -31,5 +31,7 @@
     %script(src="//code.jquery.com/jquery-2.1.1.min.js")
     %script(src="//maxcdn.bootstrapcdn.com/bootstrap/#{data.config.bootstrap.version}/js/bootstrap.min.js")
     = javascript_include_tag  "all"  
+
+    = yield_content 'add_to_end'
 
 

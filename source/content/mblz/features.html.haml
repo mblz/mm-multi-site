@@ -10,17 +10,12 @@
   %a.close x
   %a.play-pause
   %ol.indicator
-.row
-  .col-sm-6
-    %h1.page-header 
-      Features 
-  .col-sm-6
-    %p
-      %br
-    %blockquote
-      Simplicity is the soul of efficiency.
-      %footer 
-        Austin Freeman, "The Eye of Osiris"
+
+%h1.page-header 
+  Features 
+  %small of our software
+
+
 
 
 #gallery
@@ -111,7 +106,11 @@
         - site(:features)[:calls].each do |feature|
           = site_partial('thumb', locals: {path: 'features/calls', feature: feature})
 
-
+.row
+  %blockquote
+    Simplicity is the soul of efficiency.
+    %footer 
+      Austin Freeman, "The Eye of Osiris"
         
 :css
   .gallery{
