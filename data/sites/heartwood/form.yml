@@ -1,12 +1,12 @@
 ---
-- :name: firstname
-  :title: FirstName
-  :options: 
+- :name: first-name
+  :title: First Name
+  :options: ''
   :required: true
   :field_type: text
-- :name: lastname
-  :title: LastName
-  :options: 
+- :name: last-name
+  :title: Last Name
+  :options: ''
   :required: true
   :field_type: text
 - :name: email

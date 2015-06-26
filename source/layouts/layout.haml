@@ -7,7 +7,7 @@
   %body{:class => page_classes}
     = site_partial "nav"
     = yield_content :carousel
-    .container
+    .container(style='margin-top:30px')
       - if side_menu = has_side_menu and current_page.data.skip_side_menu != true 
         .row
           .col-lg-8= yield

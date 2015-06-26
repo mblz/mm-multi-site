@@ -100,6 +100,11 @@ module SiteHelper
     system "unlink ~/Sites/mm-multi-site/source/assets/img"
     system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/mm-multi-site/source/assets/img"
   end
+
+  def ln_index
+    system "unlink ~/Sites/mm-multi-site/source/index.html.haml"
+    system "ln -s ~/Sites/mm-multi-site/source/content/#{$SITE}/index.html.haml ~/Sites/mm-multi-site/source/index.html.haml"    
+  end
   def build_dir
     (File.expand_path(data.config.build_dir) + "/").sub("/site/","/#{$SITE}/")
   end

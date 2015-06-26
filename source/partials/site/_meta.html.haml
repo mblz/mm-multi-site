@@ -1,6 +1,0 @@
-- # for global pages like contact and gallery
-- meta = site(:meta)[current_page.path.sub(/\.html/,'')] || {} rescue {}
-
-%meta{ name: :title, content: page_title }
-%meta{ name: :description, content: ( current_page.data.description || meta[:description] || site.description ) }
-%meta{ name: :keywords, content: ( current_page.data.keywords || meta[:keywords] || site.keywords ) }

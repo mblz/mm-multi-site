@@ -1,0 +1,30 @@
+---
+title: Customer reviews
+description: Customer reviews for work we've completed
+keywords: review, customer, rating
+---
+
+/ #background
+/ #chest
+/   .heart.left.side.top
+/   .heart.center &hearts;
+/   .heart.right.side
+
+/ = stylesheet_link_tag 'heart'
+
+
+%h1.page-header 
+  %span.fa.fa-heart(style="color:firebrick")
+  Reviews
+  %small what our customers say about us
+
+
+- if reviews = site(:reviews)
+  - if reviews.first.is_a?(Hash)
+    -  reviews.each do |review|
+      %blockquote
+        = review.comment
+        %footer
+          = review.initials
+- else
+  ERROR add a reviews yml to data. 

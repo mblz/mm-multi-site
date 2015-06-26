@@ -1,0 +1,74 @@
+
+:title: Eagle 
+:subtitle: Heating &amp; Air
+:description: Air Conditioning and Heating Company
+:keywords: air conditioning, heating, heat pumps
+
+
+:name: eagle
+:email: eaglehtac@gmail.com
+:phone: (210) 725-1196 
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: 1223 Silverton
+  :city: San Antonio
+  :state: Texas
+  :zip: 78251
+
+:owner:
+  :name: Timoteo Hernandez
+  :email: cris@garzamarketingsa.com
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: Services
+    cnt: true
+  - title: About
+    cnt: true    
+  - Gallery
+  - Contact
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook: 
+  twitter:
+  google_plus: 
+  pinterest: 
+  yelp: 
+  angieslist: 
+  linked_in: 
+
+# View related
+:logo: index/logo.jpg
+
+:hostname: eagle.mblz.com
+
+
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+#:theme: readable
+
+nav_theme: normal

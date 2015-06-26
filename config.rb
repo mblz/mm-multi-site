@@ -5,7 +5,9 @@ helpers GalleryHelper
 
 
 link_imgs
+ln_index
 activate :directory_indexes
+
 
 # Use relative URLs
 activate :relative_assets
@@ -23,6 +25,7 @@ page "/sitemap.xml", :layout => false
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  activate :automatic_alt_tags
 end
 
 
@@ -44,6 +47,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript 
   activate :imageoptim
+  activate :automatic_alt_tags
   #activate :gzip
   #activate :minify_html 
   #ignore /assets\/fonts\//

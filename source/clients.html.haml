@@ -3,8 +3,8 @@ title: Our clients
 descr: What we have done for our clients
 keywords: services, images
 ---
-= stylesheet_link_tag "blueimp-gallery.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
-= javascript_include_tag "blueimp-gallery.min.js"
+= stylesheet_link_tag "gallery/blueimp.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "gallery/blueimp.js"
 
 %p.pull-right 
   %small.text-muted (click the thumbnail on the left to launch the gallery view)
@@ -41,7 +41,7 @@ keywords: services, images
                 %ul
                   - items.each do |item|
                     %li= item
-        = javascript_include_tag 'gallery'
+        = javascript_include_tag 'gallery/init'
 
         :css
           #gallery img{

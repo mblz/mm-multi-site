@@ -1,8 +1,13 @@
+---
+title: Mobilize your business
+description: Take your office with you
+keywords: no office, managed crm
+---
+
+
+
 - if carousel.present?
-  - content_for :carousel, site_partial('carousel') 
-  - content_for 'add_to_end' do
-    %style
-      body{padding-top: 50px; }
+  - content_for :carousel, site_partial('carousel')
 
 %h1.page-header 
   Small service-oriented business?
@@ -12,11 +17,10 @@
 .row
   .col-lg-4.col-md-6
     %h3.page-header
-      %i.fa.fa-gears.gray
-      Service oriented
-      %small are you?
-    Our customers provide a highly skilled service out in the field. 
-    They don't necessarily have office skills (or an office) and may not always be able to answer the phone.
+      %i.fa.fa-car.gray
+      Out in the field
+      %small working
+    Our customers provide a highly skilled service out in the field and may not always be able to answer the phone.
     %p
       %br
       %br
@@ -37,6 +41,7 @@
       %li Handymen
       %li Electricians
       %li Plumbers
+      %li more...
       %li.no-style
         %br
         = link_to "/testimonials.html", class: 'btn btn-primary' do
@@ -50,8 +55,10 @@
       %i.fa.fa-location-arrow.gray
       Managing 
       %small field workers
-    Field workers get contact details and routing information with a map for directions, a short descriptive note, and a link to the estimate or invoice. Completing jobs assigned are critical to balancing schedules. 
-    Field workers are provided all the necessary tools to increases productivity.
+    %b Completing jobs quickly and efficiently is critical. 
+    Field workers receive contact details, a link to Google maps, and a link to the estimate.
+    %b Mobilize 
+    tools provide accountability while increasing productivity.
 
     %p
       %br
