@@ -21,8 +21,8 @@ end
 desc "get form reviews"
 task :get_reviews, [:site] do |t, args| 
   site        = args[:site] || ask_for_site()[:name]
-  #s_json      = open("http://#{site}.mblz.com/forms") {|f| f.read }
-  s_json      = open("http://localhost:3000/reviews") {|f| f.read }
+  s_json      = open("http://#{site}.mblz.com/reviews") {|f| f.read }
+  #s_json      = open("http://localhost:3000/reviews") {|f| f.read }
   json        = JSON.parse(s_json).map{|j| {comment: j['comment'], initials: j['initials'] }}
   File.open("data/sites/#{site}/reviews.yml", "w") do |file|
     file.write json.to_yaml
