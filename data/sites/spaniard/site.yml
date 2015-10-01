@@ -1,27 +1,27 @@
 
-:title: Eagle 
-:subtitle: Heating &amp; Air
-:description: Air Conditioning and Heating Company
-:keywords: air conditioning, heating, heat pumps
+:title: Tree Services
+# :subtitle: the Spaniard Tree Service
+:description: Default Site Description
+:keywords: Site, key, words
 
 
-:name: eagle
-:email: eaglehtac@gmail.com
-:phone: (210) 714-1587 
+:name: spaniard
+:email: thespaniard@gmail.com
+:phone: 210 551 0825
 
 :geo_address: 
 :geo_embed_address: 
 
 
 :address: 
-  :street: 1223 Silverton
+  :street: 262 Mink
   :city: San Antonio
   :state: Texas
-  :zip: 78251
+  :zip: 78213
 
 :owner:
-  :name: Timoteo Hernandez
-  :email: cris@garzamarketingsa.com
+  :name: Fernando Nino
+  :email: thespaniard@gmail.com
   :address: 
     :street: Owner street
     :city: Owner city
@@ -31,13 +31,8 @@
 nav:
   - title: Services
     cnt: true
-  - Gallery
+
   - Contact
-
-
-hours: "Mon through Friday 8:00 to 5:00 PM"
-
-
 
 
 contact_form:
@@ -59,7 +54,7 @@ social:
 # View related
 :logo: false
 
-:hostname: eagle.mblz.com
+:hostname: localhost:3000
 
 
 
@@ -72,6 +67,6 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: superhero
+:theme: flatly
 
 nav_theme: normal
