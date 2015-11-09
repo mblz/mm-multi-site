@@ -29,10 +29,12 @@
     :zip: Owner Zip
 
 nav:
-  - title: Services
+  - title: Trimming
     cnt: true
-
+  - title: Removal
+    cnt: true    
   - Contact
+  - Gallery
 
 
 contact_form:
@@ -54,9 +56,9 @@ social:
 # View related
 :logo: false
 
-:hostname: localhost:3000
+:hostname: thespaniardtreeservice.com
 
-
+:hours:  Monday through Friday from 8:00AM - 5:00. Sat 09:00AM to 5:00PM
 
 # :carousel:
 #   - abstract_light.jpg
