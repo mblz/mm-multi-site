@@ -1,0 +1,73 @@
+
+:title: Janitorial 
+:subtitle: 
+:description: Default Site Description
+:keywords: Site, key, words
+
+
+:name: Texas Vet Janitorial Services
+:email: default@e.com
+:phone: 210-201-1428
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: Site street name
+  :city: San Antonio
+  :state: Texas
+  :zip: 78000
+
+:owner:
+  :name: Marquis Adams 
+  :email: texvetjanitorial@gmail.com
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: Services
+    cnt: true
+  - title: About
+    cnt: true    
+  - Gallery
+  - Contact
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook: 
+  twitter:
+  google_plus: 
+  pinterest: 
+  yelp: 
+  angieslist: 
+  linked_in: 
+
+# View related
+:logo: false
+
+:hostname: localhost:3000
+
+
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+:theme: readable
+
+#nav_theme: normal
