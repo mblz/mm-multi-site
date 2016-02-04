@@ -1,7 +1,6 @@
 -if site.address.street
   = site.address.street
   %br
-= site.address.city
+= "#{site.address.city},"
 = site.address.state
-\,
 = site.address[:zip]
