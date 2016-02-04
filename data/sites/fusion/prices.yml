@@ -2,41 +2,41 @@
 - - Retouch Color
   - 55
 - - Full Color
-  - 85
+  - 115
 - - Full Glaze
-  - 75
+  - 85
 - - Refresh Glaze 
   - 30
 - - Mens Color
-  - 55
+  - 75
 - - Brow Tint
   - 25
 
 :highlights:
 - - Traditional Highlights Full
-  - 85
+  - 105
 - - Traditional Highlights Partial
-  - 85
+  - 95
 - - Face Frame Foils
   - 45
 - - Ombre 
-  - 105
+  - 125
 - - Balayge
-  - 135
-- - Mixed Technique
   - 145
+- - Mixed Technique
+  - 150
 - - Color Correction per hour
-  - 85
+  - 125
 - - Color Toning Service
-  - 25
+  - 30
 
 :texture:
 - - Perm
   - 95
 - - Bio Ionic Keratin Treatment
-  - 275
+  - 325
 - - Hair Straightening Services
-  - 175
+  - 225
 
 :hair:
 - - Womens Haircut
@@ -48,14 +48,14 @@
 - - Blow-Out with Chemistry Shot
   - 50
 - - Special Event Style
-  - 65
-- - Bridal Style
   - 95
+- - Bridal Style
+  - 125
 - - Chemistry Shot
   - 15
-- - Pre-Art
+- - Pre-Art (Deep Cleansing Hair Treatment)
   - 15
-- - CAT
+- - CAT (Protein Hair Treatment)
   - 25
 
 :chromatic:
@@ -64,23 +64,6 @@
 - - Full Color
   - 105
 
-:facials:
-- - Advanced Facial
-  - 65
-- - Brightening Facial
-  - 65
-- - Clear Skin Facial
-  - 75
-- - Cooling Relief Skin Facial
-  - 60
-- - Cucumber Gel Mask Facial
-  - 85
-- - Dry/Sensitive Skin Treatment
-  - 75
-- - Cyto-luxe Firming Facial
-  - 115
-- - Add Chemical Exfoliation to any Facial
-  - 25
 
 :chemical:
 - - Enzyme
@@ -99,10 +82,19 @@
   - 125
 
 :makeup:
-- - Application 1/2 Hour
-  - 35
-- - Makeup Lesson for 1 Hour
-  - 65
+- - Make-up Application
+  - 125
+- - Make-up Lesson
+  - 95
+
+:skincare:
+- - 'Skin Analysis &amp; Consultation 1/2 hr'
+  - 25
+- - "Skin Analysis &amp; Consultation 1 hr"
+  - 45
+
+
+
 :wax:
 - - Brow
   - 13
@@ -112,25 +104,14 @@
   - 13
 - - Full face
   - 39
-- - Under Arms
-  - 19
-- - Half Leg knee down
-  - 39
-- - "Full Leg: no bikini"
-  - 73
+
 
 :bridal:
 - - Bridal make-up
-  - 75
+  - 150
 - - Bridal Hair
-  - 90
-- - Bridal Make-up and Hair
-  - 160
-- - Bridal Portraits Hair and Make-up
-  - 160
-- - Bridal Party/Guest Hair
-  - 80
-- - Bridal Party/Guest Make-up
-  - 65
-- - Bridal Party/Guest Hair and make-up
-  - 140
+  - 125
+- - Bridal Guest Hair
+  - 95
+- - Bridal Guest Make-up
+  - 125

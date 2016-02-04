@@ -1,6 +1,8 @@
 nav:
  - :title: Services
    :cnt: true
+ - :title: Hair Extensions
+   :cnt: true   
  - Clients
  - FAQs
  - Gallery
@@ -16,7 +18,7 @@ nav:
 :keywords: hair consultation, chemical exfoliation, color corrections, facials, skin consultation, hair design, hair color, makeup, bridal events 
 
 :name: fusion
-:email: myfusionsalon@gmail.com
+:email: marissafusionsalon@gmail.com
 :phone: 210-529-7170
 
 :geo_address: https://www.google.com/maps/place/Fusion+Salon/@29.540349,-98.650631,17z/data=!3m1!4b1!4m2!3m1!1s0x865c42abffffffff:0x436cc51662413e8a
@@ -42,9 +44,11 @@ nav:
   facebook: FusionSalonSA
   google_plus: FusionSalonSanAntonio
   insta: marissaspencer_fusionsalon
+  linked_in: https://www.linkedin.com/in/marissa-spencer-98718239
 
 
 hours: >
+      By Appointment open Monday through Saturday also open Sundays.
       Prices and hours vary depending on the stylist. Open Sundays by appointment only.
 
 

@@ -9,28 +9,30 @@ description: A variety of skin rejuvenation treatments, consultations and skin a
       Skin Care
       %small.text-muted REFRESH REPAIR RENEW
     %p 
-      I perform various types of facials, chemical exfoliation treatments, and body waxing. I specialize in glo mineral make-up and glo therapeutics
-      skin care. I strive to deliver the best results regarding any of your skin concerns. Call or come by Fusion Salon today for your complimentary consultation.
+      I perform various types of professional make-up, skin analysis, and body waxing. I specialize in glo mineral make-up and glo therapeutics skin care. I strive to deliver the best results regarding any of your skin concerns. Call or come by Fusion Salon today for your complimentary skin consultation.
+
     %p
       With glo therapeutics I am able to offer a systematic approach to treat multiple skin concerns by incorporating customized daily skin care regimens with advanced treatments which we will determine after and thorough skin analysis and consultation. 
-
-      All products are:
+      
+    %p 
+      %b All products are:
 
     %ul
       %li Free of prabens and dyes
       %li High concentration of actives
       %li Innovative ingredients
+ 
 
-    %h3 Facials
-    %p
-      My professional treatments include the following:     
-
-    %h3 Facials and Skin Repair Treatments
-    = site_partial("prices", locals: {items: site(:prices)[:facials]})
     %h3 Professional Make-up
     = site_partial("prices", locals: {items: site(:prices)[:makeup]})
+    
+    %h3 Skin Care
+    = site_partial("prices", locals: {items: site(:prices)[:skincare]})    
+
     %h3 Waxing
     = site_partial("prices", locals: {items: site(:prices)[:wax]})
+    
     %h3 Chemical Exfoliation Treatments
     = site_partial("prices", locals: {items: site(:prices)[:chemical]})  
+  
   = partial("content/fusion/services")

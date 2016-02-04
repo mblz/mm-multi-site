@@ -1,0 +1,46 @@
+---
+- :name: first_name
+  :title: First_Name
+  :options: 
+  :required: true
+  :field_type: text
+- :name: last_name
+  :title: Last_Name
+  :options: 
+  :required: true
+  :field_type: text
+- :name: email
+  :title: Email
+  :options: 
+  :required: true
+  :field_type: text
+- :name: phone
+  :title: Phone
+  :options: 
+  :required: true
+  :field_type: text
+- :name: street
+  :title: Street
+  :options: 
+  :required: true
+  :field_type: text
+- :name: city
+  :title: City
+  :options: 
+  :required: true
+  :field_type: text
+- :name: state
+  :title: State
+  :options: 
+  :required: true
+  :field_type: text
+- :name: zip
+  :title: Zip
+  :options: 
+  :required: true
+  :field_type: text
+- :name: more
+  :title: More
+  :options: 
+  :required: false
+  :field_type: text
