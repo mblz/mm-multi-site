@@ -32,8 +32,13 @@ end
 # Build-specific configuration
 configure :build do
   set :build_dir, build_dir 
+  
+  
   # Only include this sites' content
   ignore /^content\/(?!#{$SITE})/
+
+  ignore /^content\/#{$SITE}\/pages/
+  
   ignore /^assets\/css\/sites\/(?!#{$SITE})/
   ignore /^\.git/
 

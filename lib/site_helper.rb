@@ -103,8 +103,11 @@ module SiteHelper
 
   def ln_index
     system "unlink ~/Sites/mm-multi-site/source/index.html.haml"
-    system "ln -s ~/Sites/mm-multi-site/source/content/#{$SITE}/index.html.haml ~/Sites/mm-multi-site/source/index.html.haml"    
+    system "unlink ~/Sites/mm-multi-site/source/index.html.md.erb"
+    system "ln -s ~/Sites/mm-multi-site/source/content/#{$SITE}/index.html.haml ~/Sites/mm-multi-site/source/index.html.haml" 
+    system "ln -s ~/Sites/mm-multi-site/source/content/#{$SITE}/index.html.md.erb ~/Sites/mm-multi-site/source/index.html.md.erb"    
   end
+
   def build_dir
     (File.expand_path(data.config.build_dir) + "/").sub("/site/","/#{$SITE}/")
   end
