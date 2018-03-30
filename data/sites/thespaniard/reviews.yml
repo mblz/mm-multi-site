@@ -1,0 +1,47 @@
+---
+- initials: HT
+  comment: Fernando far exceeded my expectations. It is a work of art! Completed on
+    time and on budget. Recommended to all my friends and family.
+  items:
+  - name: Tree Trimming
+    note: 'Frontyard: Trim,  thin and reduce weight of a huge Oak. Roofline clearance
+      to prevent debris from falling on roof.  Haul debris. '
+  - name: Tree Trimming
+    note: 'Trim limbs/branches fro the Arizona Ash that are compromising the Oak Tree.  Recommended
+      customer to remove the Ash at another time. '
+  images:
+    before:
+    - title: Before work
+      url: "/system/attachments/images/000/000/180/original/image.jpeg"
+    - title: Before Roofline Clearance
+      url: "/system/attachments/images/000/000/184/original/IMG_0229.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/333/original/IMG_0751.JPG"
+    after:
+    - title: Roofline Clearance
+      url: "/system/attachments/images/000/000/181/original/image.jpeg"
+    - title: Pruning for light
+      url: "/system/attachments/images/000/000/182/original/image.jpeg"
+    - title: Weight Reductiom
+      url: "/system/attachments/images/000/000/183/original/image.jpeg"
+    - title: ''
+      url: "/system/attachments/images/000/000/324/original/DSC00690.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/325/original/DSC00687.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/326/original/DSC00685.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/327/original/DSC00688.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/328/original/DSC00684.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/329/original/DSC00692.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/330/original/DSC00686.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/331/original/DSC00691.JPG"
+    - title: ''
+      url: "/system/attachments/images/000/000/332/original/DSC00693.JPG"
+  title: A work of art!
+  icon: rocket
+  created_at: '2016-05-25'

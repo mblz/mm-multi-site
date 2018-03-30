@@ -1,0 +1,106 @@
+---
+title: Products
+description: Nursery products
+keywords: trees, flowers, ground cover, cactus, palms, shrubs
+---
+
+%h1.page-header 
+  Products
+  %small current inventory
+
+- content_for 'add_to_end' do 
+  %link{:href => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css", :rel => "stylesheet"}/
+  / Latest compiled and minified JavaScript
+  %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"}
+  / Latest compiled and minified Locales
+  %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/locale/bootstrap-table-en-US.min.js"}
+  %script
+    $(function(){
+    // Enables popover
+    $("[data-toggle=popover]").popover({container: 'body'});
+    window.setTimeout(function(){$('#productsTable').slideDown('slow');}, 250)  
+    $('#productsTable').on('all.bs.table', function (e, arg1, arg2) {
+    $("[data-toggle=popover]").popover({container: 'body'});
+    //e.preventDefault()
+    });      
+    });
+
+
+
+%table#productsTable{"class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none", 'data-url' => 'http://paradise.mblz.com/products.json?mblz=1'}
+  %thead
+    %tr
+      /%th(data-field="state" data-checkbox="true")
+      %th{"data-field" => "name", "data-sortable" => "true", "data-formatter" => "formatProduct"}
+        Product
+      %th{"data-field" => "image_thumb_path", "data-sortable" => "false", "data-formatter" => "formatImage"}
+        Image        
+      %th{"data-field" => "product_category_id", "data-sortable" => "true", "data-formatter" => "formatCategory"}
+        Category
+      %th{"data-field" => "size", "data-sortable" => "false"}
+        Size 
+      %th{"data-field" => "color", "data-sortable" => "true"}
+        Color        
+      %th{"data-field" => "sun", "data-sortable" => "true", "data-formatter" => "formatSun"}
+        Sun
+      %th{"data-field" => "water", "data-sortable" => "true", "data-formatter" => "formatWater"}
+        Water   
+      %th{"data-field" => "height", "data-sortable" => "true"}
+        Height
+      %th{"data-field" => "tolerance", "data-sortable" => "true"}
+        Tolerance                      
+      / %th{"data-field" => "inventory", "data-sortable" => "true"}
+      /   Inventory  
+      %th{"data-field" => "note", "data-sortable" => "false"}
+        Note  
+
+:javascript
+  $MBLZ_HOST="http://#{mblz_host}"
+
+  function formatProduct(v){
+    return v
+    return "<a href='/sites/paradise/content/paradise/print#" + v + "' target='_blank'>" + v + "</a>"  
+  }
+  function formatImage(v){
+    if(v.indexOf("missing") != -1) return '-'
+    return "<a href='http://paradise.mblz.com" + v.replace('thumb', 'original') + " ' target='_blank'><img src='http://paradise.mblz.com" + v + "'/></a>"
+  }
+  function formatCategory(v){
+    return ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"][v-1]
+  }
+  function formatSun(v){
+    return ["Shaded", "PartiallyShaded", "", "FullSun"][v]
+  }
+  function formatWater(v){
+     return ["Light", "Weekly", "", "Heavy"][v]
+  }
+= javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "http://#{mblz_host}/static/proxy.html"
+
+
+/ %th{"data-field" => "note"}
+/   Note          
+/ %th{"data-field" => "tags", "data-sortable" => "false"}
+/   Tags               
+/ %th{"data-field" => "description", "data-sortable" => "false"}
+/ Description
+/ - site("products").each do |item|
+/   - category = paradise_category(item[:product_category_id])
+/   %tr
+/     /%td
+/     %td.product-name
+/       - unless item[:image_thumb_path] =~ /thumb\/missing.png$/
+/         - url = env_url(item[:image_thumb_path])
+/         = link_to item[:name], url.sub('thumb','original'), 'data-toggle': 'popover', 'data-html': true, 'data-content': "<a href='#{url.sub('thumb','original')}' target=_blank><img src='#{url}' style='width:100%'/></a>", 'title': "Image", 'data-trigger':"hover" , target: "_blank"
+/       - else
+/         = item[:name]
+/     %td
+/       /= category[:name]
+/       = link_to category[:name], 'javascript://', 'data-toggle': 'popover', 'data-html': true, 'data-content': location_matrix(category, item[:location]), 'title': "#{site_link_to('Location', 'product_map')}", 'data-trigger':"hover" 
+/     %td= item[:size]
+/     %td= item[:color]
+/     %td= paradise_sun(item[:sun] || [0,1,2].sample)
+/     %td= paradise_water(item[:water] || [0,1,2].sample)
+/     %td= item[:height]
+/     %td= item[:tolerance]
+/     %td= item[:inventory]
+/     /%td= item[:note]

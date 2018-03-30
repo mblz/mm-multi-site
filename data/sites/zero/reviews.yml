@@ -1,0 +1,94 @@
+---
+- initials: DC
+  comment: Comment
+  items:
+  - name: Website
+    note: 'Design a Shopify eCommerce SSL website for blooms-n-blossoms.com.  Home
+      Page, Flowers, Plants, Contact Form & Shopping Cart.  Approx 5 pages, 2 categories
+      total pics 1-30. '
+  - name: Payment
+    note: Half before job start $649.50. During 30% and after 20%.  Price has been
+      set between $1,200 - $1,800 depending on changes and/or other unknown requirements
+      that will make the price change. (First payment Due week of 7/6/15 to begin
+      programming)
+  - name: Website
+    note: "Diane To Do: Page Content for Home Page (About you & Biz), Flowers (verbage
+      for Birthday, Sympathy, All Occasion),  Plants (verbage for Birthday, Sympathy,
+      All Occasion).  Please provide us with Address for business.  Photos (Flowers
+      & Plants)\r\n"
+  - name: Website
+    note: 'Diane To Do: Merchant Account Info from Broadway Merchant account (Api
+      login, transaction id for credit card acceptance).'
+  - name: Hosting
+    note: "Diane bought domain (Godaddy). Hosting will be in Shopify.  We'll set an
+      Email - such as \r\nsales@blooms-n-blossoms.com or info@"
+  - name: Website
+    note: " Layout Design will be determined when we receive content and photos.  Website
+      will be completed and launched after testing and approval from both parties. "
+  - name: Miscellaneous
+    note: 'Add Business to Google Business Places. '
+  - name: Ongoing Maintenance
+    note: 'As discussed and agreed on, changes after website has been launched; programming
+      changes $100.00 hrly; photos, small changes $50.00 hrly. '
+  - name: Ongoing Maintenance
+    note: We will meet quarterly for updates, changes or other requirements after
+      implementation.
+  images:
+    before:
+    - title: ''
+      url: "/system/attachments/images/000/000/288/original/after-lot-clearing.jpg"
+    after:
+    - title: ''
+      url: "/system/attachments/images/000/000/287/original/before-lot-clearing.jpg"
+  title: title
+  icon: heart
+  created_at: '2015-07-03'
+- initials: LS
+  comment: adf adf adf asdfasdfasdf
+  items:
+  - name: Mblz App
+    note: Monthly price for schaeffer.mblz.com ($100.00 monthly + $50.00 for a year
+      for extended payment plan for enhancements).  Start date will be determined
+      later.
+  - name: Contract
+    note: 'A year contract required. '
+  images:
+    before:
+    - title: after land clearning
+      url: "/system/attachments/images/000/000/284/original/after-land-clearing.jpg"
+    after:
+    - title: Before clearing
+      url: "/system/attachments/images/000/000/283/original/before-lot-clearing.jpg"
+  title: lauren review
+  icon: space-shuttle
+  created_at: '2016-05-02'
+- initials: ET
+  comment: asdasdf asdfasdfa sdf
+  items:
+  - name: Miscellaneous
+    note: https://api.twilio.com  /2008-08-01/Accounts/AC6b0c8045d3f27f8b9e203b6f5a91f6d7/  Recordings/REa50cca79bc1aeb6e5e7f4fb41c402d0b
+  images:
+    before:
+    - title: after
+      url: "/system/attachments/images/000/000/286/original/after-land-clearing.jpg"
+    after:
+    - title: sdfgsdfgsdfgsdfgs
+      url: "/system/attachments/images/000/000/285/original/before-land-clearing.jpg"
+  title: elva tris
+  icon: rocket
+  created_at: '2015-10-25'
+- initials: SS
+  comment: 'sadf '
+  items:
+  - name: Virtual Assistance
+    note: Use CRM and use our VM services.  Cost will be set at $99.00 monthly + tax
+      at a one month trail basis to monitor usage and volume of calls after Sergio
+      does local business marketing.
+  - name: Mblz DB
+    note: Business to begin June 1, 2015.
+  images:
+    before: []
+    after: []
+  title: This title
+  icon: heart
+  created_at: '2015-05-12'

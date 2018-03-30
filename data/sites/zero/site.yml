@@ -1,0 +1,83 @@
+
+:title: Net zero
+:subtitle: 
+:description: Build, Design cool
+:keywords: DC refrigeration
+
+
+
+nav:
+  - title: Roof
+    cnt: true
+  - title: HVAC
+    cnt: true
+  - title: Solar
+    cnt: true    
+  - title: Shed
+    cnt: true
+  - title: 3D
+    cnt: true    
+  - title: Reference
+    cnt: true  
+  - Gallery
+
+
+:name: 
+:email: 
+:phone: 
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: 
+  :city: 
+  :state: 
+  :zip: 
+
+:owner:
+  :name: 
+  :email: 
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  facebook: 
+  twitter:
+  google_plus: 
+  pinterest: 
+  yelp: 
+  angieslist: 
+  linked_in: 
+
+# View related
+:logo: false
+
+:hostname: localhost:3000
+
+
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+:theme: readable
+
+#nav_theme: normal

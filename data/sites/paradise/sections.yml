@@ -1,0 +1,28 @@
+- 
+  color: firebrick
+  name: Palms
+
+
+
+- 
+  color: green
+  name: Trees
+
+- 
+  # yellow
+  color: "#F7DC6F"
+  name: Shrubs
+
+- 
+  # blue
+  color: "#1F618D"
+  name: Flowers
+
+
+- 
+  color: gray
+  name: Xero
+
+- 
+  color: darkgray
+  name: Other

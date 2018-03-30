@@ -1,0 +1,94 @@
+%h1.page-header 
+  Heating and Air conditioning
+  %small HVAC
+
+%p 
+  Refrigeration is cool - and you might say an infatuation of mine. 
+  My dream is to build an off-grid refrigeration system, (freezer, fridge, cooled space) that uses modest resources.
+
+%ul
+  %li= link_to "Starter Kit", "#kit"
+  %li= link_to "Projects", "#projects"
+  %li= link_to "Experiments", "#experiments"
+  /%li= link_to "Kit", "#kit"
+  /%li= link_to "References", "#references"
+
+%a(name="kit")
+%h3 Starter Kit
+
+%ul
+  %li 
+    = link_to "Manifold / Pump", "http://www.ebay.com/itm/4-8CFM-Vacuum-Pump-4VALVE-MANIFOLD-GAUGE-R410A-R134A-R22-HVAC-AC-Refrigerant-Set-/321444801492"
+  %li
+    Copper
+    %br/
+    = link_to "Piping / brazing equip", "https://www.amazon.com/Ameriflame-TI100-Portable-Welding-Carrying/dp/B007VLW37Y/ref=sr_1_2?ie=UTF8&qid=1469499206&sr=8-2&keywords=acetylene+tank"
+    \|
+    = link_to "Solder", "https://www.amazon.com/Forney-38116-Silver-Fluxing-6-Percent/dp/B000PSB6KU/ref=sr_1_8?ie=UTF8&qid=1469470200&sr=8-8&keywords=copper+brazing+kit"
+    \|
+    = link_to "Coils", "https://www.amazon.com/Copper-Soft-Type-Refrigeration-Tubing/dp/B01068SMT6/ref=sr_1_14?s=hi&ie=UTF8&qid=1469479056&sr=1-14&keywords=copper+coils"
+    \|
+    = link_to "Cutter", "https://www.amazon.com/MAGBIT-801-114C-MAG801-Cutter-Copper/dp/B005M2A3CQ/ref=sr_1_1?s=hi&ie=UTF8&qid=1469641384&sr=1-1&keywords=pipe+cutter"
+    \|
+    = link_to "Cap tube", "http://www.ebay.com/itm/Copper-Capillary-Tube-3mm-O-D-x-900mm-Length-1-4-SAE-Refrigeration-Parts-/281701708869?hash=item4196baf445:g:S5AAAOSwu4BVwNYY"
+  %li Volt / amp-meter clamp
+  %li Various hand tools
+  %li Fin straightner
+
+%a(name="project")
+%h3 Project
+
+%p Simplest refigeration system possible
+
+%p 
+  I'm going to follow along with 
+  = link_to "MC Pletcher's videos", "https://www.youtube.com/channel/UCi-OuX6BYoiCGr9SLtTPlMg" 
+  and use a DC compressor
+%ul
+  %li 
+    = link_to "Compressor","http://www.ebay.com/itm/291821476892"
+    \|
+    = link_to "Electronic Unit","http://www.ebay.com/itm/Danfoss-101N0630-Electronic-Control-Unit-for-BD35F-Compressors-Automotive-/252320863532?hash=item3abf7ed52c:g:CjoAAOSwxp9W54NA"
+    \|
+    = link_to "2", "http://www.ebay.com/itm/Compressor-Danfoss-BD35F-101Z0200-R134A-Secop-A-C-Refrigeration-12-24V-DC-/252472972456?hash=item3ac88fd4a8:g:CxEAAOSw0fhXlAf2"
+    \|
+    = link_to "3","http://www.ebay.com/itm/Compressor-Danfoss-BD35F-101Z0200-R134A-with-starting-device-195B0123-Secop/152078401902?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D37429%26meid%3Dafe28fc5172d4ef785dc88f40633392b%26pid%3D100005%26rk%3D3%26rkt%3D6%26sd%3D152079841259"
+    \|
+    = link_to "4", "https://www.amazon.com/Danfoss-195B0679-BD35F-R134A-COMPRESSOR/dp/B00QW2EBLY/ref=pd_sim_sbs_469_1?ie=UTF8&dpID=41UAczo%2BRML&dpSrc=sims&preST=_AC_UL160_SR160%2C160_&psc=1&refRID=TEBEE3WSV3R03NG7C3PF"
+  %li=link_to "Condenser", "https://www.amazon.com/Frigidaire-5304472169-Refrigerator-Condenser-Unit/dp/B00O914CX2/ref=sr_1_6?ie=UTF8&qid=1469478436&sr=8-6&keywords=fridge+condenser"
+  %li
+    = link_to "Evaporator", "https://www.youtube.com/watch?v=hdBzdjXaHvE"
+    = link_to "Fan", "https://www.amazon.com/Frigidaire-5303918549-Evaporator-Motor-Refrigerator/dp/B005B9EE8Y/ref=pd_day0_60_1?ie=UTF8&dpID=41D1KJmwKRL&dpSrc=sims&preST=_AC_UL160_SR160%2C160_&psc=1&refRID=3P9CTN7WAPGBRJJPYZ3N"
+  %li= link_to "Filter/dryer", "http://www.ebay.com/itm/Danfoss-TDN1-DML-032S-Liquid-Line-Filter-Dryer-/301753762248?hash=item4641ed01c8:g:uLoAAOSwVL1WCoUy"
+  %li
+    = link_to "DC Power", "https://www.amazon.com/Switching-Transformer-Regulated-Computer-Project/dp/B00ANFJ26U/ref=sr_1_3?ie=UTF8&qid=1469488734&sr=8-3&keywords=24v+power+supply"
+    \|
+    = link_to "Plug", "https://www.amazon.com/URBEST%C2%AEInlet-Module-Switch-Socket-IEC320/dp/B00ME5YAPK/ref=pd_sim_147_4?ie=UTF8&dpID=41CecjJE81L&dpSrc=sims&preST=_AC_UL160_SR160%2C160_&psc=1&refRID=G01W7ZK9E160TC7WNHN6"
+  %li
+    Oil, Freon, Copper fittings
+
+
+
+%a(name="experiments")
+%h3 Experiments
+
+%ul
+  %li My first expermient will simply be getting a copper coil to freeze
+  %li Tiny fridge/freezer - Form factor - either repurpose cooler or start from scratch
+  %li Water cooled condensor - using large water supply (pool) - may use hot water for shower
+  %li Cool down some water/saline/bromide/glycol - possibly in another container
+  %li 
+    'diy' split ac
+    = link_to "outside", "http://www.ebay.com/itm/TECUMSEH-AEA2410YXAXL-Refrigeration-Compressor-condenser-fan-and-fan-motor-/172279111515"
+    \|
+    = link_to "inside", "http://www.ebay.com/itm/A-C-AC-UNIVERSAL-UNDER-DASH-AC-EVAPORATOR-UNDERDASH-A-C-AIR-CONDITIONER-12V-/191696717407?hash=item2ca203c65f:g:164AAOSwjVVVzzud&vxp=mtr"
+    \|
+    = link_to "2", "https://www.amazon.com/DANFOSS-FRACTIONAL-CONDENSING-R134A-114N2022/dp/B00TVO9QJM/ref=sr_1_11?ie=UTF8&qid=1469501046&sr=8-11&keywords=danfoss+condenser"
+
+
+%h4 Fixers
+%ul
+  %li= link_to "Fridge", "https://sanantonio.craigslist.org/app/5698107564.html"
+
+%a(name="references")
+/%h3 References

@@ -15,11 +15,15 @@ module GalleryHelper
 	def gallery dir
 		{
 			name: File.basename(dir),
-			title: titleize(File.basename(dir).sub(/^\d+/,'')),
+			#title: to_title(dir),
 			images: gallery_image_paths(dir).map{|path| gallery_image(path)}
 		}
  	end
 
+ 	def to_title img
+ 		s = File.basename(dir).sub(/^\d+/,'')
+ 		titleize(File.basename(dir).sub(/^\d+/,''))
+ 	end
 	def gallery_image_paths dir
 		Dir.glob(dir + "/*[jpg|png|gif]")
 	end
@@ -27,8 +31,11 @@ module GalleryHelper
 	def gallery_image path
     parts = path.split('/')
     name  = parts.delete(parts.last)
-    title = titleize(name.sub(/\.(jpg|png|gif)$/,'').sub(/^\d+/,''))
-
+    dir   = parts.last
+    title = name.sub(/\.(jpg|png|gif)$/i,'').sub(/^\d+/,'') #titleize
+    if title =~ /^#{dir}/ || title =~ /^IMG/
+    	title = dir
+    end
     {title: title, name: name }
 	end
 

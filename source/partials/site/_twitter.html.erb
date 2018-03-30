@@ -1,0 +1,21 @@
+
+
+<meta name="twitter:card" 
+	content="summary" />
+
+<meta name="twitter:title" 
+	content="<%= page_title %>" />
+
+<meta name="twitter:description" 
+	content="<%= current_page.data["description"] %>" />
+	
+<% if site.meta_image.present? %>			
+<meta name="twitter:image" 
+	content="https://<%=site.hostname  + site.meta_image %>" />
+<meta itemprop="image" 
+	content="https://<%=site.hostname  + site.meta_image %>" />
+<% end %>
+
+
+
+

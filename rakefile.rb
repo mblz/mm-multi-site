@@ -17,16 +17,6 @@ task :show do
 end
 
 
-def ask_for_img_dir(site)
-  dirs = Dir.glob(File.expand_path("~/Pictures/assets/sites/#{site}/assets/img/*"))
-  dirs.each_with_index do |dir, idx|
-    puts "#{idx}) #{dir.split('/').last}"
-  end
-  puts "What directory?"
-  i_dir = STDIN.gets.strip
-  dirs[i_dir.to_i]  
-end
-
 def ask_for_site
   sites.each do |site|
     puts "#{site[:idx]}) #{site[:name]}"

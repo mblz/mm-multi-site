@@ -1,0 +1,25 @@
+%table(width="100%" border="1" id="inventory")
+  %tr
+    %td(id="ti" rowspan="3" style="width:80px;") I
+    %td(id="th") H
+    %td(id="tg") G
+    %td(id="tb" colspan="3" ) B
+  %tr
+    %td(id="tf") F
+    %td(id="te") E
+    %td(id="td")	D
+    %td(id="tc")	C
+    %td(id='ta' rowspan="2") A
+  %tr
+    %td(id="tj") J
+    %td(id="tk") K
+    %td(id="tl" colspan=2) L
+
+- colors = data.sites.paradise.colors
+
+%style
+  - colors.each do |datam|
+    == td#t#{datam.first}{ background-color:#{datam.last['color']};}
+:css
+   table#inventory tr td{padding:10px;text-align: center; color:white;font-weight:bold;transition: .6s fill;font-size:30px}
+   table#inventory tr td:hover{cursor:pointer;background-color:#666;}

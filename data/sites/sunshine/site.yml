@@ -1,3 +1,4 @@
+:verification: 3OxZZiFSC_ObWnpcSxc0uiCLNjPhWyS9zIMB5mYHXvE
 nav:
   - title: Services
     cnt: true
@@ -5,10 +6,12 @@ nav:
   - title: About
     cnt: true 
   - Gallery
+  - Reviews
   - Contact
 
 
-:title: Sunshine Landscape
+:title: Sunshine 
+:subtitle: Landscape services
 :description: Landscaping company specializing in hardscape, irrigation and retainer walls. 
 :keywords: landscaping, hardscape, irrigation, water features, plant installation, lighting, retainer walls
 
@@ -24,7 +27,7 @@ nav:
   :zip: 78070
 
 :owner:
-  :name: Raymond Dadi
+  :name: Raymond Dady
   :email: raymond@sunshine-landscape.com
   :address: 
     :street: 29360FM 360-A-Z
@@ -55,8 +58,11 @@ social:
 
 :hostname: sunshine-landscape.com
 
-theme: sandstone
-#nav_theme: yes
+meta_image: /assets/img/carousel/header.jpg
+
+# theme: sandstone
+
+# nav_theme: yes
 # :carousel:
 #   - http://ray.mblz.com/system/uploads/129/original/redseasonalplants.jpg
 #   - http://ray.mblz.com/system/uploads/129/original/granitenaturalstone2.jpg

@@ -1,4 +1,4 @@
-
+:verification: mk2ff4VEYEoxurUMDlpPzslODTN6pREooTNSklSCRTc
 :title: Alamo 
 :subtitle: Tree Systems
 :description: Alamo Tree Systems is a licensed San Antonio tree contractor providing comprehensive tree trimming, land clearing, tree removal services in San Antonio area competitive prices.
@@ -9,12 +9,12 @@
 :email: alamotreesys@gmail.com
 :phone: 210-702-2114
 
-:geo_address: https://www.google.com/maps/place/4201+Stahl+Rd,+San+Antonio,+TX+78217/@29.571226,-98.410638,16z/data=!4m2!3m1!1s0x865c8b9dac43b373:0x2b9b4087a133d031?hl=en-US
-:geo_embed_address: pb=!1m14!1m8!1m3!1d3470.1160685027658!2d-98.41063799999999!3d29.571226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8b9dac43b373%3A0x2b9b4087a133d031!2s4201+Stahl+Rd%2C+San+Antonio%2C+TX+78217!5e0!3m2!1sen!2sus!4v1423244344600
+# :geo_address: https://www.google.com/maps/place/4201+Stahl+Rd,+San+Antonio,+TX+78217/@29.571226,-98.410638,16z/data=!4m2!3m1!1s0x865c8b9dac43b373:0x2b9b4087a133d031?hl=en-US
+# :geo_embed_address: pb=!1m14!1m8!1m3!1d3470.1160685027658!2d-98.41063799999999!3d29.571226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8b9dac43b373%3A0x2b9b4087a133d031!2s4201+Stahl+Rd%2C+San+Antonio%2C+TX+78217!5e0!3m2!1sen!2sus!4v1423244344600
 
 
 :address: 
-  :street: 4201 Stahl Rd
+  :street: 
   :city: San Antonio
   :state: Texas 
   :zip: 78217
@@ -67,6 +67,6 @@ social:
 
 :theme: flatly
 
-
+meta_image: /assets/img/index/kirk.jpg
 hours: >
     We are open Monday through Friday from 8am to 5pm. Saturday 9am to 2pm.

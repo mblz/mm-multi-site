@@ -1,24 +1,24 @@
 ---
-title: Heartwood tree service in San Antonio, Texas
-description: For quality tree trimming, tree removal, tree diagnose, land clearing and the best arbor care solutions hire Heartwood from San Antonio Tx. 
-keywords: tree services, tree trimming, tree removal, ball moss removal, tree fertilization, tree planting, tree diagnosis, tree preversation, land clearing
+title: Heartwood Tree Service | Tree Trimming and Removal Services
+description: Tree service in San Antonio Texas for tree trimming, tree removal, tree diagnose and treatment.  ISA Certified Arborist on every project.  For the best tree service in SA, call Heartwood Tree Service.  
+keywords:  tree service, tree trimming, tree removal, stump removal, ball moss removal, tree diagnose, tree treatment.
 ---
 
 - if carousel.present?
   - content_for :carousel, site_partial('carousel') 
 
 .row
-  .col-md-6
+  .col-md-8
     %h1.page-header Welcome to Heartwood Tree Services
     /%h4 The default website for this installation
     %p 
-      Welcome to Heartwood Tree Service & Solutions! Your Greater San Antonio Tree Service company providing the highest quality of workmanship for San Antonio, Boerne, Bandera and Helotes, Texas for tree trimming and pruning, tree removals, fertilization, stump removal and land clearing. Our goal is to preserve and protect our South Texas trees and maintain our greenery. We look forward to maintaining your trees on a long-term basis and are devoted to building strong customer relationships with commercial businesses and homeowners. For best results, hire the best tree trimmers in San Antonio, call 
+      Heartwood Tree Service provides the highest quality of care for tree trimming, tree removals, tree diagnose and treatment in San Antonio, Boerne, Bandera and Helotes, Texas.  Heartwoods' goal is to preserve and protect our South Texas trees and maintain our greenery.  We look forward to maintaining your trees on a long-term basis; we are devoted to building a strong customer relationships with commercial businesses and homeowners. For best results, depend on the best tree trimmers in San Antonio, call  
       = click_to_call
       \.
 
 
     
-    %h4 Benefits of hiring Heartwood
+    %h2 Benefits of hiring Heartwood
 
     %ul
       %li Adhere to all standards and codes set by the ISA and Tree Care Industry Association and your neighborhood ordinance.
@@ -29,11 +29,12 @@ keywords: tree services, tree trimming, tree removal, ball moss removal, tree fe
       %li Fifteen years of experience, strong attention to detail, dependable and reliable for all your tree care needs.
       %li Daily free Estimates and property walkthroughs for both Residential or Commercial jobs.
 
-  .col-md-6
+  .col-md-4
     %p
       %br
-    = image_tag('index/truck.jpg', class: 'img-responsive img-circle', style: 'width: 100%')
+    = image_tag('index/crew.jpg', class: 'img-responsive img-rounded')
 
 
-:css
-  body.index{ padding-top: 50px; }
+- content_for 'add_to_head' do
+  :css
+    body.index{ padding-top: 50px; }

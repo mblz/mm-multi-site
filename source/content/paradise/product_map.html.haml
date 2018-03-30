@@ -1,0 +1,50 @@
+/ - content_for 'add_to_end' do 
+
+/   %script
+/     $(function(){
+/     // Enables popover
+/     $("[data-toggle=popover]").popover();   
+/     });
+
+
+- cats = site('categories')
+%table.table#productMap(style="text-align:center")
+  %tr
+    - trees = cats.find{|c| c.name == 'Trees'} 
+    %td(colspan=4 style="background-color: #{trees.html_color}") 
+
+      %h3 Trees
+      = location_matrix(trees, nil)
+
+
+  %tr
+    - ground = cats.find{|c| c.name == 'Ground Cover'} 
+    %td(style="background-color: #{ground.html_color}")
+      
+      %h3
+        Ground Cover
+      = location_matrix(ground, nil)   
+    
+    - flower = cats.find{|c| c.name == 'Flowers'} 
+    %td(style="background-color: #{flower.html_color}")
+      %h3
+        Flowers
+      = location_matrix(flower, nil)   
+
+    - cactus = cats.find{|c| c.name == 'Cactus'} 
+    %td(style="background-color: #{cactus.html_color}")
+      %h3
+        Cactus
+      = location_matrix(cactus, nil)   
+
+    - palms = cats.find{|c| c.name == 'Palms'} 
+    %td(style="background-color: #{palms.html_color}")
+      %h3
+        Palms
+      = location_matrix(palms, nil)       
+  %tr
+    - shrubs = cats.find{|c| c.name == 'Shrubs'} 
+    %td(colspan=4 style="background-color: #{shrubs.html_color}") 
+      %h3 Shrubs
+      = location_matrix(shrubs, nil) 
+

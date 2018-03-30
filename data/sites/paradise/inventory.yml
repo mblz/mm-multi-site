@@ -1,0 +1,337 @@
+# 1 = low
+# 2 = med
+# 3 = high
+
+# Sun
+# 1 = shaded
+# 2 = moderate
+# 3 = full
+
+-
+  name: Abelia
+  cat: Flower
+  section: Flowers
+  section_number: 2
+  water: 1 
+  sun: 3
+  sizes:
+    - 3ft
+    - 6ft 
+- 
+  name: Agapanthus (Lily of the Nile) Blue
+- 
+  name: Agave Attenuata
+- 
+  name: Agiated Jasmine
+- 
+  name: Ally Agnus
+- 
+  name: Amercian Aquave
+- 
+  name: Angel Trumpets (Yellow)
+- 
+  name: Asian Jasmin
+- 
+  name: Asparigus Fern
+- 
+  name: Aztec Grass
+- 
+  name: BiColor Iris
+- 
+  name: Bird of Paradise
+- 
+  name: Black Diamond Crape Myrtles
+- 
+  name: Blueberry
+- 
+  name: Blue Daze
+- 
+  name: Blue Plumbago
+- 
+  name: Blue Point Juniper
+- 
+  name: Bulbine
+- 
+  name: Bottlebrush
+- 
+  name: Bougainvillea Surprise
+- 
+  name: Pow Wow
+- 
+  name: Butterfly Iris
+- 
+  name: Cedar Elm
+- 
+  name: Cherry Laurel
+- 
+  name: Citrus Paradise Rio Red Grapefruit
+- 
+  name: Citrus Reticulate OKITSU
+- 
+  name: Citrus X Meyers Lemon
+- 
+  name: Common Name
+- 
+  name: Confetti Lantana
+- 
+  name: Coral Drift Rose
+- 
+  name: Clara Hawthorn
+- 
+  name: Crape Myrtle
+- 
+  name: Dallas Red Lantana
+- 
+  name: Day Lilly
+- 
+  name: Dianella Flax Lilly
+- 
+  name: Drift Rose
+- 
+  name: Duranta
+- 
+  name: Dwarf Banana
+- 
+  name: Dwarf Burford Holly
+- 
+  name: Dwarf Clara White Hawthorn
+  sizes:
+    - 3ft
+    - 6ft 
+    - 10ft
+- 
+  name: Dwarf Peach Oleander
+- 
+  name: Dwarf Variegated Pittosporum
+- 
+  name: Dwarf Wax Myrtles
+- 
+  name: Dwarf Yupon Holly
+- 
+  name: Dynamite Crape Myrtle
+- 
+  name: Ed Goucher Grass
+- 
+  name: Elizabeth Pink
+- 
+  name: Esperanzas
+- 
+  name: Firecracker
+- 
+  name: Firepower Nandina
+- 
+  name: Foster Holly
+- 
+  name: Foxtail Fern
+- 
+  name: Giant Lariope
+- 
+  name: Green Cloud Sage
+- 
+  name: Green Goblet Spikes Aquave
+- 
+  name: Hibiscus Pink
+- 
+  name: Impatiens
+- 
+  name: Indian Carnatio
+- 
+  name: Iris Bi-color
+- 
+  name: Italian Cypress
+- 
+  name: Italian Cypress (boxed)
+- 
+  name: Jasmine
+- 
+  name: Japanese Boxwood
+- 
+  name: Japanese Yue
+- 
+  name: Juniper Cypress
+- 
+  name: Katies Dwarf Ruelia
+- 
+  name: Knockout Rose, Dbl
+- 
+  name: Knockout Roses, Sgl
+- 
+  name: Lemoncello
+- 
+  name: Ligustrum Waxleaf
+- 
+  name: Live Oak
+- 
+  name: Loropetalum Chinese
+- 
+  name: Magnolia
+- 
+  name: Maiden Grass
+- 
+  name: Martha Gonzalez
+- 
+  name: Mediterranean Palms
+- 
+  name: Mexican Bird of Paradise
+- 
+  name: Mexican Bush Sage
+- 
+  name: Mexican Fire Bush
+- 
+  name: Mexican Heather
+- 
+  name: Mexican Sigamour
+- 
+  name: Monterrey Oak
+- 
+  name: Mt Laurel
+- 
+  name: Myer Lemon
+- 
+  name: Myrtle, Southern Wax
+- 
+  name: Nandina
+- 
+  name: Natchez Crape Myrtle
+- 
+  name: Nellie Stsevens Holly
+- 
+  name: New Gold Lantana
+- 
+  name: Nuttall Oak
+- 
+  name: Oleander Dwarf (Red)
+- 
+  name: Oleander (Yellow)
+- 
+  name: Oleander (White)
+- 
+  name: Orange Trees (box)
+- 
+  name: Peach Drift Roses
+- 
+  name: Peach Trees in back fence
+- 
+  name: Photinia
+- 
+  name: Pineapple Guava
+- 
+  name: Pink Drift Rose
+- 
+  name: Pink Hawthorn
+- 
+  name: Pink Salvia
+- 
+  name: Pittosporum Variegated
+- 
+  name: Plumbego
+- 
+  name: Popcorn Drift Rose
+- 
+  name: Pow Wow Berry Red
+- 
+  name: Pride of Barbados
+- 
+  name: Primrose Jasmine
+- 
+  name: Private Variegated Trivit Ligustrums
+- 
+  name: Purple Fountain Cross
+- 
+  name: Purple Trailing Lantana
+- 
+  name: Red Bud
+- 
+  name: Red Day Lilly
+- 
+  name: Red Drift Roses
+- 
+  name: Red Hibiscus
+- 
+  name: Red Oaks
+- 
+  name: Red Oleander
+- 
+  name: Red Tip Petunias
+- 
+  name: Red Yucca
+- 
+  name: Regular Pittosporun Green
+- 
+  name: Rosemary
+- 
+  name: Rose Belindas Dream
+- 
+  name: Russian Sage
+- 
+  name: Sago Palms
+- 
+  name: Salvia Greggi Pink
+- 
+  name: Salvia, Mexican Bush Sage
+- 
+  name: Savannah Holly
+- 
+  name: Sea Green Juniper
+- 
+  name: Shrimp Plant
+- 
+  name: Shumard Red Oaks
+- 
+  name: Silver Pony Foot
+- 
+  name: Society Garlic
+- 
+  name: Soft Leaf Yucca
+- 
+  name: Southern Wax Myrtles
+- 
+  name: Spineless Prickly Pear
+- 
+  name: Split Leave Philodendron
+- 
+  name: Shrimp Plant
+- 
+  name: Super Blue Lariope
+- 
+  name: Sweet Viburnum Odoratissimum
+- 
+  name: Texas Redbud
+- 
+  name: Texas Sabals
+- 
+  name: Texas Sage Grey
+- 
+  name: Texas Star Hibiscus
+- 
+  name: Texilana Aquave
+- 
+  name: Thompson Yucca White Flower
+- 
+  name: Trailing Rosemary
+- 
+  name: Turk's Caps
+- 
+  name: Variegated Garlic
+- 
+  name: Variegated Liriope Grass
+- 
+  name: Variegated Privet
+- 
+  name: Viburnum Suspensum
+- 
+  name: Vitex
+- 
+  name: Weber Eye Aquave
+- 
+  name: White Trailing Lantana
+- 
+  name: Winter Gym Boxwoods
+- 
+  name: Yaupon Holly
+- 
+  name: Yellow Oleander
+- 
+  name: Zuni Crape Myrtle
+- 
+  name: Xylosma

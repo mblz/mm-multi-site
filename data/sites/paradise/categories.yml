@@ -1,0 +1,37 @@
+---
+- site_id: 62
+  id: 1
+  name: Palms
+  matrix: 3x3
+  color: red
+  html_color: firebrick
+- site_id: 62
+  id: 2
+  name: Trees
+  matrix: 20x1
+  color: green
+  html_color: green
+- site_id: 62
+  id: 3
+  name: Cactus
+  matrix: 3x3
+  color: blue
+  html_color: "#336699"
+- site_id: 62
+  id: 4
+  name: Flowers
+  matrix: 5x5
+  color: pink
+  html_color: pink
+- site_id: 62
+  id: 5
+  name: Ground Cover
+  matrix: 4x4
+  color: lightgreen
+  html_color: lightgreen
+- site_id: 62
+  id: 6
+  name: Shrubs
+  matrix: 8x3
+  color: lightblue
+  html_color: lightblue

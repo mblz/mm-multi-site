@@ -1,0 +1,12 @@
+- site(:reference).each do |cat, items|
+  %h3= cat.capitalize
+  %ul
+    - items.each do |item|
+      %li
+        - if item.size > 2
+          = link_to item.first, item[1], target: :_blank
+          - item.each_with_index do |i,idx|
+            - next if [0,1].include? idx
+            = link_to "(#{idx-1})", i
+        - else
+          = link_to item.first, item.last, target: :_blank

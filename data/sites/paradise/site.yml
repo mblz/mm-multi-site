@@ -1,0 +1,75 @@
+
+:title: Paradise 
+:subtitle: Nursery
+:description: Nursery
+:keywords: Palms and things for landscapers
+
+
+:name: Paradise
+:email: paradisenurseryllc@gmail.com
+:phone: 210-201-1428
+
+:geo_address: 
+:geo_embed_address: 
+
+
+
+:address: 
+  :street: 3550 N Loop 1604 E
+  :city: San Antonio
+  :state: Texas
+  :zip: 78247
+
+:owner:
+  :name: Raymond Dady
+  :email: Owner email
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: Products
+    cnt: true
+  - title: About
+    cnt: true    
+  - Gallery
+  - Contact
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+social:
+  #   facebook: 
+  #   twitter:
+  #   google_plus: 
+  #   pinterest: 
+  #   yelp: 
+  #   angieslist: 
+  #   linked_in: 
+
+# View related
+:logo: false
+
+:hostname: www.paradisenurseryllc.com
+:meta_image: /assets/img/misc/meta.jpg
+
+:hours: Mon - Friday Mon - Fri (8:00 - 4:00 PM) |  Sat - 8:00 - 1:00 PM
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+:theme: sandstone #readable #superhero #yeti #lumen #readable
+
+nav_theme: normal

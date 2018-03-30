@@ -1,0 +1,57 @@
+/%link(rel="stylesheet" type="text/css" href="/assets/css/sites/paradise-print.css" media="print")
+
+/ %table.table.table-bordered.sections
+/   - site("sections").each do |section|
+/     %tr
+/       %td.colored(class="#{section[:color]}" style="background-color:#{section[:color]};width:40%;border: 10px solid white") &nbsp;
+/       %td(style="border: 10px solid white")
+/         %h1= section[:name]
+.container
+  .row
+    - site("inventory").each do |item|
+      .col-xs-6
+        .panel.panel-default
+          .panel-heading
+            = item.name
+            .text-right.pull-right
+              %b Plant
+          .panel-body
+            = lorem.words 20
+            %br
+            %p.text-right.pull-right.bordered.thumbnail
+              - marker = '3x3@6'.sub(/\@\d?/,'')
+              - i_location = rand(9) + 1#$&.sub('@','')
+              /- section_number = 6
+              /- matrix = marker.gsub!(/\@\d?/,'')
+              /%p=matrix
+              - fn1,fn2   = marker.split('x')
+              - x = 1
+              - 1.upto fn1.to_i do
+                - 1.upto fn2.to_i do
+                  - if i_location.to_i == x
+                    %span.glyphicon.glyphicon-map-marker(style="color:firebrick")
+                  - else
+                    %span.glyphicon.glyphicon-certificate
+                  - x += 1
+                %br
+            %ul
+              %li Section
+              %li Water
+              %li Sun
+
+              / = fn2
+              / %span.glyphicon.glyphicon-map-marker
+          .panel-footer
+            /(style="background: url('/assets/img/gallery/nursery/panoramic.jpg');height:200px")
+
+
+:css
+  .panel-footer {
+  background-image: url(/assets/img/gallery/nursery/panoramic.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 150px;
+  }

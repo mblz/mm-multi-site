@@ -4,19 +4,70 @@ description: Customer reviews for work we've completed
 keywords: review, customer, rating
 ---
 
+= stylesheet_link_tag "gallery/blueimp.css", :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "gallery/blueimp.js"
+
+- if site.leave_us_a_review_link
+  .alert.alert-info(role='info')
+    
+    %h2
+      .small Already a customer?
+      = link_to site.leave_us_a_review_link do
+        Leave us a Review!
+        .fa{class: "fa-check", style: 'color:gold'}
+        
+    .clearfix
+
 
 %h1.page-header 
   %span.fa.fa-heart(style="color:firebrick")
   Reviews
   %small what our customers say about us
 
-
-- if reviews = site(:reviews)
-  - if reviews.first.is_a?(Hash)
+- reviews = site(:reviews)
+- if reviews && reviews.count > 0
+  #blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
+    .slides
+    %h3.title
+    %a.prev &laquo;
+    %a.next &raquo;
+    %a.close x
+    %a.play-pause
+    %ol.indicator
+  #gallery
     -  reviews.each do |review|
-      %blockquote
-        = review.comment
-        %footer
-          = review.initials
+
+      .panel.panel-primary
+        .panel-heading
+          %h3.panel-title
+            .pull-right
+              .fa{class: "fa-#{review.icon}", style: 'color:gold'}
+            = review.title
+            
+
+        .gallery.panel-body
+          %blockquote= review.comment
+          %hr
+          %i Job description:
+          %ul
+            - for item in review.items
+              %li
+                %b= item.name 
+                = item.note
+          - if review.images.present?
+            - before_images = review.images.before
+            - after_images  = review.images.after
+            - before_and_after = before_images.present? && after_images.present?
+            = partial "partials/site/images_for_review", locals: {images: before_images, header: "Before", use_header: before_and_after}
+            = partial "partials/site/images_for_review", locals: {images: after_images, header: "After", use_header: before_and_after}               
+        .panel-footer
+          Client initials: 
+          %b= review.initials
+          .pull-right
+            Created
+            %b= review.created_at
+
+  = javascript_include_tag 'gallery/init'
+
 - else
-  ERROR add a reviews yml to data. 
+  ERROR add a reviews.yml to ./data. 

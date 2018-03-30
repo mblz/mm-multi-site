@@ -1,66 +1,200 @@
 ---
-- initials: SS
-  comment: dldldldldldlld
+- initials: AC
+  comment: "Love how beautiful the trees look, the house looks pretty and clean when
+    you drive up. Exceptional job by Mr. Heartwood and crew.\r\n"
   items:
-  - name: Ongoing Maintenance
-    note: George will be on premises at all times. Thank you for your business. Blah
-      blah blau
-  - name: Mblz DB
-    note: ''
+  - name: Tree Trimming
+    note: Estimate to trim all Oaks in front and one Cedar Elm on the side of home.
+      Raise canopies, remove dead limbs and branches, roofline clearance on both sides.
+      Central trimming for proper aeration. Seal all wounds on Oaks. Clean up and
+      haul off all debris.
   images:
-  - title: ''
-    url: "/system/attachments/images/000/000/055/original/gallery.jpg"
-  - title: ''
-    url: "/system/attachments/images/000/000/056/original/home.jpg"
-  title: YEAH
+    before:
+    - title: Before Roofline
+      url: "/system/attachments/images/000/000/376/original/IMG_1484.jpg"
+    - title: After Clearance & Pruning
+      url: "/system/attachments/images/000/000/377/original/IMG_1488.jpg"
+    - title: Before Trimming
+      url: "/system/attachments/images/000/000/378/original/IMG_1483.jpg"
+    - title: After Trimming
+      url: "/system/attachments/images/000/000/379/original/IMG_1487.jpg"
+    after: []
+  title: Exceptional Job
+  icon: heart
+  created_at: '2016-09-21'
+- initials: DS
+  comment: "George and his team did a marvelous job. We have several large oak trees
+    in our front and back yard. We are so pleased with the work. I was also quite
+    impressed with the clean up. We had several trees around our pool which he neatly
+    trimmed and left our pool without leaves and branches. George and his team were
+    able to trim just enough to allow us extra sunlight around the pool ( which helped
+    warm it up) but still had enough shade if we did not want to sit in the sun. The
+    trees all look so pretty now! I would highly recommend!\r\n\r\nD.L.S."
+  items:
+  - name: Tree Trimming
+    note: Estimate to trim all trees on property front and back. Raise canopies, remove
+      dead limbs and branches and trim away from roofline. Seal all wounds on Oaks.
+      Clean up and haul off all debris.
+  - name: Tree Trimming
+    note: Estimated 3 days work on this project. 4 men, truck and chipper.
+  images:
+    before:
+    - title: ''
+      url: "/system/attachments/images/000/000/200/original/IMG_0054.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/201/original/IMG_0370.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/202/original/IMG_2325.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/203/original/IMG_5652.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/204/original/IMG_6265.jpg"
+    after:
+    - title: ''
+      url: "/system/attachments/images/000/000/205/original/IMG_5814.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/206/original/IMG_7969.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/207/original/IMG_8633.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/208/original/IMG_7210.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/209/original/IMG_9617.jpg"
+  title: Marvelous Job
+  icon: smile-o
+  created_at: '2016-06-02'
+- initials: PR
+  comment: "George Potter and the Heartwoods team tackled a yard full of trees that
+    weren't trimmed in the last 10-15 years. Over the course of two full days, our
+    property was completely transformed, and the trees look healthier and more beautiful
+    than ever before. George and his team are courteous and professional, and I would
+    unhesitatingly recommend them to other homeowners.\r\n\r\nP.R. \r\nSan Antonio,
+    Tx"
+  items:
+  - name: Tree Trimming
+    note: Estimate to trim all trees front and back as discussed with customer. Remove
+      dead limbs and branches, trim all branches away from roofline, thin out trees
+      in back for more sunlight. Seal all wounds on oaks.
+  - name: Tree Trimming
+    note: Also included in this estimate is the cabling issue that needs to be addressed.
+      Cables wrapped around trees girdling trunks and compromising overall heath of
+      the Oaks. When done clean up and haul off all debris.
+  images:
+    before:
+    - title: Before Roofline Clearance
+      url: "/system/attachments/images/000/000/301/original/IMG_0863.jpg"
+    - title: After Clearance
+      url: "/system/attachments/images/000/000/302/original/IMG_2917.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/303/original/IMG_8907.jpg"
+    - title: After Trimming for Clearance
+      url: "/system/attachments/images/000/000/304/original/IMG_0938.jpg"
+    - title: Before Clearing
+      url: "/system/attachments/images/000/000/306/original/IMG_8683.jpg"
+    - title: After Clearing
+      url: "/system/attachments/images/000/000/307/original/IMG_2152.jpg"
+    - title: Before
+      url: "/system/attachments/images/000/000/308/original/IMG_2628.jpg"
+    - title: Before Clearing in Patio
+      url: "/system/attachments/images/000/000/309/original/IMG_8247.jpg"
+    - title: After Trimming Patio Area
+      url: "/system/attachments/images/000/000/310/original/IMG_1692.jpg"
+    - title: Limbs,Branches touching roof
+      url: "/system/attachments/images/000/000/311/original/IMG_2839.jpg"
+    - title: After cutting, trimming branches
+      url: "/system/attachments/images/000/000/312/original/IMG_8618.jpg"
+    after: []
+  title: A Yard Full of Trees Transformed
+  icon: space-shuttle
+  created_at: '2016-06-06'
+- initials: RW
+  comment: "I met with 5 tree trimmers to get estimates.  They generally agreed with
+    the work that needed to be done.  Remove a large splintered limb and trim a lot
+    of deadwood from\r\ntwo never trimmed 25 year old Ash trees, and provide roofline
+    clearance.  George and 3 crew showed up right on time and everybody worked until
+    they were through.\r\nNo sidewalk supervisors here. They even raked the yard when
+    they were done.  Now I have two happy trees. George is a friendly guy. What else
+    do you need to know?\r\nOh yeah his bill was exactly what his estimate was ...
+    less than half of what one of the  other arborist' wanted. Call George Potter.\r\n\r\nRW\r\nSan
+    Antonio, Texas"
+  items:
+  - name: Tree Trimming
+    note: Estimate to clean up and trim two large Ash trees in front yard. Raise canopies,
+      provide roofline clearance and central cleaning. Remove large lateral limb that
+      snapped during storm. Clean up and haul off all debris.
+  images:
+    before:
+    - title: ''
+      url: "/system/attachments/images/000/000/191/original/IMG_1204.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/192/original/IMG_1207.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/193/original/IMG_1205.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/194/original/IMG_1208.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/195/original/IMG_1206.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/196/original/IMG_1209.jpg"
+    after:
+    - title: ''
+      url: "/system/attachments/images/000/000/197/original/IMG_2026.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/198/original/IMG_4266.jpg"
+    - title: ''
+      url: "/system/attachments/images/000/000/199/original/IMG_1023.jpg"
+  title: Don't waste your time. Don't waste your money.
   icon: trophy
-  created_at: '2015-10-24'
-- initials: MS
-  comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\r\ntempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\r\nquis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse\r\ncillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\r\nproident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  created_at: '2016-05-28'
+- initials: GG
+  comment: " We are extremely satisfied with the work George Potter and his company,
+    Heartwood Tree Service and Solutions, completed at our address over the last two
+    years. Not only does the work meet expected, prescribed standards of a certified
+    arborist, it exceeds them. Mr Potter remains on site with his crew, ensuring adherence
+    to those standards in a professional manner, and is available to answer questions
+    and offer advice. He noted that some of our trees were being over-watered by our
+    new system and met with the sprinkler representative to suggest a solution. The
+    solution resulted in improvement to our trees. We feel that one, favorite, tree
+    was saved by this intervention. Cleanup procedures were thorough and impressive.
+    We commend and recommend this company to any possible clients seeking such service.
+    Their ethical, expert approach to tree care is unmatched by those we have used
+    in the past.\r\n"
   items:
-  - name: Ongoing Maintenance
-    note: 'Month of May Services: Ongoing Maintenance, Hosting, Mblz DB, Virtual Assist,
-      Programmable Nr.  '
-  - name: Miscellaneous
-    note: 'PAID BY CHECK: 1352 (150.00) 5/14/2015'
+  - name: Tree Trimming
+    note: Tree trimming, pruning to clean up and trim Live Oaks and diagnose some
+      of the trees.  Haul debris.
   images:
-  - title: Home page
-    url: "/system/attachments/images/000/000/050/original/home.jpg"
-  - title: Gallery
-    url: "/system/attachments/images/000/000/051/original/gallery.jpg"
-  title: 
-  icon: heart
-  created_at: '2015-05-12'
-- initials: GP
-  comment: I am an owner of a successful Tree Service company in San Antonio. I have
-    been working with Elva for the past couple of years. Her system has made my life
-    so much easier; I can't even begin to elaborate on how much she and integrated-internet.com
-    has enhanced and simplified my daily endeavors. Instant estimates from my iPhone.
-    Invoicing is a breeze and she has set me up with pay-pal so I get paid automatically.
-    Do not know what I would do without her. She is like a secretary-business coordinator-
-    public relations contact with a dash of awesome. Totally earned my loyalty. Earned
-    Was totally skeptical at first but her commitment to my company and her work ethic
-    won me over big time. A must for any growing business. Just referred my Brother
-    to her. He will thank me later and now he owes me one 'big time' as well.
+    before:
+    - title: ''
+      url: "/system/attachments/images/000/000/140/original/before-land-clearing.jpg"
+    after:
+    - title: ''
+      url: "/system/attachments/images/000/000/141/original/after-land-clearing.jpg"
+  title: Completely Impressed with Tree Care Approach
+  icon: smile-o
+  created_at: '2015-09-08'
+- initials: SC
+  comment: 'HELLO I had George Potter here today with his men and they did a perfectly
+    lovely job on our trees. My idea of a GOOD pruning is to not notice that the tree
+    looks so different. It appears calm and full and NATURAL! And they certainly did
+    that. Such good work, good attitude and wanting to please! Wow. Don''t find that
+    much any more. Will sing their praises to anyone who can say: "Tree".'
   items:
-  - name: Hosting
-    note: ''
-  - name: Mblz DB
-    note: ''
-  - name: Virtual Assistance
-    note: "  "
-  - name: Website
-    note: "  "
+  - name: Tree Maintenance
+    note: "Estimate to thin 2 large Live Oaks in back yard as discussed with customer.
+      Removing a few large lateral limbs over roofline.\r\nFill cavity if needed after
+      removing large lateral limb."
+  - name: Tree Maintenance
+    note: "Seal all wounds on Oaks. Clean up and haul off all debris.\r\nI will be
+      there personally to oversee project to assure customer satisfaction and proper
+      pruning procedures."
   images:
-  - title: George Potter
-    url: "/system/attachments/images/000/000/052/original/geo.jpg"
-  - title: Home Page
-    url: "/system/attachments/images/000/000/053/original/home.jpg"
-  title: 
-  icon: heart
-  created_at: '2015-06-30'
+    before:
+    - title: Before lot clearing
+      url: "/system/attachments/images/000/000/142/original/before-lot-clearing.jpg"
+    after:
+    - title: After lot clearing
+      url: "/system/attachments/images/000/000/143/original/after-lot-clearing.jpg"
+  title: 'Such good work, good attitude and wanting to please! '
+  icon: trophy
+  created_at: '2014-01-02'

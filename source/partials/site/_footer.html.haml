@@ -1,10 +1,10 @@
 = site_partial('custom_footer')
 
-.container
+.container.hidden-print
   %hr
   .row
     .col-md-8
-      %a(name="contact")
+      
       %h4 Address
       - if site.geo_address
         %a(href="#{site.geo_address}" target="_map")
@@ -18,14 +18,14 @@
           /= data.sites.fusion.phone
       %h4
         Email: 
-        %a(href="mailto:#{site.email}?subject=contact from website")= site.email  
+        %a(href="mailto:#{site.email}?subject=contact+from+website")= site.email  
 
        
     
     .col-md-4 
       = site_partial 'social'
 
-.container#footer
+.container.hidden-print#footer
   %p 
     = Date.today.year
     &copy;

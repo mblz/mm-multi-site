@@ -1,7 +1,14 @@
+<meta charset="UTF-8">
 <meta name='title' content="<%= page_title %>">
-
 <meta name='description' content="<%= current_page.data["description"] %>">
-
 <meta name='keywords' content="<%= current_page.data["keywords"] %>">
+
+<% if site.verification%>
+<meta name="google-site-verification" content="<%= site.verification %>" />
+<% end %>
+
+<%= site_partial('canonical') %>
+<%= site_partial('og') %>
+<%= site_partial('twitter') %>
 
 

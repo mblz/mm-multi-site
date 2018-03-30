@@ -1,5 +1,7 @@
+:verification: uLD8YoNwiskh3Q9KmyeGy7Mjob0xpIklEqwFxDTH-z8
 
-:title: Magnolia Homes
+:title: Magnolia 
+subtitle: Homes
 :description: Custom Home Builder | Frio County, Pearsall Tx | 210.460.2126
 :keywords: Custom Home Builder, Custom Homes, Real Estate Broker, Pearsall Real Estate, Frio County Real Estate, Frio County Builder
 
@@ -55,4 +57,6 @@ social:
 # http://bootstrapcdn.com/#bootswatch_tab
 
 :theme: journal
+
+meta_image: /assets/img/index/house-6.png
 

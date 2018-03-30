@@ -1,5 +1,5 @@
 !!!
-%html
+%html(lang="en-US" itemscope  itemtype="http://schema.org/Article" prefix="og: http://ogp.me/ns#")
   %head
     %title= page_title
     = site_partial('meta')
@@ -14,24 +14,15 @@
           .col-lg-4= side_menu
       - else
         = yield
-    / - if $DEMO      
-    /   .container
-    /     /= current_page.path
-    /     = partial("_demo/#{current_page.path}") rescue nil
     = site_partial "footer"
-    
-
     - if site.theme
       %link{href: "//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/#{site.theme}/bootstrap.min.css", rel: "stylesheet"}
-
-
-    %link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
-    = stylesheet_link_tag "all"
-    = stylesheet_link_tag "sites/#{$SITE}.css"    
+    %link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")  
     %script(src="//code.jquery.com/jquery-2.1.1.min.js")
-    %script(src="//maxcdn.bootstrapcdn.com/bootstrap/#{data.config.bootstrap.version}/js/bootstrap.min.js")
+    %script(src="//maxcdn.bootstrapcdn.com/bootstrap/#{data.config.bootstrap.version}/js/bootstrap.min.js")   
+    = stylesheet_link_tag "sites/#{$SITE}.css"  
+    = stylesheet_link_tag "all"
     = javascript_include_tag  "all"  
-
     = yield_content 'add_to_end'
 
 

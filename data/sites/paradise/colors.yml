@@ -1,0 +1,48 @@
+a:
+  color: firebrick
+  info: Palms
+b:
+  color: darkblue
+  info: Trees  
+
+c:
+  color: gold
+  info: Trees  
+
+d:
+  color: orange
+  info: Trees  
+
+e:
+  color: lightsalmon
+  info: Trees  
+
+f:
+  color: coral
+  info: Trees  
+
+
+g:
+  color: darkgreen
+  info: Green house 1   
+
+h:
+  color: darkolivegreen
+  info: Green house 1   
+
+i:
+  color: indigo
+  info: Sunshine    
+
+
+l:
+  color: lime
+  info: Trees  
+
+j:
+  color: seagreen
+  info: Trees  
+
+k:
+  color: olive
+  info: Trees    

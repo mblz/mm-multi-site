@@ -1,0 +1,51 @@
+.container
+  .row
+    - x = 1
+    - site("products").each do |item|
+      - next unless (item[:image_thumb_path] =~ /\/system/)
+      - category = paradise_category(item[:product_category_id])
+      - img_url  = env_url(item[:image_thumb_path].sub('thumb', 'original'))
+      .col-lg-12
+        .panel.panel-default
+          /#.for-print
+          .panel-heading
+            .text-right.pull-right
+              = category.name
+            %h3= item.name
+   
+          .panel-body
+            = image_tag img_url, 'data-toggle' => :tooltip, title: item.name, class: 'img-responsive thumbnail pull-right', style: "border: 6px solid #{category.html_color};margin-left:20px;" #, class: 'thumbnail'
+            %ul
+              %li 
+                Water:
+                %b= paradise_water(item[:water])
+              %li 
+                Sun:
+                %b= paradise_sun(item[:sun])
+              = item_title_value(item, 'Tolerance')
+              = item_title_value(item, 'Size')
+              = item_title_value(item, 'Coler')
+              = item_title_value(item, 'Note')
+        - if x.even?
+          .footer              
+        - x += 1
+
+/ = fn2
+/ %span.glyphicon.glyphicon-map-marker
+/.panel-footer(style="background: url('http://#{$SITE}.mblz.com#{item['image_thumb_path'].sub('thumb', 'original')}') !important")
+
+:css
+  @media print {
+    .footer {page-break-after: always;}
+    .panel { width: 800px !important; margin-top:40px; }
+    .panel-heading h3 { font-weight:bold; margin-left:32px; }
+
+
+  }
+  .thumbnail{
+    width: 360px !important;
+    height: 360px !important;
+  }
+  .panel-body ul { font-size: 26px}
+  .panel-heading .text-right{ font-size: 22px !important;margin-top:12px; }
+  .panel { margin-bottom: 46px !important}

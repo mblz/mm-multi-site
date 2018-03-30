@@ -1,0 +1,9 @@
+- if use_header
+  %h3= header
+- images.each do |image|
+  - host     = ENV['test'] === '1' ? "http://localhost:3000" : "http://mblz.mblz.com"
+  - original = image.url
+  - thumb    = original.sub('original','thumb')
+  = link_to host + original, title: image.title do
+    = image_tag host+thumb, 'data-toggle' => :tooltip, title: image.title, class: 'img-rounded' 
+.clearfix 

@@ -1,4 +1,4 @@
-
+:verification: OSyVnQd6NivgpVLKHQTSSqfNweordVk2RcJPWp
 :title: Heartwood
 :subtitle:  Tree Service
 
@@ -7,21 +7,21 @@
 :email: george@heartwoodtreesa.com
 :phone: 210-585-2560
 
-:geo_address: https://www.google.com/maps/place/4201+Stahl+Rd,+San+Antonio,+TX+78217/@29.571226,-98.410638,16z/data=!4m2!3m1!1s0x865c8b9dac43b373:0x2b9b4087a133d031?hl=en-US
-:geo_embed_address: pb=!1m14!1m8!1m3!1d3470.1160685027658!2d-98.41063799999999!3d29.571226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8b9dac43b373%3A0x2b9b4087a133d031!2s4201+Stahl+Rd%2C+San+Antonio%2C+TX+78217!5e0!3m2!1sen!2sus!4v1423244344600
+# :geo_address: https://www.google.com/maps/place,+San+Antonio,+TX+78217/@29.571226,-98.410638,16z/data=!4m2!3m1!1s0x865c8b9dac43b373:0x2b9b4087a133d031?hl=en-US
+# :geo_embed_address: pb=!1m14!1m8!1m3!1d3470.1160685027658!2d-98.41063799999999!3d29.571226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8b9dac43b373%3A0x2b9b4087a133d031!2s4201+Stahl+Rd%2C+San+Antonio%2C+TX+78217!5e0!3m2!1sen!2sus!4v1423244344600
 
 
 :address: 
-  :street: 4201 Stahl Rd
+  :street: 
   :city: San Antonio
   :state: Texas
-  :zip: 78217
+  :zip: 
 
 :owner:
   :name: George Potter
   :email: george@heartwoodtreesa.com
   :address: 
-    :street: 4201 Stahl Rd
+    :street: 
     :city: San Antonio
     :state: Tx
     :zip: 78217
@@ -31,7 +31,7 @@ nav:
     cnt: true  
   - title: Services
     cnt: true
-  - Testimonials
+  - Reviews
   - Gallery
   - Contact
 
@@ -46,19 +46,20 @@ contact_form:
     - Service requested
 
 social:
-  facebook: pages/Heartwood-Tree-Service/271548752876149
+  #facebook: pages/Heartwood-Tree-Service/271548752876149
   twitter:
   google_plus: Heartwoodtreesa
-  pinterest: heartwoodtreesa
-  yelp: heartwood-tree-service-san-antonio
-  angies_list: 8358248
+  #pinterest: heartwoodtreesa
+  #yelp: heartwood-tree-service-san-antonio
+  #angies_list: 8358248
   linked_in: 
 
 # View related
 :logo: false
 
 :hostname: heartwoodtreesa.com
-
+:meta_image: /assets/img/index/george.jpg
+leave_us_a_review_link: https://goo.gl/QQKVib
 hours: 
   Monday through Friday 8AM to 4PM
 

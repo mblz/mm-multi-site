@@ -4,6 +4,9 @@ require "lib/gallery_helper"
 helpers GalleryHelper
 
 
+require "lib/paradise_helper"
+helpers ParadiseHelper
+
 link_imgs
 ln_index
 activate :directory_indexes
@@ -13,6 +16,9 @@ activate :directory_indexes
 activate :relative_assets
 
 set :relative_links, true
+
+
+set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true
 
 
 set :css_dir, 'assets/css'
@@ -43,7 +49,7 @@ configure :build do
   ignore /^\.git/
 
   # make sure these pages have content 
-  %w[testimonials referrals portfolio faqs clients].each do |test|
+  %w[testimonials referrals portfolio faqs clients reviews].each do |test|
     if site(test).blank?
       ignore /^#{test}\.html/
     end

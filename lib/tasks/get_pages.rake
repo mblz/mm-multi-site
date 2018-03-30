@@ -5,8 +5,9 @@ task :get_pages, [:site] do |t, args|
   system "rm -rf ./source/content/#{site}/pages"
   system "mkdir -p ./source/content/#{site}/pages"
 
-  #s_json      = open("http://localhost:3000/pages") {|f| f.read }
-  s_json      = open("http://#{site}.mblz.com/pages") {|f| f.read }
+  url         = env_url(site, 'pages?mblz=1')   
+
+  s_json      = open(url) {|f| f.read }
   
   pages       = JSON.parse(s_json)#map{|j| {title: j[:title], text: j[:text] }}
 
