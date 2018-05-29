@@ -50,7 +50,7 @@ contact_form:
     
 
 social:
-  facebook:
+  facebook: https://www.facebook.com/Cynthia-C-Moseley-LMT-1553207735004178/
   twitter:
   google_plus: 
 
@@ -59,10 +59,10 @@ social:
 
 :hostname: cynthiamoseleylmt.com
 
-:carousel:
-  - blue-bonnet.jpg
-  - rock.jpg
-  - header.jpg
+# :carousel:
+#   - blue-bonnet.jpg
+#   - rock.jpg
+#   - header.jpg
 
 
 # Choose one here

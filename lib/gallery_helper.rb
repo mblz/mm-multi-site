@@ -4,7 +4,7 @@ module GalleryHelper
 	end
 	def carousel
     dir = img_dir_for(data.config.carousel_dir)
-    Dir.glob(dir).map {|f| f.split('/').last}		
+    Dir.glob(dir).map{|f| f.split('/').last}.sort
 	end
 
 	def gallery_dirs

@@ -31,6 +31,10 @@ nav:
     cnt: true  
   - title: Services
     cnt: true
+  - title: Trimming
+    cnt: true
+  - title: Removal
+    cnt: true
   - Reviews
   - Gallery
   - Contact
