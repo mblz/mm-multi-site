@@ -4,38 +4,34 @@ nav:
     cnt: true
   - Clients
   - title: About
-    cnt: true 
+    cnt: true
   - Gallery
   - Reviews
   - Contact
 
-
-:title: Sunshine 
+:title: Sunshine
 :subtitle: Landscape services
-:description: Landscaping company specializing in hardscape, irrigation and retainer walls. 
+:description: Landscaping company specializing in hardscape, irrigation and retainer walls.
 :keywords: landscaping, hardscape, irrigation, water features, plant installation, lighting, retainer walls
-
 
 :name: sunshine
 :email: slandscapemgmt@gmail.com
 :phone: 210-585-2701
 
-:address: 
-  :street: 29360FM 360-A-2
-  :city: Spring Branch
+:address:
+  :street: 3550 N Loop 1604 E
+  :city: San Antonio
   :state: Texas
-  :zip: 78070
+  :zip: 78247
 
 :owner:
   :name: Raymond Dady
   :email: raymond@sunshine-landscape.com
-  :address: 
-    :street: 29360FM 360-A-Z
-    :city: Spring Branch
+  :address:
+    :street: 3550 N Loop 1604 E
+    :city: San Antonio
     :state: Texas
-    :zip: 78070
-
-
+    :zip: 78247
 
 contact_form:
   subject: Contact from Site
@@ -43,14 +39,13 @@ contact_form:
     - Service requested
     - Name
     - Address
-    - Email 
+    - Email
     - Phone
     - Date
 
-
 social:
-  facebook:
-  twitter:
+  ? facebook
+  ? twitter
   google_plus: sunshine-landscape
 
 # View related

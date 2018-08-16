@@ -4,7 +4,7 @@ task :go, [:site] do |t, args|
   site_yml = site_yml(site)
   host     = site_yml[:hostname]
   if host && host !~ /localhost/
-    system "open http://www.#{host}"
+    system "open https://www.#{host}"
   else
     system "open http://assets.integrated-internet.com/sites/#{site}"
   end
