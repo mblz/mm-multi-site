@@ -1,4 +1,27 @@
 ---
+- initials: JF
+  comment: I contacted the three companies with the highest yelp ratings to ask for
+    bids to have the trees at my home and my parents home trimmed, dead limbs removed,
+    moss balls removed, etc.  George was the most timely, polite, knowledgeable and
+    professional.  He also had the most reasonable bid and was the only owner that
+    guaranteed he'd be at the job site while the work was being performed.  The trees
+    look absolutely stunning after the work George and his team did.  Each home took
+    two days and after George and his team left each day, the job site was spotless.  No
+    branches or residue could be found anywhere.  Top quality work and team!  My only
+    regret is that I didn't have the work done sooner.
+  items:
+  - name: Tree Trimming
+    note: Raise canopies, remove dead limbs and branches, provide proper roofline
+      clearance and remove ball moss. Seal all wounds on Oaks. Clean up and haul off
+      all debris.
+  - name: Tree Removal
+    note: Also included in this estimate is the removal of one small loquat tree.
+  images:
+    before: []
+    after: []
+  title: Highly recommend George Potter and his team.
+  icon: trophy
+  created_at: '2018-06-20'
 - initials: AC
   comment: "Love how beautiful the trees look, the house looks pretty and clean when
     you drive up. Exceptional job by Mr. Heartwood and crew.\r\n"

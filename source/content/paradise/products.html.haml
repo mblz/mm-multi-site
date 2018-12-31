@@ -27,7 +27,7 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
 
 
 
-%table#productsTable{"class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none", 'data-url' => 'http://paradise.mblz.com/products.json?mblz=1'}
+%table#productsTable{"class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none", 'data-url' => '//paradise.mblz.com/products.json?mblz=1'}
   %thead
     %tr
       /%th(data-field="state" data-checkbox="true")
@@ -63,7 +63,7 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
   }
   function formatImage(v){
     if(v.indexOf("missing") != -1) return '-'
-    return "<a href='http://paradise.mblz.com" + v.replace('thumb', 'original') + " ' target='_blank'><img src='http://paradise.mblz.com" + v + "'/></a>"
+    return "<a href='//paradise.mblz.com" + v.replace('thumb', 'original') + " ' target='_blank'><img src='//paradise.mblz.com" + v + "'/></a>"
   }
   function formatCategory(v){
     return ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"][v-1]
@@ -74,7 +74,7 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
   function formatWater(v){
      return ["Light", "Weekly", "", "Heavy"][v]
   }
-= javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "http://#{mblz_host}/static/proxy.html"
+= javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "//#{mblz_host}/static/proxy.html"
 
 
 / %th{"data-field" => "note"}

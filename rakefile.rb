@@ -42,7 +42,7 @@ def env_url(site, path)
   if test?
     host =  "http://localhost:3000/" 
   else
-    host = "http://#{site}.mblz.com/"
+    host = "https://#{site}.mblz.com/"
   end  
   host + path
 end

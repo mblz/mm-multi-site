@@ -1,4 +1,35 @@
 ---
+- initials: KG
+  comment: Fernando did a great job on my property.  I had numerous oak trees to trim
+    and he did a great job trimming them.  All cuts were properly dressed and all
+    limbs were cleaned up.  His crew was meticulous in ensuring  our property was
+    clean from any tree debris.  I would recommend Fernando and his team to anyone.
+  items:
+  - name: Tree Trimming
+    note: 'Frontyard: Several trees to be trimmed,  trim all the oaks level 1 plus
+      clean-up and haul debris.  '
+  - name: Tree Removal
+    note: 'Front yard:  Remove  2 cedars. Clean-up and haul debris. '
+  - name: Tree Removal
+    note: "Back yard: Remove 1 Hackberry,  1 cedar. Plus clean-up and haul debris.
+      \r\n"
+  - name: Tree Trimming
+    note: 'Backyard: Several trees to be trimmed,  trim all the oaks level 1 plus
+      clean-up and haul debris.  '
+  images:
+    before:
+    - title: Before Work, with trailer
+      url: "/system/attachments/images/000/000/703/original/IMG_5988.JPG"
+    after:
+    - title: After, front of house
+      url: "/system/attachments/images/000/000/705/original/IMG_5986.JPG"
+    - title: After, Trail
+      url: "/system/attachments/images/000/000/706/original/IMG_5985.JPG"
+    - title: After, Tree
+      url: "/system/attachments/images/000/000/707/original/IMG_5987.JPG"
+  title: 'Great job! '
+  icon: heart
+  created_at: '2018-08-20'
 - initials: HT
   comment: Fernando far exceeded my expectations. It is a work of art! Completed on
     time and on budget. Recommended to all my friends and family.
