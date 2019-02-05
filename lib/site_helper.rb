@@ -97,15 +97,15 @@ module SiteHelper
   end
 
   def link_imgs
-    system "unlink ~/Sites/mm-multi-site/source/assets/img"
-    system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/mm-multi-site/source/assets/img"
+    system "unlink ~/Sites/middleman/mm-multi-site/source/assets/img"
+    system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/middleman/mm-multi-site/source/assets/img"
   end
 
   def ln_index
-    system "unlink ~/Sites/mm-multi-site/source/index.html.haml"
-    system "unlink ~/Sites/mm-multi-site/source/index.html.md.erb"
-    system "ln -s ~/Sites/mm-multi-site/source/content/#{$SITE}/index.html.haml ~/Sites/mm-multi-site/source/index.html.haml" 
-    system "ln -s ~/Sites/mm-multi-site/source/content/#{$SITE}/index.html.md.erb ~/Sites/mm-multi-site/source/index.html.md.erb"    
+    system "unlink ~/Sites/middleman/mm-multi-site/source/index.html.haml"
+    system "unlink ~/Sites/middleman/mm-multi-site/source/index.html.md.erb"
+    system "ln -s ~/Sites/middleman/mm-multi-site/source/content/#{$SITE}/index.html.haml ~/Sites/middleman/mm-multi-site/source/index.html.haml" 
+    system "ln -s ~/Sites/middleman/mm-multi-site/source/content/#{$SITE}/index.html.md.erb ~/Sites/middleman/mm-multi-site/source/index.html.md.erb"    
   end
 
   def build_dir

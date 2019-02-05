@@ -33,7 +33,7 @@ nav:
     cnt: true
   - title: About
     cnt: true    
-  - Gallery
+  #- Gallery
   - Contact
 
 
@@ -44,10 +44,10 @@ contact_form:
     - Email 
     - Phone
 
-social:
-  facebook:
-  twitter:
-  google_plus: TheCasesGrpLLCAustin
+# social:
+#   facebook:
+#   twitter:
+#   #google_plus: TheCasesGrpLLCAustin
 
 # View related
 :logo: false
