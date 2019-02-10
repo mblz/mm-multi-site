@@ -4,19 +4,23 @@ description: For the best Small Business CRM in San Antonio, Tx call 210-585-401
 keywords: managed, crm, customers, relationships
 ---
 
-%h1.page-header 
-  Managed 
-  %span.text-muted Customer Relationship Management
-  %small aka MCRM
+%h1
+  %em Managed 
+  Customer Relationship Management
+%hr
+%blockquote.blockquote
+  Customer relationship management (CRM) is a system for managing a company's interactions with current and future customers. 
+  It often involves using technology to organize, automate and synchronize sales, marketing, customer service, and technical support.
+  %footer.blockquote-footer
+    %cite= link_to "Wiki", "http://en.wikipedia.org/wiki/Customer_relationship_management"
 
-%blockquote
-  Customer relationship management (CRM) is a system for managing a company's interactions with current and future customers. It often involves using technology to organize, automate and synchronize sales, marketing, customer service, and technical support.
-  %footer 
-    = link_to "Wiki", "http://en.wikipedia.org/wiki/Customer_relationship_management"
+-# = site_partial 'card', locals: {title: 'Title', body: 'body'}
+
+%hr 
 
 .row
   .col-lg-4.col-md-6
-    %h2.page-header 
+    %h3
       %i.fa.fa-dashboard.gray
       Managed
     %b Need us to anwer the phone?
@@ -26,10 +30,10 @@ keywords: managed, crm, customers, relationships
       %br
       = site_link_to "Features", "features", class: 'btn btn-success'
 
-     
+    
 
   .col-lg-4.col-md-6
-    %h2.page-header 
+    %h3
       %i.fa.fa-star(style="color:#FFD700")
       Customer
     
@@ -41,10 +45,10 @@ keywords: managed, crm, customers, relationships
     %p
       %br
       %b Updates are accessible immediately to everyone.   
- 
+    
 
   .col-lg-4.col-md-6
-    %h2.page-header 
+    %h3
       %i.fa.fa-group.gray
       Relationships
 
@@ -56,34 +60,34 @@ keywords: managed, crm, customers, relationships
     %i.fa.fa-heart(style="color:firebrick")
     that. 
     %p
-    %blockquote
+    %blockquote.blockquote
       A satisfied customer is the best business strategy of all.
-      %footer Michael LeBoeuf    
+      %footer.blockquote-footer Michael LeBoeuf    
 
+    
 
-
-%h1.page-header 
+%h1
   Virtual Assistance 
   %small office and IT
 
-
+%hr
 .row
   .col-lg-4.col-md-6
-    %h2.page-header 
+    %h3
       %i.fa.fa-ban.gray
       No office? 
-      %small No problem
+      %small.text-muted No problem
     You don't need one. Have one? Great, your phone number can be routed there.
-
+    
   .col-lg-4.col-md-6
-    %h2.page-header 
+    %h3
       %i.fa.fa-magic.gray
       Never miss a call 
       %small
     You've got a job to do. Let us answer the phone for you while streamlining your day-to-day work related activities.
     
   .col-lg-4.col-md-6
-    %h2.page-header 
+    %h3
       %i.fa.fa-phone.gray
       Programmable phone
     We provide a toll free (and/or local) phone number and can answer the phone for you, or we can forward the calls to as many phones as necessary.
@@ -94,3 +98,4 @@ keywords: managed, crm, customers, relationships
       = link_to "Don't text and drive!", "http://www.itcanwait.com/all", class: 'btn btn-warning'
 
 
+    

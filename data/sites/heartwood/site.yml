@@ -70,5 +70,5 @@ hours:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-# :theme: cosmo
+:theme: flatly
 

@@ -9,31 +9,30 @@ keywords: no office, managed crm
 - if carousel.present?
   - content_for :carousel, site_partial('carousel')
 
-%h1.page-header 
-  Small service-oriented business?
-  %small mobilize!
+%h1
+  Mobilize
+  %small.text-muted your service-oriented business
 
+  %hr
 
 .row
   .col-lg-4.col-md-6
-    %h3.page-header
+    %h3
       %i.fa.fa-car.gray
       Out in the field
-      %small working
-    Our customers provide a highly skilled service out in the field and may not always be able to answer the phone.
-    %p
-      %br
-      %br
-      %br
-      = link_to "/content/mblz/managed-crm.html", class: 'btn btn-warning' do
-        %i.fa.fa-info-circle
-        We can help
+      %small.text-muted working
+     
+    %p Our customers provide a highly skilled service out in the field and may not always be able to answer the phone.
+    
+
+    = link_to "/content/mblz/managed-crm.html", class: 'btn btn-warning' do
+      %i.fa.fa-info-circle
+      We can help
 
   .col-lg-4.col-md-6
-    %h3.page-header 
+    %h3
       %i.fa.fa-group.gray
       Service contractors
-      %small examples
     
     %ul
       %li Tree Trimmers
@@ -43,18 +42,17 @@ keywords: no office, managed crm
       %li Plumbers
       %li more...
       %li.no-style
-        %br
-        = link_to "/testimonials.html", class: 'btn btn-primary' do
-          %i.fa.fa-heart(style="color:firebrick")
-          Testimonials
+    = link_to "/testimonials.html", class: 'btn btn-primary' do
+      %i.fa.fa-heart(style="color:firebrick")
+      Testimonials
 
 
 
   .col-lg-4.col-md-6
-    %h3.page-header 
+    %h3 
       %i.fa.fa-location-arrow.gray
       Managing 
-      %small field workers
+      %small.text-muted field workers
     %b Completing jobs quickly and efficiently is critical. 
     Field workers receive contact details, a link to Google maps, and a link to the estimate.
     %b Mobilize 
@@ -65,21 +63,22 @@ keywords: no office, managed crm
       = link_to "/content/mblz/features.html", class: 'btn btn-success' do
         %i.fa.fa-compass
         Complete Jobs Fast
-  
-
-%h1.page-header 
-  How can we help you?
-  %small optimize your business
 
 
 
+
+%h2
+  We help you 
+  %small.text-muted optimize your business
+
+%hr
 
 .row
   .col-lg-4.col-md-6
-    %h3.page-header 
+    %h3
       %i.fa.fa-search.gray
       Who
-      %small we are
+      %small.text-muted we are
     We are a small company in San Antonio with extensive experience in 
     %b information systems 
     and 
@@ -90,10 +89,10 @@ keywords: no office, managed crm
       %br=link_to "Ask about a free demo", "/contact.html", class: 'btn btn-primary'
 
   .col-lg-4.col-md-6
-    %h3.page-header 
+    %h3
       %i.fa.fa-rocket.gray
       What
-      %small we do
+      %small.text-muted we do
     We help you build customer relationships.
     We provide a 
     %b free, 
@@ -104,18 +103,15 @@ keywords: no office, managed crm
       = site_link_to "Never miss a call", "managed-crm", class: 'btn btn-primary'
 
   .col-lg-4.col-md-6
-    %h3.page-header 
+    %h3
       %i.fa.fa-money(style='color:teal')
       Why
-      %small we can help you
+      %small.text-muted we can help you
     %ul
       %li Improve customer relationships
       %li Automate and simplify business processes
       %li Increase efficiency
-      %li
-        Make more money
+      %li 
+        %b Make more money
         
     %p= link_to "Get Paid Fast", "/content/mblz/managed-crm.html", class: 'btn btn-primary'
-
-
-

@@ -11,24 +11,24 @@ skip_side_menu: true
     %div{:role => "tabpanel"}
       / Nav tabs
       %ul.nav.nav-pills{:role => "tablist"}
-        %li.active{:role => "presentation"}
-          %a{"aria-controls" => "form-tab", "data-toggle" => "tab", :href => "#form-tab", :role => "tab"} 
+        %li.nav-item{:role => "presentation"}
+          %a.nav-link.active{"aria-controls" => "form-tab", "data-toggle" => "tab", :href => "#form-tab", :role => "tab"} 
             .fa.fa-paper-plane
             Contact Form
-        %li{:role => "presentation"}
-          %a{"aria-controls" => "email-tab", "data-toggle" => "tab", :href => "#email-tab", :role => "tab"} 
+        %li.nav-item{:role => "presentation"}
+          %a.nav-link{"aria-controls" => "email-tab", "data-toggle" => "tab", :href => "#email-tab", :role => "tab"} 
             .fa.fa-envelope
             Email
-        %li{:role => "presentation"}
-          %a{"aria-controls" => "phone-tab", "data-toggle" => "tab", :href => "#phone-tab", :role => "tab"} 
+        %li.nav-item{:role => "presentation"}
+          %a.nav-link{"aria-controls" => "phone-tab", "data-toggle" => "tab", :href => "#phone-tab", :role => "tab"} 
             .fa.fa-phone
             Phone      
-        %li{:role => "presentation"}
-          %a{"aria-controls" => "hours-tab", "data-toggle" => "tab", :href => "#hours-tab", :role => "tab"} 
+        %li.nav-item{:role => "presentation"}
+          %a.nav-link{"aria-controls" => "hours-tab", "data-toggle" => "tab", :href => "#hours-tab", :role => "tab"} 
             .fa.fa-calendar
             Hours             
-        %li{:role => "presentation"}
-          %a{"aria-controls" => "location-tab", "data-toggle" => "tab", :href => "#location-tab", :role => "tab"} 
+        %li.nav-item{:role => "presentation"}
+          %a.nav-link{"aria-controls" => "location-tab", "data-toggle" => "tab", :href => "#location-tab", :role => "tab"} 
             .fa.fa-location-arrow
             Location
 

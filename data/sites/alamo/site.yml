@@ -45,10 +45,10 @@ contact_form:
     - Email 
     - Phone
 
-social:
-  facebook:
-  twitter:
-  google_plus: Alamotreesystems
+# social:
+#   facebook:
+#   twitter:
+#   google_plus: Alamotreesystems
 
 # View related
 :logo: false

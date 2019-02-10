@@ -4,25 +4,25 @@ description: What our customers say about our services
 keywords: Testimonials, customers, referrals
 ---
 
-%h1.page-header 
+%h1
   %span.fa.fa-heart(style="color:firebrick")
   Testimonials
-  %small what our customers say about us
+  %small.text-muted what our customers say about us
 
+%hr
 
 - if tests = site(:testimonials)
   - if tests.first.is_a?(Hash)
     -  tests.each do |test|
-      %blockquote
-        %p
-          %b
-            = test.name
-            - if test.url.present?
-              .pull-right
-                %p(style="margin-top:-6px")= link_to test.url, "http://#{test.url}", class: 'btn btn-success btn-block', target: '_blank'      
-        
+      %h2= test.name
+      %blockquote.blockquote
+        - if test.url.present?
+          .pull-right
+            %p(style="margin-top:-6px")= link_to test.url, "http://#{test.url}", class: 'btn btn-success btn-block', target: '_blank'      
         = test.says
-        %footer
-          = test.owner
+        %footer.footer-blockquote
+          %cite
+            %b= test.owner
+      %hr
 - else
   ERROR add a testimonial yml to data. 

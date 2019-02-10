@@ -6,10 +6,10 @@ description: Paradise Nursery is San Antonio's landscapers first choice for all 
 - if carousel.present?
   - content_for :carousel, site_partial('carousel') 
 
-%h1.page-header 
+%h1 
   Welcome to Paradise!
 
-= image_tag 'misc/meta.jpg', class: 'img-responsive img-rounded pull-right', style: 'height:325px' 
+= image_tag 'misc/meta.jpg', class: 'img-fluid rounded pull-right', style: 'height:325px' 
 
 
 %p Paradise Nursery, LLC. is conveniently located in the NE part of San Antonio, Texas off Redland Rd and is owned and operated by Mr. Raymond Dady.  The nursery has two gates for entering the property, making it an easy access from Jones Maltsberger or Redland Road.
@@ -23,4 +23,4 @@ description: Paradise Nursery is San Antonio's landscapers first choice for all 
 
 %p 
   Check out our 
-  = site_link_to 'products', 'products'
+  = site_link_to 'products.', 'products'

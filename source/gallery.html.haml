@@ -7,9 +7,10 @@ keywords: images, portfolio, gallery
 
 
 .container
-  %h1.page-header 
+  %h1 
     Gallery
-    %small Portfolio
+    %small.text-muted Portfolio
+
 #blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
   .slides
   %h3.title
@@ -18,21 +19,20 @@ keywords: images, portfolio, gallery
   %a.close x
   %a.play-pause
   %ol.indicator
-
+%hr
 #gallery
   .container
-    .row
-      - galleries.each do |gallery|
-        .panel.panel-default.gallery
-          .panel-heading= titleize gallery.name
-          .panel-body
-            - gallery.images.each do |image|
-              - url       = "/assets/img/gallery/#{gallery.name}/#{image.name}"
-              - thumb_url = "/assets/img/gallery/#{gallery.name}/thumb/#{image.name}"
-              - title     =  titleize image.title
-              = link_to url, title: title do
-                = image_tag thumb_url, 'data-toggle' => :tooltip, title: title, class: 'img-rounded' #, class: 'thumbnail'
-
+    - galleries.each do |gallery|
+      .row
+        .gallery.col-sm-12
+          %h2= titleize gallery.name        
+          - gallery.images.each do |image|
+            - url       = "/assets/img/gallery/#{gallery.name}/#{image.name}"
+            - thumb_url = "/assets/img/gallery/#{gallery.name}/thumb/#{image.name}"
+            - title     =  titleize image.title
+            = link_to url, title: title do
+              = image_tag thumb_url, 'data-toggle' => :tooltip, title: title, class: 'rounded' #, class: 'thumbnail'
+      %hr
 = javascript_include_tag 'gallery/init'
 
 

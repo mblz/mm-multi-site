@@ -70,6 +70,6 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: sandstone #readable #superhero #yeti #lumen #readable
+:theme: united #sandstone #readable #superhero #yeti #lumen #readable
 
-nav_theme: normal
+# nav_theme: normal

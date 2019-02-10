@@ -16,30 +16,29 @@ keywords: contacts, estimates, invoices, calls, comments
   %a.play-pause
   %ol.indicator
 
-%h1.page-header 
+%h1 
   Features 
   %small of our software
 
 
 
-
 #gallery
-  .panel.panel-default
-    .panel-heading
-      .pull-right.text-muted Action oriented
+  .card
+    .card-header
+      .float-right.text-muted Take action
       .fa.fa-bullhorn.fa-lg
-      The 'Now' page
-    .panel-body
-      .pull-right= image_tag 'screens/now.png', class: 'img-responsive'
-
-      %h3.page-header
-        The 'Now' page
-        %small "what is happening now?"
+        &nbsp;
+        The 'Now' Page
+    .card-body
+      .float-right
+        %img.img-fluid{:alt => "Now", :src => "../../../assets/img/screens/now.png"}/
+      %h4
+        What is happening now?
       %ul
         %li
-          The 'Now' page is the heart of our and provides quick, actionable links to the most recent items and events.
+          The 'Now' page is the heart of our and provides quick, actionable
+          links to the most recent items and events.
         %li.no-style
-          
           %ul
             %li Contacts
             %li Invoices
@@ -47,58 +46,57 @@ keywords: contacts, estimates, invoices, calls, comments
             %li Comments
             %li Forms
             %li Activities
-              
-
-     
       .gallery
         - site(:features)[:now].each do |feature|
           = site_partial('thumb', locals: {path: 'features/now', feature: feature})
-      
       .clearfix
       %p
-        %small (Click the images above to see the features in action)
-
-         
-      .alert.alert-success
-        = click_to_call 
-        works the same whether you are on a mobile device or your desktop (mostly).
-
-
-
-  .panel.panel-default
-    .panel-heading
-      .pull-right.text-muted get paid fast
-      .fa.fa-pencil.fa-lg
-      Estimates &amp; Invoices
-    .panel-body
-      .pull-right.text-muted= image_tag 'screens/invoice.png', class: 'img-responsive'
-      %h3.page-header
-        Estimates &amp; Invoices
-        %small status changes inform your 'in-work pipeline'
+        %small.text-muted (Click the images above to see the features in action)
+      .alert.alert-info
+        %b= site.title
+        works the same whether you are on a mobile device or your desktop.
+  %hr
+  .card
+    .card-header
+      .float-right.text-muted Get paid
+      .fa.fa-pencil.fa-lg 
+        &nbsp;
+        Estimates & Invoices
+    .card-body
+      .float-right.text-muted
+        %img.img-fluid{:alt => "Invoice", :src => "../../../assets/img/screens/invoice.png"}/
+      %h4 Status changes inform your 'in-work pipeline'
       %ul
         %li Estimates are sent to customers in real-time
         %li Upon confirmation a text message is sent to the owner
         %li Once ready to work, the invoice's status is changed to 'Work'
-        %li Once in 'Invoice' status, a link is sent to the customer, where they can pay with Paypal or Credit Card
-      %blockquote
-        The status of your invoices inform you at every stage 
-        what work needs to get done and 
+        %li
+          Once in 'Invoice' status, a link is sent to the customer, where
+          they can pay with Paypal or Credit Card
+      %p.clearfix
+      .alert.alert-info
+        The status of your invoices inform you at every stage what work needs
+        to get done and
         %b how far you are from getting paid.
+      
       .gallery
         - site(:features)[:invoice].each do |feature|
           = site_partial('thumb', locals: {path: 'features/invoice', feature: feature})
-
-
-  .panel.panel-default
-    .panel-heading
-      .pull-right.text-muted with your programmable number
-      .fa.fa-phone.fa-lg
-      Incoming calls
-    .panel-body
-      .pull-right= image_tag 'features/calls/now.png'
-      %h3.page-header
+          
+  %hr
+  .card
+    .card-header
+      .float-right.text-muted 
+        %b Programmable 
+        phone number
+      .fa.fa-phone.fa-lg 
+        &nbsp;
         Incoming calls
-        %small can ring any number(s) you would like
+    .card-body
+      .float-right
+        %img{:alt => "Now", :src => "../../../assets/img/features/calls/now.png"}/
+      %h4
+        Ring any number(s) you like
       %ul
         %li We provide every customer with a programmable phone number
         %li The phone number can be local, toll-free or both
@@ -106,16 +104,17 @@ keywords: contacts, estimates, invoices, calls, comments
         %li Contacts can be called with a click of a button
         %li Never lose a contact
         %li Never miss a call
-        %li Let us answer it!      
+        %li Let us answer it!
       .gallery
         - site(:features)[:calls].each do |feature|
           = site_partial('thumb', locals: {path: 'features/calls', feature: feature})
 
-.row
-  %blockquote
-    Simplicity is the soul of efficiency.
-    %footer 
-      Austin Freeman, "The Eye of Osiris"
+-# .row
+-#   %blockquote.blockquote.text-center
+-#     Simplicity is the soul of efficiency.
+-#     %footer.blockquote-footer
+-#       Austin Freeman, 
+-#       %cite(title="The Eye of Osiris") The Eye of Osiris
         
 :css
   .gallery{

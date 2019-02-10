@@ -8,7 +8,7 @@ keywords: review, customer, rating
 = javascript_include_tag "gallery/blueimp.js"
 
 - if site.leave_us_a_review_link
-  .alert.alert-info(role='info')
+  .alert.alert-light(role='info')
     
     %h2
       .small Already a customer?
@@ -19,10 +19,10 @@ keywords: review, customer, rating
     .clearfix
 
 
-%h1.page-header 
+%h1 
   %span.fa.fa-heart(style="color:firebrick")
   Reviews
-  %small what our customers say about us
+  %small.text-muted what our customers say about us
 
 - reviews = site(:reviews)
 - if reviews && reviews.count > 0

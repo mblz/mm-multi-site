@@ -1,4 +1,4 @@
-%h1.page-header 
+%h1 
   Medical Conditions
   %small Testimonials
 
@@ -6,7 +6,7 @@
   %blockquote
     %b= tst.what
     - if img = tst.img
-      = image_tag "testimonials/medical-conditions/#{img}", class: 'img-responsive img-rounded pull-right', style: 'margin-left:12px'
+      = image_tag "testimonials/medical-conditions/#{img}", class: 'img-fluid rounded pull-right', style: 'margin-left:12px'
     = tst.says
 
     %footer= tst.who

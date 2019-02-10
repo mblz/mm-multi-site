@@ -1,11 +1,44 @@
 blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  /* width: 500px; */
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #707070;
+}
 
-  border-left: 5px solid #ccc;
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 22px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+
+/* blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -16,4 +49,28 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+} */
+
+/* blockquote {
+  font-style: italic;
+  border: none;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  display: block;
+  text-align: left;
 }
+
+blockquote:before {
+  content: open-quote;
+  font-weight: bold;
+  color: red;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-weight: bold;
+  color: red;
+}
+
+blockquote p {
+  display: inline;
+} */

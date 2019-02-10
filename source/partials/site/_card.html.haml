@@ -1,0 +1,13 @@
+.card
+  %h5.card-header
+    - if defined?(icon)
+      %i.fa{class: "fa-#{icon}"}
+    = title
+    /%i.fa.fa-car.gray
+    /Out in the field
+    /%small.text-muted working
+  .card-body        
+    = body
+    /Our customers provide a highly skilled service out in the field and may not always be able to answer the phone.
+  - if defined?(footer)
+    .card-footer= footer

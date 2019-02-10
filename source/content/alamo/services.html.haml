@@ -5,7 +5,7 @@ description: Tired of not getting your trees maintained properly? Give us a call
 
 .row
   .col-md-8
-    %h1.page-header
+    %h1
       Tree Services
       %small Tree Trimming & Pruning:
 
@@ -23,10 +23,8 @@ description: Tired of not getting your trees maintained properly? Give us a call
       %li Maintaining all types of trees is important for future health and growth. It will also makes it easier for future maintenance; thus saving you money.
 
   .col-md-4
-    .well
-      %ul
-        %li= link_to "Tree Removal", '/content/alamo/tree-removal.html', alt: "Roof clearing"
-        %li= link_to "Land Clearing", '/content/alamo/land-clearing.html'
-    = image_tag 'services/chipper-small.jpg', class: 'img-circle img-responsive'
-
+    = image_tag 'services/chipper-small.jpg', class: 'rounded-circle img-fluid'
+    %ul
+      %li= link_to "Tree Removal", '/content/alamo/tree-removal.html', alt: "Roof clearing"
+      %li= link_to "Land Clearing", '/content/alamo/land-clearing.html'
 
