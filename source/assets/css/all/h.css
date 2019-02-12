@@ -1,4 +1,11 @@
+h1{
+  border-bottom: 1px solid #ddd;
+}
 h3{
     margin-top: 18px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+h2.underline, h3.underline{
+  border-bottom: 1px solid #ddd;
 }

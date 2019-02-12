@@ -71,4 +71,7 @@ hours:
 # http://bootstrapcdn.com/#bootswatch_tab
 
 :theme: flatly
+# :theme_navbar: dark
+# :theme_navbar_bg: dark
+
 

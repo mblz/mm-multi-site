@@ -69,7 +69,10 @@ meta_image: /assets/img/screens/now.png
 
 
 # Choose one here
-# http://bootstrapcdn.com/#bootswatch_tab
+# https://www.bootstrapcdn.com/bootswatch/
 
 :theme: lux
+# #dark, light, primary
+# # :theme_navbar: dark
+# :theme_navbar_bg: primary
 

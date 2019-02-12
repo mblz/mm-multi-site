@@ -18,8 +18,15 @@ keywords: contacts, estimates, invoices, calls, comments
 
 %h1 
   Features 
-  %small of our software
+  %small.text-muted of our service/software
 
+
+%blockquote.blockquote
+  Simplicity is the soul of efficiency.
+  %footer.blockquote-footer
+    Austin Freeman, 
+
+     
 
 
 #gallery
@@ -36,7 +43,7 @@ keywords: contacts, estimates, invoices, calls, comments
         What is happening now?
       %ul
         %li
-          The 'Now' page is the heart of our and provides quick, actionable
+          The 'Now' page is the heart of our service and provides quick, actionable
           links to the most recent items and events.
         %li.no-style
           %ul
@@ -52,7 +59,7 @@ keywords: contacts, estimates, invoices, calls, comments
       .clearfix
       %p
         %small.text-muted (Click the images above to see the features in action)
-      .alert.alert-info
+      %p
         %b= site.title
         works the same whether you are on a mobile device or your desktop.
   %hr
@@ -72,12 +79,9 @@ keywords: contacts, estimates, invoices, calls, comments
         %li Once ready to work, the invoice's status is changed to 'Work'
         %li
           Once in 'Invoice' status, a link is sent to the customer, where
-          they can pay with Paypal or Credit Card
-      %p.clearfix
-      .alert.alert-info
-        The status of your invoices inform you at every stage what work needs
-        to get done and
-        %b how far you are from getting paid.
+          they can pay with Paypal or credit card
+        %li 
+          %em Always know how far you are from getting paid
       
       .gallery
         - site(:features)[:invoice].each do |feature|
@@ -109,13 +113,7 @@ keywords: contacts, estimates, invoices, calls, comments
         - site(:features)[:calls].each do |feature|
           = site_partial('thumb', locals: {path: 'features/calls', feature: feature})
 
--# .row
--#   %blockquote.blockquote.text-center
--#     Simplicity is the soul of efficiency.
--#     %footer.blockquote-footer
--#       Austin Freeman, 
--#       %cite(title="The Eye of Osiris") The Eye of Osiris
-        
+   
 :css
   .gallery{
     padding:12px;
