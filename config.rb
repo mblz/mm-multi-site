@@ -54,6 +54,10 @@ configure :build do
       ignore /^#{test}\.html/
     end
   end
+  
+  if galleries.empty?
+    ignore 'gallery.html'
+  end
 
   activate :minify_css
   activate :minify_javascript 

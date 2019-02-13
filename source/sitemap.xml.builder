@@ -3,6 +3,7 @@ xml.urlset 'xmlns' => "https://www.sitemaps.org/schemas/sitemap/0.9" do
   sitemap.resources.select { |page| page.path =~ /\.html/ }.each do |page|
   	if /^content/ =~ page.path
       next if /^content\/#{$SITE}*/ !~ page.path
+      next if /^content\/#{$SITE}\/index\.html$/ =~ page.path
     end
   	next if /^404/ =~ page.path
   
