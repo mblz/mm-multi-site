@@ -1,6 +1,6 @@
 
 #form-container-outer
-  %h3 
+  %h1(style="margin: 16px;margin-left:0")
     Contact Form
     %small.text-muted fill out this form to contact us
   %form#frm-contact.form-horizontal
@@ -8,15 +8,14 @@
       - if site(:form)
         - site(:form).each do |field|
           .form-group.row
-            %label.col-sm-2.control-label{for: field.name}
+            %label.col-sm-2.col-form-label{for: field.name}
               = field.title
               - if field.required
                 %span.required_field(href="#" data-toggle="tooltip" data-placement="top" title="#{field.title} is required") *
             .col-sm-10
               /= field['field_type']
-              = site_partial "form/fields/#{field['field_type']}", locals: {field: field}
-              
+              = site_partial "form/fields/#{field['field_type']}", locals: {field: field}              
               .help-block.with-errors
             /= field
     .offset-2
-      %button(type='submit' class='btn btn-primary btn-block ' id='btnSubmitContact') Contact!
+      %button(type='submit' class='btn btn-success btn-block contact-us' id='btnSubmitContact') Contact!

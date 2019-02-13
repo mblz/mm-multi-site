@@ -19,7 +19,7 @@ keywords: images, portfolio, gallery
   %a.close x
   %a.play-pause
   %ol.indicator
-%hr
+
 #gallery
   .container
     - galleries.each do |gallery|
@@ -31,7 +31,7 @@ keywords: images, portfolio, gallery
             - thumb_url = "/assets/img/gallery/#{gallery.name}/thumb/#{image.name}"
             - title     =  titleize image.title
             = link_to url, title: title do
-              = image_tag thumb_url, 'data-toggle' => :tooltip, title: title, class: 'rounded' #, class: 'thumbnail'
+              = image_tag thumb_url, 'data-toggle' => :tooltip, title: title, class: 'rounded gray_image' #, class: 'thumbnail'
       %hr
 = javascript_include_tag 'gallery/init'
 

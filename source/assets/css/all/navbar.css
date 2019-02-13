@@ -1,0 +1,15 @@
+.navbar{
+    text-transform: none;
+    padding: 1rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.nav-item.active{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+/* .bg-light{
+    border: 0;
+    box-shadow: 0 1px 3px -1px rgb(202, 202, 202);
+} */

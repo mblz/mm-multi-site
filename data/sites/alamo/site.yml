@@ -62,11 +62,11 @@ contact_form:
   - overhangs.jpg
 
 
-# Choose one here
-# http://bootstrapcdn.com/#bootswatch_tab
-
-:theme: flatly
-
 meta_image: /assets/img/index/kirk.jpg
 hours: >
     We are open Monday through Friday from 8am to 5pm. Saturday 9am to 2pm.
+
+
+:theme: flatly
+:theme_navbar: dark
+:theme_navbar_bg: dark

@@ -2,8 +2,8 @@
   $MBLZ_HOST="https://#{mblz_host}"
 = javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "https://#{mblz_host}/static/proxy.html"
 - content_for 'add_to_end' do
-  = javascript_include_tag "/assets/js/bootstrap/validator"
-  = javascript_include_tag "/assets/js/contact/form"
+  = javascript_include_tag "bootstrap/validator"
+  = javascript_include_tag "contact/form"
 
 %script#tplThankYou(type="text/template")
   %p

@@ -69,4 +69,5 @@ social:
 # http://bootstrapcdn.com/#bootswatch_tab
 
 :theme: united
-
+:theme_navbar: dark
+:theme_navbar_bg: dark

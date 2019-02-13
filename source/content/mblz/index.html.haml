@@ -6,32 +6,25 @@ keywords: no office, managed crm
 
 
 
-- if carousel.present?
-  - content_for :carousel, site_partial('carousel')
+-# - if carousel.present?
+-#   - content_for :carousel, site_partial('carousel')
 
 %h1
   Mobilize
   %small.text-muted your service-oriented business
 
+%p 
+  Are you an owner of a small, service oriented business? Are you out in the field working and often unable to answer the phone? 
+%p 
+  %em We can help.
 
 .row
-  .col-lg-4.col-md-6
-    %h3
-      %i.fa.fa-car.gray
-      Out in the field
-      %small.text-muted working
-     
-    %p Our customers provide a highly skilled service out in the field and may not always be able to answer the phone.
-    
-
-    = link_to "/content/mblz/managed-crm.html", class: 'btn btn-warning' do
-      %i.fa.fa-info-circle
-      We can help
 
   .col-lg-4.col-md-6
     %h3
       %i.fa.fa-group.gray
-      Service contractors
+      Service 
+      %small.text-muted contractors
     
     %ul
       %li Tree Trimmers
@@ -45,7 +38,18 @@ keywords: no office, managed crm
       %i.fa.fa-heart(style="color:firebrick")
       Testimonials
 
+  .col-lg-4.col-md-6
+    %h3
+      %i.fa.fa-car.gray
+      Out in the field
+      %small.text-muted working
+      
+    %p Our customers provide a highly skilled service out in the field and may not always be able to answer the phone.
+    
 
+    = link_to "/content/mblz/managed-crm.html", class: 'btn btn-warning' do
+      %i.fa.fa-info-circle
+      We can help
 
   .col-lg-4.col-md-6
     %h3 

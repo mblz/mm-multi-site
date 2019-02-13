@@ -43,10 +43,10 @@ contact_form:
     - Phone
     - Date
 
-social:
-  ? facebook
-  ? twitter
-  google_plus: sunshine-landscape
+# social:
+#   ? facebook
+#   ? twitter
+#   google_plus: sunshine-landscape
 
 # View related
 :logo: false
@@ -62,5 +62,7 @@ meta_image: /assets/img/carousel/header.jpg
 #   - http://ray.mblz.com/system/uploads/129/original/redseasonalplants.jpg
 #   - http://ray.mblz.com/system/uploads/129/original/granitenaturalstone2.jpg
 
-# # :theme: sandstone
+:theme: sandstone
+:theme_navbar: light
+:theme_navbar_bg: light
 

@@ -47,10 +47,10 @@ contact_form:
     - Email 
     - Phone
 
-social:
-  facebook:
-  twitter:
-  google:
+# social:
+#   facebook:
+#   twitter:
+#   google:
 
 # View related
 :logo: false
@@ -73,6 +73,6 @@ meta_image: /assets/img/screens/now.png
 
 :theme: lux
 # #dark, light, primary
-# # :theme_navbar: dark
-# :theme_navbar_bg: primary
+:theme_navbar: light
+:theme_navbar_bg: light
 

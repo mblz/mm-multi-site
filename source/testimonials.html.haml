@@ -9,12 +9,11 @@ keywords: Testimonials, customers, referrals
   Testimonials
   %small.text-muted what our customers say about us
 
-%hr
 
 - if tests = site(:testimonials)
   - if tests.first.is_a?(Hash)
     -  tests.each do |test|
-      %h2= test.name
+      %h3.display-4= test.name
       %blockquote.blockquote
         - if test.url.present?
           .pull-right

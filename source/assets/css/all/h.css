@@ -1,4 +1,7 @@
 h1{
+  text-transform: none;
+}
+h1{
   border-bottom: 1px solid #ddd;
 }
 h3{

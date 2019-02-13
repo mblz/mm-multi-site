@@ -16,17 +16,12 @@ keywords: contacts, estimates, invoices, calls, comments
   %a.play-pause
   %ol.indicator
 
-%h1 
+%h1(style="border:0")
   Features 
   %small.text-muted of our service/software
 
 
-%blockquote.blockquote
-  Simplicity is the soul of efficiency.
-  %footer.blockquote-footer
-    Austin Freeman, 
 
-     
 
 
 #gallery
@@ -38,12 +33,12 @@ keywords: contacts, estimates, invoices, calls, comments
         The 'Now' Page
     .card-body
       .float-right
-        %img.img-fluid{:alt => "Now", :src => "../../../assets/img/screens/now.png"}/
+        = image_tag "screens/now.png", class: 'img-fluid'
       %h4
         What is happening now?
       %ul
         %li
-          The 'Now' page is the heart of our service and provides quick, actionable
+          The 'Now' page is at the heart of our service and provides quick, actionable
           links to the most recent items and events.
         %li.no-style
           %ul
@@ -71,7 +66,7 @@ keywords: contacts, estimates, invoices, calls, comments
         Estimates & Invoices
     .card-body
       .float-right.text-muted
-        %img.img-fluid{:alt => "Invoice", :src => "../../../assets/img/screens/invoice.png"}/
+        = image_tag "screens/invoice.png", class: 'img-fluid'
       %h4 Status changes inform your 'in-work pipeline'
       %ul
         %li Estimates are sent to customers in real-time
@@ -98,7 +93,7 @@ keywords: contacts, estimates, invoices, calls, comments
         Incoming calls
     .card-body
       .float-right
-        %img{:alt => "Now", :src => "../../../assets/img/features/calls/now.png"}/
+        = image_tag "features/calls/now.png", class: 'img-fluid'
       %h4
         Ring any number(s) you like
       %ul
@@ -113,7 +108,9 @@ keywords: contacts, estimates, invoices, calls, comments
         - site(:features)[:calls].each do |feature|
           = site_partial('thumb', locals: {path: 'features/calls', feature: feature})
 
-   
+
+
+          
 :css
   .gallery{
     padding:12px;
