@@ -12,8 +12,8 @@ keywords: Testimonials, customers, referrals
 
 - if tests = site(:testimonials)
   - if tests.first.is_a?(Hash)
-    -  tests.each do |test|
-      %h3.display-4= test.name
+    -  tests.each_with_index do |test, idx|
+      %h3= test.name
       %blockquote.blockquote
         - if test.url.present?
           .pull-right
@@ -22,6 +22,7 @@ keywords: Testimonials, customers, referrals
         %footer.footer-blockquote
           %cite
             %b= test.owner
-      %hr
+      - if idx < (tests.size - 1)
+        %hr
 - else
   ERROR add a testimonial yml to data. 
