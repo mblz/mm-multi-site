@@ -1,0 +1,62 @@
+---
+title: Products
+---
+%h1 
+  Products
+  %small.text-muted we offer 
+
+- site(:product_categories).each do |category|
+  = link_to category.name, class: 'product-card' do
+    .row
+      .col-lg-4
+        = image_tag "products/#{category.name}/#{category.name}.jpg", class: 'img-fluid rounded', style: 'width:100%'
+      .col-lg-8
+        %h2= category.title
+        %p
+          = category.note
+          = lorem.paragraph
+    /%hr
+
+:css
+  a.product-card,a.product-card:hover {
+    color: inherit;
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  a.product-card:hover {
+    background-color: #eee;
+  }
+  a.product-card h2 {
+    color: #18BC9C;
+  }
+  a.product-card p {
+    color: #999;
+  }  
+  a.product-card:hover p{
+    color:black;
+  }  
+  
+
+
+
+
+/= link_to "products/" + parameterize(product) do
+/%a(href="soil-mixes") 
+
+-# :css 
+-#   .link-card{
+-#     color:black;
+-#   }
+        -# %ul
+-#   - ["Soil Mixes", "Compost", "Top Soil", "Mulches", "Rocks", "Sand", "Landscaping Stones", "Concrete Mix"].each do |product|
+-#     %li
+-#       = site_link_to product, "products/" + parameterize(product)
+-# %li Compost
+-# %li Top Soil
+-# %li Mulches
+-# %li Rocks
+-# %li Sand
+-# %li Landscaping Stones
+-# %li Concrete Mix

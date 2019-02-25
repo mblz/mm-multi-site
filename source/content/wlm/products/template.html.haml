@@ -1,0 +1,43 @@
+.top
+.container-fluid.rounded-top
+  %h2= category.title
+  .float-right
+    - site(:product_categories).each do |cat|
+      - next if cat.title == category.title
+      = link_to cat.title, cat.name
+      |
+  .clearfix
+  - site(:products)[category.name].each do |product,i|
+    .container
+      .row.m-4
+        .col-lg-4
+          = image_tag "products/#{category.name}/#{parameterize(product.title)}.jpg", class: 'img-fluid rounded', style: 'width: 100%'
+        .col-lg-8
+          %h3= product.title
+          %p
+            = category.note
+            = product.note + " " + lorem.paragraph
+
+:css 
+  .rounded-top{
+    margin-top: 250px;
+    background-color:white;
+    border-radius: 16px;
+    opacity: .9;
+  }
+  .rounded-top h2{
+    margin-top: 8px;
+    -# color: #18BC9C;
+  }
+  div.top{
+    position: absolute; /*absolute;*/ /*fixed;*/
+    top: 0;
+    left: 0;    
+    height: 390px;
+    width: 100vw;
+    background: url(#{image_path "products/#{category.name}/#{category.name}.jpg"});
+    background-size: cover;
+    z-index: -1;
+    margin-bottom: 300px;
+    background-repeat: no-repeat;
+  }

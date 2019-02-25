@@ -1,0 +1,50 @@
+# Soil Mixes, Compost, Top soil, Mulches, Rocks, Sand, Landscaping stones, Concrete Mix
+:landscaping-stones:
+  - title: Cream Select Flagstone
+    note: csf
+  - title: Mexican Rose
+    note: mr
+  - title: Nicotine Chopped Block 6x6
+    note: ncb
+  - title: Oklahoma Flagstone
+    note: ncb    
+  - title: Sandstone
+    note: ncb    
+:soil-mixes:
+  - title: Soil mixes
+    note: lorem 
+:compost:
+  - title: Compost
+    note: lorem compost 
+:top-soil:
+  - title: Top soil
+    note: lorem top soil 
+:mulches:
+  - title: Mulches
+    note: lorem compost     
+:rocks:
+  - title: Decomposed Granite
+    note: lorem rocks   
+  - title: Grey Tres Rios
+    note: lorem rocks       
+  - title: Peach
+    note: lorem rocks   
+  - title: Shadow Rock
+    note: lorem rocks      
+  - title: Texas Blend 1
+    note: lorem rocks   
+  - title: Texas Blend 2
+    note: lorem rocks      
+  - title: Texas Blend 3
+    note: lorem rocks    
+  - title: Washed Granite 1
+    note: lorem rocks      
+  - title: Washed Granite 2
+    note: lorem rocks                           
+:sand:
+  - title: Sand
+    note: lorem sand              
+:concrete-mix:
+  - title: concrete mix
+    note: lorem c mix   
+   

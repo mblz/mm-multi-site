@@ -1,8 +1,8 @@
 %nav.navbar.navbar-expand-lg(class="navbar-#{site[:theme_navbar] || 'dark'} bg-#{site[:theme_navbar_bg] || 'primary'} ")
   %a.navbar-brand(href="/")
     = site.title
-    -# - if site.subtitle
-    -#   %span.navbar-text= site.subtitle
+    - if site.subtitle
+      %span.navbar-text= site.subtitle
   %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
   #navbarSupportedContent.collapse.navbar-collapse

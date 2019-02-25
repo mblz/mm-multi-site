@@ -1,0 +1,75 @@
+
+:title: Wholesale Landscape Materials
+:subtitle: Landscape Materials
+:description: Wholesale Landscape Materials located off Redland Rd carries  variety of rock, stone, block, compost and mulch of many sizes and shapes to complete any landscaping projects.
+:keywords: Wholesale Landscape Materials
+
+
+:name: wlm
+:email: wlmhstllc@gvtc.com
+:phone: (210) 361-1186
+
+:geo_address: 
+:geo_embed_address: 
+
+
+:address: 
+  :street: 18765 Redland Rd
+  :city: San Antonio
+  :state: Tx
+  :zip: 78259
+
+:owner:
+  :name: Hector Serrano
+  :email: wlmhstllc@gvtc.com
+  :address: 
+    :street: Owner street
+    :city: Owner city
+    :state: Owner state
+    :zip: Owner Zip
+
+nav:
+  - title: Products
+    cnt: true
+  - title: Services
+    cnt: true    
+  # - title: About
+  #   cnt: true    
+  #- Gallery
+  - Contact
+
+contact_form:
+  subject: Contact from Site
+  fields:
+    - Service requested
+    - Email 
+    - Phone
+
+# social:
+#   facebook: 
+#   twitter:
+#   google_plus: 
+#   pinterest: 
+#   yelp: 
+#   angieslist: 
+#   linked_in: 
+
+# View related
+# :logo: false
+
+:hostname: localhost:3000
+
+
+
+# :carousel:
+#   - abstract_light.jpg
+#   - aquarium.jpg
+#   - spalotus.jpg
+
+
+# Choose one here
+# http://bootstrapcdn.com/#bootswatch_tab
+
+:theme: flatly
+
+#nav_theme: normal

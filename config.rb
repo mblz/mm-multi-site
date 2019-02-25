@@ -4,6 +4,16 @@ require "lib/gallery_helper"
 helpers GalleryHelper
 
 
+
+# Site specific configs
+if $SITE == 'wlm'
+  data.sites.wlm.product_categories.each do |category|
+    proxy "/content/wlm/products/#{category[:name]}.html", "/content/wlm/products/template.html", :locals => { :category => category }
+  end
+end
+
+
+
 require "lib/paradise_helper"
 helpers ParadiseHelper
 
@@ -63,6 +73,7 @@ configure :build do
   activate :minify_javascript 
   activate :imageoptim
   activate :automatic_alt_tags
+
   #activate :gzip
   #activate :minify_html 
   #ignore /assets\/fonts\//
