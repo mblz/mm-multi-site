@@ -58,6 +58,8 @@ configure :build do
   ignore /^assets\/css\/sites\/(?!#{$SITE})/
   ignore /^\.git/
 
+  ignore /^content\/wlm\/products\/template\.html$/
+
   # make sure these pages have content 
   %w[testimonials referrals portfolio faqs clients reviews].each do |test|
     if site(test).blank?

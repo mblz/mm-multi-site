@@ -1,12 +1,6 @@
 .top
 .container-fluid.rounded-top
   %h2= category.title
-  .float-right
-    - site(:product_categories).each do |cat|
-      - next if cat.title == category.title
-      = link_to cat.title, cat.name
-      |
-  .clearfix
   - site(:products)[category.name].each do |product,i|
     .container
       .row.m-4
@@ -17,6 +11,16 @@
           %p
             = category.note
             = product.note + " " + lorem.paragraph
+  %hr
+  - site(:product_categories).each do |cat|
+    - if cat.title == category.title
+      %b= cat.title 
+    - else 
+      = link_to cat.title, "../#{cat.name}"
+    - unless site(:product_categories).last  == cat
+      |
+
+
 
 :css 
   .rounded-top{
