@@ -1,11 +1,11 @@
 now:
   - img: index
     title: Quick access to all items 
-  - img: calls
-    title: Most recent calls
-  - img: invoice
-    title: Most recent invoices    
-  - img: activities
+  # - img: calls
+  #   title: Most recent calls
+  # - img: invoice
+  #   title: Most recent invoices    
+  # - img: activities
     title: Activity log - all the things    
 
 

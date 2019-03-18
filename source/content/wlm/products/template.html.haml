@@ -9,14 +9,14 @@
         .col-lg-8
           %h3= product.title
           %p
-            = category.note
-            = product.note + " " + lorem.paragraph
+            /= category.note
+            = product.note
   %hr
   - site(:product_categories).each do |cat|
     - if cat.title == category.title
       %b= cat.title 
     - else 
-      = link_to cat.title, "../#{cat.name}"
+      = link_to cat.title, "../" + cat.name
     - unless site(:product_categories).last  == cat
       |
 

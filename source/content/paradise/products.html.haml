@@ -6,75 +6,96 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
 
 %h1 
   Products
-  %small current inventory
+  %small.text-muted current inventory
 
-- content_for 'add_to_end' do 
-  %link{:href => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css", :rel => "stylesheet"}/
-  / Latest compiled and minified JavaScript
-  %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"}
-  / Latest compiled and minified Locales
-  %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/locale/bootstrap-table-en-US.min.js"}
-  %script
-    $(function(){
-    // Enables popover
-    $("[data-toggle=popover]").popover({container: 'body'});
-    window.setTimeout(function(){$('#productsTable').slideDown('slow');}, 250)  
-    $('#productsTable').on('all.bs.table', function (e, arg1, arg2) {
-    $("[data-toggle=popover]").popover({container: 'body'});
-    //e.preventDefault()
-    });      
-    });
+.container-fluid
+  - site(:products).each do |product|
+    - next if product.image_thumb_path.include?('missing')
+    .row.mb-2
+      .col
+        = link_to "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", target: "_blank" do
+          = image_tag "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", class: 'img-fluid', style: 'width: 100%'
+      .col
+        %h3
+          = product.name
+        %p= product.note
+        - unless product.tolerance.blank?
+          Tolerance:
+        %b=product.tolerance
+        %br/
+        Water: 
+        %b= paradise_water(product.water)
+        %br/
+        Sun: 
+        %b= paradise_sun(product.sun)                    
+    
+-# - content_for 'add_to_end' do 
+-#   %link{:href => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.2/bootstrap-table.min.css", :rel => "stylesheet"}/
+-#   / Latest compiled and minified JavaScript
+-#   %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.2/bootstrap-table.min.js"}
+-#   / Latest compiled and minified Locales
+-#   %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.2/locale/bootstrap-table-en-US.min.js"}
+-#   %script
+-#     $(function(){
+-#     // Enables popover
+-#     $("[data-toggle=popover]").popover({container: 'body'});
+-#     window.setTimeout(function(){$('#productsTable').slideDown('slow');}, 250)  
+-#     $('#productsTable').on('all.bs.table', function (e, arg1, arg2) {
+-#     $("[data-toggle=popover]").popover({container: 'body'});
+-#     //e.preventDefault()
+-#     });      
+-#     });
 
 
+-# %table#productsTable{'data-url' => '/assets/js/products.json', "class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none"}
+-#   /%table#productsTable{'data-url' => '//paradise.mblz.com/products.json?mblz=1', "class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none"}
+-#   %thead
+-#     %tr
+-#       /%th(data-field="state" data-checkbox="true")
+-#       %th{"data-field" => "name", "data-sortable" => "true", "data-formatter" => "formatProduct"}
+-#         Product
+-#       %th{"data-field" => "image_thumb_path", "data-sortable" => "false", "data-formatter" => "formatImage"}
+-#         Image        
+-#       %th{"data-field" => "product_category_id", "data-sortable" => "true", "data-formatter" => "formatCategory"}
+-#         Category
+-#       %th{"data-field" => "size", "data-sortable" => "false"}
+-#         Size 
+-#       %th{"data-field" => "color", "data-sortable" => "true"}
+-#         Color        
+-#       %th{"data-field" => "sun", "data-sortable" => "true", "data-formatter" => "formatSun"}
+-#         Sun
+-#       %th{"data-field" => "water", "data-sortable" => "true", "data-formatter" => "formatWater"}
+-#         Water   
+-#       %th{"data-field" => "height", "data-sortable" => "true"}
+-#         Height
+-#       %th{"data-field" => "tolerance", "data-sortable" => "true"}
+-#         Tolerance                      
+-#       / %th{"data-field" => "inventory", "data-sortable" => "true"}
+-#       /   Inventory  
+-#       %th{"data-field" => "note", "data-sortable" => "false"}
+-#         Note  
 
-%table#productsTable{"class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none", 'data-url' => '//paradise.mblz.com/products.json?mblz=1'}
-  %thead
-    %tr
-      /%th(data-field="state" data-checkbox="true")
-      %th{"data-field" => "name", "data-sortable" => "true", "data-formatter" => "formatProduct"}
-        Product
-      %th{"data-field" => "image_thumb_path", "data-sortable" => "false", "data-formatter" => "formatImage"}
-        Image        
-      %th{"data-field" => "product_category_id", "data-sortable" => "true", "data-formatter" => "formatCategory"}
-        Category
-      %th{"data-field" => "size", "data-sortable" => "false"}
-        Size 
-      %th{"data-field" => "color", "data-sortable" => "true"}
-        Color        
-      %th{"data-field" => "sun", "data-sortable" => "true", "data-formatter" => "formatSun"}
-        Sun
-      %th{"data-field" => "water", "data-sortable" => "true", "data-formatter" => "formatWater"}
-        Water   
-      %th{"data-field" => "height", "data-sortable" => "true"}
-        Height
-      %th{"data-field" => "tolerance", "data-sortable" => "true"}
-        Tolerance                      
-      / %th{"data-field" => "inventory", "data-sortable" => "true"}
-      /   Inventory  
-      %th{"data-field" => "note", "data-sortable" => "false"}
-        Note  
+-# :javascript
+-#   //-#   $MBLZ_HOST="http://#{mblz_host}"
 
-:javascript
-  $MBLZ_HOST="http://#{mblz_host}"
-
-  function formatProduct(v){
-    return v
-    return "<a href='/sites/paradise/content/paradise/print#" + v + "' target='_blank'>" + v + "</a>"  
-  }
-  function formatImage(v){
-    if(v.indexOf("missing") != -1) return '-'
-    return "<a href='//paradise.mblz.com" + v.replace('thumb', 'original') + " ' target='_blank'><img src='//paradise.mblz.com" + v + "'/></a>"
-  }
-  function formatCategory(v){
-    return ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"][v-1]
-  }
-  function formatSun(v){
-    return ["Shaded", "PartiallyShaded", "", "FullSun"][v]
-  }
-  function formatWater(v){
-     return ["Light", "Weekly", "", "Heavy"][v]
-  }
-= javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "//#{mblz_host}/static/proxy.html"
+-#   function formatProduct(v){
+-#     return v
+-#     return "<a href='/sites/paradise/content/paradise/print#" + v + "' target='_blank'>" + v + "</a>"  
+-#   }
+-#   function formatImage(v){
+-#     if(v.indexOf("missing") != -1) return '-'
+-#     return "<a href='//paradise.mblz.com" + v.replace('thumb', 'original') + " ' target='_blank'><img src='//paradise.mblz.com" + v + "'/></a>"
+-#   }
+-#   function formatCategory(v){
+-#     return ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"][v-1]
+-#   }
+-#   function formatSun(v){
+-#     return ["Shaded", "PartiallyShaded", "", "FullSun"][v]
+-#   }
+-#   function formatWater(v){
+-#      return ["Light", "Weekly", "", "Heavy"][v]
+-#   }
+-# = javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "//#{mblz_host}/static/proxy.html"
 
 
 / %th{"data-field" => "note"}

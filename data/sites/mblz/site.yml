@@ -2,7 +2,7 @@
 :title: MBLZ
 # <b>M</b>O<b>B</b>I<b>L</b>I<b>Z</b>E
 #  your business
-:subtitle: Services for service oriented businesses
+#:subtitle: Services for service oriented businesses
 :description: Mobile software for small businesses. Customer relationship management. Virtual office assistance.
 :keywords: mobile application, virtual assistance, crm
 
@@ -30,8 +30,8 @@ nav:
   :zip: 78240
 
 :owner:
-  :name: Elva Tristan
-  :email: et@mblz.com
+  :name: MBLZ
+  :email: admin@mblz.com
   :address: 
     :street: "8111 Mainland Dr #104-427"
     :city: San Antonio

@@ -1,13 +1,14 @@
 
-:title: Wholesale Landscape
-:subtitle: Materials
+:verification: 8F0DrX8wCUCUgaqVZw1CcQ6YZhTPWYPC7hD0yZfV8Dk
+:title: Wholesale Landscape Materials
+:subtitle: ""
 :description: Wholesale Landscape Materials located off Redland Rd carries  variety of rock, stone, block, compost and mulch of many sizes and shapes to complete any landscaping projects.
 :keywords: Wholesale Landscape Materials
 
 
 :name: wlm
 :email: wlmhstllc@gvtc.com
-:phone: (210) 361-1186
+:phone: 830 438 1286
 
 :geo_address: 
 :geo_embed_address: 
@@ -57,7 +58,7 @@ contact_form:
 # View related
 # :logo: false
 
-:hostname: localhost:3000
+:hostname: www.wholesalelandscapematerials.com
 
 
 
@@ -71,5 +72,8 @@ contact_form:
 # http://bootstrapcdn.com/#bootswatch_tab
 
 :theme: flatly
+
+:hours: >
+    Monday-Friday 7:30am to 4:45pm. <br/> Saturday 7:30am to 3:00pm.
 
 #nav_theme: normal

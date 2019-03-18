@@ -1,40 +1,61 @@
 - 
   title: Soil Mixes
   name: soil-mixes
-  note: Soil mixes note
+  note: >
+    Garden Soil: Mixture of compost, sand and clean screened topsoil.
+    This is the selected premium soil mix for flower beds and vegetable gardens.
+    <p/>
+    Four Way Mix:  Mixture of compost, sand, screened topsoil and pecan
+    shells.
+    <p/>
+    Lawn Dressing:  A 50/50 mix of sand and compost. This mix aerates
+    and feeds the soils.
+
 - 
   title: Compost
   name: compost
-  note: Compost note
+  note: >
+     Landscaping Compost  SAWS Class, a biosolid compost. Great for to dressing lawns or amending any type of existing soils.
 
-- 
-  title: Top soil
-  name: top-soil
-  note: top-soil note
+
+# - 
+#   title: Top soil
+#   name: top-soil
+#   note: Unscreened Topsoil
 
 
 - 
   title: Mulches
   name: mulches
-  note: mulches note
+  note: > 
+    Native Mulch twice shredded blend of mulch, containing wood from
+    assorted variety of Texas native trees.
+    <p/>
+    Hardwood Mulch composed Oak hardwood that has a natural color to it,
+    composted to add nutrients to the ground.
+
 
 - 
   title: Rocks
   name: rocks
-  note: rocks note
+  note: Rocks used for landscaping and xeriscaping to prevent water run off.
 
 - 
   title: Sand
   name: sand
-  note: sand note
+  note: >
+   Washed Sand: Concrete Sand  Main ingredient used in mixing concrete. Coarse sand
+   used as a base for concrete slabs, road traction for sidewalks and
+   repairing cracks on concrete.
+
 
 - 
   title: Landscaping stones
   name: landscaping-stones
-  note: landscaping stones note
+  note: Used to build retaining walls and decorations.
 
 
-- 
-  title: Concrete Mix
-  name: concrete-mix
-  note: concrete mix  note
+# - 
+#   title: Concrete Mix
+#   name: concrete-mix
+#   note: concrete mix  note

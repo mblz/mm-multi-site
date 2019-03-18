@@ -9,7 +9,7 @@
 			content="https://<%=site.hostname  + site.meta_image %>" />
 <% end %>
 <meta property="og:site_name" 
-			content="<%= site.title + " " + site.subtitle%>" />
+			content="<%= site.title + " " + site.subtitle.to_s%>" />
 <meta property="og:description" 
 			content="<%= current_page.data["description"] %>" />
 <meta property="article:published_time" 

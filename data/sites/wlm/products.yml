@@ -1,50 +1,68 @@
 # Soil Mixes, Compost, Top soil, Mulches, Rocks, Sand, Landscaping stones, Concrete Mix
 :landscaping-stones:
   - title: Cream Select Flagstone
-    note: csf
+    note: Used for decorative walkways, patios and xeriscaping
   - title: Mexican Rose
-    note: mr
-  - title: Nicotine Chopped Block 6x6
-    note: ncb
+    note: Used for decorative walkways
+  - title: Nicotine Stone
+    note: Nicotine Chopped Block 6x6
   - title: Oklahoma Flagstone
-    note: ncb    
+    note: Used to do xeriscape or walkways     
   - title: Sandstone
-    note: ncb    
+    note: Used to do xeriscape or retaining walls    
+
 :soil-mixes:
   - title: Soil mixes
-    note: lorem 
+    note: > 
+        Garden Soil: Mixture of compost, sand and clean screened topsoil.
+        This is the selected premium soil mix for flower beds and vegetable gardens.
+        <p/>
+        Four Way Mix:  Mixture of compost, sand, screened topsoil and pecan
+        shells.
+        <p/>
+        Lawn Dressing:  A 50/50 mix of sand and compost. This mix aerates
+        and feeds the soils. 
+
+
 :compost:
   - title: Compost
-    note: lorem compost 
-:top-soil:
-  - title: Top soil
-    note: lorem top soil 
+    note:  Landscaping Compost  SAWS Class, a biosolid compost. Great for top dressing lawns or amending any type of existing soils.
+
+# :top-soil:
+#   - title: Top soil
+#     note: lorem top soil 
+
 :mulches:
-  - title: Mulches
-    note: lorem compost     
+  - title: Red Dyed
+    note: Dyed with red organic vegetable dye   
+  - title: Black Dyed
+    note: Dyed with black organic vegetable dye      
+
 :rocks:
   - title: Decomposed Granite
-    note: lorem rocks   
+    note: Rocks used for landscaping
   - title: Grey Tres Rios
-    note: lorem rocks       
+    note: Available in 1-6” & 1-3”      
   - title: Peach
-    note: lorem rocks   
+    note:  Peach rock  1-3”
   - title: Shadow Rock
-    note: lorem rocks      
+    note:  Used to decorate grounds   
   - title: Texas Blend 1
-    note: lorem rocks   
+    note:  Blend mix 2" to 4"  
   - title: Texas Blend 2
-    note: lorem rocks      
+    note: Blend mix 2"   
   - title: Texas Blend 3
-    note: lorem rocks    
+    note: Blend mix 2 "  
   - title: Washed Granite 1
-    note: lorem rocks      
+    note: Used to decorate grounds     
   - title: Washed Granite 2
-    note: lorem rocks                           
+    note: Used to decorate grounds                           
+
 :sand:
-  - title: Sand
-    note: lorem sand              
-:concrete-mix:
-  - title: concrete mix
-    note: lorem c mix   
+  - title: White
+    note: White Sand used as a base           
+
+# :concrete-mix:
+#   - title: concrete mix
+#     note: lorem c mix   
    

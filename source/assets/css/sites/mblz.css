@@ -19,7 +19,14 @@ i.btn-icon{
     color: #55595c !important;
     font-size: 1.5rem !important;
 }
+p.lead, .text-muted {
+  color: #5e6c77 !important;
+}
+body{color: #356d98}
 
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.664);
+}
 /* 
   
   [class*="col-"] {
