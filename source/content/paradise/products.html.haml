@@ -7,121 +7,71 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
 %h1 
   Products
   %small.text-muted current inventory
-
+- cats = ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"]
+.container-fluid
+  .row.mb-2
+    .btn-group.btn-group-sm.btn-block{"aria-label" => "Categories", :role => "group"}
+      %button.btn.btn-secondary.active{:type => "button", "data-category" => 0} All
+      - cats.each_with_index do |cat, idx|        
+        %button.btn.btn-secondary{:type => "button", 'data-category': idx+1}= cat
 .container-fluid
   - site(:products).each do |product|
     - next if product.image_thumb_path.include?('missing')
-    .row.mb-2
-      .col
+    .row.product.mb-2{'data-category' => product.product_category_id}
+      /(style="margin-left:-24px")
+      .col-lg-6
         = link_to "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", target: "_blank" do
-          = image_tag "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", class: 'img-fluid', style: 'width: 100%'
-      .col
-        %h3
+          %img{"data-src": "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", class: 'img-fluid rounded lozad', style: 'margin-left: -12px;width: 100%'}
+      .col-lg-6
+        %h3(style="margin-top:0")
           = product.name
-        %p= product.note
+        %p
+          %i= product.note
+        %br
+        Category: 
+        %b= cats[product.product_category_id - 1]
+        %br
         - unless product.tolerance.blank?
           Tolerance:
-        %b=product.tolerance
+          %b=product.tolerance
         %br/
         Water: 
         %b= paradise_water(product.water)
         %br/
         Sun: 
-        %b= paradise_sun(product.sun)                    
-    
--# - content_for 'add_to_end' do 
--#   %link{:href => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.2/bootstrap-table.min.css", :rel => "stylesheet"}/
--#   / Latest compiled and minified JavaScript
--#   %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.2/bootstrap-table.min.js"}
--#   / Latest compiled and minified Locales
--#   %script{:src => "//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.2/locale/bootstrap-table-en-US.min.js"}
--#   %script
--#     $(function(){
--#     // Enables popover
--#     $("[data-toggle=popover]").popover({container: 'body'});
--#     window.setTimeout(function(){$('#productsTable').slideDown('slow');}, 250)  
--#     $('#productsTable').on('all.bs.table', function (e, arg1, arg2) {
--#     $("[data-toggle=popover]").popover({container: 'body'});
--#     //e.preventDefault()
--#     });      
--#     });
+        %b= paradise_sun(product.sun)  
 
+   
+-# Lazy load images                  
+%script(src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js")
 
--# %table#productsTable{'data-url' => '/assets/js/products.json', "class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none"}
--#   /%table#productsTable{'data-url' => '//paradise.mblz.com/products.json?mblz=1', "class":"table-striped", "data-sort-order" => "asc", "data-toggle" => "table", "data-search" => "true", "data-show-toggle" => "true", "data-show-columns" => "true",'data-click-to-select' => "true", style: "display: none"}
--#   %thead
--#     %tr
--#       /%th(data-field="state" data-checkbox="true")
--#       %th{"data-field" => "name", "data-sortable" => "true", "data-formatter" => "formatProduct"}
--#         Product
--#       %th{"data-field" => "image_thumb_path", "data-sortable" => "false", "data-formatter" => "formatImage"}
--#         Image        
--#       %th{"data-field" => "product_category_id", "data-sortable" => "true", "data-formatter" => "formatCategory"}
--#         Category
--#       %th{"data-field" => "size", "data-sortable" => "false"}
--#         Size 
--#       %th{"data-field" => "color", "data-sortable" => "true"}
--#         Color        
--#       %th{"data-field" => "sun", "data-sortable" => "true", "data-formatter" => "formatSun"}
--#         Sun
--#       %th{"data-field" => "water", "data-sortable" => "true", "data-formatter" => "formatWater"}
--#         Water   
--#       %th{"data-field" => "height", "data-sortable" => "true"}
--#         Height
--#       %th{"data-field" => "tolerance", "data-sortable" => "true"}
--#         Tolerance                      
--#       / %th{"data-field" => "inventory", "data-sortable" => "true"}
--#       /   Inventory  
--#       %th{"data-field" => "note", "data-sortable" => "false"}
--#         Note  
-
--# :javascript
--#   //-#   $MBLZ_HOST="http://#{mblz_host}"
-
--#   function formatProduct(v){
--#     return v
--#     return "<a href='/sites/paradise/content/paradise/print#" + v + "' target='_blank'>" + v + "</a>"  
--#   }
--#   function formatImage(v){
--#     if(v.indexOf("missing") != -1) return '-'
--#     return "<a href='//paradise.mblz.com" + v.replace('thumb', 'original') + " ' target='_blank'><img src='//paradise.mblz.com" + v + "'/></a>"
--#   }
--#   function formatCategory(v){
--#     return ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"][v-1]
--#   }
--#   function formatSun(v){
--#     return ["Shaded", "PartiallyShaded", "", "FullSun"][v]
--#   }
--#   function formatWater(v){
--#      return ["Light", "Weekly", "", "Heavy"][v]
--#   }
--# = javascript_include_tag "//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js", slave: "//#{mblz_host}/static/proxy.html"
-
-
-/ %th{"data-field" => "note"}
-/   Note          
-/ %th{"data-field" => "tags", "data-sortable" => "false"}
-/   Tags               
-/ %th{"data-field" => "description", "data-sortable" => "false"}
-/ Description
-/ - site("products").each do |item|
-/   - category = paradise_category(item[:product_category_id])
-/   %tr
-/     /%td
-/     %td.product-name
-/       - unless item[:image_thumb_path] =~ /thumb\/missing.png$/
-/         - url = env_url(item[:image_thumb_path])
-/         = link_to item[:name], url.sub('thumb','original'), 'data-toggle': 'popover', 'data-html': true, 'data-content': "<a href='#{url.sub('thumb','original')}' target=_blank><img src='#{url}' style='width:100%'/></a>", 'title': "Image", 'data-trigger':"hover" , target: "_blank"
-/       - else
-/         = item[:name]
-/     %td
-/       /= category[:name]
-/       = link_to category[:name], 'javascript://', 'data-toggle': 'popover', 'data-html': true, 'data-content': location_matrix(category, item[:location]), 'title': "#{site_link_to('Location', 'product_map')}", 'data-trigger':"hover" 
-/     %td= item[:size]
-/     %td= item[:color]
-/     %td= paradise_sun(item[:sun] || [0,1,2].sample)
-/     %td= paradise_water(item[:water] || [0,1,2].sample)
-/     %td= item[:height]
-/     %td= item[:tolerance]
-/     %td= item[:inventory]
-/     /%td= item[:note]
+:javascript
+  const observer = lozad();
+  observer.observe();  
+  window.addEventListener('DOMContentLoaded', function(){
+    function deact(){
+      $('.btn-group button').each(function(){
+        $(this).removeClass('active')
+      })
+    }
+    $('.btn-group button').on('click', function(e){
+      deact()
+      var btn = $(e.target)
+          btn.addClass('active')
+      let cat = btn.data('category')
+      $('.row.product').each(function(){
+        var product    =  $(this)
+        var productCat = product.data('category')
+        if(productCat == cat || cat === 0){
+          product.show()
+        } else {
+          product.hide()
+        }
+      })
+    })
+  })
+:css 
+  .row.product{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
