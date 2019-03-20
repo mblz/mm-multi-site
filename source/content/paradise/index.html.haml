@@ -10,19 +10,23 @@ description: Paradise Nursery is San Antonio's landscapers first choice for all 
   Welcome to Paradise!
   %small.text-muted plants for every project
 
-= image_tag 'misc/meta.jpg', class: 'img-fluid rounded pull-right', style: 'height:325px' 
+.container-fluid
+  .row
+    .col-lg-4.mb-4
+      = image_tag 'misc/meta.jpg', class: 'img-fluid rounded'
+    .col-lg-8
+      %p Paradise Nursery, LLC. located in NE San Antonio, Texas is owned and operated by Mr. Raymond Dady. The nursery has two gates for entering the property, making it an easy access from Jones Maltsberger or Redland Road. Paradise is a Wholesale Nursery providing beautiful plants, shrubs, flowers, cacti and palms to San Antonio landscapers's and residential homeowners who must complete their Spring and Fall landscaping project. 
+
+      %p If we are not stocked with your favorite landscaping plant or tree, we'll definitely add it to our next shipment.
+
+      %p Come by and visit, meet our staff, smell the roses!  Browse around at no obligation. We are looking forward to meeting you! 
+
+      %p Military Discount available!
+      
+      %a(href="./content/paradise/products/" class="btn btn-primary")
+        Check out our products!
 
 
-%p Paradise Nursery, LLC. located in NE San Antonio, Texas is owned and operated by Mr. Raymond Dady. The nursery has two gates for entering the property, making it an easy access from Jones Maltsberger or Redland Road. Paradise is a Wholesale Nursery providing beautiful plants, shrubs, flowers, cacti and palms to San Antonio landscapers's and residential homeowners who must complete their Spring and Fall landscaping project. 
-
-%p If we are not stocked with your favorite landscaping plant or tree, we'll definitely add it to our next shipment.
-
-%p Come by and visit, meet our staff, smell the roses!  Browse around at no obligation. We are looking forward to meeting you! 
-
-%p Military Discount available!
 
 
 
-%p 
-  Check out our 
-  = site_link_to 'products!', 'products'

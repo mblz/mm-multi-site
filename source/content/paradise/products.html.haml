@@ -7,13 +7,16 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
 %h1 
   Products
   %small.text-muted current inventory
+
 - cats = ["Palms", "Trees", "Cactus", "Flowers", "Ground Cover", "Shrubs"]
+
 .container-fluid
-  .row.mb-2
+  .row.mb-2    
     .btn-group.btn-group-sm.btn-block{"aria-label" => "Categories", :role => "group"}
       %button.btn.btn-secondary.active{:type => "button", "data-category" => 0} All
       - cats.each_with_index do |cat, idx|        
         %button.btn.btn-secondary{:type => "button", 'data-category': idx+1}= cat
+
 .container-fluid
   - site(:products).each do |product|
     - next if product.image_thumb_path.include?('missing')
@@ -23,25 +26,26 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
         = link_to "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", target: "_blank" do
           %img{"data-src": "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", class: 'img-fluid rounded lozad', style: 'margin-left: -12px;width: 100%'}
       .col-lg-6
-        %h3(style="margin-top:0")
+        %h3.product-title
           = product.name
         %p
-          %i= product.note
-        %br
+          %i.note= product.note
         Category: 
-        %b= cats[product.product_category_id - 1]
+        %b.primary= cats[product.product_category_id - 1]
         %br
         - unless product.tolerance.blank?
           Tolerance:
-          %b=product.tolerance
-        %br/
+          %b.primary=product.tolerance
+          %br/
         Water: 
-        %b= paradise_water(product.water)
+        %b.primary= paradise_water(product.water)
         %br/
         Sun: 
-        %b= paradise_sun(product.sun)  
+        %b.primary= paradise_sun(product.sun) 
+        - if product.sun == 3
+          %i.fa.fa-sun.sun
 
-   
+
 -# Lazy load images                  
 %script(src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js")
 
@@ -74,4 +78,15 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
   .row.product{
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
+  }
+  b.primary, i.note{
+    color: #cc3a07;
+    font-weight: normal;
+  }
+  h3.product-title{
+    border-bottom: 1px solid #ddd;
+  }
+  i.sun{
+    color: var(--yellow);
+    font-size: 22px;
   }
