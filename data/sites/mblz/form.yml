@@ -1,0 +1,21 @@
+---
+- :name: first-name
+  :title: First Name
+  :options: ""
+  :required: true
+  :field_type: text
+- :name: last-name
+  :title: Last Name
+  :options: ""
+  :required: true
+  :field_type: text
+- :name: email
+  :title: Email
+  :options:
+  :required: true
+  :field_type: text
+- :name: message
+  :title: Message
+  :options: ""
+  :required: true
+  :field_type: text

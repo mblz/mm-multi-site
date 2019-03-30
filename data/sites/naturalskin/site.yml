@@ -2,19 +2,18 @@
 
 :title: Natural Skin Care
 :description: A variety of skin treatments, facials and LamProbe treatments for both men and women.
-:keywords: Facials, LamProbe, Reflexology, Waxing, Hand Treatments, European Facials, Light Therapy Facials 
-:meta_image: ''
-:subtitle: ''
+:keywords: Facials, LamProbe, Reflexology, Waxing, Hand Treatments, European Facials, Light Therapy Facials
+:meta_image: ""
+:subtitle: ""
 
 :name: norma
 :email: normacperry@gmail.com
 :phone: 210-978-0622
 
-:geo_address: 
-:geo_embed_address: 
+:geo_address:
+:geo_embed_address:
 
-
-:address: 
+:address:
   :street: 401 Isom Rd Suite 390
   :city: San Antonio
   :state: Texas
@@ -23,7 +22,7 @@
 :owner:
   :name: Norma Perry
   :email: normacperry@gmail.com
-  :address: 
+  :address:
     :street: Owner street
     :city: Owner city
     :state: Owner state
@@ -33,26 +32,24 @@ nav:
   # - title: Services
   #   cnt: true
   # - title: About
-  #   cnt: true    
+  #   cnt: true
   # - Gallery
-  - 
-    title: Specials
+  - title: Specials
     cnt: true
   - Testimonials
   - Contact
-
 
 contact_form:
   subject: Contact from Site
   fields:
     - Service requested
-    - Email 
+    - Email
     - Phone
 
-social:
-  facebook:
-  twitter:
-  google_plus: NaturalSkinCareSanAntonio
+# social:
+#   facebook:
+#   twitter:
+#   google_plus: NaturalSkinCareSanAntonio
 
 # View related
 :logo: false
@@ -60,11 +57,8 @@ social:
 :hostname: naturalskincaresa.com
 
 :carousel:
-
   - aroma.jpg
   - facial.jpg
-
-
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
