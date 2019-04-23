@@ -12,21 +12,22 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
 
 .container-fluid
   .row.mb-2    
-    .btn-group.btn-group-sm.btn-block{"aria-label" => "Categories", :role => "group"}
-      %button.btn.btn-secondary.active{:type => "button", "data-category" => 0} All
-      - cats.each_with_index do |cat, idx|        
-        %button.btn.btn-secondary{:type => "button", 'data-category': idx+1}= cat
+    .col-12
+      .btn-group.btn-group-sm.btn-block{"aria-label" => "Categories", :role => "group"}
+        %button.btn.btn-secondary.active{:type => "button", "data-category" => 0} All
+        - cats.each_with_index do |cat, idx|        
+          %button.btn.btn-secondary{:type => "button", 'data-category': idx+1}= cat
 
 .container-fluid
   - site(:products).each do |product|
     - next if product.image_thumb_path.include?('missing')
     .row.product.mb-2{'data-category' => product.product_category_id}
       /(style="margin-left:-24px")
+      .col-lg-6.mb-2
+        - img_path = "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}"
+        %img{"data-src": img_path, class: 'img-fluid rounded lozad product-img', title: product.name, alt: product.name, 'data-toggle': :tooltip}
       .col-lg-6
-        = link_to "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", target: "_blank" do
-          %img{"data-src": "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}", class: 'img-fluid rounded lozad', style: 'margin-left: -12px;width: 100%'}
-      .col-lg-6
-        %h3.product-title
+        %h3.product-title.display-4
           = product.name
         %p
           %i.note= product.note
@@ -75,6 +76,13 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
     })
   })
 :css 
+  img.product-img{
+    width: 100%;
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
+  }
+
   .row.product{
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;

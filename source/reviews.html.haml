@@ -37,15 +37,15 @@ keywords: review, customer, rating
   #gallery
     -  reviews.each do |review|
 
-      .panel.panel-primary
-        .panel-heading
-          %h3.panel-title
-            .pull-right
-              .fa{class: "fa-#{review.icon}", style: 'color:gold'}
+      .card.my-3
+        .card-header
+          %h3.card-title
+            .float-right.mp-1
+              .fas{class: "fa-#{review.icon}", style: 'color:gold'}
             = review.title
             
 
-        .gallery.panel-body
+        .gallery.card-body
           %blockquote= review.comment
           %hr
           %i Job description:
@@ -60,10 +60,10 @@ keywords: review, customer, rating
             - before_and_after = before_images.present? && after_images.present?
             = partial "partials/site/images_for_review", locals: {images: before_images, header: "Before", use_header: before_and_after}
             = partial "partials/site/images_for_review", locals: {images: after_images, header: "After", use_header: before_and_after}               
-        .panel-footer
+        .card-footer
           Client initials: 
           %b= review.initials
-          .pull-right
+          .float-right
             Created
             %b= review.created_at
 
