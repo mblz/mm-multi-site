@@ -27,24 +27,33 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
         - img_path = "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}"
         %img{"data-src": img_path, class: 'img-fluid rounded lozad product-img', title: product.name, alt: product.name, 'data-toggle': :tooltip}
       .col-lg-6
-        %h3.product-title.display-4
+        %h3.product-title
           = product.name
         %p
           %i.note= product.note
-        Category: 
-        %b.primary= cats[product.product_category_id - 1]
-        %br
+        .row
+          .col-4
+            Category: 
+          .col-8
+            %b.primary= cats[product.product_category_id - 1]
         - unless product.tolerance.blank?
-          Tolerance:
-          %b.primary=product.tolerance
-          %br/
-        Water: 
-        %b.primary= paradise_water(product.water)
-        %br/
-        Sun: 
-        %b.primary= paradise_sun(product.sun) 
-        - if product.sun == 3
-          %i.fa.fa-sun.sun
+          .row
+            .col-4 Tolerance:
+            .col-8 
+              %b.primary=product.tolerance
+        .row
+          .col-4 Water: 
+          .col-8 
+            %b.primary= paradise_water(product.water)
+        .row
+          .col-4 Sun: 
+          .col-8
+            %b.primary= paradise_sun(product.sun) 
+            - if product.sun == 3
+              %i.fa.fa-sun.sun
+    .row
+      .col-12
+        %hr
 
 
 -# Lazy load images                  
@@ -83,10 +92,7 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
     box-shadow: 0 0 10px #999;
   }
 
-  .row.product{
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
-  }
+
   b.primary, i.note{
     color: #cc3a07;
     font-weight: normal;
