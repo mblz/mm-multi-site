@@ -21,9 +21,9 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
 .container-fluid
   - site(:products).each do |product|
     - next if product.image_thumb_path.include?('missing')
-    .row.product.mb-2{'data-category' => product.product_category_id}
+    .row.product.mb-4{'data-category' => product.product_category_id}
       /(style="margin-left:-24px")
-      .col-lg-6.mb-2
+      .col-lg-6
         - img_path = "//paradise.mblz.com/#{product.image_thumb_path.sub('thumb','original')}"
         %img{"data-src": img_path, class: 'img-fluid rounded lozad product-img', title: product.name, alt: product.name, 'data-toggle': :tooltip}
       .col-lg-6
@@ -51,9 +51,6 @@ keywords: trees, flowers, ground cover, cactus, palms, shrubs
             %b.primary= paradise_sun(product.sun) 
             - if product.sun == 3
               %i.fa.fa-sun.sun
-    .row
-      .col-12
-        %hr
 
 
 -# Lazy load images                  
