@@ -13,10 +13,10 @@ keywords: Testimonials, customers, referrals
 - if tests = site(:testimonials)
   - if tests.first.is_a?(Hash)
     -  tests.each_with_index do |test, idx|
-      %h3= test.name
+      %h3.display-4= test.name
       %blockquote.blockquote
         - if test.url.present?
-          .pull-right
+          .float-right
             %p(style="margin-top:-6px")= link_to test.url, "http://#{test.url}", class: 'btn btn-success btn-block', target: '_blank'      
         = test.says
         %footer.footer-blockquote

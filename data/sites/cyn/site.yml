@@ -3,18 +3,17 @@
 :title: Cynthia Moseley, LMT
 :description: Specializing in deep tissue, lymphatic drainage, and intuitive energy work.
 :keywords: Massage Therapist, Raindrop Technique, Young Living Oils, deep tissue
-:meta_image: ''
-:subtitle: ''
+:meta_image: ""
+:subtitle: ""
 
 :name: cyn
 :email: cynthiamoseleylmt@gmail.com
 :phone: (210) 209-8244
 
-:geo_address: 
-:geo_embed_address: 
+:geo_address:
+:geo_embed_address:
 
-
-:address: 
+:address:
   :street: 7201 Broadway Suite 224
   :city: San Antonio
   :state: Texas
@@ -23,7 +22,7 @@
 :owner:
   :name: Cynthia Moseley
   :email: cynthiamoseleylmt@gmail.com
-  :address: 
+  :address:
     :street: 309 E College
     :city: Silver City
     :state: NM
@@ -35,24 +34,22 @@ nav:
   - title: Products
     cnt: true
   - title: Calendar
-    cnt: true 
+    cnt: true
   - Referrals
   - Contact
-
 
 contact_form:
   subject: Contact from Site
   fields:
     - Service requested
     - Name
-    - Email 
+    - Email
     - Phone
-    
 
-social:
-  facebook: https://www.facebook.com/Cynthia-C-Moseley-LMT-1553207735004178/
-  twitter:
-  google_plus: 
+# social:
+#   facebook: https://www.facebook.com/Cynthia-C-Moseley-LMT-1553207735004178/
+#   twitter:
+#   google_plus:
 
 # View related
 :logo: false
@@ -63,7 +60,6 @@ social:
 #   - blue-bonnet.jpg
 #   - rock.jpg
 #   - header.jpg
-
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab

@@ -1,0 +1,24 @@
+#carousel-example-generic2.carousel.slide.carousel-fade.carousel-fullscreen{"data-ride" => "carousel"}
+  / Indicators
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic2"}
+    - 1.upto site(:carousel).size - 1 do |i|      
+      %li{"data-slide-to" => i, "data-target" => "#carousel-example-generic2"}
+  / Wrapper for slides
+  .carousel-inner{:role => "listbox"}
+    - site(:carousel).each_with_index do |img,idx|
+      - path = image_path "carousel/#{img.src}.jpg"
+      .carousel-item{class: idx === 0 ? :active : nil, :style => "background-image: url('#{path}')"}
+        .overlay
+        .carousel-caption
+          %h1.display-2.font-weight-bold= img.title
+          %p.h4.font-weight-light= img.subtitle
+  / Controls
+  %a.carousel-control-prev{"data-slide" => "prev", :href => "#carousel-example-generic2", :role => "button"}
+    %span.carousel-control-prev-icon{"aria-hidden" => "true"}
+    %span.sr-only Previous
+  %a.carousel-control-next{"data-slide" => "next", :href => "#carousel-example-generic2", :role => "button"}
+    %span.carousel-control-next-icon{"aria-hidden" => "true"}
+    %span.sr-only Next
+
+= stylesheet_link_tag "carousel/caption.css" 
