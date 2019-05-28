@@ -7,13 +7,16 @@
   %body{:class => page_classes}
     = site_partial "nav"
     = yield_content :carousel
-    .container(style='margin-top:30px')
-      - if side_menu = has_side_menu and current_page.data.skip_side_menu != true 
-        .row
-          .col-lg-8= yield
-          .col-lg-4= side_menu
-      - else
-        = yield
+    - if @no_container
+      = yield
+    - else
+      .container(style='margin-top:30px')
+        - if side_menu = has_side_menu and current_page.data.skip_side_menu != true 
+          .row
+            .col-lg-8= yield
+            .col-lg-4= side_menu
+        - else
+          = yield
     = site_partial "footer"
     %link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous")
     %script(src="//code.jquery.com/jquery-3.3.1.min.js")

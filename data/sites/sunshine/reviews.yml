@@ -1,8 +1,38 @@
 ---
+- initials: GS
+  comment: " I have two words for you:  Hire Him!!!  Raymond is the most professional,
+    thorough individual we have ever met and his crew does a fantastic job.  He was
+    constantly out at our house, ensuring we were happy with the work and throwing
+    in little freebies to ensure we were satisfied.  You will not go wrong by bringing
+    him in to do your landscaping, and if you want to view his work, just stop by
+    and admire it!!\r\n \r\nGTS\r\nSan Antonio Tx"
+  items:
+  - name: Landscaping
+    note: 'Mulch the beds front and back.  '
+  - name: Landscaping
+    note: 'Spread compose to the grass in front.  '
+  - name: Landscaping
+    note: 'Pull all the weeds out from the grass and the beds.  '
+  - name: Landscaping
+    note: 'Pull the Texas Sages from the beds in the front.  Replace with Viburnum
+      Shrubs around the foundation and design with Fringe flowers (Loropetalum), Society
+      Garlics. '
+  images:
+    before:
+    - title: ''
+      url: "/system/attachments/images/000/000/869/original/69EC3562-5767-48EA-A108-57CBE8AD57DD.jpeg"
+    - title: ''
+      url: "/system/attachments/images/000/000/870/original/0474F679-5041-40A4-85FC-97F74C8FC389.jpeg"
+    - title: ''
+      url: "/system/attachments/images/000/000/871/original/A6A744AF-2206-41B8-82B2-D204CEB0E37B.jpeg"
+    after: []
+  title: 'Just two words! '
+  icon: heart
+  created_at: '2019-04-10'
 - initials: WKW
   comment: "I wanted to share that we had a great experience with Raymond and his
     crew. From my first contact with Raymond to the start of the project was 2 weeks.
-    \ Total project took 2 weeks.  Sunshine picked up the pieces, after we had disappointing
+    \ Total project took 2 weeks.  Sunshine picked up the pieces after we had disappointing
     results from our previous landscaping company.  Sunshine added many plants, cleaned
     my trees,  tweaked our irrigation to run better, built an amazing retaining wall
     and really enhanced our property.  We live on a corner lot and Raymond brought
@@ -14,19 +44,15 @@
     \ You are a blessing and very good at what you do!\r\n\r\nWK\r\nSan Antonio"
   items:
   - name: Retainer Wall
-    note: " Install the retaining wall, 200ft three ft high as the picture depicts. "
+    note: " Install a retaining wall, 200ft, 3 feet high as the picture depicts. "
   - name: Landscaping
-    note: 'Clean all the Oak Trees canopy style; under each oak trees we are going
-      to plant the tropical plant such as Variegated Ginger and Agapanthus, Philodendrons
-      and Foxtail Ferns. '
+    note: 'Clean all the Oak Trees canopy style.  Under each Oak trees plant tropical
+      plants such as: Variegated Ginger, Agapanthus, Philodendrons, Foxtail Ferns. '
   - name: Landscaping
     note: Plant some beautiful French flowers around the premises and around the pool
       area.
   - name: Landscaping
     note: " Apply Pecan Mulch, 30 yards front and back."
-  - name: Labor
-    note: 'Job will be scheduled as soon as the estimate is confirmed weather permitting
-      the job will take 7 to 10 days to complete. '
   images:
     before:
     - title: ''
@@ -57,5 +83,5 @@
     - title: ''
       url: "/system/attachments/images/000/000/273/original/IMG_2849.JPG"
   title: Sharing My Great Experience
-  icon: smile-o
+  icon: trophy
   created_at: '2016-06-20'

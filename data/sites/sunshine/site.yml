@@ -2,15 +2,17 @@
 nav:
   - title: Services
     cnt: true
-  - Clients
-  - title: About
+  #- Clients
+  - title: Irrigation Installation
     cnt: true
+  # - title: About
+  #   cnt: true
   - Gallery
   - Reviews
   - Contact
 
-:title: Sunshine
-:subtitle: Landscape services
+:title: Sunshine Landscape Management
+:subtitle:
 :description: Landscaping company specializing in hardscape, irrigation and retainer walls.
 :keywords: landscaping, hardscape, irrigation, water features, plant installation, lighting, retainer walls
 
@@ -43,10 +45,8 @@ contact_form:
     - Phone
     - Date
 
-# social:
-#   ? facebook
-#   ? twitter
-#   google_plus: sunshine-landscape
+social:
+  facebook: Slandscapemgmt
 
 # View related
 :logo: false
@@ -55,6 +55,7 @@ contact_form:
 
 meta_image: /assets/img/carousel/header.jpg
 
+:hours: Monday through Saturday 8am to 5pm
 # theme: sandstone
 
 # nav_theme: yes
@@ -65,4 +66,3 @@ meta_image: /assets/img/carousel/header.jpg
 :theme: sandstone
 :theme_navbar: light
 :theme_navbar_bg: light
-

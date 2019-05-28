@@ -25,7 +25,7 @@ keywords: images, portfolio, gallery
     - galleries.each do |gallery|
       .row
         .gallery.col-sm-12
-          %h2= titleize gallery.name        
+          %h2= titleize gallery.name.sub(/^\d/, '')        
           - gallery.images.each do |image|
             - url       = "/assets/img/gallery/#{gallery.name}/#{image.name}"
             - thumb_url = "/assets/img/gallery/#{gallery.name}/thumb/#{image.name}"

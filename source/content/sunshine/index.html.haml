@@ -1,22 +1,34 @@
 ---
-title: San Antonio Landscaping designs | Commercial & Residential
-description: San Antonio Landscaping company specializing in hardscape, irrigation and retainer walls.
+title: About Sunshine Landscape Management, San Antonio Texas
+description:  Quality residential and commercial outdoor landscape designs and irrigation installations services for San Antonio, Boerne, Schertz, Bandera, Selma and New Braunfels. 
+
 
 ---
 
 - if carousel.present?
   - content_for :carousel, site_partial('carousel') 
+%h1 
+  %small About 
+  Sunshine Landscape Management
+.row
+  .col-lg-8.col-md-6
 
 
-%h1 Landscape Design Services
-%p 
-  = click_to_call
-  and irrigation company in San Antonio Texas, specializes in professional Landscaping designs, Xeriscape, Water Features, Plant Installation, Lighting, Hardscape Design and Retainer Walls of different types and styles. The company is Family Owned and Operated by Mr. Raymond Dady, Horticulturist since 1980. If you are a Residential Homeowner or a Commercial Building owner that needs expert custom walkways, landscape curb lighting, lush landscaping and landscape borders, contact us for an on-site demonstration and free estimate. We also specialize in Irrigation (fixing or new installations to prevent flooding areas), Fencing (6 or 8' of all types), Masonry and Flagstone installations in different styles, colors, designs and patterns to meet your business or residential requirements. We design your landscaping needs to your expectations and more. Our staff is experienced and equipped to install the right types of trees, plants and grass that is right for your San Antonio, Houston, Dallas and Austin areas. As an added service, our lawn services will keep your yard looking green and clean to make San Antonio proud!
+    %p Sunshine is a San Antonio landscape contracting company committed to landscape designs with installation of new plants, shrubs, trees, irrigation, sod, water features, walkways, outdoor kitchens, fences, and firepits.  
+    %p Our company is family-owned and operated by Mr. Raymond Dady, a professional landscape designer providing the best ideas and plant selections at a competitive price for an easy to manage, low maintenance, and functional lawn for commercial or residential.  We achieve your goals using the elements of landscape such as:  Xeriscape, Hardscape or Softscape or just a new look. 
+    %p Our landscaping service area is San Antonio, Bandera, Spring Branch, Boerne, Schertz, Selma and New Braunfels. 
+    %p Transform your backyard and frontyard today into a relaxing oasis with lots of privacy.  
+    /%p Big Discounts And Low Prices for 2019! Contact us!
+    %h3 
+      Big Discounts And Low Prices for
+      = "#{Date.today.year}!"
+      = link_to "Contact us!", 'contact'
+  .col-lg-4.col-md-6
+    %h3 Raymond Dady, Owner
+    = image_tag "http://ray.mblz.com/system/uploads/131/original/rdady.jpg", class: 'rounded-circle img-responsive'
 
-%h3 
-  Big Discounts And Low Prices for
-  = "#{Date.today.year}!"
-  = link_to "Contact us!", 'contact'
+
+
 
 
 
