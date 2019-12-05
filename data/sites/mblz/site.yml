@@ -27,7 +27,7 @@ nav:
   :street: "8111 Mainland Dr #104-427"
   :city: San Antonio
   :state: Texas
-  :zip: 78240
+
 
 :owner:
   :name: MBLZ
@@ -36,7 +36,6 @@ nav:
     :street: "8111 Mainland Dr #104-427"
     :city: San Antonio
     :state: Tx
-    :zip: 78240
 
 
 contact_form:

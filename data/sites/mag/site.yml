@@ -18,7 +18,7 @@ subtitle: Homes
 :address: 
   :city: Pearsall
   :state: Texas
-  :zip: 78061
+  :zipcode: 78061
 
 :owner:
   :name: Ony Hall
@@ -26,7 +26,7 @@ subtitle: Homes
   :address: 
     :city: Pearsall
     :state: Texas
-    :zip:  78061
+    :zipcode:  78061
 
 nav:
   - title: About

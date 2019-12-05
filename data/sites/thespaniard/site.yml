@@ -17,7 +17,7 @@
   :street: 262 Mink
   :city: San Antonio
   :state: Texas
-  :zip: 78213
+  :zipcode: 78213
 
 :owner:
   :name: Fernando Nino
@@ -26,7 +26,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Trimming

@@ -18,7 +18,7 @@
   :street: 218 Pat Booker Rd
   :city: San Antonio
   :state: Texas
-  :zip: 78148
+  :zipcode: 78148
 
 :owner:
   :name: Dr. Aaron Goldberg, D.D.S.
@@ -27,7 +27,7 @@
     :street: 108 Michigan Ave
     :city: San Antonio
     :state: Tx
-    :zip: 78201
+    :zipcode: 78201
 
 nav:
   - title: About

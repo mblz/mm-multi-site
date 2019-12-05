@@ -17,7 +17,7 @@
   :street: Site street name
   :city: San Antonio
   :state: Texas
-  :zip: 78000
+  :zipcode: 78000
 
 :owner:
   :name: Owner Name
@@ -26,7 +26,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Services
@@ -71,6 +71,6 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: readable
+:theme: lux
 
 #nav_theme: normal

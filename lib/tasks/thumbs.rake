@@ -2,7 +2,8 @@ desc "create thumbs for this imge dir 'rake thumbs[SITE,DIR/NAM]'"
 task :thumbs, [:dir, :site] do |t, args|
   site = args[:site] || ask_for_site()[:name]
   dir  = if args[:dir]  
-    dir_path = File.expand_path("~/Pictures/assets/sites/#{site}/assets/img/#{args[:dir]}")
+    dir_path = ENV['MM_BUILD_DIR'] + site + "/assets/img/" + args[:dir]
+    #File.expand_path("~/Pictures/assets/sites/#{site}/assets/img/#{args[:dir]}")
   else 
     dir_path = ask_for_img_dir(site)
   end
@@ -28,7 +29,8 @@ end
 # mogrify -resize x800 -background white -gravity center  -format jpg -quality 80 -path ./resized *.JPG
 
 def ask_for_img_dir(site)
-  dirs = Dir.glob(File.expand_path("~/Pictures/assets/sites/#{site}/assets/img/*"))
+  dirs = Dir.glob(ENV['MM_BUILD_DIR'] + site + "/assets/img/*")
+  #Dir.glob(File.expand_path("~/Pictures/assets/sites/#{site}/assets/img/*"))
   dirs.each_with_index do |dir, idx|
     puts "#{idx}) #{dir.split('/').last}"
   end

@@ -4,6 +4,9 @@ description: What our customers say about our services
 keywords: Testimonials, customers, referrals
 ---
 
+- if carousel.present?
+  - content_for :carousel, site_partial('carousel')
+
 %h1
   %span.fa.fa-heart(style="color:firebrick")
   Testimonials

@@ -1,0 +1,1 @@
+export MM_BUILD_DIR=/Volumes/Files/assets/sites/

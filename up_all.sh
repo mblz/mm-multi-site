@@ -8,6 +8,6 @@ rsync -avzp             \
   --exclude *.rb        \
   --exclude pvr         \
   --exclude shutterstock \
-  ~/Pictures/assets/ mblz@assets.integrated-internet.com:~/static/assets/
+  $MM_BUILD_DIR mblz@assets.integrated-internet.com:~/static/assets/
 
-ssh bu "chmod -R 755 ~/static/assets/sites"
+ssh ass "chmod -R 755 ~/static/assets/sites"

@@ -22,11 +22,12 @@ module SiteHelper
 	end
 
   # Shortcut to data for the site currently loaded
-	def site part = nil
+  def site part = nil
+
   	if not part
-      eval("data.sites.#{$SITE}.site")#.with_indifferent_access
+      eval("@app.data.sites.#{$SITE}.site") #rescue nil
     else
-      eval("data.sites.#{$SITE}.#{part}")
+      eval("@app.data.sites.#{$SITE}.#{part}")
     end
 
     rescue
@@ -96,29 +97,14 @@ module SiteHelper
     ActiveSupport::Inflector.parameterize(title)
   end
 
-  def link_imgs
-    system "unlink ~/Sites/middleman/mm-multi-site/source/assets/img"
-    system "ln -s ~/Pictures/assets/sites/#{$SITE}/assets/img ~/Sites/middleman/mm-multi-site/source/assets/img"
-  end
-
-  def ln_index
-    system "unlink ~/Sites/middleman/mm-multi-site/source/index.html.haml"
-    system "unlink ~/Sites/middleman/mm-multi-site/source/index.html.md.erb"
-    system "ln -s ~/Sites/middleman/mm-multi-site/source/content/#{$SITE}/index.html.haml ~/Sites/middleman/mm-multi-site/source/index.html.haml" 
-    system "ln -s ~/Sites/middleman/mm-multi-site/source/content/#{$SITE}/index.html.md.erb ~/Sites/middleman/mm-multi-site/source/index.html.md.erb"    
-  end
-
-  def build_dir
-    (File.expand_path(data.config.build_dir) + "/").sub("/site/","/#{$SITE}/")
-  end
 end
 
 
 # So we can use setting.name rather than setting[:name]
-class ::Hash
-  def method_missing(name)
-    return self[name] if key? name
-    self.each { |k,v| return v if k.to_s.to_sym == name }
-    super.method_missing name
-  end
-end
+# class ::Hash
+#   def method_missing(name)
+#     return self[name] if key? name
+#     self.each { |k,v| return v if k.to_s.to_sym == name }
+#     super.method_missing name
+#   end
+# end

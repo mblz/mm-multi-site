@@ -17,7 +17,7 @@
   :street: 401 Isom Rd Suite 390
   :city: San Antonio
   :state: Texas
-  :zip: 78216
+  :zipcode: 78216
 
 :owner:
   :name: Norma Perry
@@ -26,7 +26,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   # - title: Services

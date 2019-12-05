@@ -24,7 +24,7 @@ nav:
   :street: 3550 N Loop 1604 E
   :city: San Antonio
   :state: Texas
-  :zip: 78247
+  :zipcode: 78247
 
 :owner:
   :name: Raymond Dady
@@ -33,7 +33,7 @@ nav:
     :street: 3550 N Loop 1604 E
     :city: San Antonio
     :state: Texas
-    :zip: 78247
+    :zipcode: 78247
 
 contact_form:
   subject: Contact from Site

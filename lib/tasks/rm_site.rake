@@ -6,7 +6,7 @@ task :rm_site, [:name] do |t, args|
   rm_rf "source/content/#{name}"
   rm_rf "source/partials/#{name}"
   # Assets
-  full_path = File.expand_path("~/Pictures/assets/sites/#{name}")
+  full_path = ENV['MM_BUILD_DIR'] + name
   rm_rf(full_path)
 end
 

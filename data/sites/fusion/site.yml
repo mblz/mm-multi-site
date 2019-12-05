@@ -31,7 +31,7 @@ nav:
   :street: "10350 Bandera Road, Suite 206"
   :city: San Antonio
   :state: Texas
-  :zip: 78250
+  :zipcode: 78250
 
 :owner:
   :name: Marissa Spencer
@@ -40,7 +40,7 @@ nav:
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 :social:
   facebook: FusionSalonSA

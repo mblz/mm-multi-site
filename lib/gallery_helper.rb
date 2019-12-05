@@ -1,17 +1,17 @@
 module GalleryHelper
 
 	def img_dir_for path
-		File.expand_path(data.config.build_dir + path + "*").sub('/site/', "/#{$SITE}/")
+		File.expand_path(ENV['MM_BUILD_DIR']+  "/#{$SITE}/" + path + "*")
 	end
 
 	def carousel
-      dir = img_dir_for(data.config.carousel_dir)
+	  dir = img_dir_for("assets/img/carousel/")
       Dir.glob(dir).map{|f| f.split('/').last}.sort
 	end
 
 	def gallery_dirs
-	  dir = img_dir_for(data.config.gallery_dir)
-    Dir.glob(dir).select {|f| File.directory? f}.sort
+	  dir = img_dir_for("assets/img/gallery/")
+      Dir.glob(dir).select {|f| File.directory? f}.sort
 	end
 
 	def gallery dir

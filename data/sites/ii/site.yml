@@ -16,7 +16,7 @@
   :street: "8181 Tezel Rd #102-05"
   :city: San Antonio
   :state: Texas
-  :zip: 78250
+  :zipcode: 78250
 
 :owner:
   :name: Elva Tristan
@@ -25,7 +25,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Services

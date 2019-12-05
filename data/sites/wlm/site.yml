@@ -18,7 +18,7 @@
   :street: 18765 Redland Rd
   :city: San Antonio
   :state: Tx
-  :zip: 78259
+  :zipcode: 78259
 
 :owner:
   :name: Hector Serrano
@@ -27,7 +27,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Products

@@ -15,7 +15,7 @@
   :street: 10604 IH-35 North
   :city: San Antonio
   :state: Texas
-  :zip: 78233
+  :zipcode: 78233
 
 :owner:
   :name: Joey Gonzales
@@ -24,7 +24,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Services

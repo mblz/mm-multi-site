@@ -34,7 +34,7 @@ nav:
   :street: 
   :city: 
   :state: 
-  :zip: 
+  :zipcode: 
 
 :owner:
   :name: 
@@ -43,7 +43,7 @@ nav:
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 
 contact_form:

@@ -1,8 +1,7 @@
 rsync   \
   -avz  \
-    ass:~/static/assets/sites/ ~/Pictures/assets/sites
-
-
+    ass:/home/mblz/static/assets/sites/ @MM_BUILD_DIR
+#ass:~/static/assets/sites/ ~/Pictures/assets/sites
 # echo "syncing dbs and assets to mblzx"
 
 # ssh mblz@z '~/cron/backup/dbs.sh'

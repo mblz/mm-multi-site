@@ -13,7 +13,8 @@ task :new_site, [:name] do |t, args|
   mkdir "data/sites/#{name}"
   
   # Create the assets location
-  full_path = File.expand_path("~/Pictures/assets/sites/#{args[:name]}/assets/img/")
+  full_path = ENV["MM_BUILD_DIR"] + args[:name] + "/assets/img" 
+  #File.expand_path("~/Pictures/assets/sites/#{args[:name]}/assets/img/")
   FileUtils.mkdir_p(full_path)
 
 

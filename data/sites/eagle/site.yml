@@ -17,7 +17,7 @@
   :street: 1223 Silverton
   :city: San Antonio
   :state: Texas
-  :zip: 78251
+  :zipcode: 78251
 
 :owner:
   :name: Timoteo Hernandez
@@ -26,7 +26,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Services

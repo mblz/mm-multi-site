@@ -17,7 +17,7 @@
   :street: 1605 Chesterwood Cove
   :city: Austin
   :state: Texas
-  :zip: 78746
+  :zipcode: 78746
 
 :owner:
   :name: Moises Cases
@@ -26,7 +26,7 @@
     :street: 1605 Chesterwood Cove
     :city: Austin
     :state: Tx
-    :zip: 78746
+    :zipcode: 78746
 
 nav:
   - title: Services

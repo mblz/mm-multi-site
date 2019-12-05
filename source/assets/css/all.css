@@ -1,3 +1,15 @@
 /*
-= require_directory ./all
+#= require_directory ./all
 */
+@import url("/assets/css/all/app.css");
+@import url("/assets/css/all/blockquote.css");
+@import url("/assets/css/all/button.css");
+@import url("/assets/css/all/colors.css");
+@import url("/assets/css/all/form.css");
+@import url("/assets/css/all/gallery.css");
+@import url("/assets/css/all/h.css");
+@import url("/assets/css/all/hover_img.css");
+@import url("/assets/css/all/marketing.css");
+@import url("/assets/css/all/navbar.css");
+@import url("/assets/css/all/social.css");
+@import url("/assets/css/all/thumb.css");

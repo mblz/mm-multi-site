@@ -17,7 +17,7 @@
   :street: 7201 Broadway Suite 224
   :city: San Antonio
   :state: Texas
-  :zip: 78209
+  :zipcode: 78209
 
 :owner:
   :name: Cynthia Moseley
@@ -26,7 +26,7 @@
     :street: 309 E College
     :city: Silver City
     :state: NM
-    :zip: 88061
+    :zipcode: 88061
 
 nav:
   - title: Services

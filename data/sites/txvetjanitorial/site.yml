@@ -17,7 +17,7 @@
   :street: 
   :city: San Antonio
   :state: Texas
-  :zip: 78209
+  :zipcode: 78209
 
 :owner:
   :name: Marquis Adams 
@@ -26,7 +26,7 @@
     :street: Owner street
     :city: Owner city
     :state: Owner state
-    :zip: Owner Zip
+    :zipcode: Owner Zip
 
 nav:
   - title: Services
