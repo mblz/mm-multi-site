@@ -3,14 +3,14 @@
   id: 401
   product_category_id: 6
   name: Abelia "Glossy"
-  sizer: 3 gal
+  zize: 3 gal
   price: '13.0'
   color: White
   sun: 1
   water: 0
   height: " 4-6'H x 5' W"
   tolerance: 'Bird Friendly, Deer Resistant '
-  inventory: 7
+  inventory: 9
   location: 5
   note: 'Semi-evergreen arching shrub with bright, glossy foliage backing fragrant,
     bell-shaped white flowers blooming June-October.  '
@@ -18,7 +18,7 @@
   image_content_type: image/jpeg
   image_file_size: '127824'
   created_at: '2017-10-19T13:45:40.000-05:00'
-  updated_at: '2019-04-09T11:44:07.000-05:00'
+  updated_at: '2019-09-13T11:07:42.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -28,50 +28,24 @@
   image_thumb_path: "/system/products/images/000/000/401/thumb/9501D4A1-E97B-4E3D-8B92-45E556705E75.jpeg"
   category: Shrubs
 - site_id: 62
-  id: 1
-  product_category_id: 6
-  name: Agapanthus  "Lily of the Nile"
-  sizer: 3 gal
-  price: '22.0'
-  color: White flower clusters
-  sun: 1
-  water: 1
-  height: '1 1/2 ft tall '
-  tolerance: Mild drought, Attract hummingbirds and Butterflies
-  inventory: 18
-  location: 13
-  note: Warm Winter Region, Tropical. Blooms late Spring to Early Summer. Wide 2 1/2
-    ft tall flower stalks.
-  image_file_name: lily.jpg
-  image_content_type: image/jpeg
-  image_file_size: '50817'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-04-30T11:00:42.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '3.25'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/001/thumb/lily.jpg"
-  category: Shrubs
-- site_id: 62
   id: 282
   product_category_id: 6
-  name: Agapanthus "Ellamae White or Purple”
-  sizer: 5 gal
+  name: Agapanthus "Ellamae”
+  zize: 5 gal
   price: '22.0'
-  color: Deep Flower
+  color: Deep Purple/White
   sun: 1
   water: 1
   height: 1 - 2 ft
   tolerance: Full sun with ample water, Moderate salt tolerance.
-  inventory: 11
+  inventory: 6
   location: 26
   note: 'Herbaceous evergreen perennial,  produces luxurious evergreen foliage. '
   image_file_name: E37226A0-3D08-44AD-B717-D2BE6B011362.jpeg
   image_content_type: image/jpeg
   image_file_size: '85859'
   created_at: '2017-04-17T15:18:14.000-05:00'
-  updated_at: '2019-04-26T12:14:47.000-05:00'
+  updated_at: '2019-09-25T13:11:39.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -84,21 +58,21 @@
   id: 8
   product_category_id: 3
   name: Agave "Americana"
-  sizer: 20 gal
+  zize: 20 gal
   price: '200.0'
   color: ''
   sun: 3
   water: 0
   height: 5 - 6 ft
   tolerance: Deer, Drought
-  inventory: 4
+  inventory: 3
   location: 8
   note: aka "Century Plant." Deer, Full Sun, Low Water
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-03-21T10:48:55.000-05:00'
+  updated_at: '2019-09-16T09:23:48.000-05:00'
   inactive: false
   dimensions: 
   cost: '50.0'
@@ -109,7 +83,7 @@
   id: 13
   product_category_id: 3
   name: Agave "Murpheyi Variegated, Rodney"
-  sizer: Boxed
+  zize: Boxed
   price: '100.0'
   color: 'Yellow, Green '
   sun: 3
@@ -135,21 +109,21 @@
   id: 387
   product_category_id: 3
   name: Agave "Silver Surfer"
-  sizer: 3 gal
+  zize: 3 gal
   price: '15.0'
   color: Silver
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 18
+  inventory: 2
   location: 3
   note: ''
   image_file_name: 6F828058-F2B6-447C-BE01-04A5682C734A.jpeg
   image_content_type: image/jpeg
   image_file_size: '149793'
   created_at: '2017-10-11T14:13:45.000-05:00'
-  updated_at: '2019-04-02T09:27:43.000-05:00'
+  updated_at: '2019-08-30T13:32:15.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -159,37 +133,10 @@
   image_thumb_path: "/system/products/images/000/000/387/thumb/6F828058-F2B6-447C-BE01-04A5682C734A.jpeg"
   category: Cactus
 - site_id: 62
-  id: 415
-  product_category_id: 3
-  name: Agave “ Senseviere, Mother in Law Tongue”
-  sizer: 3 gal
-  price: '10.0'
-  color: Variegated Green
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 4
-  location: 10
-  note: ''
-  image_file_name: 26C29F42-39C2-42F1-BF81-49346CBC28C4.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '120241'
-  created_at: '2017-11-15T18:46:54.000-06:00'
-  updated_at: '2018-08-16T14:27:00.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.5'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/415/thumb/26C29F42-39C2-42F1-BF81-49346CBC28C4.jpeg"
-  category: Cactus
-- site_id: 62
   id: 414
   product_category_id: 3
   name: 'Agave “Butterfly Pottotorum” '
-  sizer: 15 gal
+  zize: 15 gal
   price: '75.0'
   color: Dark Green
   sun: 3
@@ -216,21 +163,21 @@
   id: 412
   product_category_id: 3
   name: Agave “Soft Silver Surfer”
-  sizer: 3 gal
+  zize: 3 gal
   price: '15.0'
   color: Silver
   sun: 0
   water: 0
   height: ''
   tolerance: ''
-  inventory: 4
+  inventory: 5
   location: 6
   note: ''
   image_file_name: C7D2C9A3-046E-4114-B17B-5B8BB9549888.jpeg
   image_content_type: image/jpeg
   image_file_size: '154843'
   created_at: '2017-11-15T12:32:16.000-06:00'
-  updated_at: '2019-03-21T10:48:55.000-05:00'
+  updated_at: '2019-08-30T13:32:15.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -240,99 +187,210 @@
   image_thumb_path: "/system/products/images/000/000/412/thumb/C7D2C9A3-046E-4114-B17B-5B8BB9549888.jpeg"
   category: Cactus
 - site_id: 62
-  id: 286
-  product_category_id: 5
-  name: 'Angelonia "Serenita Mix" '
-  sizer: 3 gal
-  price: '8.0'
-  color: Blue, Pink, White, Purple
-  sun: 3
+  id: 525
+  product_category_id: 3
+  name: Aloe Vera
+  zize: '1 gal '
+  price: '5.0'
+  color: Green
+  sun: 0
   water: 0
-  height: 12 - 18"
-  tolerance: Sun
-  inventory: 4
-  location: 15
-  note: Spikes of soft mauve, purple, pink, blue, or white flowers all summer long.
-  image_file_name: IMG_2360.JPG
+  height: 8 - 24"
+  tolerance: 'Drought '
+  inventory: 16
+  location: 5
+  note: Tropical, wait a week to water and keep the soil on the dry side, the center
+    of each leaf is filled with a viscous gel often used for medicinal purposes
+  image_file_name: A4BA40FA-F4CB-4088-90B6-9E3E40361BBB.jpeg
   image_content_type: image/jpeg
-  image_file_size: '139669'
-  created_at: '2017-04-17T15:51:33.000-05:00'
-  updated_at: '2018-10-04T11:32:19.000-05:00'
+  image_file_size: '150511'
+  created_at: '2019-06-24T09:22:29.000-05:00'
+  updated_at: '2019-06-24T13:12:16.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '1.0'
+  cost: '2.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/286/thumb/IMG_2360.JPG"
-  category: Ground Cover
+  image_thumb_path: "/system/products/images/000/000/525/thumb/A4BA40FA-F4CB-4088-90B6-9E3E40361BBB.jpeg"
+  category: Cactus
 - site_id: 62
-  id: 430
-  product_category_id: 6
-  name: 'Azalea "Snow" '
-  sizer: 5 gal
-  price: '14.0'
-  color: White / Red
+  id: 15
+  product_category_id: 3
+  name: 'Aloe Vera '
+  zize: '3 gal '
+  price: '10.0'
+  color: Gray Green
   sun: 1
   water: 0
-  height: 2-25'
-  tolerance: Low Sun
-  inventory: 4
-  location: 15
-  note: Evergreen, slow growers, masses of small beautiful flowers, pure white or
-    red. Flowers late April to May. Grows 3-5' tall and round yearly.
-  image_file_name: 722FCF6A-6EE3-4CBA-ABFE-29E429121A95.jpeg
+  height: 8 - 24"
+  tolerance: Drought
+  inventory: 6
+  location: 2
+  note: Tropical, wait a week to water and keep the soil on the dry side, the center
+    of each leaf is filled with a viscous gel often used for medicinal purposes.
+  image_file_name: IMG_1733.JPG
   image_content_type: image/jpeg
-  image_file_size: '183281'
-  created_at: '2017-12-22T16:24:21.000-06:00'
-  updated_at: '2019-03-19T12:55:20.000-05:00'
+  image_file_size: '125753'
+  created_at: '2017-01-31T10:36:45.000-06:00'
+  updated_at: '2019-09-14T11:00:09.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '2.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/015/thumb/IMG_1733.JPG"
+  category: Cactus
+- site_id: 62
+  id: 302
+  product_category_id: 2
+  name: 'Althea "Pink, Purple, Tree Form" '
+  zize: 30 gal
+  price: '130.0'
+  color: Blue Flower
+  sun: 0
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 2
+  location: 8
+  note: ''
+  image_file_name: IMG_2477.JPG
+  image_content_type: image/jpeg
+  image_file_size: '77359'
+  created_at: '2017-04-28T10:19:51.000-05:00'
+  updated_at: '2019-06-18T14:22:16.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '67.5'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/302/thumb/IMG_2477.JPG"
+  category: Trees
+- site_id: 62
+  id: 488
+  product_category_id: 6
+  name: Althea "Rose of Sharon, Purple/Lilac, White, Hibiscus Syriacus"
+  zize: '3 gal '
+  price: '14.0'
+  color: White Lilac
+  sun: 3
+  water: 0
+  height: 8'-10'H by 6'-8'W
+  tolerance: 'Full Sun '
+  inventory: 35
+  location: 5
+  note: 'Deciduous, flowering shrub upright, with spreading branching with multi-stemmed
+    vertical branches. '
+  image_file_name: FAF32DB8-87E8-44E9-ABDF-271FDA245CA2.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '83620'
+  created_at: '2018-05-17T12:00:19.000-05:00'
+  updated_at: '2019-11-05T13:36:16.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '5.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/488/thumb/FAF32DB8-87E8-44E9-ABDF-271FDA245CA2.jpeg"
+  category: Shrubs
+- site_id: 62
+  id: 422
+  product_category_id: 2
+  name: Althea “White, Pink”
+  zize: 20 gal
+  price: '65.0'
+  color: Red/White
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 2
+  location: 7
+  note: ''
+  image_file_name: 5AA0E9E6-3455-43FF-B175-CEE682A8E408.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '191851'
+  created_at: '2017-11-27T13:41:46.000-06:00'
+  updated_at: '2019-06-23T12:00:34.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '20.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/422/thumb/5AA0E9E6-3455-43FF-B175-CEE682A8E408.jpeg"
+  category: Trees
+- site_id: 62
+  id: 224
+  product_category_id: 6
+  name: Aucuba
+  zize: 5 gal
+  price: '28.0'
+  color: Spotted Green/Yellow Leaves
+  sun: 3
+  water: 1
+  height: 3 - 10 ft
+  tolerance: 'Insect, Diseases '
+  inventory: 2
+  location: 8
+  note: 'Spotted Laurel. Full sun to part shade with red berries appearing in autumn. '
+  image_file_name: IMG_1839.JPG
+  image_content_type: image/jpeg
+  image_file_size: '137161'
+  created_at: '2017-02-24T20:12:14.000-06:00'
+  updated_at: '2019-06-24T09:17:59.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '10.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/224/thumb/IMG_1839.JPG"
+  category: Shrubs
+- site_id: 62
+  id: 17
+  product_category_id: 2
+  name: Banana "Dwarf Cavendish"
+  zize: 5 gal
+  price: '24.0'
+  color: Reddish purple markings
+  sun: 1
+  water: 1
+  height: 6-7 feet
+  tolerance: Wind
+  inventory: 1
+  location: 100
+  note: 'Grown in  containers; move indoors during the winter. Tropical house plant.  Plenty
+    of regular-sized fruit, up to 90 bananas in a bunch. '
+  image_file_name: IMG_1734.JPG
+  image_content_type: image/jpeg
+  image_file_size: '157508'
+  created_at: '2017-01-31T10:36:45.000-06:00'
+  updated_at: '2019-06-29T11:04:26.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
   cost: '7.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/430/thumb/722FCF6A-6EE3-4CBA-ABFE-29E429121A95.jpeg"
-  category: Shrubs
-- site_id: 62
-  id: 487
-  product_category_id: 6
-  name: Bottlebrush "LIttle John, Dwarf"
-  sizer: 3 gal
-  price: '28.0'
-  color: Crimson Red
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: Heat, Attracts Bees
-  inventory: 48
-  location: 11
-  note: ''
-  image_file_name: 1B628339-52E4-4371-BE04-673C62FCB40F.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '166225'
-  created_at: '2018-05-12T10:51:34.000-05:00'
-  updated_at: '2019-04-19T12:08:02.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '15.75'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/487/thumb/1B628339-52E4-4371-BE04-673C62FCB40F.jpeg"
-  category: Shrubs
+  image_thumb_path: "/system/products/images/000/000/017/thumb/IMG_1734.JPG"
+  category: Trees
 - site_id: 62
   id: 20
   product_category_id: 6
   name: Bottlebrush "Regular"
-  sizer: 3 gal
+  zize: 3 gal
   price: '12.0'
   color: Crimson Red
   sun: 0
   water: 0
   height: 15 ft
   tolerance: Drought, Moderate Salt
-  inventory: 1
+  inventory: 4
   location: 3
   note: 'Dwarf evergreen shrub with spike flowers that resemble a bottle brush.  Grown
     as shrubs or small trees. '
@@ -340,7 +398,7 @@
   image_content_type: image/jpeg
   image_file_size: '137367'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2018-08-23T09:55:17.000-05:00'
+  updated_at: '2019-09-24T13:32:56.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -353,21 +411,21 @@
   id: 385
   product_category_id: 6
   name: Bottlebrush "Regular"
-  sizer: '15 gal '
+  zize: '15 gal '
   price: '40.0'
   color: Crimsom Red
   sun: 3
   water: 0
   height: 15 ft
   tolerance: Drought, Moderate Salt
-  inventory: 3
+  inventory: 2
   location: 7
   note: 'Spike flowers that resemble a bottle brush.  Grown as shrubs or small trees. '
   image_file_name: IMG_3638.JPG
   image_content_type: image/jpeg
   image_file_size: '145362'
   created_at: '2017-10-11T09:53:47.000-05:00'
-  updated_at: '2018-06-01T10:44:24.000-05:00'
+  updated_at: '2019-08-15T12:33:15.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -380,7 +438,7 @@
   id: 443
   product_category_id: 6
   name: Bottlebrush "Regular"
-  sizer: 5 gal
+  zize: 5 gal
   price: '18.0'
   color: Crimson Red
   sun: 3
@@ -407,7 +465,7 @@
   id: 465
   product_category_id: 6
   name: Bottlebrush "Shrub"
-  sizer: 7 gal
+  zize: 7 gal
   price: '20.0'
   color: Crimson Red
   sun: 3
@@ -433,23 +491,23 @@
   category: Shrubs
 - site_id: 62
   id: 247
-  product_category_id: 5
+  product_category_id: 4
   name: Bougainvillea "Red"
-  sizer: 3 gal
+  zize: 3 gal
   price: '17.0'
   color: 'Red '
   sun: 3
   water: 0
   height: '3 - 40'' '
   tolerance: Heat, Drought
-  inventory: 45
+  inventory: 29
   location: 6
   note: A  thorny ornamental showy shrub-like with beautiful flowers in red.
   image_file_name: IMG_2217.JPG
   image_content_type: image/jpeg
   image_file_size: '106791'
   created_at: '2017-03-14T13:08:55.000-05:00'
-  updated_at: '2019-05-03T12:35:18.000-05:00'
+  updated_at: '2019-12-03T10:06:25.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -457,12 +515,12 @@
   cost: '2.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/247/thumb/IMG_2217.JPG"
-  category: Ground Cover
+  category: Flowers
 - site_id: 62
   id: 21
   product_category_id: 4
   name: Bougainvillea "Surprise"
-  sizer: 3 gal
+  zize: 3 gal
   price: '17.0'
   color: Pink and white blooms
   sun: 3
@@ -489,14 +547,14 @@
   id: 396
   product_category_id: 6
   name: Boxwood "Wintergreen"
-  sizer: 7 gal
+  zize: 7 gal
   price: '35.0'
   color: Green
   sun: 1
   water: 0
   height: 4-6 x 4-6'
   tolerance: Heat, Deer Resistance, Cold
-  inventory: 7
+  inventory: 8
   location: 10
   note: Evergreen, hardy low hedge shrub with small rich , glossy, green leaves and
     green foliage
@@ -504,7 +562,7 @@
   image_content_type: image/jpeg
   image_file_size: '165610'
   created_at: '2017-10-19T12:15:32.000-05:00'
-  updated_at: '2019-02-28T09:29:42.000-06:00'
+  updated_at: '2019-06-24T09:17:59.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -514,17 +572,45 @@
   image_thumb_path: "/system/products/images/000/000/396/thumb/FDB7C910-3995-40EA-BDF5-89C387D3A1A5.jpeg"
   category: Shrubs
 - site_id: 62
+  id: 431
+  product_category_id: 6
+  name: Boxwood "Wintergreen”
+  zize: 1 gal
+  price: '4.75'
+  color: Green
+  sun: 1
+  water: 1
+  height: 4-6 x 4-6'
+  tolerance: 'Heat, Deer Resistance, Cold '
+  inventory: 24
+  location: 14
+  note: 'Evergreen, hardy low hedge shrub with small rich , glossy, green leaves and
+    green foliage. '
+  image_file_name: 4F7EB562-A50B-46D0-B1FE-1E4C6B4740BF.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '169145'
+  created_at: '2017-12-22T16:29:52.000-06:00'
+  updated_at: '2019-12-03T10:41:26.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '2.75'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/431/thumb/4F7EB562-A50B-46D0-B1FE-1E4C6B4740BF.jpeg"
+  category: Shrubs
+- site_id: 62
   id: 317
   product_category_id: 6
   name: Bulbines "Orange, Lemon"
-  sizer: 3 gal
-  price: '14.75'
+  zize: 3 gal
+  price: '12.0'
   color: Orange
   sun: 1
   water: 0
   height: 2 x 4'
   tolerance: ''
-  inventory: 644
+  inventory: 102
   location: 15
   note: 'Evergreen, perennial, spreading woody base, onion-like evergreen leaves.
     Yellow to orange, 16-inch-long flower spikes appear from late spring until fall. '
@@ -532,7 +618,7 @@
   image_content_type: image/jpeg
   image_file_size: '177578'
   created_at: '2017-05-17T15:24:44.000-05:00'
-  updated_at: '2018-09-08T10:05:33.000-05:00'
+  updated_at: '2019-09-24T13:34:25.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -542,51 +628,51 @@
   image_thumb_path: "/system/products/images/000/000/317/thumb/87433C31-F9F3-4C57-8052-FB633DA37F31.jpeg"
   category: Shrubs
 - site_id: 62
-  id: 462
-  product_category_id: 5
-  name: Butterfly Bush "Buddleia"
-  sizer: '1 gal '
-  price: '4.0'
+  id: 486
+  product_category_id: 4
+  name: 'Bulbines "Orange, Lemon" '
+  zize: 1 gal
+  price: '3.0'
   color: ''
-  sun: 0
+  sun: 1
   water: 0
-  height: ''
-  tolerance: ''
-  inventory: 15
-  location: 11
-  note: 'Fast-growing, spreading deciduous shrub with long, arching shoots. '
-  image_file_name: B33ED966-A0DD-4EEC-89D0-D8AD7FFE4267.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '164896'
-  created_at: '2018-04-03T12:45:30.000-05:00'
-  updated_at: '2019-05-03T14:08:54.000-05:00'
+  height: 2 x 4'
+  tolerance: Drought  Tolerable, Attracts butterflies, Deer/rabbit resistant, Easy
+    to grow
+  inventory: 625
+  location: 7
+  note: 'Evergreen, perennial, spreading woody base, onion-like evergreen leaves.
+    Yellow to orange, 16-inch-long flower spikes appear from late spring until fall. '
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-05-11T12:22:54.000-05:00'
+  updated_at: '2019-07-31T10:09:54.000-05:00'
   inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '2.75'
+  dimensions: 
+  cost: '1.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/462/thumb/B33ED966-A0DD-4EEC-89D0-D8AD7FFE4267.jpeg"
-  category: Ground Cover
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Flowers
 - site_id: 62
   id: 234
   product_category_id: 6
   name: Butterfly Bush "Buddleia"
-  sizer: 3 gal
-  price: '13.0'
+  zize: 3 gal
+  price: '12.0'
   color: Purple
   sun: 3
   water: 1
   height: 6-8 ft
   tolerance: ''
-  inventory: 1
+  inventory: 14
   location: 9
   note: 'Fast-growing, spreading deciduous shrub with long, arching shoots. '
   image_file_name: IMG_2378.JPG
   image_content_type: image/jpeg
   image_file_size: '103978'
   created_at: '2017-03-01T12:29:30.000-06:00'
-  updated_at: '2019-05-03T14:07:26.000-05:00'
+  updated_at: '2019-07-31T11:36:59.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -596,24 +682,51 @@
   image_thumb_path: "/system/products/images/000/000/234/thumb/IMG_2378.JPG"
   category: Shrubs
 - site_id: 62
+  id: 472
+  product_category_id: 3
+  name: Cactus "Golden Barrel"
+  zize: '2 gal '
+  price: '100.0'
+  color: Yellow
+  sun: 3
+  water: 0
+  height: 4' x 2 1/2
+  tolerance: Heat, Dry
+  inventory: 2
+  location: 7
+  note: Evergreen succulent with golden spiney ribs topped with a bright yellow flowers.
+  image_file_name: 64094BF0-433C-4FBE-A477-C06E0D3DEEE9.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '148027'
+  created_at: '2018-04-13T13:07:43.000-05:00'
+  updated_at: '2019-06-23T12:13:55.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '40.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/472/thumb/64094BF0-433C-4FBE-A477-C06E0D3DEEE9.jpeg"
+  category: Cactus
+- site_id: 62
   id: 496
   product_category_id: 3
   name: Cactus "Golden Barrel"
-  sizer: Boxed
+  zize: Boxed
   price: '500.0'
   color: Yellow
   sun: 3
   water: 0
   height: 4' x 2 1/2
   tolerance: Heat, Dry
-  inventory: 8
+  inventory: 4
   location: 3
   note: Evergreen succulent with golden spiney ribs topped with a bright yellow flowers.
   image_file_name: A04A1E44-2712-475A-A3B0-C4BD128EA6C4.jpeg
   image_content_type: image/jpeg
   image_file_size: '189824'
   created_at: '2018-05-26T11:19:06.000-05:00'
-  updated_at: '2018-08-10T14:44:57.000-05:00'
+  updated_at: '2019-06-23T12:13:55.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -626,7 +739,7 @@
   id: 497
   product_category_id: 3
   name: Cactus “Golden Barrel”
-  sizer: Boxed Xlarge
+  zize: Boxed Xlarge
   price: '2500.0'
   color: Yellow
   sun: 3
@@ -653,14 +766,14 @@
   id: 65
   product_category_id: 6
   name: Carnation "White"
-  sizer: 3 gal
-  price: '12.5'
+  zize: 3 gal
+  price: '30.0'
   color: White
   sun: 1
   water: 0
   height: ''
   tolerance: ''
-  inventory: 32
+  inventory: 27
   location: 14
   note: It's leaves are narrow, varying from from green to grey-blue or purple. Grow
     full blooms on strong, straight stems.
@@ -668,20 +781,48 @@
   image_content_type: image/jpeg
   image_file_size: '89818'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2018-07-16T12:21:48.000-05:00'
+  updated_at: '2019-07-10T09:37:33.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '12.5'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/065/thumb/IMG_2775.JPG"
+  category: Shrubs
+- site_id: 62
+  id: 522
+  product_category_id: 6
+  name: Cast Iron
+  zize: '3 gal '
+  price: '9.0'
+  color: Green
+  sun: 0
+  water: 0
+  height: 2' T x 3' W
+  tolerance: Drought, low light, extreme heat
+  inventory: 126
+  location: 16
+  note: " A tough big leafy green plant used as a fill in difficult spots.  Hard and
+    easy to care  Great for around trees. "
+  image_file_name: 78DA784B-AE17-495B-9E4A-B99C87C647D6.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '132732'
+  created_at: '2019-05-17T09:43:47.000-05:00'
+  updated_at: '2019-10-11T14:02:45.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '1.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/522/thumb/78DA784B-AE17-495B-9E4A-B99C87C647D6.jpeg"
   category: Shrubs
 - site_id: 62
   id: 423
   product_category_id: 2
   name: Chitalpa “Tree”
-  sizer: 30 gal
+  zize: 30 gal
   price: '200.0'
   color: 'Levander Pink '
   sun: 3
@@ -706,52 +847,24 @@
   image_thumb_path: "/system/products/images/000/000/423/thumb/CB2300C1-426E-4356-8127-2F0C14E3A945.jpeg"
   category: Trees
 - site_id: 62
-  id: 288
-  product_category_id: 6
-  name: Cigar Plant "Cuphea"
-  sizer: 3 gal
-  price: '9.0'
-  color: Red & White
-  sun: 1
-  water: 1
-  height: 24" by 3'
-  tolerance: Minimal care, Pest, Disease
-  inventory: 21
-  location: 15
-  note: Multi-stemmed shrub,with red blooms that have black and white lips and a tubular
-    shape similar to that of a cigar.
-  image_file_name: IMG_2371.JPG
-  image_content_type: image/jpeg
-  image_file_size: '98480'
-  created_at: '2017-04-17T16:09:52.000-05:00'
-  updated_at: '2017-04-22T11:46:39.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '1.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/288/thumb/IMG_2371.JPG"
-  category: Shrubs
-- site_id: 62
   id: 241
   product_category_id: 6
   name: Cotoneaster " Gray Leaf"
-  sizer: 3 gal
+  zize: 3 gal
   price: '17.0'
   color: White
   sun: 3
   water: 0
   height: 3 ft
   tolerance: Drought, Sandy soil & clay
-  inventory: 20
+  inventory: 9
   location: 9
   note: 'Evergreen spreads about 6 ft. Low maintenance. '
   image_file_name: IMG_1920.JPG
   image_content_type: image/jpeg
   image_file_size: '216076'
   created_at: '2017-03-05T20:47:04.000-06:00'
-  updated_at: '2019-04-22T11:45:50.000-05:00'
+  updated_at: '2019-09-19T13:41:15.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -764,7 +877,7 @@
   id: 347
   product_category_id: 2
   name: Crape Myrtle "Biloxi"
-  sizer: 30 gal
+  zize: 30 gal
   price: '225.0'
   color: ''
   sun: 3
@@ -778,7 +891,7 @@
   image_content_type: image/jpeg
   image_file_size: '166845'
   created_at: '2017-06-28T09:20:47.000-05:00'
-  updated_at: '2019-01-17T14:44:49.000-06:00'
+  updated_at: '2019-10-11T14:58:13.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -788,17 +901,44 @@
   image_thumb_path: "/system/products/images/000/000/347/thumb/C9BE1575-B0A6-45AE-982A-5CB6660ECFB6.jpeg"
   category: Trees
 - site_id: 62
+  id: 499
+  product_category_id: 2
+  name: Crape Myrtle "Black Diamond"
+  zize: 3 gal
+  price: '39.0'
+  color: ''
+  sun: 3
+  water: 1
+  height: 12'
+  tolerance: Disease, Drought, Mildew Tolerant
+  inventory: 1
+  location: 11
+  note: Beautiful rick crimson red blooms and dark foliage almost pewter color, spread
+    8-feet wide are semi-dwarfs offer stately appeal to any planting location you
+    choose.
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-05-29T14:40:59.000-05:00'
+  updated_at: '2019-09-16T09:42:18.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '10.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Trees
+- site_id: 62
   id: 483
   product_category_id: 2
-  name: 'Crape Myrtle "Dwarf Catawba" '
-  sizer: 20 gal
-  price: '185.0'
+  name: 'Crape Myrtle "Dwarf Catawba Purple" '
+  zize: 20 gal
+  price: '145.0'
   color: Purple Bloom
   sun: 3
   water: 0
   height: 10-15'
   tolerance: Deer, Drought, Mildew, Disease Resistance, Pet & Bird Friendly
-  inventory: 18
+  inventory: 6
   location: 10
   note: 'Deciduous moderate growing tree with long lasting clusters of dark purple
     crepe-like flowers. Foliage is bronze looking in spring, very green in summer,
@@ -807,7 +947,7 @@
   image_content_type: image/jpeg
   image_file_size: '190647'
   created_at: '2018-05-05T10:56:33.000-05:00'
-  updated_at: '2018-12-13T11:18:21.000-06:00'
+  updated_at: '2019-10-11T12:37:53.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -817,111 +957,84 @@
   image_thumb_path: "/system/products/images/000/000/483/thumb/3DFB2C34-41C2-4EC3-AC8C-251807C0A37B.jpeg"
   category: Trees
 - site_id: 62
-  id: 115
-  product_category_id: 2
-  name: Crape Myrtle "Dwarf"
-  sizer: 3 gal
-  price: '29.99'
-  color: ''
-  sun: 3
-  water: 1
-  height: ''
-  tolerance: ''
-  inventory: 21
-  location: 9
-  note: ''
-  image_file_name: IMG_3348.JPG
-  image_content_type: image/jpeg
-  image_file_size: '163357'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-01-23T16:33:42.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/115/thumb/IMG_3348.JPG"
-  category: Trees
-- site_id: 62
-  id: 111
-  product_category_id: 2
-  name: Crape Myrtle "Dynamite"
-  sizer: 15 gal
-  price: '59.99'
-  color: 'Red '
-  sun: 3
-  water: 1
-  height: 10-15'
-  tolerance: Drought Tolerant, Disease free, Low Maintenance
-  inventory: 3
-  location: 11
-  note: 'Bloom all summer and into fall, upright vase shaped dwarf tree with rich
-    vibrant red blooms against its deep purple to black leaves. '
-  image_file_name: B43B93C8-186C-463B-A2E1-BF6932096951.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '174810'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-17T14:24:01.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/111/thumb/B43B93C8-186C-463B-A2E1-BF6932096951.jpeg"
-  category: Trees
-- site_id: 62
-  id: 479
+  id: 500
   product_category_id: 2
   name: Crape Myrtle "Hot Pink, Tuscarora"
-  sizer: 15 gal
-  price: '115.0'
-  color: Hot PInk
+  zize: Boxed
+  price: '285.0'
+  color: Hot Pink
   sun: 3
-  water: 1
-  height: 15x15
-  tolerance: Tolerates Urban Pollution, Sun
-  inventory: 1
-  location: 15
-  note: Moderate growing, deciduous tree that produces a cluster of coral-pink flower
-    clusters
-  image_file_name: 0099ED6B-A5FF-4DD9-99DC-009F10594207.jpeg
+  water: 0
+  height: 15' x 15'
+  tolerance: 'Easy care, fall color, '
+  inventory: 20
+  location: 7
+  note: 'Deciduous moderate growing tree that produces a profusion of coral-pink flower
+    clusters turns into an orange-red coloring in the fall. '
+  image_file_name: 29620653-65FF-47E5-A9C3-A55500D25FE8.jpeg
   image_content_type: image/jpeg
-  image_file_size: '164303'
-  created_at: '2018-05-01T14:27:17.000-05:00'
-  updated_at: '2019-04-30T14:57:21.000-05:00'
+  image_file_size: '195683'
+  created_at: '2018-05-30T11:18:27.000-05:00'
+  updated_at: '2019-12-30T11:07:05.000-06:00'
   inactive: false
   dimensions:
   - 500
-  - 666
-  cost: '49.95'
+  - 500
+  cost: '69.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/479/thumb/0099ED6B-A5FF-4DD9-99DC-009F10594207.jpeg"
+  image_thumb_path: "/system/products/images/000/000/500/thumb/29620653-65FF-47E5-A9C3-A55500D25FE8.jpeg"
   category: Trees
 - site_id: 62
-  id: 343
+  id: 112
   product_category_id: 2
-  name: Crape Myrtle "Muskogee (Lavender)
-  sizer: 30 gal
-  price: '125.0'
-  color: Lavender
+  name: Crape Myrtle "Natchez"
+  zize: 20 gal
+  price: '110.0'
+  color: White
   sun: 3
+  water: 1
+  height: 20' W x 30' T
+  tolerance: 'Attractive Bark, Bird Friendly, Full Sun '
+  inventory: 16
+  location: 17
+  note: " Deciduous, large easy to care shrub like tree with an attractive bark and
+    clusters of white blooms, dark glossy leaves turn to a vibrant orange-red color
+    in the fall.  .  "
+  image_file_name: 1EDFB38C-349A-4BF9-BCD0-8FBA41957D41.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '133471'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-08-01T11:18:18.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '25.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/112/thumb/1EDFB38C-349A-4BF9-BCD0-8FBA41957D41.jpeg"
+  category: Trees
+- site_id: 62
+  id: 339
+  product_category_id: 2
+  name: Crape Myrtle "Pale Pink"
+  zize: 15 gal
+  price: '110.0'
+  color: ''
+  sun: 0
   water: 0
-  height: 25 - 30'
-  tolerance: Summer Heat
+  height: ''
+  tolerance: ''
   inventory: 13
-  location: 15
-  note: 'Lavender, Muskogee.  Crapes easily grow 3-5 feet a year. Enjoy beautiful
-    brilliant flower in the spring. '
+  location: 20
+  note: 6 - 8' tall
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2017-06-26T13:43:43.000-05:00'
-  updated_at: '2019-03-08T09:55:12.000-06:00'
+  created_at: '2017-06-19T14:49:08.000-05:00'
+  updated_at: '2019-06-23T13:09:48.000-05:00'
   inactive: false
   dimensions: 
-  cost: '49.5'
+  cost: '55.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
@@ -929,25 +1042,25 @@
   id: 107
   product_category_id: 2
   name: Crape Myrtle "Red Dynamite"
-  sizer: 15 gal
+  zize: 20 gal
   price: '59.99'
   color: Red Hot
   sun: 3
   water: 1
   height: 10-15'
   tolerance: " Drought tolerant and Low Maintenance, Resistant to diseases "
-  inventory: 112
+  inventory: 440
   location: 17
-  note: 'Rich vibrant red blooms with just a hint of hot pink with deep purple to
-    black leaves. '
+  note: 'Bloom all summer and into fall, upright vase shaped dwarf tree with rich
+    vibrant red blooms against its deep purple to black leaves. '
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-08-06T14:20:03.000-05:00'
+  updated_at: '2019-09-16T11:33:07.000-05:00'
   inactive: false
   dimensions: 
-  cost: '0.0'
+  cost: '20.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
@@ -955,22 +1068,22 @@
   id: 110
   product_category_id: 2
   name: Crape Myrtle "Red Dynamite"
-  sizer: 5 gal
+  zize: 3 gal
   price: '24.0'
   color: Red
   sun: 3
   water: 1
   height: 15 - 20'
   tolerance: " Mildew resistance, Cold Hardiness, Drought Tolerance"
-  inventory: 97
+  inventory: 51
   location: 3
-  note: A deciduous green foliage ornamental shrub or small tree with smooth, peeling
-    bark.
+  note: 'Bloom all summer and into fall, upright vase shaped dwarf tree with rich
+    vibrant red blooms against its deep purple to black leaves. '
   image_file_name: IMG_3348.JPG
   image_content_type: image/jpeg
   image_file_size: '163304'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-09-08T10:55:14.000-05:00'
+  updated_at: '2019-12-30T10:16:49.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -983,7 +1096,7 @@
   id: 484
   product_category_id: 2
   name: Crape Myrtle "Red Rocket"
-  sizer: 15 Gal
+  zize: 15 Gal
   price: '65.0'
   color: Red
   sun: 3
@@ -1008,134 +1121,111 @@
   image_thumb_path: "/system/products/images/000/000/484/thumb/39ECAE42-A27D-41C5-84A1-9616EA481E51.jpeg"
   category: Trees
 - site_id: 62
-  id: 500
+  id: 524
   product_category_id: 2
-  name: Crape Myrtle "Tuscarora, Hot Pink"
-  sizer: Boxed
-  price: '285.0'
-  color: Hot Pink
-  sun: 3
-  water: 0
-  height: 15' x 15'
-  tolerance: 'Easy care, fall color, '
-  inventory: 29
-  location: 7
-  note: 'Deciduous moderate growing tree that produces a profusion of coral-pink flower
-    clusters turns into an orange-red coloring in the fall. '
-  image_file_name: 29620653-65FF-47E5-A9C3-A55500D25FE8.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '195683'
-  created_at: '2018-05-30T11:18:27.000-05:00'
-  updated_at: '2019-04-17T14:24:01.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '69.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/500/thumb/29620653-65FF-47E5-A9C3-A55500D25FE8.jpeg"
-  category: Trees
-- site_id: 62
-  id: 108
-  product_category_id: 2
-  name: Crape Myrtle "Twilight, Lavender, Pale Pink"
-  sizer: 30 gal
-  price: '225.0'
+  name: Crape Myrtle "Twilight"
+  zize: '20 gal '
+  price: '100.0'
   color: Purple
   sun: 3
-  water: 1
-  height: ''
-  tolerance: ''
-  inventory: 6
-  location: 5
-  note: ''
-  image_file_name: IMG_2870.JPG
+  water: 0
+  height: 10W x  25' T
+  tolerance: Drought, Attracts Hummingbirds
+  inventory: 7
+  location: 7
+  note: 'Deciduous, full sun, fastest growing Crape Myrtle with deep purple blooms. '
+  image_file_name: 1E7086EB-AF29-4D01-8AF3-281E286306E7.jpeg
   image_content_type: image/jpeg
-  image_file_size: '128862'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-01-21T15:18:10.000-06:00'
+  image_file_size: '168666'
+  created_at: '2019-06-22T10:50:50.000-05:00'
+  updated_at: '2019-09-16T10:32:36.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '50.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/108/thumb/IMG_2870.JPG"
+  image_thumb_path: "/system/products/images/000/000/524/thumb/1E7086EB-AF29-4D01-8AF3-281E286306E7.jpeg"
   category: Trees
 - site_id: 62
-  id: 104
+  id: 476
   product_category_id: 2
-  name: Crape Myrtle "Watermelon"
-  sizer: boxed
-  price: '225.0'
-  color: Watermelon
-  sun: 1
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 3
-  location: 4
-  note: Deciduous, moderate growing tree with large, long clusters of rosy-red crepe-like
-    flowers bright green foliage in summer, golden fall in color. Deciduous.
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-01-21T14:49:54.000-06:00'
-  inactive: false
-  dimensions: 
-  cost: '35.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Trees
-- site_id: 62
-  id: 491
-  product_category_id: 2
-  name: 'Crape Myrtle "Watermelon" '
-  sizer: 5 gal
-  price: '24.95'
-  color: Watermelon Red
+  name: Crape Myrtle “Catawba Purple”
+  zize: 30 gal
+  price: '285.0'
+  color: Purple/ Violet
   sun: 3
   water: 0
-  height: 20x25
-  tolerance: 'Drought '
-  inventory: 149
-  location: 6
-  note: Deciduous, moderate growing tree with large, long clusters of rosy-red crepe-like
-    flowers bright green foliage in summer, golden fall in color. Deciduous.
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2018-05-19T12:26:53.000-05:00'
-  updated_at: '2018-08-16T14:20:10.000-05:00'
+  height: 15x12
+  tolerance: Deer, Drought, Mildew, Disease Resistance, Pet & Bird Friendly
+  inventory: 6
+  location: 12
+  note: " Deciduous shrub with green foliage with brilliant purple stunning blooms
+    into the fal with gorgeous foliage shades of reddish-bronze, orange and yellow
+    in autumn. "
+  image_file_name: C1333518-951D-4AEA-BEC8-493813FFF013.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '176317'
+  created_at: '2018-04-26T11:05:39.000-05:00'
+  updated_at: '2019-09-04T09:32:08.000-05:00'
   inactive: false
-  dimensions: 
-  cost: '6.25'
+  dimensions:
+  - 500
+  - 500
+  cost: '50.0'
   markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
+  image_thumb_path: "/system/products/images/000/000/476/thumb/C1333518-951D-4AEA-BEC8-493813FFF013.jpeg"
   category: Trees
 - site_id: 62
-  id: 339
+  id: 349
   product_category_id: 2
-  name: Crape Myrtle "White, Pink"
-  sizer: 15 gal
-  price: '110.0'
-  color: ''
-  sun: 0
+  name: Crape Myrtle “Pink Tuscarora”
+  zize: 20 gal
+  price: '45.0'
+  color: Coral Pink
+  sun: 3
   water: 0
-  height: ''
-  tolerance: ''
-  inventory: 72
-  location: 20
-  note: 6 - 8' tall
+  height: 15 W x 15 T
+  tolerance: Sun
+  inventory: 119
+  location: 11
+  note: 'Deciduous small tree producing coral pink like cluster with bright green
+    leaves. '
+  image_file_name: D3B9D529-E9D4-4150-8D3C-4D898AFE2F8B.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '174657'
+  created_at: '2017-07-01T14:52:02.000-05:00'
+  updated_at: '2019-08-13T15:07:11.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '7.95'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/349/thumb/D3B9D529-E9D4-4150-8D3C-4D898AFE2F8B.jpeg"
+  category: Trees
+- site_id: 62
+  id: 492
+  product_category_id: 2
+  name: 'Cypress "Arizona" '
+  zize: '20 gal '
+  price: '175.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: 20-30'
+  tolerance: Drought, Low Maintenance
+  inventory: 7
+  location: 9
+  note: 'Evergreen, grows into a dense tree great for privacy. '
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2017-06-19T14:49:08.000-05:00'
-  updated_at: '2019-04-30T10:59:27.000-05:00'
+  created_at: '2018-05-24T12:43:29.000-05:00'
+  updated_at: '2019-10-25T12:10:16.000-05:00'
   inactive: false
   dimensions: 
-  cost: '55.0'
+  cost: '67.5'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
@@ -1143,14 +1233,14 @@
   id: 30
   product_category_id: 2
   name: Cypress "Bald, Taxodium distichum"
-  sizer: 30 gal
-  price: '350.0'
+  zize: 30 gal
+  price: '450.0'
   color: Yellowish copper in fall
   sun: 1
   water: 1
   height: 120 ft
   tolerance: Drought
-  inventory: 6
+  inventory: 8
   location: 13
   note: 'Deciduous conifer suited for either dry or wet land. Planted along sidewalks
     and driveways because the root system grows deep. '
@@ -1158,7 +1248,7 @@
   image_content_type: image/jpeg
   image_file_size: '200548'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2018-04-26T12:38:42.000-05:00'
+  updated_at: '2019-09-18T09:56:20.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1171,7 +1261,7 @@
   id: 31
   product_category_id: 2
   name: Cypress "Bald, Taxodium distichum"
-  sizer: 45 gal
+  zize: 45 gal
   price: '495.0'
   color: ''
   sun: 1
@@ -1185,80 +1275,27 @@
   image_content_type: image/jpeg
   image_file_size: '172887'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2018-06-28T10:54:24.000-05:00'
+  updated_at: '2019-07-05T14:55:58.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '100.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/031/thumb/IMG_3602.JPG"
   category: Trees
 - site_id: 62
-  id: 447
-  product_category_id: 1
-  name: Cypress “Italian”
-  sizer: 15 gal
-  price: '85.0'
-  color: Green
-  sun: 0
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 10
-  location: 10
-  note: 7-8 feet
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2018-03-09T12:20:56.000-06:00'
-  updated_at: '2019-04-03T10:52:36.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '65.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Palms
-- site_id: 62
-  id: 498
-  product_category_id: 5
-  name: 'Daisy "Blackfoot" '
-  sizer: 1 gal
-  price: '4.0'
-  color: Flower
-  sun: 1
-  water: 0
-  height: 1-2'
-  tolerance: ''
-  inventory: 4
-  location: 16
-  note: 'Perennial evergreen low-growing plant with aromatic, daisy-like flowers with
-    grayish-green foliage. '
-  image_file_name: E3BF9886-59CE-4346-974D-DE60F7E8B07C.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '180253'
-  created_at: '2018-05-29T13:47:40.000-05:00'
-  updated_at: '2018-08-16T09:05:03.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/498/thumb/E3BF9886-59CE-4346-974D-DE60F7E8B07C.jpeg"
-  category: Ground Cover
-- site_id: 62
   id: 276
   product_category_id: 6
   name: Damianita " Chrysactinia Mexicana"
-  sizer: 1 gal
+  zize: 1 gal
   price: '10.0'
   color: Yellow
   sun: 3
   water: 0
   height: 1-2'
   tolerance: 'Drought, Cold, Deer, Sun '
-  inventory: 21
+  inventory: 17
   location: 22
   note: 'Aromatic perennial, bushy low growing evergreen shrubs with dark green leaves.
     It''s a shrub often used as a flower. '
@@ -1266,7 +1303,7 @@
   image_content_type: image/jpeg
   image_file_size: '123393'
   created_at: '2017-03-31T12:10:28.000-05:00'
-  updated_at: '2018-05-21T09:07:51.000-05:00'
+  updated_at: '2019-10-22T15:49:43.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1279,14 +1316,14 @@
   id: 292
   product_category_id: 6
   name: Damianita " Chrysactinia Mexicana"
-  sizer: 3 gal
+  zize: 3 gal
   price: '20.0'
   color: Yellow
   sun: 0
   water: 0
   height: 1 - 2'
   tolerance: Cold, Drought, Deer, Sun
-  inventory: 35
+  inventory: 31
   location: 8
   note: 'Aromatic perennial, bushy low growing evergreen shrubs with dark green leaves.
     It''s a shrub often used as a flower. '
@@ -1294,7 +1331,7 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-04-22T09:03:23.000-05:00'
-  updated_at: '2019-01-05T13:24:05.000-06:00'
+  updated_at: '2019-09-24T13:32:56.000-05:00'
   inactive: false
   dimensions: 
   cost: '2.75'
@@ -1302,78 +1339,24 @@
   image_thumb_path: "/images/thumb/missing.png"
   category: Shrubs
 - site_id: 62
-  id: 233
-  product_category_id: 5
-  name: Daylily "Aztec Gold Evergreen"
-  sizer: 1 gal
-  price: '3.0'
-  color: Variegated Green
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 22
-  location: 3
-  note: ''
-  image_file_name: IMG_1891.JPG
-  image_content_type: image/jpeg
-  image_file_size: '166959'
-  created_at: '2017-02-28T15:09:34.000-06:00'
-  updated_at: '2019-01-05T13:24:05.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/233/thumb/IMG_1891.JPG"
-  category: Ground Cover
-- site_id: 62
-  id: 284
-  product_category_id: 4
-  name: Daylily "Ming Toy"
-  sizer: 3 gal
-  price: '10.0'
-  color: Yellow/Maroon
-  sun: 1
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 4
-  location: 10
-  note: ''
-  image_file_name: IMG_2357.JPG
-  image_content_type: image/jpeg
-  image_file_size: '118610'
-  created_at: '2017-04-17T15:45:12.000-05:00'
-  updated_at: '2018-05-25T14:36:14.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '2.75'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/284/thumb/IMG_2357.JPG"
-  category: Flowers
-- site_id: 62
   id: 89
   product_category_id: 4
   name: DayLily "Ruby Red"
-  sizer: 3 gal
+  zize: 3 gal
   price: '10.0'
   color: Red
   sun: 1
   water: 0
   height: ''
   tolerance: ''
-  inventory: 9
+  inventory: 1
   location: 25
   note: ''
   image_file_name: IMG_2546.JPG
   image_content_type: image/jpeg
   image_file_size: '104247'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-07-20T14:53:14.000-05:00'
+  updated_at: '2019-07-31T11:13:57.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1386,26 +1369,26 @@
   id: 235
   product_category_id: 4
   name: Durantha  "Bouquet Purple"
-  sizer: 3 gal
-  price: '12.95'
+  zize: 3 gal
+  price: '24.0'
   color: ''
   sun: 1
   water: 0
   height: 8'
   tolerance: 'Deer '
-  inventory: 31
+  inventory: 21
   location: 5
   note: 'A beautiful cut perennial flower with purple flowers and green shade of foliage. '
   image_file_name: IMG_2414.JPG
   image_content_type: image/jpeg
   image_file_size: '97136'
   created_at: '2017-03-02T13:41:51.000-06:00'
-  updated_at: '2019-04-09T08:03:57.000-05:00'
+  updated_at: '2019-10-07T15:11:13.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '12.95'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/235/thumb/IMG_2414.JPG"
   category: Flowers
@@ -1413,7 +1396,7 @@
   id: 38
   product_category_id: 6
   name: Elaeagnus
-  sizer: 3 gal
+  zize: 3 gal
   price: '14.0'
   color: Silver-grey
   sun: 3
@@ -1421,7 +1404,7 @@
   height: 6-15'
   tolerance: Drought, Low Nitrogen Soil, Hot Soil, Durable, Deer, Pests, Low Maintenance,
     Salt Tolerant
-  inventory: 3
+  inventory: 8
   location: 3
   note: aka Ugly Agnus,  “Silverleaf” or “Silverthorn, ollve green leaves. Deciduous
     or evergreen shrubs or small trees.
@@ -1429,7 +1412,7 @@
   image_content_type: image/jpeg
   image_file_size: '157134'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-04-03T11:06:18.000-05:00'
+  updated_at: '2019-06-23T14:05:27.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1439,73 +1422,74 @@
   image_thumb_path: "/system/products/images/000/000/038/thumb/IMG_3654.JPG"
   category: Shrubs
 - site_id: 62
-  id: 37
-  product_category_id: 2
-  name: Elm "Cedar"
-  sizer: 65 gal
-  price: '750.0'
-  color: Green
+  id: 185
+  product_category_id: 6
+  name: Elaeagnus
+  zize: 20 gal
+  price: '35.0'
+  color: Silver-grey
   sun: 3
-  water: 0
-  height: '50 - 70 ft '
-  tolerance: Drought, Sun, Wet Soil
-  inventory: 1
-  location: 17
-  note: 4 - 6" caliper.Stiff rough 1-2" long leave, spreads 40–60' at maturity. Blooms
-    late summer–early fall, with clusters of light-green blossoms.
-  image_file_name: IMG_3517.JPG
+  water: 1
+  height: 4 to 5 ft
+  tolerance: Drought, Low Nitrogen Soil, Hot Soil, Durable, Deer, Pests, Low Maintenance,
+    Salt Tolerant
+  inventory: 2
+  location: 3
+  note: aka Ugly Agnus,  “Silverleaf” or “Silverthorn, ollve green leaves. Deciduous
+    or evergreen shrubs or small trees.
+  image_file_name: IMG_3653.JPG
   image_content_type: image/jpeg
-  image_file_size: '182220'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2017-09-20T14:45:42.000-05:00'
+  image_file_size: '175350'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-06-23T14:05:27.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '110.0'
+  cost: '2.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/037/thumb/IMG_3517.JPG"
-  category: Trees
+  image_thumb_path: "/system/products/images/000/000/185/thumb/IMG_3653.JPG"
+  category: Shrubs
 - site_id: 62
-  id: 374
+  id: 25
   product_category_id: 2
   name: Elm "Cedar"
-  sizer: 45 gal
-  price: '200.0'
+  zize: 30 gal
+  price: '150.0'
   color: Green
   sun: 3
   water: 0
-  height: 40 - 70'
+  height: 50 - 70 ft
   tolerance: Drought, Sun, Wet Soil
   inventory: 1
   location: 2
-  note: 2" - 2.5" caliper. Stiff rough 1-2" long leave, spreads 40–60' at maturity.
+  note: 1.5 - 2" caliper. Stiff rough 1-2" long leave, spreads 40–60' at maturity.
     Blooms late summer–early fall, with clusters of light-green blossoms.
-  image_file_name: IMG_3510.JPG
+  image_file_name: IMG_1972.JPG
   image_content_type: image/jpeg
-  image_file_size: '174238'
-  created_at: '2017-09-19T14:43:42.000-05:00'
-  updated_at: '2017-09-19T15:02:43.000-05:00'
+  image_file_size: '161378'
+  created_at: '2017-01-31T10:36:45.000-06:00'
+  updated_at: '2019-07-05T14:58:18.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '50.0'
+  cost: '75.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/374/thumb/IMG_3510.JPG"
+  image_thumb_path: "/system/products/images/000/000/025/thumb/IMG_1972.JPG"
   category: Trees
 - site_id: 62
   id: 361
   product_category_id: 4
   name: Esperanza "Bell of Fire"
-  sizer: '5 gal '
+  zize: '5 gal '
   price: '24.0'
   color: Red/Dark Orange
   sun: 3
   water: 0
   height: 3.5'
   tolerance: 'Deer Resistant, '
-  inventory: 26
+  inventory: 23
   location: 12
   note: 'Clusters of red to dark orange-red trumpet shaped flowers throughout the
     warmer months of the year. '
@@ -1513,7 +1497,7 @@
   image_content_type: image/jpeg
   image_file_size: '207506'
   created_at: '2017-08-16T11:57:16.000-05:00'
-  updated_at: '2019-05-03T12:35:18.000-05:00'
+  updated_at: '2019-08-12T14:06:37.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1526,14 +1510,14 @@
   id: 365
   product_category_id: 4
   name: 'Esperanza "Yellow Bell" '
-  sizer: 3 gal
+  zize: 3 gal
   price: '14.0'
   color: Yellow Bells
   sun: 3
   water: 0
   height: 3 to 6 ft
   tolerance: High Sun
-  inventory: 58
+  inventory: 19
   location: 15
   note: Deciduous Semi-evergreen, striking yellow flower, tubular 2 1/2-inch with
     shiny, green foliage through the heat of the summer.
@@ -1541,7 +1525,7 @@
   image_content_type: image/jpeg
   image_file_size: '172830'
   created_at: '2017-08-23T15:07:00.000-05:00'
-  updated_at: '2019-05-04T11:18:32.000-05:00'
+  updated_at: '2019-11-19T14:58:58.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -1554,14 +1538,14 @@
   id: 285
   product_category_id: 5
   name: Fern "Foxtail"
-  sizer: 3 gal
+  zize: 3 gal
   price: '16.0'
   color: Light Green
   sun: 0
   water: 0
   height: 6'T x 8' W
   tolerance: Drought Resistant
-  inventory: 114
+  inventory: 27
   location: 4
   note: 'Evergreen perennials, grows well in lightly shaded area, stays bright green
     all year round.  '
@@ -1569,7 +1553,7 @@
   image_content_type: image/jpeg
   image_file_size: '181451'
   created_at: '2017-04-17T15:48:54.000-05:00'
-  updated_at: '2019-04-18T09:00:30.000-05:00'
+  updated_at: '2019-09-16T09:32:11.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1579,77 +1563,79 @@
   image_thumb_path: "/system/products/images/000/000/285/thumb/E6112701-1A74-4034-A81A-FC41614153D2.jpeg"
   category: Ground Cover
 - site_id: 62
-  id: 269
-  product_category_id: 5
-  name: Fern "Holly"
-  sizer: 3 gal
-  price: '12.0'
-  color: Green
+  id: 316
+  product_category_id: 6
+  name: Fern "Foxtail"
+  zize: 1 gal
+  price: '4.75'
+  color: Light green
   sun: 1
-  water: 1
-  height: 3'W x 2' T
-  tolerance: Shade lovers
-  inventory: 58
-  location: 11
-  note: Semi-evergreen. Excellent ground cover or border edging in shady locations.
-    Great hanging baskets decors.
-  image_file_name: 4F587878-A5EA-4F2F-AE74-838E0AC9853D.jpeg
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 282
+  location: 19
+  note: ''
+  image_file_name: 8FD9E26B-A902-4EE0-BB3A-2C47121F783F.jpeg
   image_content_type: image/jpeg
-  image_file_size: '146422'
-  created_at: '2017-03-27T11:53:35.000-05:00'
-  updated_at: '2019-04-29T11:47:31.000-05:00'
+  image_file_size: '172563'
+  created_at: '2017-05-17T14:16:43.000-05:00'
+  updated_at: '2020-01-04T10:55:47.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '2.75'
+  cost: '3.25'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/269/thumb/4F587878-A5EA-4F2F-AE74-838E0AC9853D.jpeg"
-  category: Ground Cover
+  image_thumb_path: "/system/products/images/000/000/316/thumb/8FD9E26B-A902-4EE0-BB3A-2C47121F783F.jpeg"
+  category: Shrubs
 - site_id: 62
-  id: 42
+  id: 239
   product_category_id: 6
-  name: Firecracker "Red"
-  sizer: 1 gal
-  price: '5.75'
-  color: Dark Red
+  name: Fern "Indian Holly"
+  zize: 3 gal
+  price: '12.0'
+  color: Green
   sun: 1
   water: 1
   height: 18"
-  tolerance: ''
-  inventory: 58
-  location: 2
-  note: Dense Foliage, Fencing, Walls
-  image_file_name: IMG_1727.JPG
+  tolerance: Avoid Sun exposure
+  inventory: 8
+  location: 8
+  note: Semi-evergreen. Excellent ground cover or border edging in shady locations.
+    Great hanging baskets decors.
+  image_file_name: 3C581006-09AB-496B-863A-BD4C1DF8EEBE.jpeg
   image_content_type: image/jpeg
-  image_file_size: '81849'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-04-29T10:45:23.000-05:00'
+  image_file_size: '179616'
+  created_at: '2017-03-04T11:01:28.000-06:00'
+  updated_at: '2019-10-10T09:49:12.000-05:00'
   inactive: false
-  dimensions: 
-  cost: '4.5'
+  dimensions:
+  - 500
+  - 500
+  cost: '6.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/042/thumb/IMG_1727.JPG"
+  image_thumb_path: "/system/products/images/000/000/239/thumb/3C581006-09AB-496B-863A-BD4C1DF8EEBE.jpeg"
   category: Shrubs
 - site_id: 62
   id: 394
   product_category_id: 6
   name: Gardenia "Frostproof"
-  sizer: 3 gal
+  zize: 3 gal
   price: '12.0'
   color: Green
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 19
+  inventory: 10
   location: 15
   note: ''
   image_file_name: B24FF247-F0BD-4F53-B25F-283775ED12B3.jpeg
   image_content_type: image/jpeg
   image_file_size: '110899'
   created_at: '2017-10-19T12:02:07.000-05:00'
-  updated_at: '2019-04-26T12:14:09.000-05:00'
+  updated_at: '2019-07-19T10:16:54.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1662,14 +1648,14 @@
   id: 273
   product_category_id: 6
   name: 'Gardenia "Mystery" '
-  sizer: '5 gal '
+  zize: '5 gal '
   price: '18.0'
   color: White Flower
   sun: 1
   water: 1
   height: '5'' '
   tolerance: Low Sun
-  inventory: 17
+  inventory: 6
   location: 13
   note: 'Evergreen shrub, with large, sweet-scented pure white flowers and glossy
     evergreen foliage.  '
@@ -1677,7 +1663,7 @@
   image_content_type: image/jpeg
   image_file_size: '68022'
   created_at: '2017-03-28T13:16:43.000-05:00'
-  updated_at: '2019-01-15T13:03:54.000-06:00'
+  updated_at: '2019-10-18T14:58:12.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1690,14 +1676,14 @@
   id: 43
   product_category_id: 5
   name: Garlic "Society, Green"
-  sizer: 1 gal
+  zize: 1 gal
   price: '3.5'
   color: 'Violet '
   sun: 3
   water: 1
   height: '18-24" '
   tolerance: Deer Resistant
-  inventory: 555
+  inventory: 130
   location: 11
   note: 'Perennial evergreen, with a garlic smell, the leaves can be chopped like
     chives added to dishes. '
@@ -1705,7 +1691,7 @@
   image_content_type: image/jpeg
   image_file_size: '183585'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-05-03T13:07:55.000-05:00'
+  updated_at: '2019-12-30T10:29:34.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -1718,14 +1704,14 @@
   id: 192
   product_category_id: 5
   name: Garlic "Society, Green"
-  sizer: 3 gal
+  zize: 3 gal
   price: '10.0'
   color: Lilac-pink flower
   sun: 3
   water: 1
-  height: 2 ft
+  height: 18 - 24"
   tolerance: Deer Resistant
-  inventory: 159
+  inventory: 20
   location: 21
   note: 'Perennial evergreen, with a garlic smell, the leaves can be chopped like
     chives added to dishes. '
@@ -1733,7 +1719,7 @@
   image_content_type: image/jpeg
   image_file_size: '188832'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-03-25T09:34:43.000-05:00'
+  updated_at: '2019-12-03T10:19:45.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -1743,24 +1729,52 @@
   image_thumb_path: "/system/products/images/000/000/192/thumb/D5088D68-7217-4373-A180-2BB8654A49A7.jpeg"
   category: Ground Cover
 - site_id: 62
+  id: 225
+  product_category_id: 5
+  name: Garlic "Society, Variegated"
+  zize: 1 gal
+  price: '6.0'
+  color: Violet/Lavender
+  sun: 3
+  water: 1
+  height: 12 - 18"
+  tolerance: Drought
+  inventory: 62
+  location: 100
+  note: 'Silver grey, blue-green foliage. Low maintenance. Garlic smell and helps
+    reduce mold in gardens. '
+  image_file_name: C78AD39A-83E8-4828-887C-6442E00736F1.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '188494'
+  created_at: '2017-02-25T11:56:24.000-06:00'
+  updated_at: '2019-12-04T08:56:06.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '3.25'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/225/thumb/C78AD39A-83E8-4828-887C-6442E00736F1.jpeg"
+  category: Ground Cover
+- site_id: 62
   id: 45
   product_category_id: 6
   name: Ginger "Variegated"
-  sizer: 3 gal
+  zize: 3 gal
   price: '15.0'
   color: Variegated
   sun: 1
   water: 1
   height: ''
   tolerance: ''
-  inventory: 246
+  inventory: 138
   location: 20
   note: 'Tropical, Shell, Decorative. Beautiful striped green and yellow foliage. '
   image_file_name: var-gen.JPG
   image_content_type: image/jpeg
   image_file_size: '145073'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-04-29T13:41:48.000-05:00'
+  updated_at: '2020-01-04T10:55:47.000-06:00'
   inactive: false
   dimensions: 
   cost: '9.0'
@@ -1771,14 +1785,14 @@
   id: 46
   product_category_id: 2
   name: Grapefruit  "Paradise Rio"
-  sizer: Boxed
+  zize: 20 gal
   price: '95.0'
   color: 'Yellow or Gold '
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 1
+  inventory: 7
   location: 18
   note: 'Delicious grapefruits. Already produced fruit.  The longer the fruit stays
     on tree the sweeter it gets. '
@@ -1786,12 +1800,12 @@
   image_content_type: image/jpeg
   image_file_size: '158470'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2017-10-09T09:10:16.000-05:00'
+  updated_at: '2019-07-05T14:58:41.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '55.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/046/thumb/IMG_2091.JPG"
   category: Trees
@@ -1799,7 +1813,7 @@
   id: 47
   product_category_id: 5
   name: Grass  "Aztec"
-  sizer: 1 gal
+  zize: 1 gal
   price: '3.0'
   color: Silver Variegated
   sun: 0
@@ -1813,10 +1827,10 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2017-12-22T16:10:34.000-06:00'
+  updated_at: '2019-07-05T14:59:20.000-05:00'
   inactive: false
   dimensions: 
-  cost: '0.0'
+  cost: '2.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Ground Cover
@@ -1824,14 +1838,14 @@
   id: 439
   product_category_id: 5
   name: Grass "Lindheimer Muhly"
-  sizer: 1 gal
+  zize: 1 gal
   price: '5.0'
   color: ''
   sun: 3
   water: 0
   height: 6'
   tolerance: ''
-  inventory: 45
+  inventory: 23
   location: 11
   note: 'Perennial ornamental hedge-like grass cover with a great flair. Extremely
     hardy and easy to grow, great ground cover. '
@@ -1839,7 +1853,7 @@
   image_content_type: image/jpeg
   image_file_size: '178725'
   created_at: '2017-12-22T16:44:07.000-06:00'
-  updated_at: '2018-12-08T10:34:57.000-06:00'
+  updated_at: '2019-10-21T12:06:01.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1850,23 +1864,23 @@
   category: Ground Cover
 - site_id: 62
   id: 94
-  product_category_id: 6
+  product_category_id: 5
   name: Grass "Maiden Adagio"
-  sizer: '3 gal '
+  zize: '3 gal '
   price: '13.0'
   color: Green
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 6
+  inventory: 3
   location: 3
   note: ''
   image_file_name: IMG_1742.JPG
   image_content_type: image/jpeg
   image_file_size: '192947'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-07-26T12:44:14.000-05:00'
+  updated_at: '2019-12-18T09:45:27.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -1874,53 +1888,26 @@
   cost: '7.95'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/094/thumb/IMG_1742.JPG"
-  category: Shrubs
-- site_id: 62
-  id: 440
-  product_category_id: 5
-  name: Grass "Pine Muhly"
-  sizer: 1 gal
-  price: '4.0'
-  color: ''
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 13
-  location: 9
-  note: ''
-  image_file_name: 11B486C6-E04C-43E6-BC09-6461A3E90EC2.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '187515'
-  created_at: '2017-12-22T16:45:11.000-06:00'
-  updated_at: '2019-01-10T09:32:40.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '1.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/440/thumb/11B486C6-E04C-43E6-BC09-6461A3E90EC2.jpeg"
   category: Ground Cover
 - site_id: 62
   id: 459
   product_category_id: 5
   name: Grass "Purple Fountain, Pennisetum setaceum 'Rubrum"
-  sizer: '1 gal '
+  zize: '1 gal '
   price: '4.0'
   color: Purple
   sun: 3
   water: 0
   height: 2-4'
   tolerance: Drought, Deer Resistant, Easy Care
-  inventory: 50
+  inventory: 20
   location: 16
   note: ''
   image_file_name: A097C59B-C2BB-44DD-893B-4EE02E87A0C7.jpeg
   image_content_type: image/jpeg
   image_file_size: '169686'
   created_at: '2018-04-02T14:27:08.000-05:00'
-  updated_at: '2019-04-03T10:52:36.000-05:00'
+  updated_at: '2019-10-11T11:59:55.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -1930,50 +1917,24 @@
   image_thumb_path: "/system/products/images/000/000/459/thumb/A097C59B-C2BB-44DD-893B-4EE02E87A0C7.jpeg"
   category: Ground Cover
 - site_id: 62
-  id: 502
-  product_category_id: 5
-  name: Guara “Pink, White”
-  sizer: 1 gal
-  price: '3.25'
-  color: White & Pink
-  sun: 3
-  water: 0
-  height: 2-3'
-  tolerance: " Heat, Drought "
-  inventory: 47
-  location: 11
-  note: Herbaceous, perennial, airy white or pink flowers like tiny butterflies emerging
-    from the buds.
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2018-05-30T13:31:36.000-05:00'
-  updated_at: '2018-07-18T09:10:26.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '2.75'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Ground Cover
-- site_id: 62
   id: 395
   product_category_id: 6
   name: Guava "Pineapple"
-  sizer: 5 gal
+  zize: 5 gal
   price: '24.0'
   color: Green Grayish
   sun: 3
   water: 0
   height: 10-15 ft
   tolerance: Mild Drought
-  inventory: 40
+  inventory: 85
   location: 10
   note: 'Edible flower and edible fruit. Tasty guava-like fruit ripens in late fall. '
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-10-19T12:05:15.000-05:00'
-  updated_at: '2019-05-01T12:15:15.000-05:00'
+  updated_at: '2019-08-08T13:55:01.000-05:00'
   inactive: false
   dimensions: 
   cost: '14.95'
@@ -1981,103 +1942,24 @@
   image_thumb_path: "/images/thumb/missing.png"
   category: Shrubs
 - site_id: 62
-  id: 51
-  product_category_id: 6
-  name: Hawthorn "Clara"
-  sizer: 3 gal
-  price: '14.5'
-  color: Dark green
-  sun: 1
-  water: 1
-  height: 4' h x 4' w
-  tolerance: ''
-  inventory: 16
-  location: 24
-  note: 'Broadleaf evergreen. Part sun, part shade. '
-  image_file_name: IMG_2044.JPG
-  image_content_type: image/jpeg
-  image_file_size: '101602'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-04-02T09:42:58.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '7.95'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/051/thumb/IMG_2044.JPG"
-  category: Shrubs
-- site_id: 62
-  id: 52
-  product_category_id: 6
-  name: Hawthorn "Dwarf Clara"
-  sizer: 3 gal
-  price: '9.25'
-  color: White
-  sun: 3
-  water: 3
-  height: ''
-  tolerance: ''
-  inventory: 23
-  location: 15
-  note: Reddish, green with age
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2018-03-17T11:52:23.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '4.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
-- site_id: 62
-  id: 50
-  product_category_id: 6
-  name: Hawthorn "Pink Lady Dwarf"
-  sizer: 13 gal
-  price: '24.0'
-  color: Pink
-  sun: 1
-  water: 0
-  height: 2 to 4"
-  tolerance: Hardiness
-  inventory: 10
-  location: 21
-  note: Dense, glossy green foliage often deepens to red or purple in winter.
-  image_file_name: IMG_1768.JPG
-  image_content_type: image/jpeg
-  image_file_size: '163049'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2017-12-22T16:10:34.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/050/thumb/IMG_1768.JPG"
-  category: Shrubs
-- site_id: 62
   id: 96
   product_category_id: 6
   name: Heather "Mexican"
-  sizer: 1 gal
+  zize: 1 gal
   price: '3.75'
   color: Purple
   sun: 1
   water: 1
   height: 2 x 2 ft
   tolerance: ''
-  inventory: 10
+  inventory: 20
   location: 1
   note: Fast growing semi-evergreen, textured, glossy, bright green leaves.
   image_file_name: IMG_2034.JPG
   image_content_type: image/jpeg
   image_file_size: '143910'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-15T16:14:40.000-05:00'
+  updated_at: '2019-12-04T11:07:10.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -2090,14 +1972,14 @@
   id: 272
   product_category_id: 4
   name: 'Hibiscus '
-  sizer: 5 gal
+  zize: 5 gal
   price: '24.0'
   color: Red, Yellow, Orange
   sun: 1
   water: 1
   height: '3 - 7'' '
   tolerance: 'Low Drought, Low Winter '
-  inventory: 25
+  inventory: 21
   location: 14
   note: Gorgeous large colorful flower in assorted colors of red, yellow and orange
     and glossy green leaves.
@@ -2105,7 +1987,7 @@
   image_content_type: image/jpeg
   image_file_size: '81374'
   created_at: '2017-03-28T12:29:38.000-05:00'
-  updated_at: '2018-07-12T10:47:03.000-05:00'
+  updated_at: '2019-10-23T13:28:37.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2116,9 +1998,9 @@
   category: Flowers
 - site_id: 62
   id: 333
-  product_category_id: 5
+  product_category_id: 4
   name: Hibiscus "Variegated"
-  sizer: 15 gal
+  zize: 15 gal
   price: '25.0'
   color: ''
   sun: 3
@@ -2132,7 +2014,7 @@
   image_content_type: image/jpeg
   image_file_size: '65951'
   created_at: '2017-06-13T14:31:26.000-05:00'
-  updated_at: '2018-09-26T13:24:32.000-05:00'
+  updated_at: '2019-11-05T09:35:39.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -2140,53 +2022,26 @@
   cost: '10.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/333/thumb/CB097347-AAD1-43B4-A8F0-A7B41655D51A.jpeg"
-  category: Ground Cover
-- site_id: 62
-  id: 55
-  product_category_id: 2
-  name: Holly  "Foster's"
-  sizer: 45 gal
-  price: '375.0'
-  color: Green with red berries
-  sun: 3
-  water: 1
-  height: 20 ft
-  tolerance: Full Sun
-  inventory: 1
-  location: 1
-  note: 'Evergreen, glossy green foliage with deep red ornamental berries. '
-  image_file_name: IMG_1948.JPG
-  image_content_type: image/jpeg
-  image_file_size: '181670'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2017-12-14T16:09:12.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '45.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/055/thumb/IMG_1948.JPG"
-  category: Trees
+  category: Flowers
 - site_id: 62
   id: 56
   product_category_id: 2
   name: Holly  "Nellie Stevens"
-  sizer: 30 gal
+  zize: 30 gal
   price: '175.0'
   color: ''
   sun: 1
   water: 0
   height: ''
   tolerance: ''
-  inventory: 3
+  inventory: 1
   location: 2
   note: ''
   image_file_name: IMG_2475.JPG
   image_content_type: image/jpeg
   image_file_size: '166679'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-03-20T13:09:11.000-05:00'
+  updated_at: '2019-06-23T21:18:46.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2196,51 +2051,103 @@
   image_thumb_path: "/system/products/images/000/000/056/thumb/IMG_2475.JPG"
   category: Trees
 - site_id: 62
-  id: 227
+  id: 354
   product_category_id: 6
-  name: Holly "Carissa"
-  sizer: 3 gal
-  price: '12.0'
-  color: Green foliage
+  name: Holly "Buford"
+  zize: '15 gal '
+  price: '30.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 10
+  location: 29
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-07-14T15:30:38.000-05:00'
+  updated_at: '2019-10-14T11:02:26.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '15.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Shrubs
+- site_id: 62
+  id: 62
+  product_category_id: 6
+  name: Holly "Dwarf Buford"
+  zize: 1 gal
+  price: '4.0'
+  color: Green/Red Berries
   sun: 1
   water: 0
-  height: 3 - 4 ft
-  tolerance: Drought, Winter
-  inventory: 6
-  location: 14
-  note: 'Each evergreen leaves has a single sharp spine at the tip. '
-  image_file_name: IMG_1838.JPG
+  height: 4 - 6 ft
+  tolerance: ''
+  inventory: 15
+  location: 7
+  note: 'Evergreen shrub with glossy deep green leaves with a single terminal spine
+    with red berries. '
+  image_file_name: IMG_2010.JPG
   image_content_type: image/jpeg
-  image_file_size: '149547'
-  created_at: '2017-02-27T15:09:10.000-06:00'
-  updated_at: '2017-10-19T13:27:59.000-05:00'
+  image_file_size: '167719'
+  created_at: '2017-01-31T10:36:45.000-06:00'
+  updated_at: '2019-07-10T08:33:14.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '7.0'
+  cost: '2.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/227/thumb/IMG_1838.JPG"
+  image_thumb_path: "/system/products/images/000/000/062/thumb/IMG_2010.JPG"
+  category: Shrubs
+- site_id: 62
+  id: 60
+  product_category_id: 6
+  name: Holly "Dwarf Burford"
+  zize: 3 gal
+  price: '10.0'
+  color: Green with Red Berries
+  sun: 1
+  water: 1
+  height: 4 - 6 ft
+  tolerance: Moderate Drought
+  inventory: 36
+  location: 19
+  note: 'Compact version of the Holly, with bright red berries. Evergreen hedge or
+    border specimen. '
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-01-31T10:36:45.000-06:00'
+  updated_at: '2019-12-06T13:30:25.000-06:00'
+  inactive: false
+  dimensions: 
+  cost: '2.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
   category: Shrubs
 - site_id: 62
   id: 61
   product_category_id: 6
   name: Holly "Dwarf Yaupon"
-  sizer: 3 gal
+  zize: 3 gal
   price: '14.5'
   color: ''
   sun: 3
   water: 3
   height: ''
   tolerance: ''
-  inventory: 38
+  inventory: 12
   location: 17
   note: ''
   image_file_name: IMG_3311.JPG
   image_content_type: image/jpeg
   image_file_size: '186644'
   created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2019-05-07T14:07:26.000-05:00'
+  updated_at: '2019-09-16T10:11:18.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2250,42 +2157,72 @@
   image_thumb_path: "/system/products/images/000/000/061/thumb/IMG_3311.JPG"
   category: Shrubs
 - site_id: 62
+  id: 301
+  product_category_id: 2
+  name: Holly "East Palatka"
+  zize: '30 gal '
+  price: '135.0'
+  color: White flowers
+  sun: 0
+  water: 0
+  height: '30 - 45'' x 10'' - 15'' '
+  tolerance: 'Drought Tolerant, Heat tolerant, Cold tolerant.  '
+  inventory: 2
+  location: 8
+  note: 'Medium growing evergreen bright red, round berries, round leaves grows quicker
+    in full sun and in moist, acid soils.  '
+  image_file_name: IMG_2472.JPG
+  image_content_type: image/jpeg
+  image_file_size: '147868'
+  created_at: '2017-04-28T10:18:33.000-05:00'
+  updated_at: '2019-11-20T09:12:12.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '20.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/301/thumb/IMG_2472.JPG"
+  category: Trees
+- site_id: 62
   id: 434
   product_category_id: 6
   name: Holly "Needlepoint"
-  sizer: 5 gal
+  zize: 5 gal
   price: '14.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 96
+  inventory: 41
   location: 14
   note: ''
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
+  image_file_name: image.jpg
+  image_content_type: image/jpeg
+  image_file_size: '207397'
   created_at: '2017-12-22T16:35:25.000-06:00'
-  updated_at: '2019-03-19T09:58:20.000-05:00'
+  updated_at: '2019-12-04T11:01:20.000-06:00'
   inactive: false
-  dimensions: 
+  dimensions:
+  - 500
+  - 666
   cost: '1.0'
   markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
+  image_thumb_path: "/system/products/images/000/000/434/thumb/image.jpg"
   category: Shrubs
 - site_id: 62
   id: 369
   product_category_id: 2
   name: Holly "Oakland"
-  sizer: 30 gal
+  zize: 30 gal
   price: '185.0'
   color: Green/Red Berries
   sun: 1
   water: 0
   height: ''
   tolerance: ''
-  inventory: 2
+  inventory: 1
   location: 17
   note: Distinctive oak-shape leaves, dense bright green foliage with needles. Red
     berries in late winter
@@ -2293,74 +2230,20 @@
   image_content_type: image/jpeg
   image_file_size: '180829'
   created_at: '2017-08-31T08:09:30.000-05:00'
-  updated_at: '2018-12-01T08:51:26.000-06:00'
+  updated_at: '2019-12-03T09:09:40.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '25.0'
+  cost: '97.5'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/369/thumb/IMG_3463.JPG"
-  category: Trees
-- site_id: 62
-  id: 58
-  product_category_id: 2
-  name: Holly "Savannah"
-  sizer: 30 gal
-  price: '145.0'
-  color: ''
-  sun: 0
-  water: 1
-  height: ''
-  tolerance: ''
-  inventory: 5
-  location: 13
-  note: ''
-  image_file_name: 820E6969-5D45-4C32-8AB0-F42AE0D8BEC2.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '189141'
-  created_at: '2017-01-31T10:36:45.000-06:00'
-  updated_at: '2018-06-16T19:38:27.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '15.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/058/thumb/820E6969-5D45-4C32-8AB0-F42AE0D8BEC2.jpeg"
-  category: Trees
-- site_id: 62
-  id: 380
-  product_category_id: 2
-  name: 'Holly "Scarlet Peak" '
-  sizer: 30 gal
-  price: '200.0'
-  color: Green
-  sun: 3
-  water: 0
-  height: 20 x 3'
-  tolerance: Full Sun
-  inventory: 2
-  location: 16
-  note: 'Grows Slim and tall with bright red berries in winter. '
-  image_file_name: IMG_3523.JPG
-  image_content_type: image/jpeg
-  image_file_size: '181584'
-  created_at: '2017-09-20T15:26:52.000-05:00'
-  updated_at: '2019-03-18T10:34:21.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/380/thumb/IMG_3523.JPG"
   category: Trees
 - site_id: 62
   id: 436
   product_category_id: 2
   name: Holly "Weeping Yaupon”
-  sizer: 30 gal
+  zize: 30 gal
   price: '150.0'
   color: Green/Red berries
   sun: 1
@@ -2385,70 +2268,44 @@
   image_thumb_path: "/system/products/images/000/000/436/thumb/3C1F2F47-36CF-414E-9CFF-9B49CE171A09.jpeg"
   category: Trees
 - site_id: 62
-  id: 280
-  product_category_id: 6
-  name: Iris "BiColor"
-  sizer: 5 gal
-  price: '15.25'
-  color: Green
-  sun: 1
-  water: 3
-  height: 18-24"
-  tolerance: Med
-  inventory: 39
-  location: 15
-  note: Evergreen Foliage. Space 18-24'
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-04-11T11:03:34.000-05:00'
-  updated_at: '2019-05-03T15:21:01.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '12.5'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
-- site_id: 62
-  id: 293
-  product_category_id: 6
-  name: Iris "BiColor"
-  sizer: 1 gal
-  price: '4.0'
-  color: Yellow
-  sun: 1
+  id: 421
+  product_category_id: 2
+  name: Holly “Kathy Ann”
+  zize: 30 gal
+  price: '275.0'
+  color: Green/Red Berries
+  sun: 3
   water: 0
-  height: 30" H x 24" W
-  tolerance: 'Deer, Drought '
-  inventory: 189
-  location: 3
-  note: 'Semi-Evergreen, dark leaves with a shooting stem with the flower. The flower
-    is a dark yellow color. Groom occasionally to remove spent foliage. '
-  image_file_name: IMG_2409.JPG
+  height: ''
+  tolerance: ''
+  inventory: 3
+  location: 11
+  note: ''
+  image_file_name: 14E6F7BE-553A-437C-9B34-1DA13CF27BFD.jpeg
   image_content_type: image/jpeg
-  image_file_size: '139001'
-  created_at: '2017-04-22T09:33:34.000-05:00'
-  updated_at: '2019-04-30T12:39:39.000-05:00'
+  image_file_size: '183931'
+  created_at: '2017-11-27T13:36:16.000-06:00'
+  updated_at: '2019-06-23T21:39:24.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '2.0'
+  cost: '35.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/293/thumb/IMG_2409.JPG"
-  category: Shrubs
+  image_thumb_path: "/system/products/images/000/000/421/thumb/14E6F7BE-553A-437C-9B34-1DA13CF27BFD.jpeg"
+  category: Trees
 - site_id: 62
   id: 215
   product_category_id: 5
   name: Iris "Butterfly, Iridioides, African Iris"
-  sizer: 5 gal
+  zize: 5 gal
   price: '16.0'
   color: Yellow with Purple
   sun: 1
   water: 1
   height: 2-4 ft
   tolerance: Drought, Hardy
-  inventory: 84
+  inventory: 45
   location: 4
   note: Perennial moderate growing, evergreen foliage. Long stems of delicate iris-exotic
     flowers. Plant 2-3 ft apart, fertilize twice a yr.
@@ -2456,7 +2313,7 @@
   image_content_type: image/jpeg
   image_file_size: '82843'
   created_at: '2017-02-20T21:00:45.000-06:00'
-  updated_at: '2019-04-09T09:49:16.000-05:00'
+  updated_at: '2019-12-16T14:03:06.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -2466,45 +2323,45 @@
   image_thumb_path: "/system/products/images/000/000/215/thumb/375826DD-33DF-4A58-85A0-A13B59AA4C96.jpeg"
   category: Ground Cover
 - site_id: 62
-  id: 220
+  id: 521
   product_category_id: 5
-  name: Ivy "Fig"
-  sizer: 3 gal
-  price: '5.5'
-  color: 'Green '
-  sun: 1
+  name: 'Ivy "Boston" '
+  zize: 3 gal
+  price: '12.0'
+  color: ''
+  sun: 0
   water: 0
-  height: '25 - 30 ft '
-  tolerance: Deer Resistant, Easy Care
-  inventory: 19
-  location: 100
-  note: 'Green heart-shaped year round foliage.  When mature, horizontal-growing stems
-    might produce pale-green 3-inch long fruit. Once established, water occassionally.  '
-  image_file_name: IMG_1983.JPG
+  height: Spreads 60 feet
+  tolerance: Not Winter tolerant
+  inventory: 10
+  location: 3
+  note: 'Deciduous shiny leaves, creeping & climbing woody vines used over walls,
+    stretch across fences and trellises. '
+  image_file_name: F97B89F3-9C72-4750-A879-1A5B235EE0A8.jpeg
   image_content_type: image/jpeg
-  image_file_size: '181121'
-  created_at: '2017-02-22T12:29:05.000-06:00'
-  updated_at: '2018-06-12T13:36:55.000-05:00'
+  image_file_size: '133798'
+  created_at: '2019-05-01T13:52:34.000-05:00'
+  updated_at: '2019-07-05T15:03:31.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '3.75'
+  cost: '8.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/220/thumb/IMG_1983.JPG"
+  image_thumb_path: "/system/products/images/000/000/521/thumb/F97B89F3-9C72-4750-A879-1A5B235EE0A8.jpeg"
   category: Ground Cover
 - site_id: 62
   id: 327
   product_category_id: 4
   name: Ixora "Flame Red"
-  sizer: 3 gal
+  zize: 3 gal
   price: '18.0'
   color: Red
   sun: 3
   water: 0
   height: 2-3'
   tolerance: Cold
-  inventory: 26
+  inventory: 7
   location: 14
   note: 'Perrennial, bright eye-catching perennial tropicals normally are grown in
     containers, cold hardy. '
@@ -2512,7 +2369,7 @@
   image_content_type: image/jpeg
   image_file_size: '75408'
   created_at: '2017-06-09T14:36:30.000-05:00'
-  updated_at: '2019-05-01T13:15:57.000-05:00'
+  updated_at: '2019-10-03T13:33:39.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2522,101 +2379,73 @@
   image_thumb_path: "/system/products/images/000/000/327/thumb/AB98B035-E179-43C9-9CAC-5B1BB8C5FBC3.jpeg"
   category: Flowers
 - site_id: 62
-  id: 223
-  product_category_id: 5
-  name: Jasmine "Confederate"
-  sizer: 3 gal
-  price: '11.5'
-  color: White flower
-  sun: 3
-  water: 1
-  height: 20 ft
-  tolerance: Drought, Sun
-  inventory: 109
-  location: 6
-  note: 'Hardy white, pinwheel-shaped flowers. Perennial vines. Also known as the
-    Star Jasmine. Night bloomer, opens at night. '
-  image_file_name: IMG_1978.JPG
-  image_content_type: image/jpeg
-  image_file_size: '151547'
-  created_at: '2017-02-24T15:22:00.000-06:00'
-  updated_at: '2019-05-07T10:21:04.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '6.25'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/223/thumb/IMG_1978.JPG"
-  category: Ground Cover
-- site_id: 62
-  id: 248
-  product_category_id: 5
-  name: Jasmine "Confederate"
-  sizer: 1 gal
-  price: '4.0'
-  color: ''
-  sun: 3
-  water: 1
-  height: 20 ft
-  tolerance: Drought, Sun
-  inventory: 103
-  location: 6
-  note: 'Hardy white, pinwheel-shaped flowers. Perennial vines. Also known as the
-    Star Jasmine. Night bloomer, opens at night. '
-  image_file_name: IMG_2037.JPG
-  image_content_type: image/jpeg
-  image_file_size: '113556'
-  created_at: '2017-03-14T13:30:53.000-05:00'
-  updated_at: '2019-04-11T11:14:46.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '2.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/248/thumb/IMG_2037.JPG"
-  category: Ground Cover
-- site_id: 62
-  id: 289
+  id: 212
   product_category_id: 6
   name: Jasmine "Primrose"
-  sizer: 1 gal
-  price: '4.0'
-  color: ''
-  sun: 1
+  zize: 3 gal
+  price: '10.5'
+  color: Yellow Flower
+  sun: 3
   water: 0
-  height: ''
+  height: 6 - 8 ft
   tolerance: Drought, Deer, Low Water
-  inventory: 23
-  location: 14
-  note: 'Semi-evergreen, spreads 8-10 feet, spring fragrant yellow flowers with no
-    serious diseases or pests . Easy to maintain. '
-  image_file_name: IMG_2372.JPG
+  inventory: 37
+  location: 9
+  note: 'Semi-evergreen, fast growing, spread wide growing into 8 - 10 ft.  Dark green
+    glossy leaves divided into three leaflets. '
+  image_file_name: IMG_2041.JPG
   image_content_type: image/jpeg
-  image_file_size: '102726'
-  created_at: '2017-04-17T16:12:31.000-05:00'
-  updated_at: '2018-03-08T10:55:31.000-06:00'
+  image_file_size: '124885'
+  created_at: '2017-02-17T14:56:21.000-06:00'
+  updated_at: '2019-07-18T14:57:39.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '2.0'
+  cost: '1.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/289/thumb/IMG_2372.JPG"
+  image_thumb_path: "/system/products/images/000/000/212/thumb/IMG_2041.JPG"
   category: Shrubs
+- site_id: 62
+  id: 251
+  product_category_id: 5
+  name: Jew "Purple, Wandering"
+  zize: 3 gal
+  price: '8.0'
+  color: Small Pink Flowers
+  sun: 1
+  water: 0
+  height: 2 ft
+  tolerance: Moderate Sun, Non-toxic to animals, Moderate Drought, NOT deer Resistant
+  inventory: 2
+  location: 9
+  note: 'Likes warm moist areas, If indoor, requires bright light.  Invasive, fast
+    growing. '
+  image_file_name: IMG_2397.JPG
+  image_content_type: image/jpeg
+  image_file_size: '63215'
+  created_at: '2017-03-16T09:05:10.000-05:00'
+  updated_at: '2019-09-16T10:10:35.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '3.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/251/thumb/IMG_2397.JPG"
+  category: Ground Cover
 - site_id: 62
   id: 473
   product_category_id: 5
   name: Lantana "Gold"
-  sizer: '3 gal '
+  zize: '3 gal '
   price: '10.0'
   color: ''
   sun: 3
   water: 1
   height: 18" x 18"
   tolerance: Heat, Drought, Erosion Control
-  inventory: 215
+  inventory: 21
   location: 11
   note: 'Deciduous evergreen, Perennial from spring to fall.  Gold flowers are clustered
     to make a beautiful colorful ground cover. '
@@ -2624,7 +2453,7 @@
   image_content_type: 
   image_file_size: 
   created_at: '2018-04-19T08:59:31.000-05:00'
-  updated_at: '2018-11-13T10:45:05.000-06:00'
+  updated_at: '2019-09-13T11:14:46.000-05:00'
   inactive: false
   dimensions: 
   cost: '3.25'
@@ -2634,15 +2463,15 @@
 - site_id: 62
   id: 245
   product_category_id: 5
-  name: 'Lantana "Gold,Pink,Confetti,Blue" '
-  sizer: 1 gal
-  price: '3.25'
+  name: 'Lantana "Gold,Pink,Confetti,Dallas" '
+  zize: 1 gal
+  price: '3.5'
   color: Gold or Pink or Radiation or Confetti or Blue
   sun: 3
   water: 0
   height: 18 - 18"
   tolerance: 'Heat, Drought, Erosion Control '
-  inventory: 291
+  inventory: 300
   location: 6
   note: 'Deciduous evergreen, Perennial from spring to fall.  Flowers are clustered
     to make a beautiful colorful ground cover. '
@@ -2650,7 +2479,7 @@
   image_content_type: image/jpeg
   image_file_size: '179390'
   created_at: '2017-03-10T10:03:14.000-06:00'
-  updated_at: '2019-05-09T13:22:40.000-05:00'
+  updated_at: '2019-12-30T10:19:58.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -2663,14 +2492,14 @@
   id: 82
   product_category_id: 5
   name: Lantana Trailing "White or Purple"
-  sizer: 1 gal
+  zize: 1 gal
   price: '3.5'
   color: Purple, White
   sun: 3
   water: 1
   height: '3-5'' x 6-8'' '
   tolerance: Heat, Drought, Erosion Control
-  inventory: 36
+  inventory: 31
   location: 14
   note: 'Perennial, white or purple trailing used for ground cover with sweet scented
     flowers. '
@@ -2678,7 +2507,7 @@
   image_content_type: image/jpeg
   image_file_size: '107990'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-10T15:19:14.000-05:00'
+  updated_at: '2019-05-28T15:24:09.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2688,45 +2517,44 @@
   image_thumb_path: "/system/products/images/000/000/082/thumb/IMG_1847.JPG"
   category: Ground Cover
 - site_id: 62
-  id: 300
+  id: 513
   product_category_id: 2
-  name: 'Laurel "Cherry, Compact" '
-  sizer: 30 gal
-  price: '115.0'
-  color: Small Cream flowers
-  sun: 1
+  name: 'Laurel "Cherry, Reg" '
+  zize: 30 gal
+  price: '155.0'
+  color: Green
+  sun: 3
   water: 0
-  height: 8-10'L x 6-8'W
-  tolerance: " Heat, Drought, and Wind, Bird friendly, Deer Tolerant"
-  inventory: 1
-  location: 4
-  note: 'Evergreen moderate growing with small cream looking flowers in late winter
-    to early spring. '
-  image_file_name: 9E784E8A-556B-4782-A067-1AB7AC8216BD.jpeg
+  height: 15-36'
+  tolerance: ''
+  inventory: 3
+  location: 15
+  note: 'Evergreen shrub or small tree with soft, glossy and dark green foliage. '
+  image_file_name: 625FA250-8A9A-4105-97A9-9200D959779D.jpeg
   image_content_type: image/jpeg
-  image_file_size: '189141'
-  created_at: '2017-04-28T10:17:37.000-05:00'
-  updated_at: '2018-11-08T11:14:42.000-06:00'
+  image_file_size: '204610'
+  created_at: '2018-06-26T10:04:56.000-05:00'
+  updated_at: '2019-08-01T09:58:51.000-05:00'
   inactive: false
   dimensions:
   - 500
-  - 500
-  cost: '50.0'
+  - 666
+  cost: '35.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/300/thumb/9E784E8A-556B-4782-A067-1AB7AC8216BD.jpeg"
+  image_thumb_path: "/system/products/images/000/000/513/thumb/625FA250-8A9A-4105-97A9-9200D959779D.jpeg"
   category: Trees
 - site_id: 62
   id: 323
   product_category_id: 5
   name: Lemongrass
-  sizer: 1 gal
+  zize: 1 gal
   price: '4.0'
   color: Green/Red in autumn
   sun: 3
   water: 0
   height: 3-5'
   tolerance: Loomy soil,
-  inventory: 7
+  inventory: 1
   location: 6
   note: Perennial-type grass with long, thin, flat greenish-grey tinged reeds lemony
     fragrance, occasionally throwing off curious, butterfly-like flowers.
@@ -2734,7 +2562,7 @@
   image_content_type: image/jpeg
   image_file_size: '166681'
   created_at: '2017-06-09T12:14:56.000-05:00'
-  updated_at: '2018-04-05T14:28:51.000-05:00'
+  updated_at: '2019-09-19T13:31:27.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2744,51 +2572,24 @@
   image_thumb_path: "/system/products/images/000/000/323/thumb/IMG_2861.JPG"
   category: Ground Cover
 - site_id: 62
-  id: 455
-  product_category_id: 5
-  name: Lemongrass
-  sizer: 5 gal
-  price: '14.0'
-  color: Green
-  sun: 3
-  water: 0
-  height: 3-5'
-  tolerance: Sun
-  inventory: 16
-  location: 11
-  note: ''
-  image_file_name: A24C5A79-CBEF-4B43-A316-E8D4B7FDEFB1.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '172410'
-  created_at: '2018-03-24T09:21:07.000-05:00'
-  updated_at: '2018-12-07T11:29:08.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '6.5'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/455/thumb/A24C5A79-CBEF-4B43-A316-E8D4B7FDEFB1.jpeg"
-  category: Ground Cover
-- site_id: 62
   id: 170
   product_category_id: 6
   name: 'Ligustrum "Variegated Privet" '
-  sizer: 3 gal
+  zize: 3 gal
   price: '13.5'
   color: Variegated Green
   sun: 1
   water: 3
   height: ''
   tolerance: ''
-  inventory: 98
+  inventory: 91
   location: 15
   note: Full or Parital Shade, Evergreen Hedge, Low Maint
   image_file_name: 424D1B60-8C44-4DAB-97D1-61388F41359D.jpeg
   image_content_type: image/jpeg
   image_file_size: '147112'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-03-25T11:01:05.000-05:00'
+  updated_at: '2019-10-07T15:11:13.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2801,14 +2602,14 @@
   id: 362
   product_category_id: 6
   name: Ligustrum "Waxleaf Mobils Mult-trunk Tree"
-  sizer: '30 gal '
+  zize: '30 gal '
   price: '40.0'
   color: 'White '
   sun: 3
   water: 1
   height: 8 to 12  feet
   tolerance: ''
-  inventory: 6
+  inventory: 3
   location: 16
   note: Compact upright-growing evergreen, fast growing with white flowered deep green
     foliage, great fragrance shrubs. Flowers in Spring.
@@ -2816,7 +2617,7 @@
   image_content_type: image/jpeg
   image_file_size: '176699'
   created_at: '2017-08-17T14:41:19.000-05:00'
-  updated_at: '2019-03-21T10:35:01.000-05:00'
+  updated_at: '2019-10-25T12:10:16.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -2829,21 +2630,21 @@
   id: 353
   product_category_id: 6
   name: Ligustrum "Waxleaf"
-  sizer: 15 gal
+  zize: 15 gal
   price: '30.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 17
+  inventory: 16
   location: 3
   note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-07-14T15:28:43.000-05:00'
-  updated_at: '2018-11-21T10:01:19.000-06:00'
+  updated_at: '2019-10-21T11:46:20.000-05:00'
   inactive: false
   dimensions: 
   cost: '15.0'
@@ -2854,21 +2655,21 @@
   id: 449
   product_category_id: 6
   name: Ligustrum "Waxleaf"
-  sizer: '5 gal '
+  zize: '5 gal '
   price: '18.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 23
+  inventory: 6
   location: 16
   note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2018-03-10T07:54:43.000-06:00'
-  updated_at: '2018-05-26T10:21:49.000-05:00'
+  updated_at: '2019-11-22T10:51:30.000-06:00'
   inactive: false
   dimensions: 
   cost: '7.95'
@@ -2878,89 +2679,58 @@
 - site_id: 62
   id: 87
   product_category_id: 4
-  name: Lily "Dianella Flax"
-  sizer: " 3 gal"
-  price: '12.0'
+  name: Lily "Variegated Daniella Flax"
+  zize: " 3 gal"
+  price: '5.95'
   color: Variegated Medium Blue
   sun: 1
   water: 1
   height: 12 - 18"
   tolerance: Drought
-  inventory: 6
+  inventory: 3
   location: 23
   note: Tropical and perennial
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-03T11:58:35.000-05:00'
+  updated_at: '2019-09-16T10:07:51.000-05:00'
   inactive: false
   dimensions: 
-  cost: '0.0'
+  cost: '3.25'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Flowers
 - site_id: 62
-  id: 474
+  id: 356
   product_category_id: 5
-  name: Lily "Flax Blueberry"
-  sizer: '3 gal '
-  price: '14.0'
-  color: Green Variegated
+  name: Liriope "Green"
+  zize: 1 gal
+  price: '3.5'
+  color: Green
   sun: 0
   water: 0
-  height: 2'
-  tolerance: Moderately drought-tolerant
-  inventory: 94
-  location: 15
-  note: 'Accents texture plants that bring out flower colors and the whiteness of
-    the foliage contrasts nicely with other greenery in a garden. '
-  image_file_name: 96BCD069-BB31-4892-B1E3-DBFDCB921D98.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '174328'
-  created_at: '2018-04-24T08:41:07.000-05:00'
-  updated_at: '2019-04-16T15:29:31.000-05:00'
+  height: 10-11"
+  tolerance: Heat, Sun
+  inventory: 12
+  location: 12
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-07-21T16:48:56.000-05:00'
+  updated_at: '2019-09-16T10:07:09.000-05:00'
   inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '9.75'
+  dimensions: 
+  cost: '1.5'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/474/thumb/96BCD069-BB31-4892-B1E3-DBFDCB921D98.jpeg"
+  image_thumb_path: "/images/thumb/missing.png"
   category: Ground Cover
-- site_id: 62
-  id: 312
-  product_category_id: 6
-  name: Lily "Spider"
-  sizer: '5 gal '
-  price: '18.0'
-  color: White
-  sun: 1
-  water: 0
-  height: 1-3'
-  tolerance: 'Deer Resistant '
-  inventory: 6
-  location: 4
-  note: Perennial, glossy leaves,great fragrance, elegant and unusual-looking spider
-    looking flower, with 2 or 3 blossoms at the top.
-  image_file_name: 52DB4DAC-70D1-458A-970F-072411FF720F.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '121064'
-  created_at: '2017-05-15T10:47:41.000-05:00'
-  updated_at: '2019-02-27T10:41:32.000-06:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '10.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/312/thumb/52DB4DAC-70D1-458A-970F-072411FF720F.jpeg"
-  category: Shrubs
 - site_id: 62
   id: 44
   product_category_id: 6
   name: Liriope "Super Blue"
-  sizer: 1 gal
+  zize: 1 gal
   price: '4.25'
   color: 'Dark Green '
   sun: 3
@@ -2988,21 +2758,21 @@
   id: 246
   product_category_id: 5
   name: Liriope "Variegated"
-  sizer: 1 gal
+  zize: 1 gal
   price: '3.5'
   color: Green Foliage
   sun: 3
   water: 1
   height: 10-11"
   tolerance: Mild Drought
-  inventory: 29
+  inventory: 20
   location: 5
   note: ''
   image_file_name: IMG_2009.JPG
   image_content_type: image/jpeg
   image_file_size: '184471'
   created_at: '2017-03-13T13:51:12.000-05:00'
-  updated_at: '2019-04-30T12:28:02.000-05:00'
+  updated_at: '2019-07-13T12:13:53.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -3012,72 +2782,45 @@
   image_thumb_path: "/system/products/images/000/000/246/thumb/IMG_2009.JPG"
   category: Ground Cover
 - site_id: 62
-  id: 70
+  id: 305
   product_category_id: 2
-  name: Loquat "Japanese"
-  sizer: '3 gal '
-  price: '24.95'
-  color: Green/Yellow Fruit
+  name: 'Loquat "Japanese" '
+  zize: '15 gal '
+  price: '115.0'
+  color: ''
   sun: 3
   water: 0
-  height: '8 - 15'' '
-  tolerance: Tolerating winds, drought and a wide spectrum of soil types
-  inventory: 4
-  location: 18
-  note: ''
-  image_file_name: IMG_1882.JPG
+  height: 8 - 15'
+  tolerance: Tolerates winds, Drought, and wide spectrum of Soil Types
+  inventory: 1
+  location: 15
+  note: Its juicy orange flesh has a delicious tropical flavor-like a sweet, tangy
+    plum and a kumquat all in one.
+  image_file_name: DEAF89C9-E243-44F7-8DE8-31A5C7FAA820.jpeg
   image_content_type: image/jpeg
-  image_file_size: '153868'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-10-30T14:38:06.000-05:00'
+  image_file_size: '137138'
+  created_at: '2017-05-05T13:48:21.000-05:00'
+  updated_at: '2019-10-11T14:59:52.000-05:00'
   inactive: false
   dimensions:
   - 500
-  - 500
+  - 375
   cost: '12.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/070/thumb/IMG_1882.JPG"
+  image_thumb_path: "/system/products/images/000/000/305/thumb/DEAF89C9-E243-44F7-8DE8-31A5C7FAA820.jpeg"
   category: Trees
-- site_id: 62
-  id: 262
-  product_category_id: 6
-  name: Loropetalum "Chinese, Fringe"
-  sizer: 15 gal
-  price: '35.0'
-  color: Reddish pink peddles
-  sun: 0
-  water: 0
-  height: 3 - 6 ft
-  tolerance: Mild Winter
-  inventory: 8
-  location: 6
-  note: 'Evergreen with pink peddles, reddish flowers. Witch hazel family. Bloom in
-    March or April. Low maintenance plant. '
-  image_file_name: 5945E13A-45B5-494A-95C8-103CDA201CB4.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '167563'
-  created_at: '2017-03-20T12:56:52.000-05:00'
-  updated_at: '2019-05-01T13:45:34.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '7.95'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/262/thumb/5945E13A-45B5-494A-95C8-103CDA201CB4.jpeg"
-  category: Shrubs
 - site_id: 62
   id: 92
   product_category_id: 6
   name: Loropetalum "Chinese, Fringe"
-  sizer: 3 gal
-  price: '15.0'
+  zize: 3 gal
+  price: '18.0'
   color: Reddish pink peddles
   sun: 1
   water: 3
   height: 3 - 6 ft
   tolerance: Mild winter
-  inventory: 46
+  inventory: 175
   location: 8
   note: 'Evergreen with pink peddles, reddish flowers. Witch hazel family. Bloom in
     March or April. Low maintenance plant. '
@@ -3085,7 +2828,7 @@
   image_content_type: image/jpeg
   image_file_size: '169903'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-05-03T14:17:42.000-05:00'
+  updated_at: '2019-12-30T10:43:02.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -3095,17 +2838,73 @@
   image_thumb_path: "/system/products/images/000/000/092/thumb/82BC4A47-C677-46D7-A2A3-3959E780005B.jpeg"
   category: Shrubs
 - site_id: 62
+  id: 506
+  product_category_id: 2
+  name: 'Magnolia "Grandiflora, Southern or Bull Bay" '
+  zize: 30 gal
+  price: '500.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: 90'
+  tolerance: Drought tolerant
+  inventory: 3
+  location: 4
+  note: 'Evergreen, large beautiful single trunk tree with huge creamy flowers and
+    shiny dark green leaves with rich brown on the bottom. '
+  image_file_name: 8E8B612F-49FC-4BA4-B87B-AFA4935B8DC5.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '128672'
+  created_at: '2018-05-31T10:38:35.000-05:00'
+  updated_at: '2019-07-16T15:49:44.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '60.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/506/thumb/8E8B612F-49FC-4BA4-B87B-AFA4935B8DC5.jpeg"
+  category: Trees
+- site_id: 62
+  id: 93
+  product_category_id: 2
+  name: Magnolia Tree "D.D. Blanchard"
+  zize: Boxed
+  price: '500.0'
+  color: White Flower
+  sun: 3
+  water: 0
+  height: 25 - 50'
+  tolerance: Tolerates Mild Winter, Deer Resistant
+  inventory: 4
+  location: 13
+  note: 'Evergreen beautiful large tree with large, glossy dark green leaves and a
+    rusty brown looking underside. Large cup like flowers.  '
+  image_file_name: IMG_2796.JPG
+  image_content_type: image/jpeg
+  image_file_size: '175099'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-09-16T09:35:02.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '60.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/093/thumb/IMG_2796.JPG"
+  category: Trees
+- site_id: 62
   id: 377
   product_category_id: 2
   name: Magnolia Tree "DD Blanchard"
-  sizer: '30 gal '
+  zize: '30 gal '
   price: '225.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 4
+  inventory: 1
   location: 16
   note: 'Evergreen beautiful large tree with large, glossy dark green leaves and a
     rusty brown looking underside. Large cup like flowers.  '
@@ -3113,12 +2912,12 @@
   image_content_type: image/jpeg
   image_file_size: '175923'
   created_at: '2017-09-20T14:06:09.000-05:00'
-  updated_at: '2019-03-07T09:58:05.000-06:00'
+  updated_at: '2019-11-01T15:10:38.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '50.0'
+  cost: '60.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/377/thumb/IMG_3620.JPG"
   category: Trees
@@ -3126,7 +2925,7 @@
   id: 348
   product_category_id: 2
   name: Maple "Autumn Blaze"
-  sizer: '30 gal '
+  zize: '30 gal '
   price: '175.0'
   color: ''
   sun: 3
@@ -3148,64 +2947,90 @@
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
 - site_id: 62
+  id: 399
+  product_category_id: 2
+  name: Maple “Emperor Acer Palmatum"
+  zize: 45 gal
+  price: '325.0'
+  color: Purple Leaves
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 2
+  location: 9
+  note: ''
+  image_file_name: 8C4B2940-62B9-4B21-B4F6-771E53221993.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '163125'
+  created_at: '2017-10-19T13:13:22.000-05:00'
+  updated_at: '2019-06-24T00:17:03.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '25.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/399/thumb/8C4B2940-62B9-4B21-B4F6-771E53221993.jpeg"
+  category: Trees
+- site_id: 62
+  id: 490
+  product_category_id: 2
+  name: Mimosa Silk "Persian Silk Tree"
+  zize: 20 gal
+  price: '100.0'
+  color: ''
+  sun: 0
+  water: 0
+  height: ''
+  tolerance: Cold, Attract Hummingbirds, butterflies, deer, birds and bees
+  inventory: 12
+  location: 12
+  note: 'Feathery blooms beautifully and smells '
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-05-17T15:49:24.000-05:00'
+  updated_at: '2019-07-22T11:11:13.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '45.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Trees
+- site_id: 62
   id: 267
   product_category_id: 2
   name: Mountain Laurel
-  sizer: 30 Gal
+  zize: 30 Gal
   price: '275.0'
   color: Violet-blue
   sun: 3
   water: 1
   height: 10 - 15 ft, 8 to 10 wide
   tolerance: " Bird Friendly, Low Maintenance, Disease Resistance"
-  inventory: 23
+  inventory: 8
   location: 16
   note: Ask for pricing.  Evergreen, multi-stemmed slow growing shrub or tree with
     a beautiful violet-blue flower.
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-03-25T11:57:08.000-05:00'
-  updated_at: '2019-04-25T11:35:53.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '125.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Trees
-- site_id: 62
-  id: 228
-  product_category_id: 2
-  name: Mountain Laurel
-  sizer: b&b
-  price: '1500.0'
-  color: Violet-blue
-  sun: 3
-  water: 1
-  height: 10 - 15 ft, 8 to 10 wide
-  tolerance: " Bird Friendly, Low Maintenance, Disease Resistance"
-  inventory: 1
-  location: 20
-  note: Evergreen, multi-stemmed slow growing shrub or tree with a beautiful violet-blue
-    flower.
-  image_file_name: IMG_1854.JPG
+  image_file_name: 19A8DBBD-1CF8-48EE-AF06-6919AAB42813.jpeg
   image_content_type: image/jpeg
-  image_file_size: '176306'
-  created_at: '2017-02-28T10:13:18.000-06:00'
-  updated_at: '2018-07-11T09:18:00.000-05:00'
+  image_file_size: '182997'
+  created_at: '2017-03-25T11:57:08.000-05:00'
+  updated_at: '2020-01-03T09:57:53.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '110.0'
+  cost: '125.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/228/thumb/IMG_1854.JPG"
+  image_thumb_path: "/system/products/images/000/000/267/thumb/19A8DBBD-1CF8-48EE-AF06-6919AAB42813.jpeg"
   category: Trees
 - site_id: 62
   id: 103
   product_category_id: 2
   name: Myrtle  "Regular Waxleaf"
-  sizer: 30 gal
+  zize: 30 gal
   price: '45.0'
   color: Green
   sun: 1
@@ -3219,10 +3044,10 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-01-17T14:44:49.000-06:00'
+  updated_at: '2019-07-10T08:35:16.000-05:00'
   inactive: false
   dimensions: 
-  cost: '0.0'
+  cost: '20.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
@@ -3230,35 +3055,35 @@
   id: 102
   product_category_id: 2
   name: Myrtle "Regular Waxleaf"
-  sizer: 15 gal
+  zize: 10 gal
   price: '30.0'
   color: ''
   sun: 3
   water: 0
   height: 15W x 20ft
   tolerance: Heat, Drought, Deer Resistant
-  inventory: 10
+  inventory: 9
   location: 20
   note: 'Shiny, green, dense foliage and extremely rapid growth. Extremely hardy,
     grow as tree or hedge. Maturity width is 6 - 10 ft. '
-  image_file_name: 9823221E-3BC2-49C6-AFD5-204060E5611F.jpeg
+  image_file_name: 677AFABD-895C-4EE7-AE5F-528E8A39A081.jpeg
   image_content_type: image/jpeg
-  image_file_size: '177538'
+  image_file_size: '172905'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-03-25T11:31:34.000-05:00'
+  updated_at: '2019-11-22T11:58:49.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '6.5'
+  cost: '34.9'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/102/thumb/9823221E-3BC2-49C6-AFD5-204060E5611F.jpeg"
+  image_thumb_path: "/system/products/images/000/000/102/thumb/677AFABD-895C-4EE7-AE5F-528E8A39A081.jpeg"
   category: Trees
 - site_id: 62
   id: 237
   product_category_id: 6
   name: Myrtle "Regular WaxLeaf"
-  sizer: 3 gal
+  zize: 3 gal
   price: '8.0'
   color: Green
   sun: 3
@@ -3273,34 +3098,89 @@
   image_content_type: image/jpeg
   image_file_size: '157216'
   created_at: '2017-03-03T14:41:09.000-06:00'
-  updated_at: '2019-03-25T11:22:41.000-05:00'
+  updated_at: '2019-07-10T08:35:40.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '4.75'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/237/thumb/441009D8-1B75-4A31-AEA1-8CAD974F11F1.jpeg"
   category: Shrubs
 - site_id: 62
+  id: 118
+  product_category_id: 6
+  name: Nandina  "Firepower"
+  zize: 3 gal
+  price: '12.5'
+  color: ''
+  sun: 1
+  water: 3
+  height: ''
+  tolerance: ''
+  inventory: 8
+  location: 20
+  note: Hardy, Dramatic Foliage, Everygreen
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-06T10:19:26.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '6.75'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Shrubs
+- site_id: 62
+  id: 398
+  product_category_id: 5
+  name: Nandina "Compacta"
+  zize: 3 gal
+  price: '14.0'
+  color: Red spring /Green summer/Red bronze in fall
+  sun: 3
+  water: 0
+  height: 4'
+  tolerance: 'Poor soil condition and quality, as long as it’s given adequate drainage
+    and not sand; highly pest and disease resistant. '
+  inventory: 7
+  location: 16
+  note: 'Semi-evergreen plant with distinctive compound leaves with several leaflets
+    that grow out on non-branching stems. In spring new foliage is light red tint,
+    turning green in the summer before turning red to red-bronze in the fall and winter. '
+  image_file_name: 6FC0C76B-0811-4C81-8831-0ADDBCEFFAA7.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '164736'
+  created_at: '2017-10-19T12:55:13.000-05:00'
+  updated_at: '2019-07-06T10:14:13.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 666
+  cost: '7.95'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/398/thumb/6FC0C76B-0811-4C81-8831-0ADDBCEFFAA7.jpeg"
+  category: Ground Cover
+- site_id: 62
   id: 338
   product_category_id: 6
   name: 'Nandina "Firepower" '
-  sizer: 20 gal
+  zize: 20 gal
   price: '60.0'
   color: Red/green
   sun: 3
   water: 1
   height: 30'
   tolerance: Bird Friendly, Easy Care
-  inventory: 2
+  inventory: 3
   location: 1
   note: 'Evergreen, bright red w/green foliage, great for borders.  '
   image_file_name: B630FAFA-FF15-450D-8D90-BB0A008BE04B.jpeg
   image_content_type: image/jpeg
   image_file_size: '194541'
   created_at: '2017-06-17T19:07:50.000-05:00'
-  updated_at: '2019-02-23T09:49:05.000-06:00'
+  updated_at: '2019-06-24T00:10:31.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -3310,71 +3190,123 @@
   image_thumb_path: "/system/products/images/000/000/338/thumb/B630FAFA-FF15-450D-8D90-BB0A008BE04B.jpeg"
   category: Shrubs
 - site_id: 62
-  id: 118
+  id: 419
   product_category_id: 6
-  name: Nandina - "Firepower"
-  sizer: 3 gal
-  price: '10.5'
-  color: ''
-  sun: 1
-  water: 3
+  name: Nandina "Firepower"
+  zize: 15 gal
+  price: '40.0'
+  color: 'Orange '
+  sun: 3
+  water: 0
   height: ''
   tolerance: ''
-  inventory: 13
-  location: 20
-  note: Hardy, Dramatic Foliage, Everygreen
+  inventory: 12
+  location: 17
+  note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-22T14:50:15.000-05:00'
+  created_at: '2017-11-21T13:00:52.000-06:00'
+  updated_at: '2019-06-23T14:25:31.000-05:00'
   inactive: false
   dimensions: 
-  cost: '0.0'
+  cost: '10.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Shrubs
 - site_id: 62
-  id: 345
-  product_category_id: 2
-  name: Oak "Chinquapin"
-  sizer: 30 gal
-  price: '185.0'
-  color: ''
-  sun: 3
-  water: 0
-  height: 30 - 50'
-  tolerance: Drought, Sun
-  inventory: 2
-  location: 16
-  note: '1.5-2" Caliper Moderately to rapidly growing medium to large, deciduous shade
-    tree. Produces acorns, and leaves are 4”-6” long with saw tooth edges resembling
-    chestnut leaves. '
-  image_file_name: IMG_3514.JPG
+  id: 117
+  product_category_id: 6
+  name: Nandina "Nana"
+  zize: 3 gal
+  price: '13.0'
+  color: Rusty color
+  sun: 0
+  water: 1
+  height: 6 - 8 ft
+  tolerance: 'Drought '
+  inventory: 6
+  location: 18
+  note: 'Nandina is an evergreen shrub with stalks and leaves that resemble bamboo
+    canes. '
+  image_file_name: 42C18BAA-2511-4464-9DBC-9F38B8B4009D.jpeg
   image_content_type: image/jpeg
-  image_file_size: '130474'
-  created_at: '2017-06-28T09:16:45.000-05:00'
-  updated_at: '2018-06-27T20:50:41.000-05:00'
+  image_file_size: '148357'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-06T10:15:16.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '50.0'
+  cost: '8.95'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/345/thumb/IMG_3514.JPG"
+  image_thumb_path: "/system/products/images/000/000/117/thumb/42C18BAA-2511-4464-9DBC-9F38B8B4009D.jpeg"
+  category: Shrubs
+- site_id: 62
+  id: 507
+  product_category_id: 2
+  name: Oak "Bur, Quercus Macrocarpa"
+  zize: 30 gal
+  price: '255.0'
+  color: Green
+  sun: 0
+  water: 0
+  height: '100'
+  tolerance: Drought, Sun
+  inventory: 1
+  location: 18
+  note: 2 1/2" to 3" Caliper. Ornamental tree and is one of the most tolerant white
+    oaks. Sometimes spelled Burr Oak, also called Mossycup Oak.
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-06-06T14:16:51.000-05:00'
+  updated_at: '2019-06-23T15:14:10.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '25.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Trees
+- site_id: 62
+  id: 511
+  product_category_id: 2
+  name: Oak "Bur, Quercus Macrocarpa"
+  zize: 20 gal
+  price: '150.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: 100' x 100'
+  tolerance: ''
+  inventory: 13
+  location: 7
+  note: 'Deciduous, perennial large, deciduous tree with a very wide, open crown wider
+    than tall with massive trunk supports heavy, horizontal limbs and rough, deep-ridged
+    bark. '
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-06-12T13:03:14.000-05:00'
+  updated_at: '2019-06-23T15:13:10.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '25.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
   category: Trees
 - site_id: 62
   id: 375
   product_category_id: 2
-  name: Oak "Chinquapin"
-  sizer: 45 gal
+  name: Oak "Chinquapin or Chinkapin"
+  zize: 45 gal
   price: '325.0'
   color: 'Reddish / Green '
   sun: 3
   water: 0
   height: 30 - 50'
   tolerance: Drought, Sun
-  inventory: 1
+  inventory: 10
   location: 17
   note: '2-2" Caliper Moderately to rapidly growing medium to large, deciduous shade
     tree. Produces acorns, and leaves are 4”-6” long with saw tooth edges resembling
@@ -3383,7 +3315,7 @@
   image_content_type: image/jpeg
   image_file_size: '188842'
   created_at: '2017-09-19T15:28:03.000-05:00'
-  updated_at: '2018-06-27T20:51:21.000-05:00'
+  updated_at: '2019-06-23T15:38:46.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -3393,25 +3325,106 @@
   image_thumb_path: "/system/products/images/000/000/375/thumb/IMG_3553.JPG"
   category: Trees
 - site_id: 62
-  id: 121
+  id: 510
+  product_category_id: 2
+  name: Oak "Chinquapin or Chinkapin"
+  zize: 20 gal
+  price: '150.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 13
+  location: 7
+  note: Deciduous 1/2"  - 1" girth
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-06-12T12:52:02.000-05:00'
+  updated_at: '2019-08-27T12:23:56.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '35.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Trees
+- site_id: 62
+  id: 336
   product_category_id: 2
   name: Oak "Live"
-  sizer: 30 gal
-  price: '225.0'
+  zize: B&B
+  price: '5000.0'
   color: Yellow with brown spot leaves
   sun: 3
   water: 0
   height: 50 x 80'
   tolerance: 'Attracts Spanish Moss, Drought, Tolerates alkaline soil '
-  inventory: 4
+  inventory: 1
+  location: 10
+  note: 7"  Caliper. Deciduous, large spreading tree with reclining branches with
+    yellow brown wood and small acrons. Grows about 3 ft per year.
+  image_file_name: 4788C3E3-48DC-4F18-A785-61DCF7A456BD.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '175586'
+  created_at: '2017-06-13T14:55:35.000-05:00'
+  updated_at: '2019-06-23T15:17:06.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '60.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/336/thumb/4788C3E3-48DC-4F18-A785-61DCF7A456BD.jpeg"
+  category: Trees
+- site_id: 62
+  id: 120
+  product_category_id: 2
+  name: Oak "Live"
+  zize: '20 gal '
+  price: '125.0'
+  color: Yellow with brown spot leaves
+  sun: 3
+  water: 0
+  height: 50 x 80'
+  tolerance: 'Attracts Spanish Moss, Drought, Tolerates alkaline soil '
+  inventory: 39
+  location: 11
+  note: 1.5" to 2" Caliper.  Deciduous, large spreading tree with reclining branches
+    with yellow brown wood and small acrons. Grows about 3 ft per year.
+  image_file_name: 6CA5473D-73DA-4011-AF12-7CA6C836AF05.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '175503'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-12-30T09:38:32.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '35.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/120/thumb/6CA5473D-73DA-4011-AF12-7CA6C836AF05.jpeg"
+  category: Trees
+- site_id: 62
+  id: 121
+  product_category_id: 2
+  name: Oak "Live"
+  zize: 30 gal
+  price: '285.0'
+  color: Yellow with brown spot leaves
+  sun: 3
+  water: 0
+  height: 50 x 80'
+  tolerance: 'Attracts Spanish Moss, Drought, Tolerates alkaline soil '
+  inventory: 30
   location: 1
-  note: 2.0" to 3" Caliper.  Deciduous, large spreading tree with reclining branches
+  note: 2.0" to 3 1/2" Caliper.  Deciduous, large spreading tree with reclining branches
     with yellow brown wood and small acrons. Grows about 3 ft per year.
   image_file_name: IMG_2063.JPG
   image_content_type: image/jpeg
   image_file_size: '160953'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-02-13T10:59:24.000-06:00'
+  updated_at: '2019-12-13T14:28:58.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -3421,56 +3434,28 @@
   image_thumb_path: "/system/products/images/000/000/121/thumb/IMG_2063.JPG"
   category: Trees
 - site_id: 62
-  id: 123
+  id: 122
   product_category_id: 2
   name: Oak "Live"
-  sizer: 65 gal
-  price: '500.0'
-  color: Yellow brown leaves
-  sun: 3
-  water: 0
-  height: 40 - 80 ft
-  tolerance: Drought, Sun, Strong winds
-  inventory: 3
-  location: 16
-  note: '4" to 5" Caliper. Spacing should be 25 - 40 ft.  Very strong and fast growing,
-    prone to get ball moss. '
-  image_file_name: IMG_2059.JPG
-  image_content_type: image/jpeg
-  image_file_size: '182670'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-03-28T20:41:29.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '50.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/123/thumb/IMG_2059.JPG"
-  category: Trees
-- site_id: 62
-  id: 458
-  product_category_id: 2
-  name: Oak "Live"
-  sizer: 15 gal
-  price: '110.0'
-  color: Yellow with brown spots
+  zize: 45 gal
+  price: '400.0'
+  color: Yellow with brown spot leaves
   sun: 3
   water: 0
   height: 50 x 80'
   tolerance: 'Attracts Spanish Moss, Drought, Tolerates alkaline soil '
-  inventory: 45
-  location: 11
-  note: Evergreen deciduous, large spreading tree with reclining branches with yellow
-    brown wood and small acrons. Grows about 3 ft per year.
+  inventory: 1
+  location: 4
+  note: 2.5" 3.75" Caliper.  Deciduous, large spreading tree with reclining branches
+    with yellow brown wood and small acrons. Grows about 3 ft per year.
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2018-03-28T20:53:12.000-05:00'
-  updated_at: '2019-03-05T12:40:57.000-06:00'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-06-23T15:17:06.000-05:00'
   inactive: false
   dimensions: 
-  cost: '12.5'
+  cost: '50.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
@@ -3478,14 +3463,14 @@
   id: 125
   product_category_id: 2
   name: Oak "Monterrey, Quercus Polymorpha"
-  sizer: 30 gal
+  zize: 30 gal
   price: '150.0'
   color: Green Leaves
   sun: 3
   water: 0
   height: 100 ft
   tolerance: Oak Wilt, Drought, Sun, Diseases
-  inventory: 137
+  inventory: 54
   location: 7
   note: 'Note : This are the 1 1/2 " not exceeding 2" caliper.  Less susceptible to
     oak wilt. Looses it''s leaves in the winter.  Slow growing, 10 -15 ft in a span
@@ -3494,7 +3479,7 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-03-22T09:16:57.000-05:00'
+  updated_at: '2019-12-20T12:59:29.000-06:00'
   inactive: false
   dimensions: 
   cost: '35.0'
@@ -3505,14 +3490,14 @@
   id: 126
   product_category_id: 2
   name: Oak "Monterrey, Quercus Polymorpha"
-  sizer: 15 gal
-  price: '110.0'
+  zize: 20 gal
+  price: '99.0'
   color: Green
   sun: 3
   water: 0
   height: 40 - 50 ft
   tolerance: Drought Tolerant, Sun
-  inventory: 59
+  inventory: 41
   location: 17
   note: Medium sized semi-evergreen tree with a rounded canopy. Drop leaves in spring,
     less susceptible to oak wilt. New growth is a peach to red color. Also call The
@@ -3521,7 +3506,7 @@
   image_content_type: image/jpeg
   image_file_size: '170856'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-19T10:25:10.000-05:00'
+  updated_at: '2019-12-12T12:21:42.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -3534,62 +3519,34 @@
   id: 128
   product_category_id: 2
   name: Oak "Monterrey, Quercus Polymorpha"
-  sizer: 45 gal
-  price: '325.0'
+  zize: Boxed
+  price: '225.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 3
+  inventory: 5
   location: 19
   note: ''
   image_file_name: IMG_3615.JPG
   image_content_type: image/jpeg
   image_file_size: '168885'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-01-21T14:49:54.000-06:00'
+  updated_at: '2019-10-22T15:41:42.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '130.0'
+  cost: '50.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/128/thumb/IMG_3615.JPG"
-  category: Trees
-- site_id: 62
-  id: 129
-  product_category_id: 2
-  name: Oak "Monterrey, Quercus Polymorpha"
-  sizer: 65 gal
-  price: '480.0'
-  color: Rich green foliage
-  sun: 3
-  water: 0
-  height: 45 x 35 ft
-  tolerance: 'Drought, Resistant to Oak Wilt, '
-  inventory: 8
-  location: 14
-  note: 4 - 5" Caliper semi-evergreen, deciduous drops some leaves in spring. Best
-    shade tree. Average growth rate is 2.5 ft per year.
-  image_file_name: C1A1A5E8-8948-4635-9A3D-8BA7668C1B71.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '154705'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-03-29T12:38:55.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '35.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/129/thumb/C1A1A5E8-8948-4635-9A3D-8BA7668C1B71.jpeg"
   category: Trees
 - site_id: 62
   id: 130
   product_category_id: 2
   name: Oak "Nuttall"
-  sizer: 30 gal
+  zize: 30 gal
   price: '225.0'
   color: ''
   sun: 3
@@ -3614,7 +3571,7 @@
   id: 131
   product_category_id: 2
   name: Oak "Nuttall"
-  sizer: 45 gal
+  zize: 45 gal
   price: '300.0'
   color: ''
   sun: 3
@@ -3639,21 +3596,21 @@
   id: 319
   product_category_id: 2
   name: Oak "Red"
-  sizer: 45 gal
+  zize: 45 gal
   price: '285.0'
   color: ''
   sun: 0
   water: 0
   height: ''
   tolerance: ''
-  inventory: 2
+  inventory: 1
   location: 9
   note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-05-23T14:26:51.000-05:00'
-  updated_at: '2018-03-27T14:32:31.000-05:00'
+  updated_at: '2019-06-23T15:45:32.000-05:00'
   inactive: false
   dimensions: 
   cost: '129.5'
@@ -3664,74 +3621,48 @@
   id: 337
   product_category_id: 2
   name: Oak "Red"
-  sizer: 20 gal
+  zize: 20 gal
   price: '125.0'
   color: Green
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 9
+  inventory: 55
   location: 14
   note: ''
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-06-17T18:54:02.000-05:00'
-  updated_at: '2018-11-03T10:05:09.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '25.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Trees
-- site_id: 62
-  id: 132
-  product_category_id: 2
-  name: Oak "Red"
-  sizer: 15 gal
-  price: '65.0'
-  color: Red
-  sun: 3
-  water: 0
-  height: '60 x 45'' '
-  tolerance: Not deer resistant, Sun
-  inventory: 90
-  location: 19
-  note: '.5" Caliper. medium-sized, straight-trunked oak with deep root system, fast
-    growing, summer shade and reliable red fall color.  '
-  image_file_name: IMG_2189.JPG
+  image_file_name: 131A3C8E-2D9B-4604-83A6-14D08057FDD2.jpeg
   image_content_type: image/jpeg
-  image_file_size: '152044'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-03-28T21:22:05.000-05:00'
+  image_file_size: '172791'
+  created_at: '2017-06-17T18:54:02.000-05:00'
+  updated_at: '2019-12-17T13:44:34.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '12.5'
+  cost: '25.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/132/thumb/IMG_2189.JPG"
+  image_thumb_path: "/system/products/images/000/000/337/thumb/131A3C8E-2D9B-4604-83A6-14D08057FDD2.jpeg"
   category: Trees
 - site_id: 62
   id: 133
   product_category_id: 2
   name: Oak "Red"
-  sizer: 30 gal
+  zize: 30 gal
   price: '200.0'
   color: ''
   sun: 3
   water: 1
   height: ''
   tolerance: ''
-  inventory: 53
+  inventory: 9
   location: 13
   note: '.1 1/2 to 2" Caliper. '
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-12T15:26:11.000-05:00'
+  updated_at: '2019-06-23T15:45:33.000-05:00'
   inactive: false
   dimensions: 
   cost: '67.5'
@@ -3742,7 +3673,7 @@
   id: 134
   product_category_id: 2
   name: Oak "Shumard, Quercus Shumardii"
-  sizer: 45 gal
+  zize: 45 gal
   price: '300.0'
   color: Green/Scarlet
   sun: 3
@@ -3750,7 +3681,7 @@
   height: '100'' H x 70'' W '
   tolerance: " Attract Deer, Turkeys, Squirrels, Drought Tolerant, susceptible Oak
     Wilt disease"
-  inventory: 10
+  inventory: 1
   location: 4
   note: 'Moderate growing, fall color can vary from red to yellow or just brown, single
     trunk with an open canopy and stout spreading branches and leaves are a rich green. '
@@ -3758,7 +3689,7 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-06-09T12:59:11.000-05:00'
+  updated_at: '2019-06-23T23:52:44.000-05:00'
   inactive: false
   dimensions: 
   cost: '129.5'
@@ -3766,28 +3697,27 @@
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
 - site_id: 62
-  id: 485
+  id: 135
   product_category_id: 2
   name: Oak "Shumard, Quercus Shumardii"
-  sizer: '15 gal '
-  price: '125.0'
-  color: Brown or greenish, males in catkins
+  zize: 30 gal
+  price: '295.0'
+  color: ''
   sun: 3
   water: 0
-  height: 120H x 60W'
+  height: ''
   tolerance: ''
-  inventory: 9
-  location: 8
-  note: 'Deciduous fast growing large tree with acorns and rich leaves that turns
-    scarlet in the fall with an open canopy. '
+  inventory: 3
+  location: 18
+  note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2018-05-05T12:44:10.000-05:00'
-  updated_at: '2019-04-16T11:29:35.000-05:00'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-06-23T15:58:52.000-05:00'
   inactive: false
   dimensions: 
-  cost: '25.0'
+  cost: '30.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Trees
@@ -3795,7 +3725,7 @@
   id: 508
   product_category_id: 2
   name: Oak "Shumard, Quercus Shumardii"
-  sizer: 15 gal
+  zize: 15 gal
   price: '150.0'
   color: 'Green/Scarlet '
   sun: 3
@@ -3803,15 +3733,15 @@
   height: '100'' H x 70'' W '
   tolerance: " Attract Deer, Turkeys, Squirrels, Drought Tolerant, susceptible Oak
     Wilt disease"
-  inventory: 14
+  inventory: 21
   location: 11
   note: 'Moderate growing, fall color can vary from red to yellow or just brown, single
     trunk with an open canopy and stout spreading branches and leaves are a rich green. '
-  image_file_name: 03968B6D-2F70-4384-996B-5B0605037EC9.jpeg
+  image_file_name: '03968B6D-2F70-4384-996B-5B0605037EC9.jpeg'
   image_content_type: image/jpeg
   image_file_size: '151527'
   created_at: '2018-06-09T12:20:12.000-05:00'
-  updated_at: '2018-08-29T11:37:09.000-05:00'
+  updated_at: '2019-09-19T13:27:34.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -3824,7 +3754,7 @@
   id: 136
   product_category_id: 6
   name: Oleander, "Red, Pink or White, Yellow"
-  sizer: 15 gal
+  zize: 15 gal
   price: '24.95'
   color: Red, White, Yellow, Pink
   sun: 3
@@ -3839,7 +3769,7 @@
   image_content_type: image/jpeg
   image_file_size: '90507'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-06-07T13:57:15.000-05:00'
+  updated_at: '2019-09-16T10:03:26.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -3849,50 +3779,80 @@
   image_thumb_path: "/system/products/images/000/000/136/thumb/IMG_2272.JPG"
   category: Shrubs
 - site_id: 62
-  id: 457
-  product_category_id: 6
-  name: Oleander, "Red, Pink, Yellow or White"
-  sizer: 5 gal
-  price: '18.0'
-  color: Red, White, Yellow, Pink
+  id: 526
+  product_category_id: 2
+  name: Olive  "Arbequina"
+  zize: 15 gal
+  price: '150.0'
+  color: Green
   sun: 3
   water: 0
-  height: 6-15'
-  tolerance: Cold Tolerant, Salt Tolerance High, Deer Resistant, Drought
-  inventory: 8
-  location: 2
-  note: 'Perennial evergreen tree or shrub. Green foliage red, white, pink, or yellow
-    flowers with moderate amount of conspicuous brown seeds. '
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2018-03-28T16:49:02.000-05:00'
-  updated_at: '2019-04-08T13:22:08.000-05:00'
+  height: 10'W x 20'T
+  tolerance: Drought Tolerant, Sun, Frosts, Adapts to Diverse Climate & Soil
+  inventory: 2
+  location: 13
+  note: 'Evergreen weeping-shaped  tree with shiny dark green leaves.  Produces a
+    soft Spanish oil and a small rounded top fruit.  Used for pickling or oil production.   '
+  image_file_name: E57292E0-4EFB-472B-811E-C11105CE17B6.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '155850'
+  created_at: '2019-06-24T10:14:56.000-05:00'
+  updated_at: '2019-09-19T12:07:10.000-05:00'
   inactive: false
-  dimensions: 
-  cost: '6.5'
+  dimensions:
+  - 500
+  - 500
+  cost: '20.0'
   markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
+  image_thumb_path: "/system/products/images/000/000/526/thumb/E57292E0-4EFB-472B-811E-C11105CE17B6.jpeg"
+  category: Trees
+- site_id: 62
+  id: 528
+  product_category_id: 2
+  name: Olive "Arbequina"
+  zize: 3 gal
+  price: '75.0'
+  color: Green
+  sun: 3
+  water: 0
+  height: 10'W x 20'T
+  tolerance: Drought Tolerant, Sun, Frosts, Adapts to Diverse Climate & Soil
+  inventory: 8
+  location: 4
+  note: 'Evergreen weeping-shaped  tree with shiny dark green leaves.  Produces a
+    soft Spanish oil and a small rounded top fruit.   Used for pickling or oil production. '
+  image_file_name: 929B4156-2697-4691-B95D-D07A3FAC3C21.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '138946'
+  created_at: '2019-07-06T09:17:37.000-05:00'
+  updated_at: '2019-09-19T12:07:10.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '20.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/528/thumb/929B4156-2697-4691-B95D-D07A3FAC3C21.jpeg"
+  category: Trees
 - site_id: 62
   id: 397
   product_category_id: 6
   name: Olive "Sweet"
-  sizer: 5 gal
+  zize: 5 gal
   price: '15.0'
   color: White Flower
-  sun: 3
+  sun: 1
   water: 0
-  height: ''
-  tolerance: ''
-  inventory: 81
+  height: 15-20H x 10-15W
+  tolerance: Extremely hardy, 10 degree
+  inventory: 67
   location: 15
-  note: ''
+  note: Evergreen Shrub with sweet smelling blooms in winter
   image_file_name: IMG_3682.JPG
   image_content_type: image/jpeg
   image_file_size: '177596'
   created_at: '2017-10-19T12:26:34.000-05:00'
-  updated_at: '2018-04-07T11:33:23.000-05:00'
+  updated_at: '2020-01-04T10:17:11.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -3902,49 +3862,131 @@
   image_thumb_path: "/system/products/images/000/000/397/thumb/IMG_3682.JPG"
   category: Shrubs
 - site_id: 62
-  id: 306
-  product_category_id: 5
-  name: 'Oregano "Mexican" '
-  sizer: 1 gal
-  price: '4.25'
+  id: 28
+  product_category_id: 2
+  name: Orange "Mandarin, Okitsu Satsuma"
+  zize: Boxed
+  price: '90.0'
   color: ''
-  sun: 0
+  sun: 1
+  water: 1
+  height: ''
+  tolerance: ''
+  inventory: 3
+  location: 9
+  note: ''
+  image_file_name: IMG_1841.JPG
+  image_content_type: image/jpeg
+  image_file_size: '130909'
+  created_at: '2017-01-31T10:36:45.000-06:00'
+  updated_at: '2019-06-23T14:46:20.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '40.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/028/thumb/IMG_1841.JPG"
+  category: Trees
+- site_id: 62
+  id: 264
+  product_category_id: 1
+  name: 'Palm "Mediterranean Fan" '
+  zize: B&B
+  price: '1000.0'
+  color: Green
+  sun: 3
+  water: 0
+  height: '10'' W x 15'' T ft '
+  tolerance: Heat, Drought
+  inventory: 2
+  location: 9
+  note: 'Tropical, evergreen palm, has 1 up to 4 unique multi-trunk vertical growth,
+    fan-shaped fronds. Water weekly, or more often in extreme heat or if in containers. '
+  image_file_name: DCA32173-F979-4772-BBE0-3217E9A5E026.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '136945'
+  created_at: '2017-03-23T15:26:37.000-05:00'
+  updated_at: '2019-11-23T10:51:21.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 375
+  cost: '200.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/264/thumb/DCA32173-F979-4772-BBE0-3217E9A5E026.jpeg"
+  category: Palms
+- site_id: 62
+  id: 242
+  product_category_id: 1
+  name: Palm "Mediterranean Fan"
+  zize: 20 gal
+  price: '150.0'
+  color: ''
+  sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 27
-  location: 15
-  note: 'Perennial,  flower has five petals and forms a funnel-shaped tube. '
+  inventory: 10
+  location: 2
+  note: 'Smaller growing Mediterranean '
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2017-05-10T16:09:18.000-05:00'
-  updated_at: '2018-07-25T11:50:52.000-05:00'
+  created_at: '2017-03-08T13:10:37.000-06:00'
+  updated_at: '2019-07-09T08:54:39.000-05:00'
   inactive: false
   dimensions: 
-  cost: '3.75'
+  cost: '55.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
-  category: Ground Cover
+  category: Palms
+- site_id: 62
+  id: 146
+  product_category_id: 1
+  name: Palm "Pindo"
+  zize: B&B
+  price: '1000.0'
+  color: Blue-green crown
+  sun: 3
+  water: 0
+  height: 30 - 50 ft
+  tolerance: Drought, Sun
+  inventory: 7
+  location: 7
+  note: ''
+  image_file_name: 4C244292-B50B-497B-86D3-DFD97F5EC42F.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '190227'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-12-28T09:40:08.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '140.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/146/thumb/4C244292-B50B-497B-86D3-DFD97F5EC42F.jpeg"
+  category: Palms
 - site_id: 62
   id: 299
   product_category_id: 1
   name: Palm "Sago"
-  sizer: 47 gal
+  zize: 45 gal
   price: '400.0'
   color: Green
   sun: 3
   water: 0
   height: 12'
   tolerance: Heat,Sun
-  inventory: 5
+  inventory: 3
   location: 12
   note: ''
   image_file_name: IMG_2454.JPG
   image_content_type: image/jpeg
   image_file_size: '163116'
   created_at: '2017-04-27T13:09:18.000-05:00'
-  updated_at: '2017-09-20T11:15:55.000-05:00'
+  updated_at: '2019-06-23T23:41:20.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -3954,10 +3996,66 @@
   image_thumb_path: "/system/products/images/000/000/299/thumb/IMG_2454.JPG"
   category: Palms
 - site_id: 62
+  id: 149
+  product_category_id: 1
+  name: Palm "Sago"
+  zize: 30 gal
+  price: '275.0'
+  color: Green
+  sun: 3
+  water: 0
+  height: 10 ft
+  tolerance: Drought, Sun
+  inventory: 5
+  location: 9
+  note: 'Slow growing evergreen plant, stout trunk and long leaves often used as a
+    tropical accent. '
+  image_file_name: IMG_1930.JPG
+  image_content_type: image/jpeg
+  image_file_size: '160404'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-06-23T23:43:55.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '50.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/149/thumb/IMG_1930.JPG"
+  category: Palms
+- site_id: 62
+  id: 150
+  product_category_id: 1
+  name: Palm "Sago"
+  zize: 1gal
+  price: '75.0'
+  color: Green
+  sun: 3
+  water: 1
+  height: '10 ft '
+  tolerance: Drought, Sun
+  inventory: 18
+  location: 4
+  note: 'Slow growing evergreen plant, stout trunk and long leaves often used as a
+    tropical accent. '
+  image_file_name: EDC60CCE-BDA8-4770-BB7D-A5659E61EEEA.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '161439'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-09-21T08:26:52.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '15.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/150/thumb/EDC60CCE-BDA8-4770-BB7D-A5659E61EEEA.jpeg"
+  category: Palms
+- site_id: 62
   id: 153
   product_category_id: 1
   name: Palm "Sago"
-  sizer: Large
+  zize: Large
   price: '350.0'
   color: Green
   sun: 3
@@ -3972,12 +4070,12 @@
   image_content_type: image/jpeg
   image_file_size: '167690'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-19T09:22:17.000-05:00'
+  updated_at: '2019-07-10T08:38:57.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '75.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/153/thumb/IMG_1850.JPG"
   category: Palms
@@ -3985,7 +4083,7 @@
   id: 236
   product_category_id: 1
   name: Palm "Sago"
-  sizer: '62 gal '
+  zize: '62 gal '
   price: '500.0'
   color: ''
   sun: 0
@@ -4010,45 +4108,45 @@
   image_thumb_path: "/system/products/images/000/000/236/thumb/IMG_1904.JPG"
   category: Palms
 - site_id: 62
-  id: 384
+  id: 155
   product_category_id: 1
-  name: Palm "Texas Sabal, Fan"
-  sizer: 20 gal
-  price: '150.0'
-  color: Green
+  name: Palm "Texas Sabal"
+  zize: XLarge
+  price: '500.0'
+  color: Blue-green fan-shaped Leaves
   sun: 3
   water: 0
-  height: 20-50'
-  tolerance: Cold tolerant, Drought, Poorly Drained Sites, Salty soil, Alkaline soils
-    (pH > 7.5)
-  inventory: 12
+  height: 36 - 50 ft
+  tolerance: Drought, Winter-hardy
+  inventory: 5
   location: 7
-  note: Start-up, evergreen, slow growing
-  image_file_name: IMG_3626.JPG
+  note: 'Perennial Evergreen. Bloom time is March, April and May. Sold at 100 per
+    feet. '
+  image_file_name: IMG_2068.JPG
   image_content_type: image/jpeg
-  image_file_size: '189896'
-  created_at: '2017-10-06T11:36:44.000-05:00'
-  updated_at: '2018-08-29T13:05:45.000-05:00'
+  image_file_size: '157521'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-12-28T09:40:08.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '10.0'
+  cost: '150.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/384/thumb/IMG_3626.JPG"
+  image_thumb_path: "/system/products/images/000/000/155/thumb/IMG_2068.JPG"
   category: Palms
 - site_id: 62
   id: 475
   product_category_id: 1
   name: Palm "Washington, Mexican Fan"
-  sizer: 15 gal
+  zize: 15 gal
   price: '40.0'
   color: ''
   sun: 3
   water: 1
   height: 100' x 30'
   tolerance: Cold
-  inventory: 5
+  inventory: 7
   location: 2
   note: 'Palm has rounded canopy, attractive texture and is a fast grower up to 5
     feet of year. '
@@ -4056,7 +4154,7 @@
   image_content_type: image/jpeg
   image_file_size: '179564'
   created_at: '2018-04-24T08:57:46.000-05:00'
-  updated_at: '2019-04-03T10:52:36.000-05:00'
+  updated_at: '2019-06-23T15:54:30.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4066,49 +4164,154 @@
   image_thumb_path: "/system/products/images/000/000/475/thumb/DA3B8B2C-F9B5-45C6-A751-8585D065632D.jpeg"
   category: Palms
 - site_id: 62
+  id: 297
+  product_category_id: 1
+  name: Palm "Windmill"
+  zize: '20'' '
+  price: '1000.0'
+  color: Green
+  sun: 3
+  water: 0
+  height: 30-50'
+  tolerance: Drought, Heat, Sun, Deer
+  inventory: 1
+  location: 10
+  note: 'Evergreen cold-hardy upright with palm leaves extending up to 3 feet resemble
+    a windmill. '
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-04-26T09:16:01.000-05:00'
+  updated_at: '2019-07-10T08:40:14.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '150.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Palms
+- site_id: 62
+  id: 154
+  product_category_id: 1
+  name: Palm - "Texas Sabal"
+  zize: 30 gal
+  price: '295.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 2
+  location: 4
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-10T08:46:02.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '50.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Palms
+- site_id: 62
   id: 519
   product_category_id: 1
   name: Palm “Mexican Fan”
-  sizer: 20 gal
+  zize: 20 gal
   price: '95.0'
   color: Green
   sun: 3
   water: 0
   height: 70 - 90’ T
   tolerance: Cold, Drought
-  inventory: 10
+  inventory: 8
   location: 12
   note: 'Fast growing, grows with a big canopy. '
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2019-03-29T17:57:27.000-05:00'
-  updated_at: '2019-04-03T10:52:36.000-05:00'
+  updated_at: '2019-09-10T14:12:44.000-05:00'
   inactive: false
   dimensions: 
-  cost: '0.0'
+  cost: '25.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
   category: Palms
 - site_id: 62
+  id: 156
+  product_category_id: 2
+  name: Peach
+  zize: Box
+  price: '125.0'
+  color: ''
+  sun: 3
+  water: 1
+  height: ''
+  tolerance: ''
+  inventory: 1
+  location: 10
+  note: Along back fence
+  image_file_name: IMG_1859.JPG
+  image_content_type: image/jpeg
+  image_file_size: '102964'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-10T08:43:09.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '45.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/156/thumb/IMG_1859.JPG"
+  category: Trees
+- site_id: 62
+  id: 442
+  product_category_id: 2
+  name: 'Pear "Bradford" '
+  zize: 30 gal
+  price: '375.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 8
+  location: 13
+  note: ''
+  image_file_name: 85EFC220-E2C7-4008-BFDB-7D350A84983A.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '183715'
+  created_at: '2017-12-22T16:48:21.000-06:00'
+  updated_at: '2019-11-22T11:43:38.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 666
+  cost: '97.5'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/442/thumb/85EFC220-E2C7-4008-BFDB-7D350A84983A.jpeg"
+  category: Trees
+- site_id: 62
   id: 250
   product_category_id: 4
   name: Petunia "Mexican, Ruellia Brittoniana "
-  sizer: 1 gal
+  zize: 1 gal
   price: '4.5'
   color: Blue or Purple
   sun: 3
   water: 3
   height: 3 ft
   tolerance: Drought, Full Sun
-  inventory: 30
+  inventory: 3
   location: 14
   note: Perennials, fast growing and invasive shrubs.  Prefer wet or marshy soils.
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-03-15T13:13:26.000-05:00'
-  updated_at: '2019-04-29T13:30:29.000-05:00'
+  updated_at: '2019-09-16T09:57:01.000-05:00'
   inactive: false
   dimensions: 
   cost: '2.95'
@@ -4119,14 +4322,14 @@
   id: 467
   product_category_id: 6
   name: 'Philodendron "Split Leaf Regular" '
-  sizer: '3 gal '
+  zize: '3 gal '
   price: '26.0'
   color: Green
   sun: 1
   water: 0
   height: 3' H x 6' W
   tolerance: 'Loose Nutrient Soil, Low levels of  light '
-  inventory: 52
+  inventory: 26
   location: 26
   note: Evergreen, inconspicuous cut leaf, tropical foliage plant for indoors or landscaping
     in a protected area.
@@ -4134,7 +4337,7 @@
   image_content_type: image/jpeg
   image_file_size: '132215'
   created_at: '2018-04-09T10:09:50.000-05:00'
-  updated_at: '2019-04-30T13:48:26.000-05:00'
+  updated_at: '2019-09-10T14:03:17.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4144,24 +4347,52 @@
   image_thumb_path: "/system/products/images/000/000/467/thumb/A0E9E714-C0C0-4F5D-A696-E2BAB9D54946.jpeg"
   category: Shrubs
 - site_id: 62
+  id: 274
+  product_category_id: 6
+  name: 'Philodendron "Split Leaf" '
+  zize: 15 gal
+  price: '25.0'
+  color: Green
+  sun: 0
+  water: 0
+  height: 6 - 10 ft
+  tolerance: ''
+  inventory: 4
+  location: 16
+  note: Evergreen, inconspicuous cut leaf, tropical foliage plant for indoors or landscaping
+    in a protected area.
+  image_file_name: IMG_2200.JPG
+  image_content_type: image/jpeg
+  image_file_size: '159187'
+  created_at: '2017-03-29T11:00:32.000-05:00'
+  updated_at: '2019-11-04T12:43:05.000-06:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '14.5'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/274/thumb/IMG_2200.JPG"
+  category: Shrubs
+- site_id: 62
   id: 194
   product_category_id: 6
   name: Philodendron "Xanadu Split Leaf,Dwarf"
-  sizer: 3 gal
+  zize: 3 gal
   price: '14.0'
   color: Green
   sun: 0
   water: 0
   height: 3 -5'
   tolerance: ''
-  inventory: 6
+  inventory: 4
   location: 9
   note: ''
   image_file_name: IMG_2456.JPG
   image_content_type: image/jpeg
   image_file_size: '137053'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-05-04T10:38:22.000-05:00'
+  updated_at: '2019-07-15T10:18:10.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4171,38 +4402,10 @@
   image_thumb_path: "/system/products/images/000/000/194/thumb/IMG_2456.JPG"
   category: Shrubs
 - site_id: 62
-  id: 157
-  product_category_id: 6
-  name: Photinia "Red Tip"
-  sizer: 15 gal
-  price: '40.0'
-  color: Red Tips
-  sun: 3
-  water: 1
-  height: 14 ft
-  tolerance: Moderate Drought
-  inventory: 4
-  location: 26
-  note: 'Evergreen small tree like shrub with shiny glossy leaves used as a privacy
-    hedge or small tree. '
-  image_file_name: D3602FC5-E4EE-452E-B683-947578E21BBC.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '177463'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-30T14:57:21.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '29.5'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/157/thumb/D3602FC5-E4EE-452E-B683-947578E21BBC.jpeg"
-  category: Shrubs
-- site_id: 62
   id: 425
   product_category_id: 2
   name: Pistache “Chinese”
-  sizer: 30 gal
+  zize: 30 gal
   price: '195.0'
   color: ''
   sun: 3
@@ -4226,17 +4429,42 @@
   image_thumb_path: "/system/products/images/000/000/425/thumb/5213F7D3-3613-46FC-B3A9-A090CB3EBC9E.jpeg"
   category: Trees
 - site_id: 62
+  id: 310
+  product_category_id: 6
+  name: 'Pittosporum "Variegated" '
+  zize: 5 gal
+  price: '15.0'
+  color: Variegated
+  sun: 0
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 5
+  location: 12
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-05-15T09:43:40.000-05:00'
+  updated_at: '2019-06-23T23:23:54.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '6.5'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Shrubs
+- site_id: 62
   id: 161
   product_category_id: 6
   name: Pittosporum "Variegated"
-  sizer: 3 gal
+  zize: 3 gal
   price: '13.5'
   color: 'Pale green and cream colored '
   sun: 3
   water: 1
   height: 3-4'
   tolerance: Heat
-  inventory: 17
+  inventory: 14
   location: 4
   note: 'aka "Mock Orange."  Shrub, flowering, ground cover, low growing, glossy,
     wavy green leaves. '
@@ -4244,7 +4472,7 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-02-23T11:29:48.000-06:00'
+  updated_at: '2019-06-28T13:22:13.000-05:00'
   inactive: false
   dimensions: 
   cost: '9.75'
@@ -4255,14 +4483,14 @@
   id: 162
   product_category_id: 6
   name: Pittosporum “Green Regular"
-  sizer: 3 gal
+  zize: 3 gal
   price: '12.95'
   color: Green glossy leaves
   sun: 3
   water: 1
   height: 6 - 8 ft
   tolerance: Heat
-  inventory: 40
+  inventory: 1
   location: 11
   note: Hardy, rapid growing shrub, flowering, ground cover, glossy, wavy green leaves.
     Low maintenance.
@@ -4270,12 +4498,12 @@
   image_content_type: image/jpeg
   image_file_size: '144787'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-12-06T16:54:21.000-06:00'
+  updated_at: '2019-12-30T10:43:02.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '7.95'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/162/thumb/IMG_1765.JPG"
   category: Shrubs
@@ -4283,21 +4511,21 @@
   id: 295
   product_category_id: 2
   name: Plum " Mexican"
-  sizer: 46 gal
+  zize: 46 gal
   price: '475.0'
   color: Green
   sun: 1
   water: 0
   height: ''
   tolerance: Sun, Mod Drought
-  inventory: 2
+  inventory: 1
   location: 16
   note: ''
   image_file_name: IMG_2424.JPG
   image_content_type: image/jpeg
   image_file_size: '97837'
   created_at: '2017-04-24T17:03:06.000-05:00'
-  updated_at: '2017-04-24T17:03:47.000-05:00'
+  updated_at: '2019-06-23T20:16:05.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4307,42 +4535,45 @@
   image_thumb_path: "/system/products/images/000/000/295/thumb/IMG_2424.JPG"
   category: Trees
 - site_id: 62
-  id: 335
-  product_category_id: 5
-  name: Plumbago
-  sizer: '5 gal '
-  price: '14.0'
+  id: 424
+  product_category_id: 2
+  name: Plum “Purple Leaf”
+  zize: 30 gal
+  price: '185.0'
   color: ''
-  sun: 0
+  sun: 3
   water: 0
-  height: ''
+  height: 20'W - 20' T
   tolerance: ''
-  inventory: 20
-  location: 29
-  note: ''
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-06-13T14:53:57.000-05:00'
-  updated_at: '2017-07-29T10:18:39.000-05:00'
+  inventory: 4
+  location: 18
+  note: 'Deciduous flowering tree slender branches fill with fragrant,  flowers in
+    springtime. In summer the flower become a pale pink flowers.  '
+  image_file_name: E0A08426-76D3-43F2-BD0F-3481DD9C43EA.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '182450'
+  created_at: '2017-11-27T14:09:20.000-06:00'
+  updated_at: '2019-06-24T11:02:55.000-05:00'
   inactive: false
-  dimensions: 
-  cost: '6.5'
+  dimensions:
+  - 500
+  - 500
+  cost: '25.0'
   markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Ground Cover
+  image_thumb_path: "/system/products/images/000/000/424/thumb/E0A08426-76D3-43F2-BD0F-3481DD9C43EA.jpeg"
+  category: Trees
 - site_id: 62
   id: 249
   product_category_id: 5
   name: 'Plumbago "Blue & White" '
-  sizer: '1 gal '
+  zize: '1 gal '
   price: '4.0'
   color: Blue Flower
   sun: 3
   water: 1
   height: 6-10' x 8 ft. wide
   tolerance: Deer, Pest, Disease, Moderate Drought
-  inventory: 98
+  inventory: 24
   location: 5
   note: 'Evergreen perennial sturdy shrub with blue phlox-like flowers bloom spring
     to fall. '
@@ -4350,7 +4581,7 @@
   image_content_type: image/jpeg
   image_file_size: '150190'
   created_at: '2017-03-14T13:36:34.000-05:00'
-  updated_at: '2019-04-11T10:46:32.000-05:00'
+  updated_at: '2019-09-16T10:00:38.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4363,14 +4594,14 @@
   id: 294
   product_category_id: 2
   name: Plumeria "Plumeria Rubra"
-  sizer: 20 gal
-  price: '165.0'
+  zize: 20 gal
+  price: '225.0'
   color: Pink, Red, White & Yellow
   sun: 3
   water: 1
   height: 30 - 40 ft
   tolerance: 'Full sun to light shade, Well-drained soil '
-  inventory: 3
+  inventory: 2
   location: 14
   note: A tropical tree with thick stems, leathery leaves, and a gorgeous  abundance
     of flowers from early summer until fal
@@ -4378,12 +4609,12 @@
   image_content_type: image/jpeg
   image_file_size: '111368'
   created_at: '2017-04-24T10:23:11.000-05:00'
-  updated_at: '2018-06-07T10:44:02.000-05:00'
+  updated_at: '2019-10-22T16:02:59.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '75.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/294/thumb/12C97C47-7ABF-4455-8BCE-FAF6D8FD5930.jpeg"
   category: Trees
@@ -4391,14 +4622,14 @@
   id: 283
   product_category_id: 6
   name: 'Pomegranite "Ornamental" '
-  sizer: 3 gal
+  zize: 3 gal
   price: '15.0'
   color: Coral Red
   sun: 3
   water: 1
   height: 3'
   tolerance: Hot Summer, Deer Resistant, Drought
-  inventory: 40
+  inventory: 38
   location: 16
   note: " Deciduous. Dense dwarf shrub with an orange-red single flowers followed
     by a bright orange-red ornamental fruit.  Effective bonsai. "
@@ -4406,7 +4637,7 @@
   image_content_type: 
   image_file_size: 
   created_at: '2017-04-17T15:35:53.000-05:00'
-  updated_at: '2017-04-28T13:56:19.000-05:00'
+  updated_at: '2019-12-03T14:30:16.000-06:00'
   inactive: false
   dimensions: 
   cost: '2.0'
@@ -4417,21 +4648,21 @@
   id: 357
   product_category_id: 6
   name: Pride of Houston
-  sizer: 3 gal
+  zize: 3 gal
   price: '13.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: Heat, Drought
-  inventory: 13
+  inventory: 5
   location: 10
   note: ''
   image_file_name: IMG_3255.JPG
   image_content_type: image/jpeg
   image_file_size: '174627'
   created_at: '2017-08-01T09:25:07.000-05:00'
-  updated_at: '2018-01-29T11:36:54.000-06:00'
+  updated_at: '2019-09-16T09:28:54.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4441,45 +4672,44 @@
   image_thumb_path: "/system/products/images/000/000/357/thumb/IMG_3255.JPG"
   category: Shrubs
 - site_id: 62
-  id: 352
+  id: 171
   product_category_id: 6
   name: Privet "Variegated"
-  sizer: 15 gal
-  price: '30.0'
-  color: ''
-  sun: 3
+  zize: 5 gal
+  price: '15.75'
+  color: Varigated
+  sun: 0
   water: 0
   height: ''
   tolerance: ''
-  inventory: 26
-  location: 4
-  note: Shiny,  green leaves with creamy white edges and blotches. A very versatile
-    landscape usage.  Evergreen.
-  image_file_name: 3F560C06-4F00-4DCF-92D3-B90CB2E56B24.jpeg
+  inventory: 13
+  location: 3
+  note: ''
+  image_file_name: IMG_1848.JPG
   image_content_type: image/jpeg
-  image_file_size: '201068'
-  created_at: '2017-07-14T15:25:10.000-05:00'
-  updated_at: '2018-05-02T15:57:57.000-05:00'
+  image_file_size: '171085'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-05T15:01:25.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '15.0'
+  cost: '7.95'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/352/thumb/3F560C06-4F00-4DCF-92D3-B90CB2E56B24.jpeg"
+  image_thumb_path: "/system/products/images/000/000/171/thumb/IMG_1848.JPG"
   category: Shrubs
 - site_id: 62
   id: 213
   product_category_id: 2
   name: Redbud "Forest Pansy"
-  sizer: 30 gal
+  zize: 30 gal
   price: '285.0'
   color: Rosy Pink Flower
   sun: 3
   water: 1
   height: 20 ft tall to 25ft wide
   tolerance: Attracts Butterflies, Birds, Good Drought tolerance.
-  inventory: 8
+  inventory: 6
   location: 19
   note: 'Deciduous, purplish foliage. Reg water in extreme heat. Blooms in early Spring.
     Multi-trunk. '
@@ -4487,7 +4717,7 @@
   image_content_type: image/jpeg
   image_file_size: '162736'
   created_at: '2017-02-19T22:15:20.000-06:00'
-  updated_at: '2019-03-19T15:37:52.000-05:00'
+  updated_at: '2019-06-23T15:23:35.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4497,53 +4727,25 @@
   image_thumb_path: "/system/products/images/000/000/213/thumb/IMG_2801.JPG"
   category: Trees
 - site_id: 62
-  id: 466
-  product_category_id: 2
-  name: Redbud "Merlot"
-  sizer: 15 gal
-  price: '160.0'
-  color: Reddish Purple
-  sun: 1
-  water: 1
-  height: 12’Hx15’W
-  tolerance: 'Drought Tolerant, '
-  inventory: 2
-  location: 16
-  note: 'Deciduous, hybrid spring flowering tree with thick dark purple glossy foliage.
-    Similar to Forest Pansy, thicker, glossier leaves that stand up to summer heat.
-    Tight, dense, semi-upright habit. '
-  image_file_name: 2CD20B9C-D98F-403D-839F-F5FAC4D8508A.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '144819'
-  created_at: '2018-04-07T09:53:17.000-05:00'
-  updated_at: '2018-07-28T09:29:40.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '89.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/466/thumb/2CD20B9C-D98F-403D-839F-F5FAC4D8508A.jpeg"
-  category: Trees
-- site_id: 62
   id: 258
   product_category_id: 2
   name: Redbud "Oklahoma"
-  sizer: 30 gal
+  zize: 30 gal
   price: '175.0'
-  color: ''
+  color: Pink/Red
   sun: 3
   water: 1
-  height: ''
-  tolerance: ''
+  height: 20' W x 30' T
+  tolerance: Heat, Drought
   inventory: 3
   location: 4
-  note: 'Deciduous, '
+  note: Deciduous native tree, glossy dark green heart-shaped leaves develop into
+    a rounded, irregular crown.
   image_file_name: IMG_2105.JPG
   image_content_type: image/jpeg
   image_file_size: '184105'
   created_at: '2017-03-20T10:01:30.000-05:00'
-  updated_at: '2018-08-10T14:39:41.000-05:00'
+  updated_at: '2019-06-23T15:27:50.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4556,14 +4758,14 @@
   id: 392
   product_category_id: 2
   name: Redbud "Texas"
-  sizer: 30 gal
+  zize: 30 gal
   price: '150.0'
   color: Light Green
   sun: 3
   water: 0
   height: 15-20'
   tolerance: drought, heat tolerant
-  inventory: 3
+  inventory: 6
   location: 18
   note: 'Deciduous grows as a deciduous small tree or multi-trunk shrub. It''s leaves
     are rounder, thicker, and very glossy. '
@@ -4571,7 +4773,7 @@
   image_content_type: image/jpeg
   image_file_size: '147240'
   created_at: '2017-10-17T11:28:39.000-05:00'
-  updated_at: '2019-04-02T13:01:11.000-05:00'
+  updated_at: '2019-06-23T15:31:43.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4584,7 +4786,7 @@
   id: 314
   product_category_id: 2
   name: Retama "Parkinsonia Aculeata"
-  sizer: 30 gal
+  zize: 30 gal
   price: '185.0'
   color: Yellow
   sun: 3
@@ -4610,21 +4812,21 @@
   id: 271
   product_category_id: 6
   name: Rose of Sharon "Shrub Athea"
-  sizer: 15 gal
+  zize: 15 gal
   price: '24.95'
   color: Lavendar
   sun: 3
   water: 1
   height: 8 - 12'
   tolerance: 'Full Sun '
-  inventory: 94
+  inventory: 78
   location: 9
   note: 'Hibiscus Syriacus family. Deciduous foliage. '
   image_file_name: IMG_2355.JPG
   image_content_type: image/jpeg
   image_file_size: '118098'
   created_at: '2017-03-28T12:08:30.000-05:00'
-  updated_at: '2018-12-07T11:29:09.000-06:00'
+  updated_at: '2019-08-01T15:36:46.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -4634,72 +4836,92 @@
   image_thumb_path: "/system/products/images/000/000/271/thumb/IMG_2355.JPG"
   category: Shrubs
 - site_id: 62
-  id: 197
-  product_category_id: 5
-  name: Rosemary "Trailing"
-  sizer: 1 gal
-  price: '4.25'
-  color: White flower
+  id: 175
+  product_category_id: 4
+  name: Roses  "Belindas Dream"
+  zize: 3 gal
+  price: '18.0'
+  color: ''
   sun: 3
   water: 0
-  height: '6" x 8" '
-  tolerance: Low Fertility, Sun
-  inventory: 34
-  location: 12
-  note: 'Creeping cultivar of the herbaceous shrubs with narrow green needle-like
-    foliage. Cooking, herbs, seasoning. '
-  image_file_name: 80FE8A43-158F-4BDD-9840-A446BD70EF77.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '188671'
+  height: ''
+  tolerance: ''
+  inventory: 2
+  location: 22
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-09T13:14:14.000-05:00'
+  updated_at: '2019-07-10T08:42:49.000-05:00'
   inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '2.75'
+  dimensions: 
+  cost: '7.95'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/197/thumb/80FE8A43-158F-4BDD-9840-A446BD70EF77.jpeg"
-  category: Ground Cover
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Flowers
 - site_id: 62
-  id: 446
-  product_category_id: 6
-  name: Rosemary “Upright”
-  sizer: 5 gal
-  price: '22.0'
-  color: Green
-  sun: 3
+  id: 84
+  product_category_id: 4
+  name: 'Roses "Lemoncello" '
+  zize: 3 gal
+  price: '18.0'
+  color: ''
+  sun: 1
   water: 0
-  height: 6'T x 2-4'W
-  tolerance: Drought
-  inventory: 7
-  location: 29
-  note: 'A perennial that grows like an upright evergreen shrub with needle like leaves.  '
-  image_file_name: 725247BB-E86E-4B9C-96C8-2A6BC974CD39.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '169672'
-  created_at: '2018-03-09T09:33:41.000-06:00'
-  updated_at: '2019-04-17T13:15:10.000-05:00'
+  height: ''
+  tolerance: ''
+  inventory: 3
+  location: 6
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-10T08:41:21.000-05:00'
   inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '12.95'
+  dimensions: 
+  cost: '7.95'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/446/thumb/725247BB-E86E-4B9C-96C8-2A6BC974CD39.jpeg"
-  category: Shrubs
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Flowers
+- site_id: 62
+  id: 177
+  product_category_id: 4
+  name: Roses "Martha Gonzalez"
+  zize: 5 gal
+  price: '18.0'
+  color: ''
+  sun: 1
+  water: 1
+  height: ''
+  tolerance: ''
+  inventory: 2
+  location: 17
+  note: ''
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-07-10T08:40:56.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '7.95'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Flowers
 - site_id: 62
   id: 179
   product_category_id: 4
   name: Roses Drift "Red, White, Coral, Pink"
-  sizer: 3 gal
+  zize: 3 gal
   price: '24.0'
   color: Peach, Red, White
   sun: 3
   water: 1
   height: 1 1/2 ft
   tolerance: Sun, Cold, Disease
-  inventory: 57
+  inventory: 49
   location: 2
   note: 'Bloom in abundance spreading up to 3'' wide.  Care-free shrub with dark glossy
     leaves. '
@@ -4707,61 +4929,34 @@
   image_content_type: image/jpeg
   image_file_size: '140535'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-05-01T12:13:53.000-05:00'
+  updated_at: '2019-08-13T12:55:25.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 375
   cost: '16.95'
-  markup: '1.6'
+  markup: '1.5'
   image_thumb_path: "/system/products/images/000/000/179/thumb/IMG_1240.JPG"
   category: Flowers
-- site_id: 62
-  id: 252
-  product_category_id: 6
-  name: Sage "Cenizo Compact"
-  sizer: 3 gal
-  price: '19.5'
-  color: Dusty green
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 6
-  location: 6
-  note: ''
-  image_file_name: C344C733-A43F-4CB0-9E5D-6587DE1EAA97.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '94471'
-  created_at: '2017-03-16T12:53:06.000-05:00'
-  updated_at: '2019-04-22T12:20:53.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '13.0'
-  markup: '1.5'
-  image_thumb_path: "/system/products/images/000/000/252/thumb/C344C733-A43F-4CB0-9E5D-6587DE1EAA97.jpeg"
-  category: Shrubs
 - site_id: 62
   id: 315
   product_category_id: 6
   name: 'Sage "Green Cloud" '
-  sizer: 5 gal
+  zize: 5 gal
   price: '22.0'
   color: Rose Colored
   sun: 3
   water: 0
   height: ''
   tolerance: 'Heat, Sun Tolerant, Cold Hardy '
-  inventory: 30
+  inventory: 20
   location: 19
   note: 'Rose colored, hardy shrub, fast growing. '
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-05-16T14:27:02.000-05:00'
-  updated_at: '2019-04-11T13:36:55.000-05:00'
+  updated_at: '2019-10-28T11:43:06.000-05:00'
   inactive: false
   dimensions: 
   cost: '13.0'
@@ -4769,49 +4964,51 @@
   image_thumb_path: "/images/thumb/missing.png"
   category: Shrubs
 - site_id: 62
-  id: 520
+  id: 252
   product_category_id: 6
-  name: Sage "Green Cloud, Cenizo"
-  sizer: 1 gal
-  price: '4.0'
-  color: Rose pink flowers
+  name: Sage "Grey Cenizo”
+  zize: 3 gal
+  price: '2.75'
+  color: Dusty green
   sun: 3
   water: 0
-  height: 6' x 6'
-  tolerance: Attracts Bees, Butterflies, Hummingbirds, Deer Resistant
-  inventory: 50
-  location: 25
-  note: 'Evergreen, deciduous upright shrub, fast growing  with green leaves.  '
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2019-04-11T10:43:43.000-05:00'
-  updated_at: '2019-04-11T10:47:11.000-05:00'
+  height: ''
+  tolerance: ''
+  inventory: 37
+  location: 6
+  note: ''
+  image_file_name: 32D6F6ED-93F7-4AE0-8B45-4C404AE2FB24.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '177175'
+  created_at: '2017-03-16T12:53:06.000-05:00'
+  updated_at: '2019-12-30T10:14:47.000-06:00'
   inactive: false
-  dimensions: 
-  cost: '2.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
+  dimensions:
+  - 500
+  - 500
+  cost: '13.0'
+  markup: '1.5'
+  image_thumb_path: "/system/products/images/000/000/252/thumb/32D6F6ED-93F7-4AE0-8B45-4C404AE2FB24.jpeg"
   category: Shrubs
 - site_id: 62
   id: 329
   product_category_id: 5
   name: Sage "Grey"
-  sizer: 1 gal
-  price: '4.0'
+  zize: 1 gal
+  price: '10.0'
   color: Lavendar Flower
   sun: 0
   water: 0
   height: ''
   tolerance: ''
-  inventory: 50
+  inventory: 59
   location: 11
   note: ''
   image_file_name: IMG_2864.JPG
   image_content_type: image/jpeg
   image_file_size: '156236'
   created_at: '2017-06-09T14:39:54.000-05:00'
-  updated_at: '2019-04-11T10:46:32.000-05:00'
+  updated_at: '2020-01-03T12:30:42.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -4821,129 +5018,77 @@
   image_thumb_path: "/system/products/images/000/000/329/thumb/IMG_2864.JPG"
   category: Ground Cover
 - site_id: 62
-  id: 184
+  id: 232
   product_category_id: 6
-  name: Sage "Russian"
-  sizer: 3 gal
-  price: '3.0'
-  color: Lavender-blue
+  name: Sage "Mexican Bush"
+  zize: 3 gal
+  price: '10.25'
+  color: 'Purple and White flowers '
   sun: 3
-  water: 1
-  height: 3 to 4'
-  tolerance: Drought
-  inventory: 18
-  location: 0
-  note: Perennial, deciduous. Tall, airy, spike-like clusters create a lavender-blue
-    cloud of color.
-  image_file_name: IMG_2014.JPG
+  water: 0
+  height: 3' x 3'
+  tolerance: Drought, Alkaline Clays, Acid sands
+  inventory: 11
+  location: 8
+  note: Evergreen, with silvery-gray leave. Late summer and fall bloomer.  Use in
+    dry borders or rock gardens.
+  image_file_name: IMG_1888.JPG
   image_content_type: image/jpeg
-  image_file_size: '155157'
-  created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2017-03-13T14:53:30.000-05:00'
+  image_file_size: '154914'
+  created_at: '2017-02-28T15:01:55.000-06:00'
+  updated_at: '2019-10-14T11:48:29.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '12.5'
+  cost: '3.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/184/thumb/IMG_2014.JPG"
+  image_thumb_path: "/system/products/images/000/000/232/thumb/IMG_1888.JPG"
   category: Shrubs
 - site_id: 62
-  id: 311
-  product_category_id: 6
-  name: 'Sage "Texas Grey" '
-  sizer: 5 gal
-  price: '13.0'
+  id: 340
+  product_category_id: 1
+  name: Sago "Palms"
+  zize: 3 gal
+  price: '35.0'
   color: ''
   sun: 0
   water: 0
   height: ''
   tolerance: ''
-  inventory: 4
-  location: 10
+  inventory: 147
+  location: 3
   note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2017-05-15T09:47:46.000-05:00'
-  updated_at: '2018-04-14T11:46:51.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '6.5'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
-- site_id: 62
-  id: 433
-  product_category_id: 6
-  name: Sage "Texas, Rio Bravo"
-  sizer: 3 gal
-  price: '8.0'
-  color: ''
-  sun: 0
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 7
-  location: 12
-  note: ''
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-12-22T16:34:12.000-06:00'
-  updated_at: '2018-06-25T10:23:48.000-05:00'
+  created_at: '2017-06-22T14:39:19.000-05:00'
+  updated_at: '2019-12-30T10:29:34.000-06:00'
   inactive: false
   dimensions: 
   cost: '1.0'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
-- site_id: 62
-  id: 429
-  product_category_id: 6
-  name: Sage “Mexican Sage”
-  sizer: 1 gal
-  price: '4.25'
-  color: Purple
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 11
-  location: 10
-  note: ''
-  image_file_name: 49BFF137-F241-4311-8781-BAC7FA8E6402.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '168805'
-  created_at: '2017-12-05T10:40:34.000-06:00'
-  updated_at: '2019-04-11T12:33:38.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '2.95'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/429/thumb/49BFF137-F241-4311-8781-BAC7FA8E6402.jpeg"
-  category: Shrubs
+  category: Palms
 - site_id: 62
   id: 261
   product_category_id: 6
-  name: Salvia "Mexican Bush Sage"
-  sizer: 3 gal
+  name: Salvia "Mexican"
+  zize: 3 gal
   price: '14.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 6
+  inventory: 56
   location: 5
   note: ''
   image_file_name: IMG_2376.JPG
   image_content_type: image/jpeg
   image_file_size: '186339'
   created_at: '2017-03-20T10:36:21.000-05:00'
-  updated_at: '2018-10-08T11:10:14.000-05:00'
+  updated_at: '2019-11-04T12:43:05.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -4953,83 +5098,111 @@
   image_thumb_path: "/system/products/images/000/000/261/thumb/IMG_2376.JPG"
   category: Shrubs
 - site_id: 62
-  id: 277
-  product_category_id: 5
-  name: Salvia "Pink, Red, White, Raspberry Greggii "
-  sizer: 1 gal
-  price: '4.0'
-  color: Red/White/Pink
-  sun: 3
+  id: 190
+  product_category_id: 6
+  name: Shrimp Plant
+  zize: 1 gal
+  price: '6.5'
+  color: Coral Red
+  sun: 1
   water: 0
-  height: 3'
-  tolerance: Drought, Deer
-  inventory: 152
-  location: 7
-  note: 'Hardy, long blooming, easy to care. Feeds honey bees and attracts hummingbirds. '
-  image_file_name: IMG_2306.JPG
+  height: 3-4' x 3-4'
+  tolerance: ''
+  inventory: 11
+  location: 15
+  note: Evergreen exotic and colorful drooping flower heads blooms in summer early
+    year-round in warm winter areas.
+  image_file_name: '08CC7517-1B0C-4D4B-A764-EB985A889AB0.jpeg'
   image_content_type: image/jpeg
-  image_file_size: '139869'
-  created_at: '2017-03-31T15:33:07.000-05:00'
-  updated_at: '2019-05-07T13:45:34.000-05:00'
+  image_file_size: '159039'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-12-28T09:32:07.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '2.95'
+  cost: '4.5'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/277/thumb/IMG_2306.JPG"
-  category: Ground Cover
+  image_thumb_path: "/system/products/images/000/000/190/thumb/08CC7517-1B0C-4D4B-A764-EB985A889AB0.jpeg"
+  category: Shrubs
 - site_id: 62
   id: 279
   product_category_id: 5
-  name: 'Skullcap '
-  sizer: 1 gal
-  price: '4.25'
+  name: Skullcap “Purple & Red”
+  zize: 1 gal
+  price: '4.5'
   color: Pink & Blue
   sun: 3
   water: 0
   height: '12 -18" H x 24-36" W '
   tolerance: 'Drought, Heat, Sun-loving '
-  inventory: 98
+  inventory: 180
   location: 6
   note: Perennial, bright color tiny pink, snapdragon like flowers. Ideal for Xeriscape.
   image_file_name: A25FBD7A-82BB-406B-A0ED-26995AA12A74.jpeg
   image_content_type: image/jpeg
   image_file_size: '186329'
   created_at: '2017-04-03T13:20:36.000-05:00'
-  updated_at: '2019-04-04T12:59:33.000-05:00'
+  updated_at: '2019-12-30T10:29:34.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
   cost: '2.95'
-  markup: '2.0'
+  markup: '1.5'
   image_thumb_path: "/system/products/images/000/000/279/thumb/A25FBD7A-82BB-406B-A0ED-26995AA12A74.jpeg"
   category: Ground Cover
+- site_id: 62
+  id: 450
+  product_category_id: 1
+  name: Sotol "Green"
+  zize: 20 gal
+  price: '100.0'
+  color: ''
+  sun: 3
+  water: 0
+  height: ''
+  tolerance: ''
+  inventory: 9
+  location: 1
+  note: 'Ornamental evergreen. '
+  image_file_name: 704A469E-1CBD-4CDA-B5D3-65674F0E75B9.jpeg
+  image_content_type: image/jpeg
+  image_file_size: '173509'
+  created_at: '2018-03-15T09:35:25.000-05:00'
+  updated_at: '2019-08-30T13:40:04.000-05:00'
+  inactive: false
+  dimensions:
+  - 500
+  - 500
+  cost: '5.0'
+  markup: '2.0'
+  image_thumb_path: "/system/products/images/000/000/450/thumb/704A469E-1CBD-4CDA-B5D3-65674F0E75B9.jpeg"
+  category: Palms
 - site_id: 62
   id: 230
   product_category_id: 6
   name: Spirea "Anthony Waterer"
-  sizer: 3 gal
+  zize: 3 gal
   price: '14.0'
   color: Pink
   sun: 0
   water: 0
   height: 3-5'H. x 3-5'W
   tolerance: Easy Care, Tolerates Urban Pollution
-  inventory: 45
+  inventory: 31
   location: 7
   note: Deciduous shrub, red-purple new foliage and summer pink blooms.
   image_file_name: IMG_2249.JPG
   image_content_type: image/jpeg
   image_file_size: '93918'
   created_at: '2017-02-28T13:00:31.000-06:00'
-  updated_at: '2019-05-07T09:03:41.000-05:00'
+  updated_at: '2019-08-14T11:26:42.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '7.95'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/230/thumb/IMG_2249.JPG"
   category: Shrubs
@@ -5037,14 +5210,14 @@
   id: 463
   product_category_id: 5
   name: Sweet Potato "Black Heart"
-  sizer: '1 gal '
+  zize: '1 gal '
   price: '3.0'
   color: Purple, Showy Flower
   sun: 3
   water: 0
   height: 6-10"H x 12-18" W
   tolerance: Heart, Easy to Grow, Easy Care, Fast Growing
-  inventory: 2
+  inventory: 5
   location: 23
   note: 'Annual, perennial dramatic garnet-purple foliage. Great for spilling from
     hanging baskets and mixed containers. . '
@@ -5052,7 +5225,7 @@
   image_content_type: image/jpeg
   image_file_size: '100545'
   created_at: '2018-04-04T12:18:54.000-05:00'
-  updated_at: '2018-10-10T15:19:36.000-05:00'
+  updated_at: '2019-07-10T15:34:17.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -5062,51 +5235,24 @@
   image_thumb_path: "/system/products/images/000/000/463/thumb/0147B1BD-7E8C-4220-8289-5E3A6DD2B2FD.jpeg"
   category: Ground Cover
 - site_id: 62
-  id: 464
-  product_category_id: 5
-  name: 'Sweet Potato, Marguerite '
-  sizer: '1 gal '
-  price: '3.0'
-  color: 'Violet-Lavender '
-  sun: 1
-  water: 0
-  height: 6-12" x 20-30"
-  tolerance: Texas Heat, Full Sun,Deer Tolerant
-  inventory: 32
-  location: 6
-  note: Medium fast growing, annual, perennial with lime green heart-shaped leaves.
-  image_file_name: 53DD754E-E3DF-45BC-AA7C-CB78DF9092BA.jpeg
-  image_content_type: image/jpeg
-  image_file_size: '111300'
-  created_at: '2018-04-04T12:25:36.000-05:00'
-  updated_at: '2018-10-19T14:53:05.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 500
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/464/thumb/53DD754E-E3DF-45BC-AA7C-CB78DF9092BA.jpeg"
-  category: Ground Cover
-- site_id: 62
   id: 97
   product_category_id: 2
   name: Sycamore "Mexican, Platanus Mexicana"
-  sizer: boxed
+  zize: boxed
   price: '250.0'
   color: ''
   sun: 3
   water: 0
   height: ''
   tolerance: ''
-  inventory: 14
+  inventory: 2
   location: 13
   note: ''
   image_file_name: 
   image_content_type: 
   image_file_size: 
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2017-07-25T14:18:37.000-05:00'
+  updated_at: '2019-06-23T15:08:29.000-05:00'
   inactive: false
   dimensions: 
   cost: '35.0'
@@ -5117,14 +5263,14 @@
   id: 98
   product_category_id: 2
   name: Sycamore "Mexican, Platanus Mexicana"
-  sizer: '30 gal '
+  zize: '30 gal '
   price: '150.0'
   color: Green Large leaves
   sun: 3
   water: 0
   height: 50 ft
   tolerance: Drought, Alkaline soil
-  inventory: 259
+  inventory: 156
   location: 19
   note: Deciduous, fast growing, drought tolerant,  smooth white and tan bark and
     large, maple-like leaves with velvety, silver undersides.
@@ -5132,7 +5278,7 @@
   image_content_type: image/jpeg
   image_file_size: '119916'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-05-01T15:51:25.000-05:00'
+  updated_at: '2019-12-13T14:47:39.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -5145,8 +5291,8 @@
   id: 495
   product_category_id: 6
   name: Thryallis "Golden,Galphimia glauca"
-  sizer: 3 gal
-  price: '17.0'
+  zize: 3 gal
+  price: '16.0'
   color: Gold
   sun: 3
   water: 0
@@ -5159,27 +5305,27 @@
   image_content_type: image/jpeg
   image_file_size: '184537'
   created_at: '2018-05-25T14:41:04.000-05:00'
-  updated_at: '2019-04-29T08:56:11.000-05:00'
+  updated_at: '2019-11-05T13:34:39.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '8.95'
-  markup: '2.0'
+  cost: '7.95'
+  markup: '1.5'
   image_thumb_path: "/system/products/images/000/000/495/thumb/42E67C4B-0622-47CC-A3AA-A0839ECD3FED.jpeg"
   category: Shrubs
 - site_id: 62
   id: 291
   product_category_id: 4
   name: Turkcaps
-  sizer: 1 gal
+  zize: 1 gal
   price: '4.0'
   color: Red Flower
   sun: 0
   water: 0
   height: ''
   tolerance: ''
-  inventory: 95
+  inventory: 45
   location: 6
   note: Very tough, versatile plant, dark green leaves and flowers throughout summer
     heat into the fall with a cherry-red or white flowers.
@@ -5187,7 +5333,7 @@
   image_content_type: image/jpeg
   image_file_size: '73019'
   created_at: '2017-04-17T16:27:33.000-05:00'
-  updated_at: '2019-05-07T13:45:34.000-05:00'
+  updated_at: '2019-12-03T14:28:50.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -5197,103 +5343,77 @@
   image_thumb_path: "/system/products/images/000/000/291/thumb/IMG_2374.JPG"
   category: Flowers
 - site_id: 62
-  id: 382
-  product_category_id: 5
-  name: Variegated "Flax Lily, Dianella tasmanica"
-  sizer: 1 gal
-  price: '4.0'
-  color: Turquoise Blue
+  id: 199
+  product_category_id: 4
+  name: Turkcaps
+  zize: 3 gal
+  price: '13.0'
+  color: ''
   sun: 1
   water: 0
-  height: '3.5'' '
-  tolerance: Heat, Winter, Drought, Easy Care, Tolerates Clay
-  inventory: 169
+  height: ''
+  tolerance: Drought
+  inventory: 10
   location: 12
-  note: 'Perennial evergreen, strappy, green leaves with contrasting yellow stripes
-    will brighten the garden year-round. Turquoise blue stalks, ornamental berries
-    from fall into winter for a colorful accent. '
+  note: Very tough, versatile plant, dark green leaves and flowers throughout summer
+    heat into the fall with a cherry-red or white flowers.
   image_file_name: 
   image_content_type: 
   image_file_size: 
-  created_at: '2017-10-04T11:26:22.000-05:00'
-  updated_at: '2019-04-26T10:05:17.000-05:00'
+  created_at: '2017-01-31T10:36:46.000-06:00'
+  updated_at: '2019-06-23T15:05:37.000-05:00'
   inactive: false
   dimensions: 
-  cost: '2.0'
+  cost: '7.95'
   markup: '2.0'
   image_thumb_path: "/images/thumb/missing.png"
-  category: Ground Cover
-- site_id: 62
-  id: 469
-  product_category_id: 6
-  name: Viburnum "Suspensum"
-  sizer: '45 gal '
-  price: '250.0'
-  color: 'Green '
-  sun: 0
-  water: 0
-  height: 3-7'
-  tolerance: ''
-  inventory: 2
-  location: 29
-  note: 'Perennial shrub with coarse dark green leaves densely compacted. '
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2018-04-11T14:19:13.000-05:00'
-  updated_at: '2019-05-01T13:39:58.000-05:00'
-  inactive: false
-  dimensions: 
-  cost: '20.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
+  category: Flowers
 - site_id: 62
   id: 196
   product_category_id: 6
   name: Viburnum "Sweet, Odoratissimum"
-  sizer: 30 gal
+  zize: 30 gal
   price: '170.0'
   color: Green
   sun: 3
   water: 0
   height: 20'h by 15'w
   tolerance: High
-  inventory: 1
+  inventory: 6
   location: 5
   note: 'Broadleaf evergreen, white flowers, '
-  image_file_name: IMG_1756.JPG
+  image_file_name: 8A3D6B95-E5AD-438C-8093-94F3841293C8.jpeg
   image_content_type: image/jpeg
-  image_file_size: '147362'
+  image_file_size: '170490'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-03-29T18:04:46.000-05:00'
+  updated_at: '2019-11-22T11:53:28.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
   cost: '1.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/196/thumb/IMG_1756.JPG"
+  image_thumb_path: "/system/products/images/000/000/196/thumb/8A3D6B95-E5AD-438C-8093-94F3841293C8.jpeg"
   category: Shrubs
 - site_id: 62
   id: 359
   product_category_id: 6
   name: Viburnum Suspensum
-  sizer: '5 gal '
-  price: '30.0'
+  zize: '5 gal '
+  price: '25.0'
   color: ''
   sun: 3
   water: 0
   height: 6 - 12'
   tolerance: ''
-  inventory: 54
+  inventory: 6
   location: 11
   note: Compact evergreen shrub with dark green leaves attract bees and butterflies.
   image_file_name: IMG_3294.JPG
   image_content_type: image/jpeg
   image_file_size: '179436'
   created_at: '2017-08-09T15:34:33.000-05:00'
-  updated_at: '2019-05-01T13:39:58.000-05:00'
+  updated_at: '2019-06-23T15:03:56.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -5306,21 +5426,21 @@
   id: 200
   product_category_id: 6
   name: Viburnum Suspensum
-  sizer: 3 gal
+  zize: 3 gal
   price: '16.0'
   color: White flower
   sun: 1
   water: 3
   height: 6 - 12 ft
   tolerance: Moderate Drought, Deer, Attracts Birds
-  inventory: 663
+  inventory: 309
   location: 7
   note: 'Evergreen shrub that is great for hedges and screening. '
   image_file_name: IMG_2198.JPG
   image_content_type: image/jpeg
   image_file_size: '135226'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-30T15:13:00.000-05:00'
+  updated_at: '2020-01-04T10:55:47.000-06:00'
   inactive: false
   dimensions:
   - 500
@@ -5330,121 +5450,72 @@
   image_thumb_path: "/system/products/images/000/000/200/thumb/IMG_2198.JPG"
   category: Shrubs
 - site_id: 62
-  id: 386
+  id: 477
   product_category_id: 2
-  name: Vitex
-  sizer: 30 gal
+  name: Vitex "Lilac/Violet"
+  zize: 30 gal
   price: '145.0'
-  color: Blue-green
+  color: ''
   sun: 3
   water: 0
-  height: 12'
-  tolerance: Drought, Sun
-  inventory: 5
-  location: 9
-  note: 'Deciduous. Water moderate, growth is fast with a summer bloom. '
-  image_file_name: IMG_2052.JPG
+  height: ''
+  tolerance: ''
+  inventory: 3
+  location: 12
+  note: ''
+  image_file_name: 847B858F-1CBB-46C8-9C1B-715DA18E4659.jpeg
   image_content_type: image/jpeg
-  image_file_size: '167669'
-  created_at: '2017-10-11T10:25:05.000-05:00'
-  updated_at: '2019-05-01T15:51:25.000-05:00'
+  image_file_size: '156232'
+  created_at: '2018-04-26T11:06:53.000-05:00'
+  updated_at: '2019-06-23T10:12:10.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
   cost: '25.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/386/thumb/IMG_2052.JPG"
+  image_thumb_path: "/system/products/images/000/000/477/thumb/847B858F-1CBB-46C8-9C1B-715DA18E4659.jpeg"
   category: Trees
 - site_id: 62
-  id: 404
-  product_category_id: 1
-  name: Willow "Desert"
-  sizer: 3 gal
-  price: '30.0'
-  color: Green
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 1
-  location: 13
-  note: ''
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-11-11T12:25:38.000-06:00'
-  updated_at: '2017-11-11T12:25:58.000-06:00'
-  inactive: false
-  dimensions: 
-  cost: '1.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Palms
-- site_id: 62
-  id: 367
+  id: 373
   product_category_id: 2
-  name: 'Yaupon "Holly Kathy Ann" '
-  sizer: 45 gal
-  price: '300.0'
-  color: Green
+  name: Willow "Desert"
+  zize: 30 gal
+  price: '175.0'
+  color: Light Pink/Violet
   sun: 3
   water: 0
-  height: ''
-  tolerance: ''
-  inventory: 6
-  location: 8
-  note: ''
-  image_file_name: IMG_3525.JPG
+  height: 15 - 20 ft
+  tolerance: Arid Conditions, Sun, Low Water
+  inventory: 5
+  location: 15
+  note: 'Desert willow is a delicate, small, deciduous tree with long leaves snowy
+    trumpet-shaped light pink to light violet flowers in late spring to fall.  '
+  image_file_name: IMG_3467.JPG
   image_content_type: image/jpeg
-  image_file_size: '186653'
-  created_at: '2017-08-31T08:05:22.000-05:00'
-  updated_at: '2017-11-11T11:12:18.000-06:00'
+  image_file_size: '176141'
+  created_at: '2017-08-31T13:26:27.000-05:00'
+  updated_at: '2019-07-17T14:49:15.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '97.5'
+  cost: '25.0'
   markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/367/thumb/IMG_3525.JPG"
+  image_thumb_path: "/system/products/images/000/000/373/thumb/IMG_3467.JPG"
   category: Trees
-- site_id: 62
-  id: 437
-  product_category_id: 6
-  name: 'Yaupon "Holly Kathy Ann" '
-  sizer: 15 gal
-  price: '25.0'
-  color: ''
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: ''
-  inventory: 1
-  location: 10
-  note: ''
-  image_file_name: 
-  image_content_type: 
-  image_file_size: 
-  created_at: '2017-12-22T16:40:25.000-06:00'
-  updated_at: '2017-12-22T17:05:31.000-06:00'
-  inactive: false
-  dimensions: 
-  cost: '5.0'
-  markup: '2.0'
-  image_thumb_path: "/images/thumb/missing.png"
-  category: Shrubs
 - site_id: 62
   id: 71
   product_category_id: 6
   name: Yew "Japanese, Taxus Cuspidata"
-  sizer: 3 gal
-  price: '11.0'
+  zize: 3 gal
+  price: '15.0'
   color: Yellow flower
   sun: 3
   water: 0
   height: 8-20 ft
   tolerance: 'More tolerant of windy sites,  Not deer resistant, '
-  inventory: 46
+  inventory: 44
   location: 12
   note: 'Perennial, evergreen (foliage year round) slow growing tree or shrub. Fleshy
     red fruit resemble berries, ripening in August-November. '
@@ -5452,7 +5523,7 @@
   image_content_type: image/jpeg
   image_file_size: '177916'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-06-08T07:48:49.000-05:00'
+  updated_at: '2019-07-26T14:29:43.000-05:00'
   inactive: false
   dimensions:
   - 500
@@ -5462,45 +5533,17 @@
   image_thumb_path: "/system/products/images/000/000/071/thumb/2FCD1A70-34C4-452D-87C6-1DE25128938E.jpeg"
   category: Shrubs
 - site_id: 62
-  id: 304
-  product_category_id: 3
-  name: 'Yucca "Baccata, Mexican Yucca" '
-  sizer: 15 gal
-  price: '45.0'
-  color: Green leaves/White flower
-  sun: 3
-  water: 0
-  height: ''
-  tolerance: High to Heat, Sun, Dry, Rocky or Sandy soils.
-  inventory: 4
-  location: 12
-  note: 'Perennial. Has a banana shaped fruit, blue-green leaves, flower stalk up
-    to 15" tall has spine-tipped leaves are up to 30 in. long. '
-  image_file_name: IMG_2541.JPG
-  image_content_type: image/jpeg
-  image_file_size: '212950'
-  created_at: '2017-05-05T12:11:32.000-05:00'
-  updated_at: '2017-09-22T11:57:12.000-05:00'
-  inactive: false
-  dimensions:
-  - 500
-  - 666
-  cost: '0.0'
-  markup: '2.0'
-  image_thumb_path: "/system/products/images/000/000/304/thumb/IMG_2541.JPG"
-  category: Cactus
-- site_id: 62
   id: 207
   product_category_id: 3
   name: Yucca "Estrada"
-  sizer: 30 gal
+  zize: 30 gal
   price: '500.0'
   color: Green,White fowers
   sun: 3
   water: 0
   height: '3.3'' trunk '
   tolerance: Low water. Sun, Drought
-  inventory: 17
+  inventory: 11
   location: 6
   note: 2 (one head), 9 (two head), 1 (3 head), 4 (four head, 5 (2 head) Perennial.
     Different prices. Flowers late spring/early summer.
@@ -5508,12 +5551,12 @@
   image_content_type: image/jpeg
   image_file_size: '161185'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2019-04-11T12:12:46.000-05:00'
+  updated_at: '2019-12-04T08:56:49.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '250.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/207/thumb/38CB0BF6-7C79-45E9-A9F0-D0EFE9B9158E.jpeg"
   category: Cactus
@@ -5521,14 +5564,14 @@
   id: 238
   product_category_id: 3
   name: Yucca "Red"
-  sizer: 3 gal
+  zize: 3 gal
   price: '15.0'
   color: Pink, Reddish, Coral Yellow
   sun: 3
   water: 0
   height: 3 - 5 ft
   tolerance: Heat, Cold
-  inventory: 154
+  inventory: 107
   location: 3
   note: 'Evergreen, dark long green thin leaves from the base with long spikes of
     pinkish, red bell-shaped flowers. '
@@ -5536,39 +5579,91 @@
   image_content_type: image/jpeg
   image_file_size: '188237'
   created_at: '2017-03-03T15:50:44.000-06:00'
-  updated_at: '2019-04-10T15:34:02.000-05:00'
+  updated_at: '2019-12-30T10:43:02.000-06:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '5.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/238/thumb/IMG_2100.JPG"
+  category: Cactus
+- site_id: 62
+  id: 452
+  product_category_id: 3
+  name: Yucca "Spanish Dagger"
+  zize: '30 gal '
+  price: '300.0'
+  color: Green, white flower
+  sun: 3
+  water: 0
+  height: 10-15'
+  tolerance: Drought, Native
+  inventory: 5
+  location: 8
+  note: " Evergreen, large zize, one head. Gray-green, saber-like leaves, spiky foliage.
+    Also called Spanish Bayonet. "
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-03-20T12:31:05.000-05:00'
+  updated_at: '2019-06-28T14:11:14.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '1.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
+  category: Cactus
+- site_id: 62
+  id: 453
+  product_category_id: 3
+  name: Yucca "Spanish Dagger"
+  zize: 30 gal
+  price: '350.0'
+  color: Green, white flower
+  sun: 3
+  water: 0
+  height: 15-20'
+  tolerance: Drought, Native
+  inventory: 1
+  location: 15
+  note: 'Evergreen, extra large, two heads. Medium zize, one head. Gray-green, saber-like
+    leaves, spiky foliage. Also called Spanish Bayonet. '
+  image_file_name: 
+  image_content_type: 
+  image_file_size: 
+  created_at: '2018-03-20T12:34:27.000-05:00'
+  updated_at: '2019-07-05T10:41:10.000-05:00'
+  inactive: false
+  dimensions: 
+  cost: '1.0'
+  markup: '2.0'
+  image_thumb_path: "/images/thumb/missing.png"
   category: Cactus
 - site_id: 62
   id: 204
   product_category_id: 3
   name: Yucca - Soft Leaf
-  sizer: 3 gal
+  zize: 3 gal
   price: '12.0'
   color: White blossoms
   sun: 3
   water: 1
   height: 3' - 5'
   tolerance: Salt Water, Drought, Dry Soil
-  inventory: 5
+  inventory: 10
   location: 1
   note: Evergreen perennial strap-like leaves. Useful around pools.
   image_file_name: IMG_1718.JPG
   image_content_type: image/jpeg
   image_file_size: '155172'
   created_at: '2017-01-31T10:36:46.000-06:00'
-  updated_at: '2018-10-26T12:27:51.000-05:00'
+  updated_at: '2019-07-05T14:59:57.000-05:00'
   inactive: false
   dimensions:
   - 500
   - 500
-  cost: '0.0'
+  cost: '6.0'
   markup: '2.0'
   image_thumb_path: "/system/products/images/000/000/204/thumb/IMG_1718.JPG"
   category: Cactus

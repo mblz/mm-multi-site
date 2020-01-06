@@ -21,8 +21,8 @@ include GalleryHelper
 # end
 
 
-# require "lib/paradise_helper"
-# helpers ParadiseHelper
+require "lib/paradise_helper"
+helpers ParadiseHelper
 
 
 # class Response < Hashie::Mash
