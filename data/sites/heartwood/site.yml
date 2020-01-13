@@ -15,7 +15,7 @@
   :street: 
   :city: San Antonio
   :state: Texas
-  :zipp: 78260
+  :zipcode: 78260
 
 :owner:
   :name: George Potter
@@ -24,7 +24,7 @@
     :street: 
     :city: San Antonio
     :state: Tx
-    :zipp: 78217
+    :zipcode: 78217
 
 nav:
   - title: Arborist
