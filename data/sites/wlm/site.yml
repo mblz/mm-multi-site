@@ -1,20 +1,17 @@
-
 :verification: 8F0DrX8wCUCUgaqVZw1CcQ6YZhTPWYPC7hD0yZfV8Dk
 :title: Wholesale Landscape Materials
 :subtitle: ""
 :description: Wholesale Landscape Materials located off Redland Rd carries  variety of rock, stone, block, compost and mulch of many sizes and shapes to complete any landscaping projects.
 :keywords: Wholesale Landscape Materials
 
-
 :name: wlm
 :email: wlmhstllc@gvtc.com
 :phone: 830 438 1286
 
-:geo_address: 
-:geo_embed_address: 
+:geo_address:
+:geo_embed_address:
 
-
-:address: 
+:address:
   :street: 18765 Redland Rd
   :city: San Antonio
   :state: Tx
@@ -23,7 +20,7 @@
 :owner:
   :name: Hector Serrano
   :email: wlmhstllc@gvtc.com
-  :address: 
+  :address:
     :street: Owner street
     :city: Owner city
     :state: Owner state
@@ -33,9 +30,9 @@ nav:
   - title: Products
     cnt: true
   - title: Services
-    cnt: true    
+    cnt: true
   # - title: About
-  #   cnt: true    
+  #   cnt: true
   #- Gallery
   - Contact
 
@@ -43,30 +40,27 @@ contact_form:
   subject: Contact from Site
   fields:
     - Service requested
-    - Email 
+    - Email
     - Phone
 
 # social:
-#   facebook: 
+#   facebook:
 #   twitter:
-#   google_plus: 
-#   pinterest: 
-#   yelp: 
-#   angieslist: 
-#   linked_in: 
+#   google_plus:
+#   pinterest:
+#   yelp:
+#   angieslist:
+#   linked_in:
 
 # View related
 # :logo: false
 
 :hostname: www.wholesalelandscapematerials.com
 
-
-
 # :carousel:
 #   - abstract_light.jpg
 #   - aquarium.jpg
 #   - spalotus.jpg
-
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
@@ -74,6 +68,6 @@ contact_form:
 :theme: flatly
 
 :hours: >
-    Monday-Friday 7:30am to 4:45pm. <br/> Saturday 7:30am to 3:00pm.
+  Monday-Friday 7:45 am to 5:00 pm <br/> Saturday 8:00 am to 4:00 pm.
 
 #nav_theme: normal
