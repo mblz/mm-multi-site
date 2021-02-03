@@ -9,10 +9,10 @@ description: Need landscaping materials? We have a variety of quality products ;
   %small.text-muted we offer 
 
 - site(:product_categories).each do |category|
-  = link_to category.name, class: 'product-card' do
+  = link_to "/assets/img/products/#{category.name}/#{category.name}.jpg", title: "#{category.title}", class: 'product-card' do
     .row
       .col-lg-4
-        = image_tag "products/#{category.name}/#{category.name}.jpg", class: 'img-fluid rounded', style: 'width:100%'
+        = image_tag "products/#{category.name}/#{category.name}.jpg", alt: "#{category.name}", class: 'img-fluid rounded', style: 'width:100%'
       .col-lg-8
         %h2= category.title
         %p

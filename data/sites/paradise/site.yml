@@ -1,22 +1,18 @@
-
 :verification: qweU6BIFSeTXIT5JBUrZ9cGygWmMX2KbUuxpjARNRA4
-:title: Paradise 
+:title: Paradise
 :subtitle: Nursery
 :description: Nursery
 :keywords: Palms and things for landscapers
 
-
 :name: Paradise
 :email: paradisenurseryllc@gmail.com
-:phone: 210-201-1428
+:phone: 210-490-1111
 
-:geo_address: 
-:geo_embed_address: 
+:geo_address:
+:geo_embed_address:
 
-
-
-:address: 
-  :street: 3550 N Loop 1604 E
+:address:
+  :street: 14606 Jones Maltsberger
   :city: San Antonio
   :state: Texas
   :zipcode: 78247
@@ -24,7 +20,7 @@
 :owner:
   :name: Raymond Dady
   :email: Owner email
-  :address: 
+  :address:
     :street: Owner street
     :city: Owner city
     :state: Owner state
@@ -34,7 +30,7 @@ nav:
   - title: Products
     cnt: true
   - title: About
-    cnt: true    
+    cnt: true
   - Gallery
   - Contact
 
@@ -42,17 +38,17 @@ contact_form:
   subject: Contact from Site
   fields:
     - Service requested
-    - Email 
+    - Email
     - Phone
 
 social:
-  #   facebook: 
+  #   facebook:
   #   twitter:
-  #   google_plus: 
-  #   pinterest: 
-  #   yelp: 
-  #   angieslist: 
-  #   linked_in: 
+  #   google_plus:
+  #   pinterest:
+  #   yelp:
+  #   angieslist:
+  #   linked_in:
 
 # View related
 :logo: false
@@ -60,13 +56,12 @@ social:
 :hostname: paradisenurseryllc.com
 :meta_image: /assets/img/misc/meta.jpg
 
-:hours: Mon - Friday Mon - Fri (8:00 - 4:00 PM) |  Sat - 8:00 - 1:00 PM
+:hours: Mon - Fri (8:30 - 3:30 PM)
 
 # :carousel:
 #   - abstract_light.jpg
 #   - aquarium.jpg
 #   - spalotus.jpg
-
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab

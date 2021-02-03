@@ -1,7 +1,6 @@
 :verification: aqyPoZ2MpGoa1gpVAzBSjv6DN6umQYJ5Dzx3PUSEOYI
-:title: Heartwood 
-:subtitle: Tree Service & Solutions
-
+:title: Heartwood Tree Service
+:subtitle: "& Solutions"
 
 :name: heartwood
 :email: george@heartwoodtreesa.com
@@ -10,25 +9,24 @@
 # :geo_address: https://www.google.com/maps/place,+San+Antonio,+TX+78217/@29.571226,-98.410638,16z/data=!4m2!3m1!1s0x865c8b9dac43b373:0x2b9b4087a133d031?hl=en-US
 # :geo_embed_address: pb=!1m14!1m8!1m3!1d3470.1160685027658!2d-98.41063799999999!3d29.571226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8b9dac43b373%3A0x2b9b4087a133d031!2s4201+Stahl+Rd%2C+San+Antonio%2C+TX+78217!5e0!3m2!1sen!2sus!4v1423244344600
 
-
-:address: 
-  :street: 
+:address:
+  :street: 4201 Stahl Rd
   :city: San Antonio
   :state: Texas
-  :zipcode: 78260
+  :zipcode: 78217
 
 :owner:
   :name: George Potter
   :email: george@heartwoodtreesa.com
-  :address: 
-    :street: 
+  :address:
+    :street:
     :city: San Antonio
     :state: Tx
     :zipcode: 78217
 
 nav:
   - title: Arborist
-    cnt: true  
+    cnt: true
   - title: Services
     cnt: true
   - title: Trimming
@@ -39,13 +37,12 @@ nav:
   - Gallery
   - Contact
 
-
 contact_form:
   subject: Contact from Site
   fields:
     - Your name
     - Address
-    - Email 
+    - Email
     - Phone
     - Service requested
 
@@ -56,16 +53,15 @@ social:
   #pinterest: heartwoodtreesa
   #yelp: heartwood-tree-service-san-antonio
   #angies_list: 8358248
-  linked_in: 
+  linked_in:
 
 # View related
 :logo: false
 
 :hostname: heartwoodtreesa.com
 :meta_image: /assets/img/index/george.jpg
-leave_us_a_review_link: https://goo.gl/QQKVib
-hours: 
-  Monday through Friday 8AM to 4PM
+#leave_us_a_review_link: https://goo.gl/QQKVib
+hours: 7:00 AM to 5:30 PM - Monday thru Friday and Saturday 8:00 AM to 4:30 PM
 
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
@@ -73,5 +69,4 @@ hours:
 :theme: flatly
 # :theme_navbar: dark
 # :theme_navbar_bg: dark
-
 
