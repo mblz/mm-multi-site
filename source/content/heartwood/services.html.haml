@@ -6,9 +6,7 @@ keywords: tree service, tree trimming, tree removal, tree pruning, stump removal
 
 
 .row
-  .col-md-8
-    %h1 
-      General Tree Service 
+  .col-md-12
     %p 
       %b Heartwood
       offers a variety of quality tree services in the San Antonio metro area: tree trimming, tree removal, ball moss removal and 
@@ -17,8 +15,10 @@ keywords: tree service, tree trimming, tree removal, tree pruning, stump removal
       %b Heartwood 
       is very well known in the tree industry and we are committed to leaving your trees looking healthy and amazing.  
       An arborist professional oversees every project and specializes in preserving your investment. 
-    
-    %a.btn.btn-primary.btn-block.btn-lg{role: :button, href: "/content/heartwood/trimming"} Tree Trimming
+    %h1 
+      Tree service San Antonio
+    %p= link_to "Tree Trimming", '/content/heartwood/trimming'#, class: 'display-4'
+    %p= link_to "Tree Removal", '/content/heartwood/removal'#, class: 'display-4'
 
     %h3 Tree Maintenance:
     %ul
@@ -40,12 +40,12 @@ keywords: tree service, tree trimming, tree removal, tree pruning, stump removal
       %li Tree Weight Reduction 
       %li Ball moss removal 
       %li Tree Cabling
-  .col-md-4
-    %p
-    = image_tag('index/before_and_after.jpg', class: 'img-fluid rounded')
-    %hr
-    %p
-    //%h4 Stump removal
-    = image_tag('about/chipper.jpg', class: 'img-fluid rounded')
+  -# .col-md-4
+  -#   %p
+  -#   = image_tag('index/before_and_after.jpg', class: 'img-fluid rounded')
+  -#   %hr
+  -#   %p
+  -#   //%h4 Stump removal
+  -#   = image_tag('about/chipper.jpg', class: 'img-fluid rounded')
     
     

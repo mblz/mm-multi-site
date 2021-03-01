@@ -25,14 +25,14 @@
     :zipcode: 78217
 
 nav:
-  - title: Arborist
-    cnt: true
   - title: Services
     cnt: true
-  - title: Trimming
+  - title: Arborist
     cnt: true
-  - title: Removal
-    cnt: true
+    # - title: Trimming
+  #   cnt: true
+  # - title: Removal
+  #   cnt: true
   - Reviews
   - Gallery
   - Contact
