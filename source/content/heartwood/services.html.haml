@@ -1,5 +1,5 @@
 ---
-title:  Professional Tree Service | Heartwood Tree Service & Solutions
+title:  Professional Tree Service | Heartwood Tree Service
 description: Affordable tree service, best reviews, Certified Arborist on every job. Tree trimming, tree removal, oak wilt removal. Call your local tree service, call Heartwood.
 keywords: tree service, tree trimming, tree removal, tree pruning, stump removal
 ---
@@ -7,19 +7,29 @@ keywords: tree service, tree trimming, tree removal, tree pruning, stump removal
 
 .row
   .col-md-12
-    %p 
-      %b Heartwood
-      offers a variety of quality tree services in the San Antonio metro area: tree trimming, tree removal, ball moss removal and 
-      other tree maintenance services. We are insured and professionally staffed with a commercial and a residential crew equipped 
-      and experienced to take on any tree job. 
-      %b Heartwood 
-      is very well known in the tree industry and we are committed to leaving your trees looking healthy and amazing.  
-      An arborist professional oversees every project and specializes in preserving your investment. 
     %h1 
-      Tree service San Antonio
-    %p= link_to "Tree Trimming", '/content/heartwood/trimming'#, class: 'display-4'
-    %p= link_to "Tree Removal", '/content/heartwood/removal'#, class: 'display-4'
-
+      Tree service of San Antonio  
+    %p 
+      = click_to_call
+      's goal is to conserve the trees in our neighborhoods.  I personally walk the property with you and evaluate each tree to determine the scope of work, any tree diseases or concerns to provide you with an accurate free estimate.  Check out our list of tree services and give us a call.  I am looking forward to meeting you. 
+.row 
+  .col-lg-6
+    .card
+      %img.card-img-top{:alt => "Card image", :src => image_path("./gallery/tree-trimming/after-trimming2.jpg")}/
+      .card-body
+        %h4.card-title Tree Trimming
+        %p.card-text At minimum, to keep your trees healthy, keep them trimmed.
+        %a.btn.btn-primary.stretched-link{:href => "/content/heartwood/trimming"} See more ...
+        
+  .col-lg-6
+    .card
+      %img.card-img-top{:alt => "Card image", :src => image_path("./tree-removal/up-in-tree-for-removal.jpg")}/
+      .card-body
+        %h4.card-title Tree Removal
+        %p.card-text Sometimes, removing a tree is unavoidable.
+        %a.btn.btn-primary.stretched-link{:href => "/content/heartwood/removal"} See more ...     
+.row
+  .col-md-12
     %h3 Tree Maintenance:
     %ul
       %li= link_to "Oak wilt", '/content/heartwood/oak-wilt.html'
@@ -32,14 +42,14 @@ keywords: tree service, tree trimming, tree removal, tree pruning, stump removal
       %li= link_to "Tree Fertilization", '/content/heartwood/tree-fertilization.html' 
       %li= link_to "Tree Preservation ", '/content/heartwood/tree-preservation.html' 
     
-    %h3 Other Tree Care Services: 
-    %ul
-      %li Roof line clearance
-      %li Raise tree canopy
-      %li Dangerous Branch/Limb Removal
-      %li Tree Weight Reduction 
-      %li Ball moss removal 
-      %li Tree Cabling
+    -# %h3 Other Tree Care Services: 
+    -# %ul
+    -#   %li Roof line clearance
+    -#   %li Raise tree canopy
+    -#   %li Dangerous Branch/Limb Removal
+    -#   %li Tree Weight Reduction 
+    -#   %li Ball moss removal 
+    -#   %li Tree Cabling
   -# .col-md-4
   -#   %p
   -#   = image_tag('index/before_and_after.jpg', class: 'img-fluid rounded')
