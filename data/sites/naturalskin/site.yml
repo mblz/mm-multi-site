@@ -14,10 +14,10 @@
 :geo_embed_address:
 
 :address:
-  :street: 7300 Blanco Rd STE 503
+  :street: 1901 NW Military Highway, Suite 222
   :city: San Antonio
   :state: Texas
-  :zipcode: 78216
+  :zipcode: 78213
 
 :owner:
   :name: Norma Perry
@@ -62,7 +62,6 @@ contact_form:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-# :theme: cosmo
-
+:theme: cosmo
 # :navbar-theme:
 

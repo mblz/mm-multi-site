@@ -1,13 +1,13 @@
-= site_partial('custom_contact')
-
-%h3
-  Address
-
-- if site.geo_address
-  %a(href="#{site.geo_address}" target="_map")
-    = site_partial 'address'
+- if site_partial('custom_contact')
+  = site_partial('custom_contact')
 - else
-  = site_partial 'address'
+  %h3 Address
+
+  - if site.geo_address
+    %a(href="#{site.geo_address}" target="_map")
+      = site_partial 'address'
+  - else
+    = site_partial 'address'
 
 / - if site.geo_embed_address
 /   %iframe(src="https://www.google.com/maps/embed?#{site.geo_embed_address}" width="600" height="450" frameborder="0" style="border:0")

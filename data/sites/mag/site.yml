@@ -1,21 +1,18 @@
 :verification: uLD8YoNwiskh3Q9KmyeGy7Mjob0xpIklEqwFxDTH-z8
 
-:title: Magnolia 
+:title: Magnolia
 subtitle: Homes
 :description: Custom Home Builder | Frio County, Pearsall Tx | 210.460.2126
 :keywords: Custom Home Builder, Custom Homes, Real Estate Broker, Pearsall Real Estate, Frio County Real Estate, Frio County Builder
-
-
 
 :name: mag
 :email: magrealestate@gmail.com
 :phone: 210 460 2126
 
-:geo_address: 
-:geo_embed_address: 
+:geo_address:
+:geo_embed_address:
 
-
-:address: 
+:address:
   :city: Pearsall
   :state: Texas
   :zipcode: 78061
@@ -23,24 +20,23 @@ subtitle: Homes
 :owner:
   :name: Ony Hall
   :email: magrealestate@gmail.com
-  :address: 
+  :address:
     :city: Pearsall
     :state: Texas
-    :zipcode:  78061
+    :zipcode: 78061
 
 nav:
   - title: About
-    cnt: true    
+    cnt: true
   - FAQs
   - Gallery
   - Contact
-
 
 contact_form:
   subject: Contact from Site
   fields:
     - Service requested
-    - Email 
+    - Email
     - Phone
 
 social:
@@ -56,7 +52,7 @@ social:
 # Choose one here
 # http://bootstrapcdn.com/#bootswatch_tab
 
-:theme: journal
+:theme: litera
+#journal
 
 meta_image: /assets/img/index/house-6.png
-
